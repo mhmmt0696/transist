@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="txt_cumle_olustur_baslik">Израз, който искате да научите:</string>
+    <string name="editText_ifade">Дума: (задължително)</string>
+    <string name="editText_anlam">Значение:</string>
+    <string name="editText_not">Контекст:</string>
+    <string name="button_ara">Намери изречения</string>
+    <string name="txt_zorluk">Изберете ниво на трудност.</string>
+    <string name="buttonSave">Потвърди и запази</string>
+    <string name="txt_mail_basarisiz">Нашите сървъри не отговарят на заявката за активиране по имейл. Моля, опитайте отново по-късно.</string>
+    <string name="txt_mail_gonderildi">Кликнете върху връзката за активиране, която изпратихме на вашия имейл адрес, за да потвърдим акаунта ви.</string>
+    <string name="tv_delete">Искате ли да изтриете акаунта си?</string>
+    <string name="tv_delete_btn">ИЗТРИЙ!</string>
+    <string name="txt_delete_error">За да изтриете акаунта си, трябва наскоро да сте влизали.</string>
+    <string name="tv_exit_check">Сигурни ли сте, че искате да излезете?</string>
+    <string name="tv_exit">Изход!</string>
+    <string name="tv_phrases_title">Фрази</string>
+    <string name="tv_words_title">Думи</string>
+    <string name="tv_selected_title">Избран режим:</string>
+    <string name="tv_selected_item">Случайно при всяко изречение</string>
+    <string name="txt_reset_basarisiz">Нашите сървъри не отговарят на заявката за нулиране на паролата. Моля, опитайте отново по-късно.</string>
+    <string name="txt_reset">Проверете входящата си поща. Ако с този имейл вече е регистриран акаунт, ще получите връзка за нулиране на паролата.</string>
+    <string name="txt_sifre_sifirlama">Можете да продължите процеса по нулиране на паролата чрез връзката, изпратена до имейла ви.</string>
+    <string name="text_silinecek_aciklama">Записите с интервал за преглед от 30 или повече дни ще бъдат изтрити.</string>
+    <string name="switch_view">Прави това автоматично за мен.</string>
+    <string name="tv_sil">Потвърди и изтрий</string>
+    <string name="txt_siralama_ölcütü">Критерий за сортиране:</string>
+    <string name="txt_alfabetik">Азбучен ред</string>
+    <string name="txt_eklenme">Сортиране по дата на добавяне</string>
+    <string name="txt_araliga_göre">Сортиране по интервал за преглед</string>
+    <string name="loadingText">Подготвят се изречения…</string>
+    <string name="button_yenile">Обнови изреченията</string>
+    <string name="txt_aralik">Интервал за преглед: xxx дни</string>
+    <string name="buttonUpdate">Актуализирай</string>
+    <string name="buttonCancel">Отказ</string>
+    <string name="liste_baslik">Вашият списък за учене:</string>
+    <string name="tv_unknown">Моля, изберете родния и целевия си език от страничния панел.</string>
+    <string name="tv_empty_list">Изразите, които добавите към списъка си за усвояване, ще се появяват в преводите.</string>
+    <string name="tv_empty_list_add">Добавете изразите, които искате да виждате в преводите, към списъка си за учене.</string>
+    <string name="txt_giris_baslik">Вашата информация за вход:</string>
+    <string name="txt_giris_bilgisi_email">Влезли сте с вашия имейл акаунт (xxx).</string>
+    <string name="txt_aktivasyon">Изпрати връзка за активиране по имейл.</string>
+    <string name="txt_sifre_değistir">Искам да сменя паролата си.</string>
+    <string name="hesap_sil">Изтрий акаунта ми.</string>
+    <string name="txt_profil_baslik">Информация за акаунта ви:</string>
+    <string name="txt_anadil_baslik">Вашият роден език:</string>
+    <string name="txt_hedef_dil_baslik">Езикът, който учите:</string>
+    <string name="txt_hesap_turu_baslik">Тип акаунт:</string>
+    <string name="txt_hesap_turu_abonelik">Абонамент</string>
+    <string name="txt_hesap_turu_ücretsiz">Безплатно</string>
+    <string name="txt_abonelik_suresi">Активен до xxx.</string>
+    <string name="button_buy">Купи абонамент</string>
+    <string name="creating_sentence">Генериране на вашето изречение…</string>
+    <string name="et_translation">Напишете вашия превод…</string>
+    <string name="tv_break">Прегледахте всички ваши изрази.</string>
+    <string name="button_marathon_start">Започни отначало!</string>
+    <string name="button_marathon_end">Затвори!</string>
+    <string name="tv_welcome">Добре дошли!</string>
+    <string name="tv_info">Това е приложение за превод.</string>
+    <string name="tv_1">Преведете изречението, което виждате,</string>
+    <string name="tv_2">на избрания от вас език.</string>
+    <string name="tv_3">AI оценява превода ви по 4 критерия: граматика, правопис, естественост и смисъл.</string>
+    <string name="tv_4">Ако се затруднявате, оставете празно и продължете:</string>
+    <string name="tv_5">Ако искате да упражнявате израз по-често, добавете го към списъка си за учене.</string>
+    <string name="tv_ls_title">За да започнете</string>
+    <string name="tv_native_language">Изберете родния си език:</string>
+    <string name="tv_target_language">Изберете езика за превод:</string>
+    <string name="txt_mail_baslik">Влезте в профила си:</string>
+    <string name="et_mail_hint">Имейл акаунт</string>
+    <string name="et_sifre_hint">Парола</string>
+    <string name="buton_giris">Вход</string>
+    <string name="txt_sifremi_unuttum">Забравена парола</string>
+    <string name="txt_kayit_ol">Създайте нов акаунт.</string>
+    <string name="txt_mail_kayit_baslik">Регистрирайте се с вашия имейл:</string>
+    <string name="et_mail_kayit_hint">Въведете вашия имейл.</string>
+    <string name="et_sifre_kayit_hint">Задайте паролата си.</string>
+    <string name="buton_kayit">Регистрирай се</string>
+    <string name="txt_sifre_sifirlama_baslik">Ще изпратим връзка за нулиране на паролата до вашия имейл.</string>
+    <string name="et_mail_sifremi_unuttum_hint">Въведете вашия имейл.</string>
+    <string name="buton_sifirla">Изпрати</string>
+    <string name="familiarity_1">Виждам това за първи път.</string>
+    <string name="familiarity_2">Виждал съм го преди.</string>
+    <string name="familiarity_3">Знам го, но искам да се упражня.</string>
+    <string name="example_sentence">Това е моята писалка.</string>
+    <string name="example_sentence_blank">Това е ____ писалка.</string>
+    <string name="feature">Има още: Можете да изберете ниво на трудност и да се уверите, че изразите или моделите, които ви интересуват, се показват често. Ако искате да учите с помощта на разпределено повторение, просто добавете изразите към списъка си за учене.</string>
+    <string name="warn_select_difficulty">Моля, изберете ниво на трудност.</string>
+    <string name="registration_done">Регистрацията е завършена.</string>
+    <string name="warn_expression_empty">Моля, въведете израза, който искате да търсите.</string>
+    <string name="warn_typo">За съжаление, въведеният израз съдържа правописна грешка.</string>
+    <string name="warn_meaning">Има несъответствие в значението.</string>
+    <string name="update_successful">Записът е актуализиран успешно.</string>
+    <string name="error_occured">Възникна грешка.</string>
+    <string name="muilti_items_deleted">Брой изтрити изречения: xxx</string>
+    <string name="warn_missing_input">Липсваща информация.</string>
+    <string name="log_in_failed">Неуспешно влизане: Въведохте грешна информация.</string>
+    <string name="no_given_translation">Моля, въведете текст за превод.</string>
+    <string name="api_busy">AI не можа да отговори поради натоварване.</string>
+    <string name="apology">Съжаляваме за възникналото неудобство.</string>
+    <string name="try_again_later">Моля, опитайте отново по-късно.</string>
+    <string name="solace">За компенсация на проблема, ще добавим едномесечен абонамент към акаунта ви.</string>
+    <string name="warn_select_language">Не сте избрали език.</string>
+
+
+    <string name="dark_theme_title">Тъмна тема:</string>
+    <string name="arabic">Арабски</string>
+    <string name="bengali">Бенгалски</string>
+    <string name="bulgarian">Български</string>
+    <string name="chinese">Китайски</string>
+    <string name="croatian">Хърватски</string>
+    <string name="czech">Чешки</string>
+    <string name="danish">Датски</string>
+    <string name="dutch">Холандски</string>
+    <string name="english">Английски</string>
+    <string name="estonian">Естонски</string>
+    <string name="finnish">Фински</string>
+    <string name="french">Френски</string>
+    <string name="german">Немски</string>
+    <string name="greek">Гръцки</string>
+    <string name="hebrew">Иврит</string>
+    <string name="hindi">Хинди</string>
+    <string name="hungarian">Унгарски</string>
+    <string name="indonesian">Индонезийски</string>
+    <string name="italian">Италиански</string>
+    <string name="japanese">Японски</string>
+    <string name="korean">Корейски</string>
+    <string name="latvian">Латвийски</string>
+    <string name="lithuanian">Литовски</string>
+    <string name="norwegian">Норвежки</string>
+    <string name="polish">Полски</string>
+    <string name="portuguese">Португалски</string>
+    <string name="romanian">Румънски</string>
+    <string name="russian">Руски</string>
+    <string name="serbian">Сръбски</string>
+    <string name="slovak">Словашки</string>
+    <string name="slovenian">Словенски</string>
+    <string name="spanish">Испански</string>
+    <string name="swahili">Суахили</string>
+    <string name="swedish">Шведски</string>
+    <string name="thai">Тайски</string>
+    <string name="turkish">Турски</string>
+    <string name="ukrainian">Украински</string>
+    <string name="vietnamese">Виетнамски</string>
+    <string name="txt_giris_bilgisi_google">Влезли сте с Google (xxx).</string>
+    <string name="search_hint">Търсене…</string>
+    <string name="review_interval">Интервал за преглед</string>
+    <string name="day">ден</string>
+    <string name="nothing_to_show">Все още няма какво да се покаже тук.</string>
+
+    <string name="unknown">Неизвестно</string>
+    <string name="select_theme">Изберете тема:</string>
+    <string name="system_default">Системна настройка по подразбиране</string>
+    <string name="light_mode">Светъл режим</string>
+    <string name="dark_mode">Тъмен режим</string>
+    <string name="create_folder">Създаване на папка:</string>
+    <string name="folder_name">Име на папката…</string>
+    <string name="folder">Папка:</string>
+    <string name="start_from_scratch">Започнете отначало!</string>
+    <string name="no_voice_engine">Не е намерен предварително изтеглен гласов файл за този език. Моля, изтеглете гласов файл и рестартирайте приложението.</string>
+    <string name="not_common_search">Това изразче не е често използвано в английския език. Можете все пак да го добавите, но имайте предвид, че изкуственият интелект може да ви предупреди да не го използвате в изречения.</string>
+    <string name="search_hint_text">В търсенията можете да използвате заместители в скоби вместо фиксиран текст:</string>
+    <string name="search_hint_1">to ease [чиято] тъга</string>
+    <string name="search_hint_2">да боядисаш [нещо] в [цвят]</string>
+    <string name="default_folder">По подразбиране</string>
+    <string name="wrong_translation_direction">Вашият превод не е на очаквания език. В настройките на профила ви целевият език е зададен като %1$s.</string>
+    <string name="buttonOk">Добре</string>
+    <string name="buttonSettings">Отиди в настройките</string>
+
+    <string name="query_no_blank">" %1$s " опитах се да преведа изречението на %2$s.
+    Моят превод беше: "%3$s"
+    Моля, оценете превода ми по отношение на граматика, правопис, смисъл и естественост на %4$s.
+    Вашият отговор трябва да бъде на %4$s и в следния JSON формат:
+    { "isValid": "true / false.",
+    "feedBack": "Съобщение за оценка на %4$s." }</string>
+
+    <string name="query_no_blank_reverse">" %1$s " опитах се да преведа изречението на родния си език.
+    Преведох го така: "%2$s"
+    Моля, оценете превода ми само по отношение на смисловата точност, граматиката и правописът не са важни за мен.
+    Вашият отговор трябва да бъде на %3$s и в следния JSON формат:
+    { "isValid": "true / false.",
+    "feedBack": "Съобщение за оценка на %3$s." }</string>
+
+    <string name="query_with_blank">" %1$s " опитах се да преведа изречението на %2$s.
+    Моят незавършен превод: "%3$s"
+    Празното място в превода ми показва частта, която не успях да преведа.
+    Моля, оценете превода ми по отношение на граматика, правопис, смисъл и естественост на %4$s.
+    Вашият отговор трябва да бъде на %4$s и в следния JSON формат:
+    { "feedBack": "Съобщение за оценка на %4$s.",
+    "completeSentence": "Завършете превода на %2$s, като попълните празните места." }</string>
+
+    <string name="query_with_blank_reverse">" %1$s " опитах се да преведа изречението на родния си език.
+    Моят незавършен превод: "%2$s"
+    Празното място в превода ми показва частта, която не успях да преведа.
+    Моля, оценете превода ми само по отношение на смисловата точност, граматиката и правописът не са важни за мен.
+    Вашият отговор трябва да бъде на %3$s и в следния JSON формат:
+    { "feedBack": "Съобщение за оценка на %3$s.",
+    "completeSentence": "Завършете превода на %2$s, като попълните празните места." }</string>
+
+    <string name="query_for_no_translation">Моят роден език е %1$s.
+    И искам да преведа изречението "%2$s" на %3$s.
+    Моля, обяснете ми стъпка по стъпка как да го преведа.
+    Вашият отговор трябва да бъде в следния JSON формат:
+    { "translation": "Напиши преведеното изречение на %3$s.",
+    "explanation": "Подробно обяснение на %1$s." }</string>
+
+    <string name="search_issues">Изглежда има някои проблеми с търсенето ви. Решението е изцяло ваше.</string>
+    <string name="search_issue_1">Търсената дума може да не съществува в целевия език.</string>
+    <string name="search_issue_2">В търсената дума може да има правописни грешки.</string>
+    <string name="search_issue_3">Думата и значението може да не съвпадат.</string>
+    <string name="search_issue_4">Това, което търсите, може да не е често използвано в целевия език.</string>
+    <string name="search_issue_5">Нещо се обърка, моля опреснете търсенето.</string>
+    <string name="tv_6">Докоснете думите, за да чуете произношението им.</string>
+    <string name="example_word">химикалка</string>
+    <string name="liste_baslik_items">Всички записи:</string>
+    <string name="liste_baslik_folders">Всички папки:</string>
+    <string name="create_folder_2">Създаване на папка: %1$s</string>
+    <string name="rename_folder">"Преименуване на папка:"</string>
+    <string name="tv_list_empty">Създайте свой собствен списък с преводи.</string>
+    <string name="tv_password_criteria">Паролата може да бъде всяка шестцифрена комбинация.</string>
+    <string name="error_email_already_in_use">Този имейл адрес вече е регистриран.</string>
+    <string name="error_invalid_email">Въведете валиден имейл адрес.</string>
+    <string name="error_invalid_password">Въведете валидна парола.</string>
+    <string name="error_weak_password">Паролата не е достатъчно силна.</string>
+    <string name="error_unknown">Възникна грешка. Моля, опитайте отново.</string>
+    <string name="txt_remaining_translation_count">Оставащи преводи за днес: %1$s</string>
+    <string name="txt_no_quota">Дневният ви лимит за преводи е изчерпан.</string>
+    <string name="item_count">Брой елементи: %1$s</string>
+    <string name="warn_min_sentence_number">Трябва да има поне %1$s изречения. Моля, опреснете търсенето.</string>
+    <string name="folder_selected">Папка: %1$s</string>
+    <string name="no_internet">Има проблем с интернет връзката ви.</string>
+    <string name="fail_some_features">Някои функции не можаха да се заредят.</string>
+    <string name="example_evaluation_sentence">Вашият превод е граматически правилен, точно предава смисъла и звучи естествено на \'%1$s\'. Най-честият и естествен превод на \'%2$s\' на \'%1$s\' е \'%3$s\'. Успешен превод.</string>
+
+</resources>

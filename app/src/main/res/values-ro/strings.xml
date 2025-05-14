@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="txt_cumle_olustur_baslik">Expresia pe care vrei să o înveți:</string>
+    <string name="editText_ifade">Cuvânt: (obligatoriu)</string>
+    <string name="editText_anlam">Sens:</string>
+    <string name="editText_not">Context:</string>
+    <string name="button_ara">Găsește propoziții</string>
+    <string name="txt_zorluk">Selectează nivelul de dificultate.</string>
+    <string name="buttonSave">Confirmă și Salvează</string>
+    <string name="txt_mail_basarisiz">Serverele noastre nu răspund solicitării de activare prin e-mail. Vă rugăm să încercați din nou mai târziu.</string>
+    <string name="txt_mail_gonderildi">Apasă pe linkul de activare pe care ți l-am trimis prin e-mail pentru a-ți verifica contul.</string>
+    <string name="tv_delete">Vrei să-ți ștergi contul?</string>
+    <string name="tv_delete_btn">ȘTERGE!</string>
+    <string name="txt_delete_error">Pentru a-ți șterge contul, trebuie să fii autentificat recent.</string>
+    <string name="tv_exit_check">Ești sigur că vrei să te deconectezi?</string>
+    <string name="tv_exit">Deconectează-te!</string>
+    <string name="tv_phrases_title">Expresii</string>
+    <string name="tv_words_title">Cuvinte</string>
+    <string name="tv_selected_title">Mod selectat:</string>
+    <string name="tv_selected_item">Aleator în fiecare propoziție</string>
+    <string name="txt_reset_basarisiz">Serverele noastre nu răspund solicitării de resetare a parolei. Vă rugăm să încercați din nou mai târziu.</string>
+    <string name="txt_reset">Verifică-ți inboxul. Dacă există un cont înregistrat cu acest e-mail, vei vedea un link de resetare a parolei.</string>
+    <string name="txt_sifre_sifirlama">Poți continua procesul de resetare a parolei folosind linkul trimis la adresa ta de e-mail.</string>
+    <string name="text_silinecek_aciklama">Intrările cu un interval de repetare de 30 de zile sau mai mult vor fi șterse.</string>
+    <string name="switch_view">Fă asta automat pentru mine.</string>
+    <string name="tv_sil">Confirmă și Șterge</string>
+    <string name="txt_siralama_ölcütü">Criteriu de sortare:</string>
+    <string name="txt_alfabetik">Ordine alfabetică</string>
+    <string name="txt_eklenme">Sortează după data adăugării</string>
+    <string name="txt_araliga_göre">Sortează după intervalul de repetare</string>
+    <string name="loadingText">Se pregătesc propozițiile…</string>
+    <string name="button_yenile">Reîncarcă propozițiile</string>
+    <string name="txt_aralik">Interval de repetare: xxx zile</string>
+    <string name="buttonUpdate">Actualizează</string>
+    <string name="buttonCancel">Renunță</string>
+    <string name="liste_baslik">Lista ta de învățare:</string>
+    <string name="tv_unknown">Te rugăm să selectezi limba nativă și limba țintă din panoul lateral.</string>
+    <string name="tv_empty_list">Expresiile adăugate în lista de achiziție vor apărea în traduceri.</string>
+    <string name="tv_empty_list_add">Adaugă expresiile dorite în traduceri în lista ta de învățare.</string>
+    <string name="txt_giris_baslik">Informațiile tale de autentificare:</string>
+    <string name="txt_giris_bilgisi_email">Te-ai autentificat cu contul tău de e-mail (xxx).</string>
+    <string name="txt_aktivasyon">Trimite linkul de activare prin e-mail.</string>
+    <string name="txt_sifre_değistir">Vreau să-mi schimb parola.</string>
+    <string name="hesap_sil">Șterge-mi contul.</string>
+    <string name="txt_profil_baslik">Informațiile contului tău:</string>
+    <string name="txt_anadil_baslik">Limba ta nativă:</string>
+    <string name="txt_hedef_dil_baslik">Limba pe care o înveți:</string>
+    <string name="txt_hesap_turu_baslik">Tipul de cont:</string>
+    <string name="txt_hesap_turu_abonelik">Abonament</string>
+    <string name="txt_hesap_turu_ücretsiz">Gratuit</string>
+    <string name="txt_abonelik_suresi">Activ până la xxx.</string>
+    <string name="button_buy">Cumpără abonament</string>
+    <string name="creating_sentence">Se generează propoziția ta…</string>
+    <string name="et_translation">Scrie traducerea ta…</string>
+    <string name="tv_break">Ai revizuit toate expresiile tale.</string>
+    <string name="button_marathon_start">Începe de la început!</string>
+    <string name="button_marathon_end">Închide!</string>
+    <string name="tv_welcome">Bun venit!</string>
+    <string name="tv_info">Aceasta este o aplicație de traducere.</string>
+    <string name="tv_1">Tradu propoziția pe care o vezi,</string>
+    <string name="tv_2">în limba aleasă de tine.</string>
+    <string name="tv_3">AI îți evaluează traducerea în 4 moduri: gramatică, ortografie, naturalețe și sens.</string>
+    <string name="tv_4">Dacă nu știi, poți lăsa gol și continua:</string>
+    <string name="tv_5">Dacă vrei să repeți mai des o expresie, adaug-o în lista ta de învățare.</string>
+    <string name="tv_ls_title">Pentru a începe</string>
+    <string name="tv_native_language">Selectează limba ta nativă:</string>
+    <string name="tv_target_language">Selectează limba în care vrei să traduci:</string>
+    <string name="txt_mail_baslik">Autentificare:</string>
+    <string name="et_mail_hint">Cont de e-mail</string>
+    <string name="et_sifre_hint">Parolă</string>
+    <string name="buton_giris">Conectează-te</string>
+    <string name="txt_sifremi_unuttum">Mi-am uitat parola.</string>
+    <string name="txt_kayit_ol">Creează un cont nou.</string>
+    <string name="txt_mail_kayit_baslik">Înregistrează-te cu contul tău de e-mail:</string>
+    <string name="et_mail_kayit_hint">Introdu adresa ta de e-mail.</string>
+    <string name="et_sifre_kayit_hint">Creează o parolă.</string>
+    <string name="buton_kayit">Înregistrează-te</string>
+    <string name="txt_sifre_sifirlama_baslik">Îți vom trimite un link de resetare a parolei pe e-mail.</string>
+    <string name="et_mail_sifremi_unuttum_hint">Introdu adresa ta de e-mail.</string>
+    <string name="buton_sifirla">Trimite</string>
+    <string name="familiarity_1">Văd pentru prima dată.</string>
+    <string name="familiarity_2">Am mai văzut înainte.</string>
+    <string name="familiarity_3">Știu, dar vreau să exersez.</string>
+    <string name="example_sentence">Acesta este stiloul meu.</string>
+    <string name="example_sentence_blank">Acesta este ____ stilou.</string>
+    <string name="feature">Mai sunt și altele: poți alege un nivel de dificultate și te poți asigura că expresiile sau modelele care te interesează apar frecvent. Dacă dorești să înveți folosind metoda repetiției spațiate, tot ce trebuie să faci este să adaugi expresiile în lista ta de învățare.</string>
+    <string name="warn_select_difficulty">Vă rugăm să selectați un nivel de dificultate.</string>
+    <string name="registration_done">Înregistrare completă.</string>
+    <string name="warn_expression_empty">Vă rugăm să introduceți expresia pe care doriți să o căutați.</string>
+    <string name="warn_typo">Din păcate, expresia introdusă conține o greșeală de scriere.</string>
+    <string name="warn_meaning">Există o nepotrivire de sens.</string>
+    <string name="update_successful">Înregistrarea a fost actualizată.</string>
+    <string name="error_occured">A apărut o eroare.</string>
+    <string name="muilti_items_deleted">Număr de propoziții șterse: xxx</string>
+    <string name="warn_missing_input">Lipsesc unele informații.</string>
+    <string name="log_in_failed">Autentificare eșuată: ați introdus informații greșite.</string>
+    <string name="no_given_translation">Vă rugăm să introduceți textul pentru traducere.</string>
+    <string name="api_busy">Inteligența artificială nu a putut răspunde din cauza aglomerației.</string>
+    <string name="apology">Ne cerem scuze pentru neplăceri.</string>
+    <string name="try_again_later">Vă rugăm să încercați din nou mai târziu.</string>
+    <string name="solace">Pentru a compensa, vom adăuga un abonament de o lună la contul dumneavoastră.</string>
+    <string name="warn_select_language">Nu ați selectat o limbă.</string>
+
+    <string name="dark_theme_title">Temă întunecată:</string>
+    <string name="arabic">Arabă</string>
+    <string name="bengali">Bengaleză</string>
+    <string name="bulgarian">Bulgară</string>
+    <string name="chinese">Chineză</string>
+    <string name="croatian">Croată</string>
+    <string name="czech">Cehă</string>
+    <string name="danish">Daneză</string>
+    <string name="dutch">Olandeză</string>
+    <string name="english">Engleză</string>
+    <string name="estonian">Estonă</string>
+    <string name="finnish">Finlandeză</string>
+    <string name="french">Franceză</string>
+    <string name="german">Germană</string>
+    <string name="greek">Greacă</string>
+    <string name="hebrew">Ebraică</string>
+    <string name="hindi">Hindi</string>
+    <string name="hungarian">Maghiară</string>
+    <string name="indonesian">Indoneziană</string>
+    <string name="italian">Italiană</string>
+    <string name="japanese">Japoneză</string>
+    <string name="korean">Coreeană</string>
+    <string name="latvian">Letonă</string>
+    <string name="lithuanian">Lituaniană</string>
+    <string name="norwegian">Norvegiană</string>
+    <string name="polish">Poloneză</string>
+    <string name="portuguese">Portugheză</string>
+    <string name="romanian">Română</string>
+    <string name="russian">Rusă</string>
+    <string name="serbian">Sârbă</string>
+    <string name="slovak">Slovacă</string>
+    <string name="slovenian">Slovenă</string>
+    <string name="spanish">Spaniolă</string>
+    <string name="swahili">Swahili</string>
+    <string name="swedish">Suedeză</string>
+    <string name="thai">Thailandeză</string>
+    <string name="turkish">Turcă</string>
+    <string name="ukrainian">Ucraineană</string>
+    <string name="vietnamese">Vietnameză</string>
+    <string name="txt_giris_bilgisi_google">Te-ai conectat cu Google (xxx).</string>
+    <string name="search_hint">Căutare…</string>
+    <string name="review_interval">Interval de revizuire</string>
+    <string name="day">zi</string>
+    <string name="nothing_to_show">Nimic de afișat aici încă.</string>
+
+    <string name="unknown">Necunoscut</string>
+    <string name="select_theme">Selectați tema:</string>
+    <string name="system_default">Implicit sistem</string>
+    <string name="light_mode">Temă deschisă</string>
+    <string name="dark_mode">Temă închisă</string>
+    <string name="create_folder">Creează folder:</string>
+    <string name="folder_name">Nume folder…</string>
+    <string name="folder">Folder:</string>
+    <string name="start_from_scratch">Începe de la zero!</string>
+    <string name="no_voice_engine">Nu a fost găsit niciun fișier audio descărcat anterior pentru această limbă. Vă rugăm să descărcați un fișier audio și să reporniți aplicația.</string>
+    <string name="not_common_search">Această expresie nu este utilizată frecvent în engleză. Puteți să o adăugați, dar AI-ul poate avertiza să nu o folosiți în propoziții.</string>
+    <string name="search_hint_text">În căutări, puteți folosi marcaje între paranteze în loc de text fix:</string>
+    <string name="search_hint_1">a ușura tristețea [cuiva]</string>
+    <string name="search_hint_2">a picta [ceva] într-o [culoare]</string>
+    <string name="default_folder">Implicit</string>
+    <string name="wrong_translation_direction">Traducerea dvs. nu este în limba așteptată. Limba țintă este setată la %1$s în setările contului.</string>
+    <string name="buttonOk">OK</string>
+    <string name="buttonSettings">Mergi la setări</string>
+
+    <string name="query_no_blank">Am încercat să traduc "%1$s" în %2$s.
+    Traducerea mea: "%3$s"
+    Vă rugăm să evaluați traducerea mea în %4$s după gramatică, ortografie, semnificație și naturalitate.
+    Răspunsul dvs. trebuie să fie în %4$s și în următorul format JSON:
+    { "isValid": "true / false.",
+    "feedBack": "Evaluare în %4$s." }</string>
+
+    <string name="query_no_blank_reverse">Am încercat să traduc "%1$s" în limba mea maternă.
+    Am tradus astfel: "%2$s"
+    Vă rugăm să evaluați traducerea mea doar din perspectiva exactității semnificației; gramatica și ortografia nu sunt importante pentru mine.
+    Răspunsul dvs. trebuie să fie în %3$s și în următorul format JSON:
+    { "isValid": "true / false.",
+    "feedBack": "Evaluare în %3$s." }</string>
+
+    <string name="query_with_blank">Am încercat să traduc "%1$s" în %2$s.
+    Traducerea mea incompletă: "%3$s"
+    Spațiul gol din traducere indică partea pe care nu am putut să o traduc.
+    Vă rugăm să evaluați traducerea mea în %4$s după gramatică, ortografie, semnificație și naturalitate.
+    Răspunsul dvs. trebuie să fie în %4$s și în următorul format JSON:
+    { "feedBack": "Evaluare în %4$s.",
+    "completeSentence": "Completați traducerea %2$s completând spațiile goale." }</string>
+
+    <string name="query_with_blank_reverse">Am încercat să traduc "%1$s" în limba mea maternă.
+    Traducerea mea incompletă: "%2$s"
+    Spațiul gol din traducere indică partea pe care nu am putut să o traduc.
+    Vă rugăm să evaluați traducerea mea doar din perspectiva exactității semnificației; gramatica și ortografia nu sunt importante pentru mine.
+    Răspunsul dvs. trebuie să fie în %3$s și în următorul format JSON:
+    { "feedBack": "Evaluare în %3$s.",
+    "completeSentence": "Completați traducerea %2$s completând spațiile goale." }</string>
+
+    <string name="query_for_no_translation">Limba mea maternă este %1$s.
+    Și vreau să traduc propoziția "%2$s" în %3$s.
+    Vă rugăm să explicați pas cu pas cum să traduc.
+    Răspunsul dvs. trebuie să fie în următorul format JSON:
+    { "translation": "Scrie propoziția tradusă în %3$s.",
+    "explanation": "Explicație detaliată în %1$s." }</string>
+
+    <string name="search_issues">Se pare că există unele probleme cu căutarea dvs. Decizia finală vă aparține.</string>
+    <string name="search_issue_1">Cuvântul căutat s-ar putea să nu existe în limba țintă.</string>
+    <string name="search_issue_2">Cuvântul căutat poate conține greșeli de ortografie.</string>
+    <string name="search_issue_3">Cuvântul și sensul s-ar putea să nu se potrivească.</string>
+    <string name="search_issue_4">Termenul căutat s-ar putea să nu fie folosit frecvent în limba țintă.</string>
+    <string name="search_issue_5">Ceva nu a mers bine, vă rugăm să reîmprospătați căutarea.</string>
+    <string name="tv_6">Atingeți cuvintele pentru a le asculta pronunția.</string>
+    <string name="example_word">stilou</string>
+    <string name="liste_baslik_items">Toate înregistrările:</string>
+    <string name="liste_baslik_folders">Toate folderele:</string>
+    <string name="create_folder_2">Creează folder: %1$s</string>
+    <string name="rename_folder">"Redenumește folderul:"</string>
+    <string name="tv_list_empty">Creează-ți propria listă de traduceri.</string>
+    <string name="tv_password_criteria">Parola dvs. poate fi orice combinație de 6 caractere.</string>
+    <string name="error_email_already_in_use">Această adresă de email este deja înregistrată.</string>
+    <string name="error_invalid_email">Vă rugăm să introduceți o adresă de email validă.</string>
+    <string name="error_invalid_password">Vă rugăm să introduceți o parolă validă.</string>
+    <string name="error_weak_password">Parola nu este suficient de puternică.</string>
+    <string name="error_unknown">A apărut o eroare. Vă rugăm să încercați din nou.</string>
+    <string name="txt_remaining_translation_count">Traduceri rămase astăzi: %1$s</string>
+    <string name="txt_no_quota">Ați atins limita zilnică de traduceri.</string>
+    <string name="item_count">Număr de elemente: %1$s</string>
+    <string name="warn_min_sentence_number">Trebuie să existe cel puțin %1$s propoziții. Vă rugăm să reîmprospătați căutarea.</string>
+    <string name="folder_selected">Folder: %1$s</string>
+    <string name="no_internet">Există o problemă cu conexiunea dvs. la internet.</string>
+    <string name="fail_some_features">Unele funcții nu au putut fi încărcate.</string>
+    <string name="example_evaluation_sentence">Traducerea dvs. este corectă gramatical, transmite semnificația precis și sună natural în \'%1$s\'. Echivalentul cel mai comun și natural al lui \'%2$s\' în \'%1$s\' este \'%3$s\'. Traducere excelentă.</string>
+</resources>

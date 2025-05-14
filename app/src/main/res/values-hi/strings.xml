@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="txt_cumle_olustur_baslik">आप जो अभिव्यक्ति सीखना चाहते हैं:</string>
+    <string name="editText_ifade">शब्द: (अनिवार्य)</string>
+    <string name="editText_anlam">अर्थ:</string>
+    <string name="editText_not">संदर्भ:</string>
+    <string name="button_ara">वाक्य खोजें</string>
+    <string name="txt_zorluk">कठिनाई स्तर चुनें।</string>
+    <string name="buttonSave">पुष्टि करें और सहेजें</string>
+    <string name="txt_mail_basarisiz">हमारे सर्वर ईमेल सक्रियता अनुरोध का जवाब नहीं दे रहे हैं। कृपया बाद में पुनः प्रयास करें।</string>
+    <string name="txt_mail_gonderildi">कृपया आपके ईमेल पर भेजे गए सक्रियता लिंक पर क्लिक करें ताकि हम आपके खाते को प्रमाणित कर सकें।</string>
+    <string name="tv_delete">क्या आप अपना खाता हटाना चाहते हैं?</string>
+    <string name="tv_delete_btn">हटाएँ!</string>
+    <string name="txt_delete_error">खाता हटाने के लिए आपको हाल ही में लॉग इन करना होगा।</string>
+    <string name="tv_exit_check">क्या आप वाकई लॉग आउट करना चाहते हैं?</string>
+    <string name="tv_exit">लॉग आउट!</string>
+    <string name="tv_phrases_title">वाक्यांश</string>
+    <string name="tv_words_title">शब्द</string>
+    <string name="tv_selected_title">चयनित मोड:</string>
+    <string name="tv_selected_item">प्रत्येक वाक्य में यादृच्छिक</string>
+    <string name="txt_reset_basarisiz">हमारे सर्वर पासवर्ड रीसेट अनुरोध का जवाब नहीं दे रहे हैं। कृपया बाद में पुनः प्रयास करें।</string>
+    <string name="txt_reset">कृपया अपना इनबॉक्स देखें। यदि इस ईमेल से पहले पंजीकरण हुआ है, तो आप रीसेट लिंक देखेंगे।</string>
+    <string name="txt_sifre_sifirlama">आप उस लिंक के माध्यम से पासवर्ड रीसेट जारी रख सकते हैं जो आपको ईमेल में भेजा गया है।</string>
+    <string name="text_silinecek_aciklama">30 दिन या उससे अधिक की पुनरावृत्ति अवधि वाली प्रविष्टियाँ हटा दी जाएँगी।</string>
+    <string name="switch_view">मेरे लिए इसे स्वचालित रूप से करें।</string>
+    <string name="tv_sil">पुष्टिकरण करें और हटाएँ</string>
+    <string name="txt_siralama_ölcütü">छंटाई मापदंड:</string>
+    <string name="txt_alfabetik">वर्णानुक्रमित क्रम</string>
+    <string name="txt_eklenme">जोड़ने की तिथि के अनुसार क्रम</string>
+    <string name="txt_araliga_göre">पुनरावृत्ति अवधि के अनुसार क्रम</string>
+    <string name="loadingText">वाक्य तैयार किया जा रहा है…</string>
+    <string name="button_yenile">वाक्यों को ताज़ा करें</string>
+    <string name="txt_aralik">पुनरावृत्ति अवधि: xxx दिन</string>
+    <string name="buttonUpdate">अपडेट करें</string>
+    <string name="buttonCancel">रद्द करें</string>
+    <string name="liste_baslik">आपकी सीखने की सूची:</string>
+    <string name="tv_unknown">कृपया साइड पैनल से अपनी मूल और लक्ष्य भाषा चुनें।</string>
+    <string name="tv_empty_list">आपकी अधिग्रहीत सूची में जो अभिव्यक्तियाँ हैं, वे अनुवादों में दिखाई देंगी।</string>
+    <string name="tv_empty_list_add">उन अभिव्यक्तियों को अपनी सीखने की सूची में जोड़ें जिन्हें आप अनुवादों में देखना चाहते हैं।</string>
+    <string name="txt_giris_baslik">आपकी लॉगिन जानकारी:</string>
+    <string name="txt_giris_bilgisi_email">आपने अपने ईमेल खाते (xxx) से लॉग इन किया है।</string>
+    <string name="txt_aktivasyon">ईमेल सक्रियता लिंक भेजें।</string>
+    <string name="txt_sifre_değistir">मैं अपना पासवर्ड बदलना चाहता हूँ।</string>
+    <string name="hesap_sil">मेरा खाता हटाएँ।</string>
+    <string name="txt_profil_baslik">आपकी खाता जानकारी:</string>
+    <string name="txt_anadil_baslik">आपकी मूल भाषा:</string>
+    <string name="txt_hedef_dil_baslik">आप जिस भाषा को सीख रहे हैं:</string>
+    <string name="txt_hesap_turu_baslik">खाते का प्रकार:</string>
+    <string name="txt_hesap_turu_abonelik">सदस्यता</string>
+    <string name="txt_hesap_turu_ücretsiz">नि:शुल्क</string>
+    <string name="txt_abonelik_suresi">xxx तक सक्रिय।</string>
+    <string name="button_buy">सदस्यता खरीदें</string>
+    <string name="creating_sentence">आपका वाक्य उत्पन्न किया जा रहा है…</string>
+    <string name="et_translation">अपना अनुवाद लिखें…</string>
+    <string name="tv_break">आपने अपनी सभी अभिव्यक्तियाँ देख ली हैं।</string>
+    <string name="button_marathon_start">शुरू से शुरू करें!</string>
+    <string name="button_marathon_end">बंद करें!</string>
+    <string name="tv_welcome">स्वागत है!</string>
+    <string name="tv_info">यह एक अनुवाद एप है।</string>
+    <string name="tv_1">जो वाक्य आप देखते हैं, उसका अनुवाद करें,</string>
+    <string name="tv_2">अपनी पसंद की भाषा में।</string>
+    <string name="tv_3">AI आपके अनुवाद का मूल्यांकन 4 पहलुओं में करता है: व्याकरण, वर्तनी, प्राकृतिकता और अर्थ।</string>
+    <string name="tv_4">यदि आप अटके, तो आप उसे खाली छोड़ सकते हैं और जारी रख सकते हैं:</string>
+    <string name="tv_5">यदि आप किसी अभिव्यक्ति का अधिक अभ्यास करना चाहते हैं, तो उसे अपनी सीखने की सूची में जोड़ें।</string>
+    <string name="tv_ls_title">शुरू करने के लिए</string>
+    <string name="tv_native_language">अपनी मूल भाषा चुनें:</string>
+    <string name="tv_target_language">जिस भाषा में अनुवाद करना चाहते हैं, उसे चुनें:</string>
+    <string name="txt_mail_baslik">लॉग इन करें:</string>
+    <string name="et_mail_hint">ईमेल खाता</string>
+    <string name="et_sifre_hint">पासवर्ड</string>
+    <string name="buton_giris">लॉग इन करें</string>
+    <string name="txt_sifremi_unuttum">मैं अपना पासवर्ड भूल गया हूँ।</string>
+    <string name="txt_kayit_ol">नया खाता बनाएँ।</string>
+    <string name="txt_mail_kayit_baslik">अपने ईमेल खाते से पंजीकरण करें:</string>
+    <string name="et_mail_kayit_hint">अपना ईमेल पता दर्ज करें।</string>
+    <string name="et_sifre_kayit_hint">अपना पासवर्ड सेट करें।</string>
+    <string name="buton_kayit">पंजीकरण करें</string>
+    <string name="txt_sifre_sifirlama_baslik">हम आपके ईमेल पते पर पासवर्ड रीसेट लिंक भेजेंगे।</string>
+    <string name="et_mail_sifremi_unuttum_hint">अपना ईमेल पता दर्ज करें।</string>
+    <string name="buton_sifirla">भेजें</string>
+    <string name="familiarity_1">मैं इसे पहली बार देख रहा हूँ।</string>
+    <string name="familiarity_2">मैंने इसे पहले देखा है।</string>
+    <string name="familiarity_3">मैं इसे जानता हूँ लेकिन अभ्यास करना चाहता हूँ।</string>
+    <string name="example_sentence">यह मेरा पेन है।</string>
+    <string name="example_sentence_blank">यह ____ पेन है।</string>
+    <string name="feature">और भी बहुत कुछ है: आप कठिनाई का स्तर चुन सकते हैं और यह सुनिश्चित कर सकते हैं कि आपकी रुचि वाले अभिव्यक्तियाँ या पैटर्न बार-बार दिखें। यदि आप रिक्ति आधारित पुनरावृत्ति विधि से सीखना चाहते हैं, तो बस अभिव्यक्तियों को अपनी लर्निंग सूची में जोड़ें।</string>
+    <string name="warn_select_difficulty">कृपया एक कठिनाई स्तर चुनें।</string>
+    <string name="registration_done">पंजीकरण सफल हुआ।</string>
+    <string name="warn_expression_empty">कृपया वह अभिव्यक्ति लिखें जिसे आप खोजना चाहते हैं।</string>
+    <string name="warn_typo">माफ़ कीजिए, आपने जो अभिव्यक्ति दर्ज की है उसमें वर्तनी की त्रुटि है।</string>
+    <string name="warn_meaning">अर्थ में असंगति है।</string>
+    <string name="update_successful">रिकॉर्ड अपडेट कर दिया गया है।</string>
+    <string name="error_occured">एक त्रुटि हुई है।</string>
+    <string name="muilti_items_deleted">हटाए गए वाक्य की संख्या: xxx</string>
+    <string name="warn_missing_input">कुछ जानकारी गायब है।</string>
+    <string name="log_in_failed">लॉगिन विफल: आपने गलत जानकारी दर्ज की है।</string>
+    <string name="no_given_translation">कृपया अनुवाद पाठ दर्ज करें।</string>
+    <string name="api_busy">AI व्यस्तता के कारण प्रतिक्रिया नहीं दे सका।</string>
+    <string name="apology">हमें हुई असुविधा के लिए खेद है।</string>
+    <string name="try_again_later">कृपया बाद में पुनः प्रयास करें।</string>
+    <string name="solace">हम आपके खाते में एक महीने की सदस्यता जोड़कर क्षतिपूर्ति करेंगे।</string>
+    <string name="warn_select_language">आपने कोई भाषा नहीं चुनी है।</string>
+
+    <string name="dark_theme_title">डार्क थीम:</string>
+    <string name="arabic">अरबी</string>
+    <string name="bengali">बंगाली</string>
+    <string name="bulgarian">बुल्गारियाई</string>
+    <string name="chinese">चीनी</string>
+    <string name="croatian">क्रोएशियाई</string>
+    <string name="czech">चेक</string>
+    <string name="danish">डेनिश</string>
+    <string name="dutch">डच</string>
+    <string name="english">अंग्रेज़ी</string>
+    <string name="estonian">एस्टोनियाई</string>
+    <string name="finnish">फ़िनिश</string>
+    <string name="french">फ्रेंच</string>
+    <string name="german">जर्मन</string>
+    <string name="greek">ग्रीक</string>
+    <string name="hebrew">हिब्रू</string>
+    <string name="hindi">हिंदी</string>
+    <string name="hungarian">हंगेरियन</string>
+    <string name="indonesian">इंडोनेशियाई</string>
+    <string name="italian">इटालियन</string>
+    <string name="japanese">जापानी</string>
+    <string name="korean">कोरियाई</string>
+    <string name="latvian">लातवियाई</string>
+    <string name="lithuanian">लिथुआनियाई</string>
+    <string name="norwegian">नॉर्वेजियन</string>
+    <string name="polish">पोलिश</string>
+    <string name="portuguese">पुर्तगाली</string>
+    <string name="romanian">रोमानियाई</string>
+    <string name="russian">रूसी</string>
+    <string name="serbian">सर्बियाई</string>
+    <string name="slovak">स्लोवाक</string>
+    <string name="slovenian">स्लोवेनियाई</string>
+    <string name="spanish">स्पैनिश</string>
+    <string name="swahili">स्वाहिली</string>
+    <string name="swedish">स्वीडिश</string>
+    <string name="thai">थाई</string>
+    <string name="turkish">तुर्की</string>
+    <string name="ukrainian">यूक्रेनी</string>
+    <string name="vietnamese">वियतनामी</string>
+    <string name="txt_giris_bilgisi_google">आपने Google (xxx) से लॉग इन किया है।</string>
+    <string name="search_hint">खोजें…</string>
+    <string name="review_interval">पुनरावलोकन अंतराल</string>
+    <string name="day">दिन</string>
+    <string name="nothing_to_show">यहां अभी कुछ भी दिखाने के लिए नहीं है।</string>
+
+    <string name="unknown">अज्ञात</string>
+    <string name="select_theme">थीम चुनें:</string>
+    <string name="system_default">सिस्टम डिफ़ॉल्ट</string>
+    <string name="light_mode">हल्का विषय</string>
+    <string name="dark_mode">अंधेरा विषय</string>
+    <string name="create_folder">फ़ोल्डर बनाएँ:</string>
+    <string name="folder_name">फ़ोल्डर का नाम…</string>
+    <string name="folder">फ़ोल्डर:</string>
+    <string name="start_from_scratch">शुरुआत से शुरू करें!</string>
+    <string name="no_voice_engine">इस भाषा के लिए पहले से डाउनलोड किया गया कोई ध्वनि फ़ाइल नहीं मिला। कृपया एक ध्वनि फ़ाइल डाउनलोड करें और ऐप को पुनः प्रारंभ करें।</string>
+    <string name="not_common_search">यह अभिव्यक्ति अंग्रेज़ी में सामान्यतः प्रयुक्त नहीं होती। आप इसे जोड़ सकते हैं, लेकिन ध्यान दें कि AI आपको चेतावनी दे सकता है कि इसे वाक्यों में न उपयोग करें।</string>
+    <string name="search_hint_text">आपकी खोजों में, आप स्थिर पाठ के बजाय कोष्ठक में प्लेसहोल्डर का उपयोग कर सकते हैं:</string>
+    <string name="search_hint_1">[किसी] की उदासी को कम करना</string>
+    <string name="search_hint_2">[कुछ] को [रंग] में रंगना</string>
+    <string name="default_folder">डिफ़ॉल्ट</string>
+    <string name="wrong_translation_direction">आपका अनुवाद अपेक्षित भाषा में नहीं है। आपका लक्ष्य भाषा खाता सेटिंग्स में %1$s पर सेट है।</string>
+    <string name="buttonOk">ठीक है</string>
+    <string name="buttonSettings">सेटिंग्स पर जाएँ</string>
+
+    <string name="query_no_blank">मैंने "%1$s" का %2$s में अनुवाद करने का प्रयास किया।
+    मेरा अनुवाद: "%3$s"
+    कृपया मेरे अनुवाद का %4$s में व्याकरण, वर्तनी, अर्थ और प्राकृतिकता के अनुसार मूल्यांकन करें।
+    आपका उत्तर %4$s में होना चाहिए और निम्न JSON प्रारूप में:
+    { "isValid": "true / false.",
+    "feedBack": "%4$s में मूल्यांकन।" }</string>
+
+    <string name="query_no_blank_reverse">मैंने "%1$s" का अपनी मातृभाषा में अनुवाद करने का प्रयास किया।
+    मैंने इसे इस प्रकार अनुवादित किया: "%2$s"
+    कृपया मेरे अनुवाद का केवल अर्थ की सटीकता के आधार पर मूल्यांकन करें; व्याकरण और वर्तनी मेरे लिए महत्वपूर्ण नहीं हैं।
+    आपका उत्तर %3$s में होना चाहिए और निम्न JSON प्रारूप में:
+    { "isValid": "true / false.",
+    "feedBack": "%3$s में मूल्यांकन।" }</string>
+
+    <string name="query_with_blank">मैंने "%1$s" का %2$s में अनुवाद करने का प्रयास किया।
+    मेरा अधूरा अनुवाद: "%3$s"
+    मेरे अनुवाद में रिक्त स्थान उस हिस्से को दर्शाता है जिसे मैं अनुवादित नहीं कर सका।
+    कृपया मेरे अनुवाद का %4$s में व्याकरण, वर्तनी, अर्थ और प्राकृतिकता के अनुसार मूल्यांकन करें।
+    आपका उत्तर %4$s में होना चाहिए और निम्न JSON प्रारूप में:
+    { "feedBack": "%4$s में मूल्यांकन।",
+    "completeSentence": "रिक्त स्थान भरकर %2$s अनुवाद पूरा करें।" }</string>
+
+    <string name="query_with_blank_reverse">मैंने "%1$s" का अपनी मातृभाषा में अनुवाद करने का प्रयास किया।
+    मेरा अधूरा अनुवाद: "%2$s"
+    मेरे अनुवाद में रिक्त स्थान उस हिस्से को दर्शाता है जिसे मैं अनुवादित नहीं कर सका।
+    कृपया मेरे अनुवाद का केवल अर्थ की सटीकता के आधार पर मूल्यांकन करें; व्याकरण और वर्तनी मेरे लिए महत्वपूर्ण नहीं हैं।
+    आपका उत्तर %3$s में होना चाहिए और निम्न JSON प्रारूप में:
+    { "feedBack": "%3$s में मूल्यांकन।",
+    "completeSentence": "रिक्त स्थान भरकर %2$s अनुवाद पूरा करें।" }</string>
+
+    <string name="query_for_no_translation">मेरी मातृभाषा %1$s है।
+    और मैं वाक्य "%2$s" का %3$s में अनुवाद करना चाहता हूँ।
+    कृपया मुझे चरण-दर-चरण समझाएँ कि मैं इसे कैसे अनुवादित करूँ।
+    आपका उत्तर निम्न JSON प्रारूप में होना चाहिए:
+    { "translation": "%3$s में अनुवादित वाक्य लिखें।",
+    "explanation": "%1$s में विस्तृत विवरण।" }</string>
+
+    <string name="search_issues">ऐसा लगता है कि आपके खोज में कुछ समस्याएँ हैं। अंतिम निर्णय आपका है।</string>
+    <string name="search_issue_1">खोजा गया शब्द लक्ष्य भाषा में मौजूद नहीं हो सकता।</string>
+    <string name="search_issue_2">खोजे गए शब्द में वर्तनी की गलतियाँ हो सकती हैं।</string>
+    <string name="search_issue_3">शब्द और अर्थ मेल नहीं खा सकते हैं।</string>
+    <string name="search_issue_4">खोजा गया शब्द लक्ष्य भाषा में आमतौर पर उपयोग नहीं किया जाता होगा।</string>
+    <string name="search_issue_5">कुछ गलत हो गया, कृपया अपनी खोज को रिफ्रेश करें।</string>
+    <string name="tv_6">उन शब्दों पर टैप करें ताकि उनकी उच्चारण सुनी जा सके।</string>
+    <string name="example_word">पेन</string>
+    <string name="liste_baslik_items">सभी रिकॉर्ड:</string>
+    <string name="liste_baslik_folders">सभी फ़ोल्डर:</string>
+    <string name="create_folder_2">फ़ोल्डर बनाएँ: %1$s</string>
+    <string name="rename_folder">"फ़ोल्डर का नाम बदलें:"</string>
+    <string name="tv_list_empty">अपनी खुद की अनुवाद सूची बनाएं।</string>
+    <string name="tv_password_criteria">आपका पासवर्ड कोई भी 6-अक्षरों का संयोजन हो सकता है।</string>
+    <string name="error_email_already_in_use">यह ईमेल पता पहले से पंजीकृत है।</string>
+    <string name="error_invalid_email">कृपया मान्य ईमेल पता दर्ज करें।</string>
+    <string name="error_invalid_password">कृपया मान्य पासवर्ड दर्ज करें।</string>
+    <string name="error_weak_password">पासवर्ड पर्याप्त मजबूत नहीं है।</string>
+    <string name="error_unknown">एक त्रुटि हुई। कृपया पुनः प्रयास करें।</string>
+    <string name="txt_remaining_translation_count">आज शेष अनुवाद: %1$s</string>
+    <string name="txt_no_quota">आपकी दैनिक अनुवाद सीमा पूरी हो गई है।</string>
+    <string name="item_count">आइटम की संख्या: %1$s</string>
+    <string name="warn_min_sentence_number">कम से कम %1$s वाक्य होने चाहिए। कृपया अपनी खोज को रिफ्रेश करें।</string>
+    <string name="folder_selected">फ़ोल्डर: %1$s</string>
+    <string name="no_internet">आपके इंटरनेट कनेक्शन में समस्या है।</string>
+    <string name="fail_some_features">कुछ फीचर्स लोड नहीं हो सके।</string>
+    <string name="example_evaluation_sentence">आपका अनुवाद व्याकरण के अनुसार सही है, अर्थ सटीक रूप से दर्शाता है, और \'%1$s\' में प्राकृतिक लगता है। \'%1$s\' में \'%2$s\' का सबसे सामान्य और प्राकृतिक समकक्ष है \'%3$s\'. उत्कृष्ट अनुवाद।</string>
+
+
+</resources>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <View
+        android:id="@+id/view_full_occupancy"
+        android:layout_width="0dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/doluluk"
+        android:backgroundTint="@color/acik_yesil"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <View
+        android:id="@+id/view_current_occupancy"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/doluluk"
+        android:backgroundTint="@color/koyu_yesil"
+        android:elevation="5dp"/>
+
+    <TextView
+        android:id="@+id/txt_folder_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@id/view_full_occupancy"
+        app:layout_constraintEnd_toEndOf="@id/view_full_occupancy"
+        app:layout_constraintTop_toTopOf="@id/view_full_occupancy"
+        app:layout_constraintBottom_toBottomOf="@id/view_full_occupancy"
+        android:textColor="@color/cvBackground"
+        android:elevation="5dp"
+        android:textSize="13sp"
+        tools:text="folder name"/>
+
+    <TextView
+        android:id="@+id/tv_count_to_study"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="45"
+        android:textColor="@color/cvBackground"
+        android:elevation="5dp"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintEnd_toEndOf="@id/view_full_occupancy"
+        app:layout_constraintTop_toTopOf="@id/view_full_occupancy"
+        app:layout_constraintBottom_toBottomOf="@id/view_full_occupancy"/>
+
+    <TextView
+        android:id="@+id/tv_studied_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="1"
+        android:elevation="5dp"
+        android:textColor="@color/cvBackground"
+        android:layout_marginStart="8dp"
+        app:layout_constraintStart_toStartOf="@id/view_full_occupancy"
+        app:layout_constraintTop_toTopOf="@id/view_full_occupancy"
+        app:layout_constraintBottom_toBottomOf="@id/view_full_occupancy"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

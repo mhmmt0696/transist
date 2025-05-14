@@ -1,0 +1,839 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@color/arkaplan">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cl_root"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include
+            android:id="@+id/top_bar"
+            layout="@layout/study_random_top_bar" />
+
+        <include
+            android:id="@+id/cv_unknown"
+            android:visibility="gone"
+            layout="@layout/cv_unknown"/>
+
+    <androidx.cardview.widget.CardView
+                android:id="@+id/cv_original_sentence"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/top_bar"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                app:cardElevation="3dp"
+                app:cardCornerRadius="30dp">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:background="@color/cvBackground"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <com.transist.ui.customviews.CustomTextView
+                        android:id="@+id/tv_original_sentence"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/creating_sentence"
+                        android:textColor="@color/textColorPrimary"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        app:layout_constraintStart_toStartOf="parent"
+                        android:layout_marginStart="20dp"
+                        app:layout_constraintEnd_toStartOf="@id/ib_original_sentence_refresh"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:layout_marginTop="20dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        android:layout_marginBottom="20dp"
+                        android:layout_marginEnd="10dp"
+                        android:background="@color/cvBackground"/>
+
+                    <ImageButton
+                        android:id="@+id/ib_original_sentence_refresh"
+                        android:layout_width="22dp"
+                        android:layout_height="22dp"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/baseline_refresh_24"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintBottom_toTopOf="@id/ib_reverse_translation"
+                        android:layout_marginBottom="10dp"/>
+
+                    <ImageButton
+                        android:id="@+id/ib_reverse_translation"
+                        android:layout_width="22dp"
+                        android:layout_height="22dp"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginBottom="20dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/switch_vertical"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/ib_original_sentence_refresh"/>
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+                android:id="@+id/cv_translation"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/cv_original_sentence"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                app:cardElevation="3dp"
+                app:cardCornerRadius="30dp">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:background="@color/cvBackground"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <com.transist.ui.customviews.CustomTextView
+                        android:id="@+id/tv_translation"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        tools:text="..."
+                        android:textColor="@color/textColorPrimary"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:inputType="textCapSentences|textMultiLine"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toStartOf="@id/view_guide_bottom"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="@color/cvBackground"/>
+
+                    <EditText
+                        android:id="@+id/et_translation"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="@color/cvBackground"
+                        android:hint="@string/et_translation"
+                        android:inputType="textCapSentences|textMultiLine"
+                        android:textColor="@color/edit_gray"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toStartOf="@id/view_guide_bottom"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"/>
+
+                    <TextView
+                        android:id="@+id/tv_hint"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:text="\?"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginEnd="20dp"
+                        android:background="@drawable/bg_ipucu"
+                        android:textColor="@color/hint_button_text_color"
+                        android:elevation="3dp"/>
+
+                    <ImageButton
+                        android:visibility="gone"
+                        android:id="@+id/ib_edit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="@color/cvBackground"
+                        android:src="@drawable/baseline_edit_24"/>
+
+                    <ImageButton
+                        android:id="@+id/ib_edit_done"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/baseline_done_24"
+                        android:background="@color/cvBackground"
+                        app:layout_constraintTop_toBottomOf="@id/view_guide_top"
+                        android:layout_marginTop="20dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginBottom="20dp"/>
+
+                    <ImageButton
+                        android:visibility="gone"
+                        android:id="@+id/ib_shrug"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:src="@drawable/shrug"
+                        android:background="@color/cvBackground"
+                        app:layout_constraintTop_toBottomOf="@id/view_guide_top"
+                        android:layout_marginTop="20dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginBottom="20dp"/>
+
+                    <ImageButton
+                        android:id="@+id/ib_shrug_close"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:src="@drawable/baseline_close_24"
+                        app:tint="@color/textColorPrimary"
+                        android:background="@color/cvBackground"
+                        app:layout_constraintTop_toTopOf="@id/view_guide_top"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        android:layout_marginEnd="20dp"/>
+
+                    <View
+                        android:id="@+id/view_guide_top"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginBottom="10dp"
+                        app:layout_constraintBottom_toTopOf="@id/view_guide_bottom"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <View
+                        android:id="@+id/view_guide_bottom"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/view_guide_top"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginBottom="20dp"
+                        android:layout_marginTop="10dp"/>
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+
+    <ImageButton
+                android:id="@+id/ib_submit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_round_btn"
+                android:src="@drawable/baseline_send_24"
+                android:elevation="3dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                app:layout_constraintEnd_toEndOf="@id/cv_translation"
+                app:layout_constraintTop_toBottomOf="@id/cv_translation"
+                app:tint="@color/black" />
+
+    <ProgressBar
+                android:id="@+id/progressBar"
+                android:padding="10dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/bg_round_btn"
+                android:indeterminateTint="@color/black"
+                android:elevation="3dp"
+                app:layout_constraintTop_toBottomOf="@id/cv_translation"
+                app:layout_constraintEnd_toEndOf="@id/cv_translation"/>
+
+    <androidx.cardview.widget.CardView
+            android:id="@+id/cv_evaluation"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/cv_translation"
+            app:layout_constraintBottom_toTopOf="@id/ib_next"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="15dp"
+            app:cardElevation="3dp"
+            app:cardCornerRadius="30dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ScrollView
+                android:id="@+id/scrollView_evaluation"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fillViewport="true">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:background="@color/cvBackground"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="50dp">
+
+                    <ImageButton
+                        android:id="@+id/ib_target"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@color/cvBackground"
+                        android:src="@drawable/baseline_gps_fixed_24"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:tint="#6490C7" />
+
+                    <com.transist.ui.customviews.CustomTextView
+                        android:id="@+id/tv_target"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="25dp"
+                        tools:text="Target Sentence"
+                        android:textIsSelectable="true"
+                        android:textColor="@color/textColorPrimary"
+                        android:textSize="15sp"
+                        android:layout_marginTop="4dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@id/ib_target"
+                        app:layout_constraintTop_toTopOf="@id/ib_target" />
+
+                    <TextView
+                        android:id="@+id/view_hint"
+                        android:layout_width="22dp"
+                        android:layout_height="22dp"
+                        android:text="\?"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/tv_target"
+                        android:layout_marginTop="27dp"
+                        android:layout_marginStart="24dp"
+                        android:background="@drawable/bg_ipucu"
+                        android:textColor="@color/hint_button_text_color"
+                        />
+
+                    <com.transist.ui.customviews.CustomTextView
+                        android:id="@+id/tv_complete_sentence"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="22dp"
+                        android:layout_marginEnd="25dp"
+                        tools:text="Complete Sentence"
+                        android:textIsSelectable="true"
+                        android:textColor="@color/textColorPrimary"
+                        android:textSize="15sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@id/view_hint"
+                        app:layout_constraintTop_toTopOf="@id/view_hint" />
+
+                    <ImageButton
+                        android:id="@+id/ib_correct_evaluation"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@color/cvBackground"
+                        android:src="@drawable/baseline_check_circle_24"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/tv_complete_sentence" />
+
+                    <ImageButton
+                        android:id="@+id/ib_wrong_evaluation"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@color/cvBackground"
+                        android:src="@drawable/baseline_cancel_24"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/tv_complete_sentence" />
+
+                    <ImageButton
+                        android:visibility="gone"
+                        android:id="@+id/ib_detailed_translation"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_marginStart="24dp"
+                        android:layout_marginTop="24dp"
+                        android:background="@color/cvBackground"
+                        android:src="@drawable/ic_search"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/tv_complete_sentence" />
+
+                    <ImageButton
+                        android:id="@+id/ib_blank_evaluation"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@color/cvBackground"
+                        android:src="@drawable/baseline_sentiment_neutral_24"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/tv_complete_sentence" />
+
+                    <View
+                        android:id="@+id/view_guide_evaluation"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="20dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/tv_complete_sentence" />
+
+                    <com.transist.ui.customviews.CustomTextView
+                        android:id="@+id/tv_evaluation"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="25dp"
+                        android:layout_marginTop="3dp"
+                        tools:text="Değerlendirme Mesajı"
+                        android:textIsSelectable="true"
+                        android:textColor="@color/textColorPrimary"
+                        android:textSize="15sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@id/view_guide_evaluation"
+                        app:layout_constraintTop_toTopOf="@id/view_guide_evaluation" />
+
+                    <View
+                        android:visibility="gone"
+                        android:layout_width="1dp"
+                        android:layout_height="1dp"
+                        app:layout_constraintTop_toBottomOf="@id/tv_evaluation"
+                        android:layout_marginTop="20dp"
+                        app:layout_constraintStart_toStartOf="@id/tv_evaluation"/>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </ScrollView>
+
+            <ImageButton
+                android:id="@+id/ib_second_check"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/baseline_replay_24"
+                android:background="@color/cvBackground"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_pronunciation_short"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="@id/ib_bottom_left_guide"
+        app:layout_constraintBottom_toBottomOf="@id/ib_bottom_left_guide"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/ib_next"
+        android:layout_marginStart="20dp"
+        app:cardCornerRadius="22dp"
+        android:elevation="3dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:background="@color/cvBackground"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp">
+
+            <TextView
+                android:id="@+id/tv_pronunciation_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="education"
+                android:textStyle="bold"
+                android:textColor="@color/textColorPrimary"
+                android:textSize="14sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"/>
+
+            <ImageButton
+                android:id="@+id/ib_pronunciation_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/baseline_volume_up_24"
+                android:background="@color/cvBackground"
+                app:layout_constraintStart_toEndOf="@id/tv_pronunciation_1"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_marginStart="10dp"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:visibility="gone"
+        android:id="@+id/cv_pronunciation_long"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="@id/ib_bottom_left_guide"
+        app:layout_constraintBottom_toBottomOf="@id/ib_bottom_left_guide"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/ib_next"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="10dp"
+        app:cardCornerRadius="22dp"
+        android:elevation="3dp">
+
+        <HorizontalScrollView
+            android:id="@+id/hsv_pronunciation"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:background="@color/cvBackground"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="12dp"
+                android:paddingBottom="12dp"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp">
+
+                <TextView
+                    android:id="@+id/tv_pronunciation_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="muvaffakiyetsizleştiricileştiriveremeyeceklerimizdenmişsinizcesine"
+                    android:textStyle="bold"
+                    android:textColor="@color/textColorPrimary"
+                    android:textSize="14sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"/>
+
+                <ImageButton
+                    android:id="@+id/ib_pronunciation_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/baseline_volume_up_24"
+                    android:background="@color/cvBackground"
+                    app:layout_constraintStart_toEndOf="@id/tv_pronunciation_2"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    android:layout_marginStart="10dp"/>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </HorizontalScrollView>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_translation_direction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@id/ib_submit"
+        app:layout_constraintBottom_toBottomOf="@id/ib_submit"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:cardCornerRadius="22dp"
+        android:elevation="3dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:background="@color/cvBackground"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp">
+
+            <TextView
+                android:id="@+id/tv_direction_from"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Türkçe"
+                android:textStyle="bold"
+                android:textColor="@color/textColorPrimary"
+                android:textSize="14sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"/>
+
+            <ImageButton
+                android:id="@+id/ib_direction"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/long_arrow_right"
+                app:tint="@color/textColorPrimary"
+                android:background="@color/cvBackground"
+                app:layout_constraintStart_toEndOf="@id/tv_direction_from"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginStart="10dp"/>
+
+            <TextView
+                android:id="@+id/tv_direction_to"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="İngilizce"
+                android:textStyle="bold"
+                android:textColor="@color/textColorPrimary"
+                android:textSize="14sp"
+                android:layout_marginStart="10dp"
+                app:layout_constraintStart_toEndOf="@id/ib_direction"
+                app:layout_constraintTop_toTopOf="parent"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:visibility="gone"
+        android:id="@+id/cv_typo_pronunciation_short"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="@id/ib_bottom_left_guide"
+        app:layout_constraintBottom_toBottomOf="@id/ib_bottom_left_guide"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/ib_next"
+        android:layout_marginStart="20dp"
+        app:cardCornerRadius="22dp"
+        android:elevation="3dp">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:background="@color/cvBackground"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="12dp"
+                android:paddingBottom="12dp"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp">
+
+                <TextView
+                    android:id="@+id/tv_misspelled_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="vose"
+                    android:textStyle="bold"
+                    android:textColor="@color/textColorPrimary"
+                    android:textSize="14sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"/>
+
+                <ImageButton
+                    android:id="@+id/ib_direction_typo_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/long_arrow_right"
+                    app:tint="@color/textColorPrimary"
+                    android:background="@color/cvBackground"
+                    app:layout_constraintStart_toEndOf="@id/tv_misspelled_1"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    android:layout_marginStart="10dp"/>
+
+                <TextView
+                    android:id="@+id/tv_correction_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="vote"
+                    android:textStyle="bold"
+                    android:textColor="@color/textColorPrimary"
+                    android:textSize="14sp"
+                    android:layout_marginStart="10dp"
+                    app:layout_constraintStart_toEndOf="@id/ib_direction_typo_1"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"/>
+
+                <ImageButton
+                    android:id="@+id/ib_pronunciation_typo_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/baseline_volume_up_24"
+                    android:background="@color/cvBackground"
+                    app:layout_constraintStart_toEndOf="@id/tv_correction_1"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    android:layout_marginStart="10dp"/>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:visibility="gone"
+        android:id="@+id/cv_typo_pronunciation_long"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="@id/ib_bottom_left_guide"
+        app:layout_constraintBottom_toBottomOf="@id/ib_bottom_left_guide"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/ib_next"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="10dp"
+        app:cardCornerRadius="22dp"
+        android:elevation="3dp">
+
+        <HorizontalScrollView
+            android:id="@+id/hsv_typo_pronunciation"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:background="@color/cvBackground"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="12dp"
+                android:paddingBottom="12dp"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp">
+
+                <TextView
+                    android:id="@+id/tv_misspelled_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="announcmentttttttttttttt"
+                    android:textStyle="bold"
+                    android:textColor="@color/textColorPrimary"
+                    android:textSize="14sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"/>
+
+                <ImageButton
+                    android:id="@+id/ib_direction_typo_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/long_arrow_right"
+                    app:tint="@color/textColorPrimary"
+                    android:background="@color/cvBackground"
+                    app:layout_constraintStart_toEndOf="@id/tv_misspelled_2"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    android:layout_marginStart="10dp"/>
+
+                <TextView
+                    android:id="@+id/tv_correction_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="announcement"
+                    android:textStyle="bold"
+                    android:textColor="@color/textColorPrimary"
+                    android:textSize="14sp"
+                    android:layout_marginStart="10dp"
+                    app:layout_constraintStart_toEndOf="@id/ib_direction_typo_2"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"/>
+
+                <ImageButton
+                    android:id="@+id/ib_pronunciation_typo_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/baseline_volume_up_24"
+                    android:background="@color/cvBackground"
+                    app:layout_constraintStart_toEndOf="@id/tv_correction_2"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    android:layout_marginStart="10dp"/>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </HorizontalScrollView>
+    </androidx.cardview.widget.CardView>
+
+    <ImageButton
+        android:id="@+id/ib_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_round_btn"
+        android:elevation="3dp"
+        android:src="@drawable/baseline_forward_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="@id/ib_bottom_left_guide"
+        app:layout_constraintTop_toTopOf="@id/ib_bottom_left_guide"
+        android:layout_marginEnd="20dp"
+        app:tint="@color/black" />
+
+    <View
+        android:id="@+id/ib_next_guide"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:elevation="3dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="@id/ib_bottom_left_guide"
+        app:layout_constraintTop_toTopOf="@id/ib_bottom_left_guide"
+        android:layout_marginEnd="20dp" />
+
+    <View
+        android:id="@+id/ib_bottom_left_guide"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="74dp"
+        android:elevation="3dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"  />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_toast"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        app:cardCornerRadius="22dp"
+        app:cardElevation="6dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:background="@color/toastBackground"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp">
+
+            <TextView
+                android:id="@+id/tv_toast"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="toast mesajı"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/textColorPrimary"
+                android:textSize="14sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

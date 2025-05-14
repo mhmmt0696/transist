@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="txt_cumle_olustur_baslik">Έκφραση που θέλετε να μάθετε:</string>
+    <string name="editText_ifade">Λέξη: (υποχρεωτικό)</string>
+    <string name="editText_anlam">Σημασία:</string>
+    <string name="editText_not">Συμφραζόμενα:</string>
+    <string name="button_ara">Βρείτε προτάσεις</string>
+    <string name="txt_zorluk">Επιλέξτε επίπεδο δυσκολίας.</string>
+    <string name="buttonSave">Επιβεβαίωση και αποθήκευση</string>
+    <string name="txt_mail_basarisiz">Οι διακομιστές μας δεν ανταποκρίνονται στο αίτημα ενεργοποίησης email. Παρακαλώ δοκιμάστε ξανά αργότερα.</string>
+    <string name="txt_mail_gonderildi">Κάντε κλικ στον σύνδεσμο ενεργοποίησης που στείλαμε στο email σας για να επαληθεύσουμε τον λογαριασμό σας.</string>
+    <string name="tv_delete">Θέλετε να διαγράψετε τον λογαριασμό σας;</string>
+    <string name="tv_delete_btn">ΔΙΑΓΡΑΦΗ!</string>
+    <string name="txt_delete_error">Για να διαγράψετε τον λογαριασμό σας, πρέπει να έχετε συνδεθεί πρόσφατα.</string>
+    <string name="tv_exit_check">Είστε σίγουροι ότι θέλετε να αποσυνδεθείτε;</string>
+    <string name="tv_exit">Αποσύνδεση!</string>
+    <string name="tv_phrases_title">Εκφράσεις</string>
+    <string name="tv_words_title">Λέξεις</string>
+    <string name="tv_selected_title">Επιλεγμένη λειτουργία:</string>
+    <string name="tv_selected_item">Τυχαία σε κάθε πρόταση</string>
+    <string name="txt_reset_basarisiz">Οι διακομιστές μας δεν ανταποκρίνονται στο αίτημα επαναφοράς κωδικού. Παρακαλώ δοκιμάστε ξανά αργότερα.</string>
+    <string name="txt_reset">Ελέγξτε τα εισερχόμενά σας. Αν έχει καταχωρηθεί λογαριασμός με αυτό το email, θα δείτε έναν σύνδεσμο επαναφοράς.</string>
+    <string name="txt_sifre_sifirlama">Μπορείτε να συνεχίσετε τη διαδικασία επαναφοράς χρησιμοποιώντας τον σύνδεσμο στο email σας.</string>
+    <string name="text_silinecek_aciklama">Οι καταχωρήσεις με διάστημα επανάληψης 30 ημερών ή περισσότερο θα διαγραφούν.</string>
+    <string name="switch_view">Κάν’ το αυτόματα για μένα.</string>
+    <string name="tv_sil">Επιβεβαίωση και διαγραφή</string>
+    <string name="txt_siralama_ölcütü">Κριτήριο ταξινόμησης:</string>
+    <string name="txt_alfabetik">Αλφαβητική σειρά</string>
+    <string name="txt_eklenme">Σειρά προσθήκης</string>
+    <string name="txt_araliga_göre">Σύμφωνα με το διάστημα επανάληψης</string>
+    <string name="loadingText">Ετοιμάζονται οι προτάσεις…</string>
+    <string name="button_yenile">Ανανέωση προτάσεων</string>
+    <string name="txt_aralik">Διάστημα επανάληψης: xxx ημέρες</string>
+    <string name="buttonUpdate">Ενημέρωση</string>
+    <string name="buttonCancel">Ακύρωση</string>
+    <string name="liste_baslik">Η λίστα εκμάθησής σας:</string>
+    <string name="tv_unknown">Παρακαλώ επιλέξτε τη μητρική και τη γλώσσα-στόχο από το πλαϊνό μενού.</string>
+    <string name="tv_empty_list">Οι εκφράσεις που προσθέτετε θα εμφανίζονται στις μεταφράσεις.</string>
+    <string name="tv_empty_list_add">Προσθέστε εκφράσεις που θέλετε να βλέπετε στις μεταφράσεις στη λίστα εκμάθησης.</string>
+    <string name="txt_giris_baslik">Πληροφορίες σύνδεσης:</string>
+    <string name="txt_giris_bilgisi_email">Έχετε συνδεθεί με το email σας (xxx).</string>
+    <string name="txt_aktivasyon">Αποστολή συνδέσμου ενεργοποίησης email.</string>
+    <string name="txt_sifre_değistir">Θέλω να αλλάξω τον κωδικό μου.</string>
+    <string name="hesap_sil">Διαγραφή του λογαριασμού μου.</string>
+    <string name="txt_profil_baslik">Πληροφορίες λογαριασμού:</string>
+    <string name="txt_anadil_baslik">Μητρική γλώσσα:</string>
+    <string name="txt_hedef_dil_baslik">Γλώσσα εκμάθησης:</string>
+    <string name="txt_hesap_turu_baslik">Τύπος λογαριασμού:</string>
+    <string name="txt_hesap_turu_abonelik">Συνδρομή</string>
+    <string name="txt_hesap_turu_ücretsiz">Δωρεάν</string>
+    <string name="txt_abonelik_suresi">Ενεργή έως xxx.</string>
+    <string name="button_buy">Αγορά συνδρομής</string>
+    <string name="creating_sentence">Δημιουργία πρότασης…</string>
+    <string name="et_translation">Γράψτε τη μετάφρασή σας…</string>
+    <string name="tv_break">Έχετε μελετήσει όλες τις εκφράσεις σας.</string>
+    <string name="button_marathon_start">Ξεκινήστε από την αρχή!</string>
+    <string name="button_marathon_end">Κλείσιμο!</string>
+    <string name="tv_welcome">Καλώς ήρθατε!</string>
+    <string name="tv_info">Αυτή είναι μια εφαρμογή μετάφρασης.</string>
+    <string name="tv_1">Μεταφράστε την πρόταση που βλέπετε,</string>
+    <string name="tv_2">στη γλώσσα της επιλογής σας.</string>
+    <string name="tv_3">Η τεχνητή νοημοσύνη αξιολογεί τη μετάφρασή σας ως προς 4 στοιχεία: Γραμματική, ορθογραφία, φυσικότητα και νόημα.</string>
+    <string name="tv_4">Αν δυσκολεύεστε, αφήστε το κενό και προχωρήστε:</string>
+    <string name="tv_5">Αν θέλετε να εξασκείτε μια έκφραση συχνότερα, προσθέστε την στη λίστα σας.</string>
+    <string name="tv_ls_title">Για να ξεκινήσετε</string>
+    <string name="tv_native_language">Επιλέξτε τη μητρική σας γλώσσα:</string>
+    <string name="tv_target_language">Επιλέξτε τη γλώσσα στην οποία θα μεταφράσετε:</string>
+    <string name="txt_mail_baslik">Σύνδεση:</string>
+    <string name="et_mail_hint">Λογαριασμός email</string>
+    <string name="et_sifre_hint">Κωδικός πρόσβασης</string>
+    <string name="buton_giris">Σύνδεση</string>
+    <string name="txt_sifremi_unuttum">Ξέχασα τον κωδικό μου.</string>
+    <string name="txt_kayit_ol">Δημιουργία νέου λογαριασμού.</string>
+    <string name="txt_mail_kayit_baslik">Εγγραφή με τον λογαριασμό email σας:</string>
+    <string name="et_mail_kayit_hint">Πληκτρολογήστε τον λογαριασμό email σας.</string>
+    <string name="et_sifre_kayit_hint">Ορίστε τον κωδικό πρόσβασής σας.</string>
+    <string name="buton_kayit">Εγγραφή</string>
+    <string name="txt_sifre_sifirlama_baslik">Θα στείλουμε σύνδεσμο επαναφοράς κωδικού πρόσβασης στο email σας.</string>
+    <string name="et_mail_sifremi_unuttum_hint">Πληκτρολογήστε το email σας.</string>
+    <string name="buton_sifirla">Αποστολή</string>
+    <string name="familiarity_1">Το βλέπω για πρώτη φορά.</string>
+    <string name="familiarity_2">Το έχω ξαναδεί.</string>
+    <string name="familiarity_3">Το γνωρίζω, αλλά θέλω να εξασκηθώ.</string>
+    <string name="example_sentence">Αυτό είναι το στυλό μου.</string>
+    <string name="example_sentence_blank">Αυτό είναι ____ στυλό.</string>
+    <string name="feature">Υπάρχουν περισσότερα: Μπορείς να επιλέξεις επίπεδο δυσκολίας και να κάνεις τις εκφράσεις ή τα πρότυπα που σε ενδιαφέρουν να εμφανίζονται συχνότερα. Αν θέλεις να μάθεις με τη μέθοδο της επαναλαμβανόμενης μάθησης, απλώς πρόσθεσε τις εκφράσεις στη λίστα εκμάθησής σου.</string>
+    <string name="warn_select_difficulty">Παρακαλώ επιλέξτε επίπεδο δυσκολίας.</string>
+    <string name="registration_done">Η εγγραφή ολοκληρώθηκε.</string>
+    <string name="warn_expression_empty">Παρακαλώ γράψτε την έκφραση που θέλετε να αναζητήσετε.</string>
+    <string name="warn_typo">Δυστυχώς, η έκφραση που εισάγατε περιέχει ορθογραφικό λάθος.</string>
+    <string name="warn_meaning">Υπάρχει αναντιστοιχία σημασίας.</string>
+    <string name="update_successful">Η εγγραφή ενημερώθηκε.</string>
+    <string name="error_occured">Παρουσιάστηκε σφάλμα.</string>
+    <string name="muilti_items_deleted">Αριθμός διαγραμμένων προτάσεων: xxx</string>
+    <string name="warn_missing_input">Λείπουν πληροφορίες.</string>
+    <string name="log_in_failed">Η σύνδεση απέτυχε: Λανθασμένα στοιχεία.</string>
+    <string name="no_given_translation">Παρακαλώ εισάγετε το κείμενο της μετάφρασης.</string>
+    <string name="api_busy">Η τεχνητή νοημοσύνη δεν μπορούσε να απαντήσει λόγω φόρτου εργασίας.</string>
+    <string name="apology">Λυπούμαστε για την ταλαιπωρία.</string>
+    <string name="try_again_later">Παρακαλώ προσπαθήστε ξανά αργότερα.</string>
+    <string name="solace">Για αποζημίωση, θα προσθέσουμε μία μηνιαία συνδρομή στον λογαριασμό σας.</string>
+    <string name="warn_select_language">Δεν επιλέξατε γλώσσα.</string>
+
+    <string name="dark_theme_title">Σκούρο θέμα:</string>
+    <string name="arabic">Αραβικά</string>
+    <string name="bengali">Μπενγκάλι</string>
+    <string name="bulgarian">Βουλγαρικά</string>
+    <string name="chinese">Κινέζικα</string>
+    <string name="croatian">Κροατικά</string>
+    <string name="czech">Τσεχικά</string>
+    <string name="danish">Δανέζικα</string>
+    <string name="dutch">Ολλανδικά</string>
+    <string name="english">Αγγλικά</string>
+    <string name="estonian">Εσθονικά</string>
+    <string name="finnish">Φινλανδικά</string>
+    <string name="french">Γαλλικά</string>
+    <string name="german">Γερμανικά</string>
+    <string name="greek">Ελληνικά</string>
+    <string name="hebrew">Εβραϊκά</string>
+    <string name="hindi">Χίντι</string>
+    <string name="hungarian">Ουγγρικά</string>
+    <string name="indonesian">Ινδονησιακά</string>
+    <string name="italian">Ιταλικά</string>
+    <string name="japanese">Ιαπωνικά</string>
+    <string name="korean">Κορεατικά</string>
+    <string name="latvian">Λετονικά</string>
+    <string name="lithuanian">Λιθουανικά</string>
+    <string name="norwegian">Νορβηγικά</string>
+    <string name="polish">Πολωνικά</string>
+    <string name="portuguese">Πορτογαλικά</string>
+    <string name="romanian">Ρουμανικά</string>
+    <string name="russian">Ρωσικά</string>
+    <string name="serbian">Σερβικά</string>
+    <string name="slovak">Σλοβακικά</string>
+    <string name="slovenian">Σλοβενικά</string>
+    <string name="spanish">Ισπανικά</string>
+    <string name="swahili">Σουαχίλι</string>
+    <string name="swedish">Σουηδικά</string>
+    <string name="thai">Ταϊλανδικά</string>
+    <string name="turkish">Τουρκικά</string>
+    <string name="ukrainian">Ουκρανικά</string>
+    <string name="vietnamese">Βιετναμέζικα</string>
+    <string name="txt_giris_bilgisi_google">Έχετε συνδεθεί με το Google (xxx).</string>
+    <string name="search_hint">Αναζήτηση…</string>
+    <string name="review_interval">Διάστημα επανάληψης</string>
+    <string name="day">ημέρα</string>
+    <string name="nothing_to_show">Δεν υπάρχει ακόμα τίποτα να εμφανιστεί εδώ.</string>
+
+    <string name="unknown">Άγνωστο</string>
+    <string name="select_theme">Επιλέξτε θέμα:</string>
+    <string name="system_default">Προεπιλογή συστήματος</string>
+    <string name="light_mode">Φωτεινή λειτουργία</string>
+    <string name="dark_mode">Σκούρα λειτουργία</string>
+    <string name="create_folder">Δημιουργία φακέλου:</string>
+    <string name="folder_name">Όνομα φακέλου…</string>
+    <string name="folder">Φάκελος:</string>
+    <string name="start_from_scratch">Ξεκινήστε από την αρχή!</string>
+    <string name="no_voice_engine">Δεν βρέθηκε προηγουμένως ληφθέν αρχείο φωνής για αυτήν τη γλώσσα. Κατεβάστε ένα αρχείο φωνής και επανεκκινήστε την εφαρμογή.</string>
+    <string name="not_common_search">Η έκφραση αυτή δεν χρησιμοποιείται συνήθως στα αγγλικά. Μπορείτε να την προσθέσετε, αλλά λάβετε υπόψη ότι η AI μπορεί να σας προειδοποιήσει να μην την χρησιμοποιήσετε σε προτάσεις.</string>
+    <string name="search_hint_text">Στις αναζητήσεις σας μπορείτε να χρησιμοποιήσετε δείκτες θέσης μέσα σε παρενθέσεις αντί για σταθερό κείμενο:</string>
+    <string name="search_hint_1">να μειώσει τη λύπη του/της [κάποιου]</string>
+    <string name="search_hint_2">να βάψει [κάτι] [χρώμα]</string>
+    <string name="default_folder">Προεπιλογή</string>
+    <string name="wrong_translation_direction">Η μετάφρασή σας δεν είναι στη γλώσσα που αναμενόταν. Η γλώσσα στόχος σας έχει οριστεί σε %1$s στις ρυθμίσεις του λογαριασμού σας.</string>
+    <string name="buttonOk">Εντάξει</string>
+    <string name="buttonSettings">Μετάβαση στις ρυθμίσεις</string>
+
+    <string name="query_no_blank">Προσπάθησα να μεταφράσω το "%1$s" στα %2$s.
+    Η μετάφρασή μου ήταν: "%3$s"
+    Παρακαλώ αξιολογήστε τη μετάφρασή μου στα %4$s ως προς τη γραμματική, ορθογραφία, νόημα και φυσικότητα.
+    Η απάντησή σας πρέπει να είναι στα %4$s και σε μορφή JSON όπως παρακάτω:
+    { "isValid": "true / false.",
+    "feedBack": "Αξιολόγηση στα %4$s." }</string>
+
+    <string name="query_no_blank_reverse">Προσπάθησα να μεταφράσω το "%1$s" στη μητρική μου γλώσσα.
+    Το μετέφρασα ως: "%2$s"
+    Παρακαλώ αξιολογήστε τη μετάφρασή μου μόνο ως προς την ακρίβεια του νοήματος· η γραμματική και η ορθογραφία δεν είναι σημαντικές για μένα.
+    Η απάντησή σας πρέπει να είναι στα %3$s και σε μορφή JSON όπως παρακάτω:
+    { "isValid": "true / false.",
+    "feedBack": "Αξιολόγηση στα %3$s." }</string>
+
+    <string name="query_with_blank">Προσπάθησα να μεταφράσω το "%1$s" στα %2$s.
+    Η ατελής μετάφρασή μου: "%3$s"
+    Το κενό στη μετάφρασή μου υποδεικνύει το μέρος που δεν μπόρεσα να μεταφράσω.
+    Παρακαλώ αξιολογήστε τη μετάφρασή μου στα %4$s ως προς γραμματική, ορθογραφία, νόημα και φυσικότητα.
+    Η απάντησή σας πρέπει να είναι στα %4$s και σε μορφή JSON όπως παρακάτω:
+    { "feedBack": "Αξιολόγηση στα %4$s.",
+    "completeSentence": "Ολοκληρώστε τη μετάφραση στα %2$s συμπληρώνοντας τα κενά." }</string>
+
+    <string name="query_with_blank_reverse">Προσπάθησα να μεταφράσω το "%1$s" στη μητρική μου γλώσσα.
+    Η ατελής μετάφρασή μου: "%2$s"
+    Το κενό στη μετάφρασή μου υποδεικνύει το μέρος που δεν μπόρεσα να μεταφράσω.
+    Παρακαλώ αξιολογήστε τη μετάφρασή μου μόνο ως προς την ακρίβεια του νοήματος· η γραμματική και η ορθογραφία δεν είναι σημαντικές για μένα.
+    Η απάντησή σας πρέπει να είναι στα %3$s και σε μορφή JSON όπως παρακάτω:
+    { "feedBack": "Αξιολόγηση στα %3$s.",
+    "completeSentence": "Ολοκληρώστε τη μετάφραση στα %2$s συμπληρώνοντας τα κενά." }</string>
+
+    <string name="query_for_no_translation">Η μητρική μου γλώσσα είναι %1$s.
+    Και θέλω να μεταφράσω τη φράση "%2$s" στα %3$s.
+    Παρακαλώ εξηγήστε μου βήμα προς βήμα πώς πρέπει να την μεταφράσω.
+    Η απάντησή σας πρέπει να είναι σε μορφή JSON όπως παρακάτω:
+    { "translation": "Γράψτε τη μεταφρασμένη πρόταση στα %3$s.",
+    "explanation": "Λεπτομερής εξήγηση στα %1$s." }</string>
+
+    <string name="search_issues">Φαίνεται ότι υπάρχουν κάποια προβλήματα με την αναζήτησή σας. Η τελική απόφαση ανήκει σε εσάς.</string>
+    <string name="search_issue_1">Η λέξη που αναζητήθηκε ίσως να μην υπάρχει στη γλώσσα-στόχο.</string>
+    <string name="search_issue_2">Η λέξη που αναζητήθηκε μπορεί να περιέχει ορθογραφικά λάθη.</string>
+    <string name="search_issue_3">Η λέξη και η σημασία μπορεί να μην ταιριάζουν.</string>
+    <string name="search_issue_4">Ο όρος που αναζητήθηκε ίσως να μην χρησιμοποιείται συχνά στη γλώσσα-στόχο.</string>
+    <string name="search_issue_5">Κάτι πήγε στραβά, παρακαλώ ανανεώστε την αναζήτησή σας.</string>
+    <string name="tv_6">Πατήστε τις λέξεις για να ακούσετε την προφορά τους.</string>
+    <string name="example_word">στυλό</string>
+    <string name="liste_baslik_items">Όλες οι εγγραφές:</string>
+    <string name="liste_baslik_folders">Όλοι οι φάκελοι:</string>
+    <string name="create_folder_2">Δημιουργία φακέλου: %1$s</string>
+    <string name="rename_folder">"Μετονομασία φακέλου:"</string>
+    <string name="tv_list_empty">Δημιουργήστε τη δική σας λίστα μεταφράσεων.</string>
+    <string name="tv_password_criteria">Ο κωδικός σας μπορεί να είναι οποιοσδήποτε συνδυασμός 6 χαρακτήρων.</string>
+    <string name="error_email_already_in_use">Αυτή η διεύθυνση email είναι ήδη καταχωρημένη.</string>
+    <string name="error_invalid_email">Παρακαλώ εισάγετε μια έγκυρη διεύθυνση email.</string>
+    <string name="error_invalid_password">Παρακαλώ εισάγετε έναν έγκυρο κωδικό πρόσβασης.</string>
+    <string name="error_weak_password">Ο κωδικός πρόσβασης δεν είναι αρκετά ισχυρός.</string>
+    <string name="error_unknown">Παρουσιάστηκε σφάλμα. Παρακαλώ δοκιμάστε ξανά.</string>
+    <string name="txt_remaining_translation_count">Υπόλοιπο μεταφράσεων σήμερα: %1$s</string>
+    <string name="txt_no_quota">Έχετε φτάσει το ημερήσιο όριο μεταφράσεων.</string>
+    <string name="item_count">Αριθμός αντικειμένων: %1$s</string>
+    <string name="warn_min_sentence_number">Πρέπει να υπάρχουν τουλάχιστον %1$s προτάσεις. Παρακαλώ ανανεώστε την αναζήτησή σας.</string>
+    <string name="folder_selected">Φάκελος: %1$s</string>
+    <string name="no_internet">Υπάρχει πρόβλημα με τη σύνδεση στο διαδίκτυο.</string>
+    <string name="fail_some_features">Ορισμένες λειτουργίες δεν φορτώθηκαν.</string>
+    <string name="example_evaluation_sentence">Η μετάφρασή σας είναι γραμματικά σωστή, μεταφέρει με ακρίβεια το νόημα και ακούγεται φυσική στη γλώσσα \'%1$s\'. Η πιο κοινή και φυσική αντιστοιχία του \'%2$s\' στη γλώσσα \'%1$s\' είναι \'%3$s\'. Εξαιρετική μετάφραση.</string>
+
+</resources>

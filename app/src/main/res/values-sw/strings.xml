@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="txt_cumle_olustur_baslik">Usemi unaotaka kujifunza:</string>
+    <string name="editText_ifade">Neno: (lazima)</string>
+    <string name="editText_anlam">Maana:</string>
+    <string name="editText_not">Muktadha:</string>
+    <string name="button_ara">Tafuta sentensi</string>
+    <string name="txt_zorluk">Chagua kiwango cha ugumu.</string>
+    <string name="buttonSave">Thibitisha na Hifadhi</string>
+    <string name="txt_mail_basarisiz">Seva zetu hazijibu ombi la uanzishaji wa barua pepe. Tafadhali jaribu tena baadaye.</string>
+    <string name="txt_mail_gonderildi">Bofya kiungo cha uanzishaji tulichotuma kwa anwani yako ya barua pepe ili kuthibitisha akaunti yako.</string>
+    <string name="tv_delete">Ungependa kufuta akaunti yako?</string>
+    <string name="tv_delete_btn">FUTA!</string>
+    <string name="txt_delete_error">Ili kufuta akaunti yako, lazima uwe umeingia hivi karibuni.</string>
+    <string name="tv_exit_check">Una uhakika unataka kutoka?</string>
+    <string name="tv_exit">Toka!</string>
+    <string name="tv_phrases_title">Misemo</string>
+    <string name="tv_words_title">Maneno</string>
+    <string name="tv_selected_title">Hali iliyochaguliwa:</string>
+    <string name="tv_selected_item">Nasibu katika kila sentensi</string>
+    <string name="txt_reset_basarisiz">Seva zetu hazijibu ombi la kuweka upya nenosiri. Tafadhali jaribu tena baadaye.</string>
+    <string name="txt_reset">Angalia kikasha chako. Ikiwa akaunti iliwahi kusajiliwa kwa anwani hii ya barua pepe, utaona kiungo cha kuweka upya nenosiri.</string>
+    <string name="txt_sifre_sifirlama">Unaweza kuendelea na mchakato wa kuweka upya nenosiri ukitumia kiungo kilichotumwa kwa barua pepe yako.</string>
+    <string name="text_silinecek_aciklama">Rekodi zenye muda wa mapitio wa siku 30 au zaidi zitafutwa.</string>
+    <string name="switch_view">Nifanyie hili kiotomatiki.</string>
+    <string name="tv_sil">Thibitisha na Futa</string>
+    <string name="txt_siralama_ölcütü">Kigezo cha kupanga:</string>
+    <string name="txt_alfabetik">Mpangilio wa alfabeti</string>
+    <string name="txt_eklenme">Panga kwa tarehe ya kuongezwa</string>
+    <string name="txt_araliga_göre">Panga kwa muda wa mapitio</string>
+    <string name="loadingText">Inatayarisha sentensi…</string>
+    <string name="button_yenile">Sasisha sentensi</string>
+    <string name="txt_aralik">Muda wa mapitio: siku xxx</string>
+    <string name="buttonUpdate">Sasisha</string>
+    <string name="buttonCancel">Ghairi</string>
+    <string name="liste_baslik">Orodha yako ya kujifunza:</string>
+    <string name="tv_unknown">Tafadhali chagua lugha yako ya asili na lugha lengwa kutoka kwenye paneli ya upande.</string>
+    <string name="tv_empty_list">Misemo unayoongeza kwenye orodha yako itaonekana katika tafsiri.</string>
+    <string name="tv_empty_list_add">Ongeza misemo unayotaka ionekane kwenye tafsiri kwenye orodha yako ya kujifunza.</string>
+    <string name="txt_giris_baslik">Taarifa zako za kuingia:</string>
+    <string name="txt_giris_bilgisi_email">Umeingia kwa akaunti ya barua pepe (xxx).</string>
+    <string name="txt_aktivasyon">Tuma kiungo cha uanzishaji wa barua pepe.</string>
+    <string name="txt_sifre_değistir">Nataka kubadilisha nenosiri langu.</string>
+    <string name="hesap_sil">Futa akaunti yangu.</string>
+    <string name="txt_profil_baslik">Taarifa za akaunti yako:</string>
+    <string name="txt_anadil_baslik">Lugha yako ya asili:</string>
+    <string name="txt_hedef_dil_baslik">Lugha unayojifunza:</string>
+    <string name="txt_hesap_turu_baslik">Aina ya akaunti:</string>
+    <string name="txt_hesap_turu_abonelik">Usajili</string>
+    <string name="txt_hesap_turu_ücretsiz">Bure</string>
+    <string name="txt_abonelik_suresi">Hai hadi xxx.</string>
+    <string name="button_buy">Nunua Usajili</string>
+    <string name="creating_sentence">Inatengeneza sentensi yako…</string>
+    <string name="et_translation">Andika tafsiri yako…</string>
+    <string name="tv_break">Umefanya mapitio ya misemo yako yote.</string>
+    <string name="button_marathon_start">Anza tena!</string>
+    <string name="button_marathon_end">Funga!</string>
+    <string name="tv_welcome">Karibu!</string>
+    <string name="tv_info">Hii ni programu ya tafsiri.</string>
+    <string name="tv_1">Tafsiri sentensi unayoona,</string>
+    <string name="tv_2">kwa lugha ya chaguo lako.</string>
+    <string name="tv_3">AI hutathmini tafsiri yako kwa njia 4: Sarufi, tahajia, asili, na maana.</string>
+    <string name="tv_4">Ukikwama, unaweza kuiacha wazi na kuendelea:</string>
+    <string name="tv_5">Kama unataka kufanya mazoezi ya usemi fulani mara kwa mara, uongeze kwenye orodha yako ya kujifunza.</string>
+    <string name="tv_ls_title">Ili kuanza</string>
+    <string name="tv_native_language">Chagua lugha yako ya asili:</string>
+    <string name="tv_target_language">Chagua lugha ya kutafsiri:</string>
+    <string name="txt_mail_baslik">Ingia:</string>
+    <string name="et_mail_hint">Akaunti ya barua pepe</string>
+    <string name="et_sifre_hint">Nenosiri</string>
+    <string name="buton_giris">Ingia</string>
+    <string name="txt_sifremi_unuttum">Nimesahau nenosiri.</string>
+    <string name="txt_kayit_ol">Unda akaunti mpya.</string>
+    <string name="txt_mail_kayit_baslik">Jisajili kwa kutumia barua pepe yako:</string>
+    <string name="et_mail_kayit_hint">Andika anwani yako ya barua pepe.</string>
+    <string name="et_sifre_kayit_hint">Weka nenosiri lako.</string>
+    <string name="buton_kayit">Jisajili</string>
+    <string name="txt_sifre_sifirlama_baslik">Tutakutumia kiungo cha kuweka upya nenosiri kwenye barua pepe yako.</string>
+    <string name="et_mail_sifremi_unuttum_hint">Andika anwani yako ya barua pepe.</string>
+    <string name="buton_sifirla">Tuma</string>
+    <string name="familiarity_1">Ninaona kwa mara ya kwanza.</string>
+    <string name="familiarity_2">Nimewahi kuona hapo awali.</string>
+    <string name="familiarity_3">Ninakijua lakini nataka kufanya mazoezi.</string>
+    <string name="example_sentence">Hii ni kalamu yangu.</string>
+    <string name="example_sentence_blank">Hii ni ____ kalamu.</string>
+    <string name="feature">Kuna zaidi: unaweza kuchagua kiwango cha ugumu na kuhakikisha kwamba misemo au mifumo inayokuvutia inaonekana mara kwa mara. Ikiwa unataka kujifunza kwa kutumia mbinu ya kurudia kwa vipindi, ongeza tu misemo kwenye orodha yako ya kujifunza.</string>
+    <string name="warn_select_difficulty">Tafadhali chagua kiwango cha ugumu.</string>
+    <string name="registration_done">Usajili umekamilika.</string>
+    <string name="warn_expression_empty">Tafadhali andika usemi unaotaka kutafuta.</string>
+    <string name="warn_typo">Samahani, usemi ulioweka una makosa ya tahajia.</string>
+    <string name="warn_meaning">Kuna kutofautiana kwa maana.</string>
+    <string name="update_successful">Rekodi imesasishwa.</string>
+    <string name="error_occured">Hitilafu imetokea.</string>
+    <string name="muilti_items_deleted">Idadi ya sentensi zilizofutwa: xxx</string>
+    <string name="warn_missing_input">Taarifa imekosekana.</string>
+    <string name="log_in_failed">Kuingia kumeshindikana: Umeweka taarifa isiyo sahihi.</string>
+    <string name="no_given_translation">Tafadhali weka tafsiri.</string>
+    <string name="api_busy">AI haikuweza kujibu kutokana na mzigo mkubwa.</string>
+    <string name="apology">Tunaomba radhi kwa usumbufu uliotokea.</string>
+    <string name="try_again_later">Tafadhali jaribu tena baadaye.</string>
+    <string name="solace">Kama fidia, tutakuongezea usajili wa mwezi mmoja kwenye akaunti yako.</string>
+    <string name="warn_select_language">Hujachagua lugha.</string>
+
+    <string name="dark_theme_title">Mandhari nyeusi:</string>
+    <string name="arabic">Kiarabu</string>
+    <string name="bengali">Kibengali</string>
+    <string name="bulgarian">Kibulgaria</string>
+    <string name="chinese">Kichina</string>
+    <string name="croatian">Kikroeshia</string>
+    <string name="czech">Kicheki</string>
+    <string name="danish">Kidenmaki</string>
+    <string name="dutch">Kiholanzi</string>
+    <string name="english">Kiingereza</string>
+    <string name="estonian">Kiestonia</string>
+    <string name="finnish">Kifini</string>
+    <string name="french">Kifaransa</string>
+    <string name="german">Kijerumani</string>
+    <string name="greek">Kigiriki</string>
+    <string name="hebrew">Kiebrania</string>
+    <string name="hindi">Kihindi</string>
+    <string name="hungarian">Kihungaria</string>
+    <string name="indonesian">Kiindonesia</string>
+    <string name="italian">Kiitaliano</string>
+    <string name="japanese">Kijapani</string>
+    <string name="korean">Kikorea</string>
+    <string name="latvian">Kilatvia</string>
+    <string name="lithuanian">Kilithuania</string>
+    <string name="norwegian">Kinorwe</string>
+    <string name="polish">Kipolandi</string>
+    <string name="portuguese">Kireno</string>
+    <string name="romanian">Kiromania</string>
+    <string name="russian">Kirusi</string>
+    <string name="serbian">Kiserbia</string>
+    <string name="slovak">Kislovakia</string>
+    <string name="slovenian">Kislovenia</string>
+    <string name="spanish">Kihispania</string>
+    <string name="swahili">Kiswahili</string>
+    <string name="swedish">Kiswidi</string>
+    <string name="thai">Kithai</string>
+    <string name="turkish">Kituruki</string>
+    <string name="ukrainian">Kiukrania</string>
+    <string name="vietnamese">Kivietinamu</string>
+    <string name="txt_giris_bilgisi_google">Umeingia kwa kutumia Google (xxx).</string>
+    <string name="search_hint">Tafuta…</string>
+    <string name="review_interval">Kipindi cha mapitio</string>
+    <string name="day">siku</string>
+    <string name="nothing_to_show">Hakuna cha kuonyesha hapa bado.</string>
+
+    <string name="unknown">Haijulikani</string>
+    <string name="select_theme">Chagua mandhari:</string>
+    <string name="system_default">Chaguo la mfumo</string>
+    <string name="light_mode">Mandhari ya mwanga</string>
+    <string name="dark_mode">Mandhari ya giza</string>
+    <string name="create_folder">Tengeneza folda:</string>
+    <string name="folder_name">Jina la folda…</string>
+    <string name="folder">Folda:</string>
+    <string name="start_from_scratch">Anza kutoka mwanzo!</string>
+    <string name="no_voice_engine">Hakuna faili la sauti lililopakuliwa hapo awali kwa lugha hii. Tafadhali pakua faili la sauti na anzisha upya programu.</string>
+    <string name="not_common_search">Usemi huu haujatumika sana kwa Kiingereza. Hata hivyo, unaweza kuutumia, lakini AI inaweza kuonya usiutumie katika sentensi.</string>
+    <string name="search_hint_text">Katika utafutaji, unaweza kutumia alama za nafasi kati ya mabano badala ya maandishi yaliyowekwa:</string>
+    <string name="search_hint_1">kupunguza huzuni ya [mtu]</string>
+    <string name="search_hint_2">kupaka rangi [kitu] kwa [rangi]</string>
+    <string name="default_folder">Chaguo-msingi</string>
+    <string name="wrong_translation_direction">Tafsiri yako si katika lugha inayotarajiwa. Lugha lengwa imewekwa kuwa %1$s kwenye mipangilio ya akaunti.</string>
+    <string name="buttonOk">Sawa</string>
+    <string name="buttonSettings">Nenda kwenye mipangilio</string>
+
+    <string name="query_no_blank">Nilijaribu kutafsiri "%1$s" kwa %2$s.
+    Tafsiri yangu: "%3$s"
+    Tafadhali tathmini tafsiri yangu kwa %4$s kuhusiana na sarufi, tahajia, maana, na asili.
+    Jibu lako lazima liwe kwa %4$s na katika muundo huu wa JSON:
+    { "isValid": "true / false.",
+    "feedBack": "Tathmini kwa %4$s." }</string>
+
+    <string name="query_no_blank_reverse">Nilijaribu kutafsiri "%1$s" katika lugha yangu ya asili.
+    Nilitafsiri hivi: "%2$s"
+    Tafadhali tathmini tafsiri yangu kwa usahihi wa maana tu; sarufi na tahajia sio muhimu kwangu.
+    Jibu lako lazima liwe kwa %3$s na katika muundo huu wa JSON:
+    { "isValid": "true / false.",
+    "feedBack": "Tathmini kwa %3$s." }</string>
+
+    <string name="query_with_blank">Nilijaribu kutafsiri "%1$s" kwa %2$s.
+    Tafsiri yangu isiyo kamili: "%3$s"
+    Nafasi tupu katika tafsiri inaashiria sehemu ambayo sikuweza kutafsiri.
+    Tafadhali tathmini tafsiri yangu kwa %4$s kuhusiana na sarufi, tahajia, maana, na asili.
+    Jibu lako lazima liwe kwa %4$s na katika muundo huu wa JSON:
+    { "feedBack": "Tathmini kwa %4$s.",
+    "completeSentence": "Kamilisha tafsiri ya %2$s ukijaza nafasi tupu." }</string>
+
+    <string name="query_with_blank_reverse">Nilijaribu kutafsiri "%1$s" katika lugha yangu ya asili.
+    Tafsiri yangu isiyo kamili: "%2$s"
+    Nafasi tupu katika tafsiri inaashiria sehemu ambayo sikuweza kutafsiri.
+    Tafadhali tathmini tafsiri yangu kwa usahihi wa maana tu; sarufi na tahajia sio muhimu kwangu.
+    Jibu lako lazima liwe kwa %3$s na katika muundo huu wa JSON:
+    { "feedBack": "Tathmini kwa %3$s.",
+    "completeSentence": "Kamilisha tafsiri ya %2$s ukijaza nafasi tupu." }</string>
+
+    <string name="query_for_no_translation">Lugha yangu ya asili ni %1$s.
+    Na ninataka kutafsiri sentensi "%2$s" kwa %3$s.
+    Tafadhali nielezee hatua kwa hatua jinsi ya kutafsiri.
+    Jibu lako lazima liwe katika muundo huu wa JSON:
+    { "translation": "Andika sentensi iliyotafsiriwa kwa %3$s.",
+    "explanation": "Maelezo ya kina kwa %1$s." }</string>
+    <string name="search_issues">Inaonekana kuna baadhi ya matatizo na utafutaji wako. Uamuzi wa mwisho uko mikononi mwako.</string>
+    <string name="search_issue_1">Neno lililotafutwa linaweza lisipo kuwepo katika lugha lengwa.</string>
+    <string name="search_issue_2">Neno lililotafutwa linaweza kuwa na makosa ya tahajia.</string>
+    <string name="search_issue_3">Neno na maana yake yanaweza kutokufanana.</string>
+    <string name="search_issue_4">Neno lililotafutwa linaweza lisitumike sana katika lugha lengwa.</string>
+    <string name="search_issue_5">Kitu kimekosekana, tafadhali sasisha utafutaji wako.</string>
+    <string name="tv_6">Gusa maneno kusikiliza matamshi yao.</string>
+    <string name="example_word">kalamu</string>
+    <string name="liste_baslik_items">Rekodi zote:</string>
+    <string name="liste_baslik_folders">Folda zote:</string>
+    <string name="create_folder_2">Unda folda: %1$s</string>
+    <string name="rename_folder">"Badilisha jina la folda:"</string>
+    <string name="tv_list_empty">Unda orodha yako ya tafsiri.</string>
+    <string name="tv_password_criteria">Neno lako la siri linaweza kuwa mchanganyiko wowote wa herufi 6.</string>
+    <string name="error_email_already_in_use">Anwani hii ya barua pepe tayari imesajiliwa.</string>
+    <string name="error_invalid_email">Tafadhali ingiza anwani halali ya barua pepe.</string>
+    <string name="error_invalid_password">Tafadhali ingiza nenosiri halali.</string>
+    <string name="error_weak_password">Nenosiri halina nguvu ya kutosha.</string>
+    <string name="error_unknown">Kuna hitilafu. Tafadhali jaribu tena.</string>
+    <string name="txt_remaining_translation_count">Tafsiri zilizobaki leo: %1$s</string>
+    <string name="txt_no_quota">Umefikia kikomo chako cha kila siku cha tafsiri.</string>
+    <string name="item_count">Idadi ya vipengele: %1$s</string>
+    <string name="warn_min_sentence_number">Lazima iwe na angalau sentensi %1$s. Tafadhali sasisha utafutaji wako.</string>
+    <string name="folder_selected">Folda: %1$s</string>
+    <string name="no_internet">Kuna tatizo na muunganisho wako wa intaneti.</string>
+    <string name="fail_some_features">Baadhi ya vipengele haviwezi kupakiwa.</string>
+    <string name="example_evaluation_sentence">Tafsiri yako ni sahihi kisarufi, inatoa maana kwa usahihi na inasikika ya asili katika \'%1$s\'. Mlinganyo wa kawaida na wa asili zaidi wa \'%2$s\' katika \'%1$s\' ni \'%3$s\'. Tafsiri nzuri sana.</string>
+
+
+</resources>

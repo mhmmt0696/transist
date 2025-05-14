@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Choices" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <!-- Base AppCompat Theme -->
+    <style name="Theme.MyAppCompatTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryDark">@color/white</item>
+        <item name="colorAccent">@color/teal_700</item>
+        <item name="android:statusBarColor" >#2E2E2E</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="colorControlHighlight">@color/ripple_color</item>
+        <item name="searchViewStyle">@style/Widget.AppCompat.SearchView</item>
+    </style>
+
+</resources>

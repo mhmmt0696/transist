@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="txt_cumle_olustur_baslik">Uttrykket du vil lære:</string>
+    <string name="editText_ifade">Ord: (påkrevd)</string>
+    <string name="editText_anlam">Betydning:</string>
+    <string name="editText_not">Kontekst:</string>
+    <string name="button_ara">Finn setninger</string>
+    <string name="txt_zorluk">Velg vanskelighetsgrad.</string>
+    <string name="buttonSave">Bekreft og lagre</string>
+    <string name="txt_mail_basarisiz">Serverne våre svarer ikke på forespørselen om e-postaktivering. Vennligst prøv igjen senere.</string>
+    <string name="txt_mail_gonderildi">Klikk på aktiveringslenken vi har sendt til din e-postadresse for å bekrefte kontoen din.</string>
+    <string name="tv_delete">Vil du slette kontoen din?</string>
+    <string name="tv_delete_btn">SLETT!</string>
+    <string name="txt_delete_error">Du må ha logget inn nylig for å kunne slette kontoen din.</string>
+    <string name="tv_exit_check">Er du sikker på at du vil logge ut?</string>
+    <string name="tv_exit">Logg ut!</string>
+    <string name="tv_phrases_title">Uttrykk</string>
+    <string name="tv_words_title">Ord</string>
+    <string name="tv_selected_title">Valgt modus:</string>
+    <string name="tv_selected_item">Tilfeldig i hver setning</string>
+    <string name="txt_reset_basarisiz">Serverne våre svarer ikke på forespørselen om tilbakestilling av passord. Vennligst prøv igjen senere.</string>
+    <string name="txt_reset">Sjekk innboksen din. Hvis det finnes en konto registrert med denne e-postadressen, vil du se en tilbakestillingslenke.</string>
+    <string name="txt_sifre_sifirlama">Du kan fortsette tilbakestillingsprosessen via lenken sendt til din e-postadresse.</string>
+    <string name="text_silinecek_aciklama">Oppføringer med et repetisjonsintervall på 30 dager eller mer vil bli slettet.</string>
+    <string name="switch_view">Gjør dette automatisk for meg.</string>
+    <string name="tv_sil">Bekreft og slett</string>
+    <string name="txt_siralama_ölcütü">Sorteringskriterium:</string>
+    <string name="txt_alfabetik">Alfabetisk rekkefølge</string>
+    <string name="txt_eklenme">Sorter etter dato lagt til</string>
+    <string name="txt_araliga_göre">Sorter etter repetisjonsintervall</string>
+    <string name="loadingText">Forbereder setninger…</string>
+    <string name="button_yenile">Oppdater setninger</string>
+    <string name="txt_aralik">Repetisjonsintervall: xxx dager</string>
+    <string name="buttonUpdate">Oppdater</string>
+    <string name="buttonCancel">Avbryt</string>
+    <string name="liste_baslik">Læringslisten din:</string>
+    <string name="tv_unknown">Vennligst velg morsmål og målspråk fra sidepanelet.</string>
+    <string name="tv_empty_list">Uttrykkene du legger til i listen din vil vises i oversettelser.</string>
+    <string name="tv_empty_list_add">Legg til uttrykkene du ønsker å se i oversettelser i læringslisten din.</string>
+    <string name="txt_giris_baslik">Innloggingsinformasjon:</string>
+    <string name="txt_giris_bilgisi_email">Du har logget inn med e-postkontoen din (xxx).</string>
+    <string name="txt_aktivasyon">Send aktiveringslenke på e-post.</string>
+    <string name="txt_sifre_değistir">Jeg vil endre passordet mitt.</string>
+    <string name="hesap_sil">Slett kontoen min.</string>
+    <string name="txt_profil_baslik">Kontoinformasjonen din:</string>
+    <string name="txt_anadil_baslik">Morsmålet ditt:</string>
+    <string name="txt_hedef_dil_baslik">Språket du lærer:</string>
+    <string name="txt_hesap_turu_baslik">Kontotype:</string>
+    <string name="txt_hesap_turu_abonelik">Abonnement</string>
+    <string name="txt_hesap_turu_ücretsiz">Gratis</string>
+    <string name="txt_abonelik_suresi">Aktiv til xxx.</string>
+    <string name="button_buy">Kjøp abonnement</string>
+    <string name="creating_sentence">Setningen din opprettes…</string>
+    <string name="et_translation">Skriv oversettelsen din…</string>
+    <string name="tv_break">Du har gjennomgått alle uttrykkene dine.</string>
+    <string name="button_marathon_start">Start på nytt!</string>
+    <string name="button_marathon_end">Lukk!</string>
+    <string name="tv_welcome">Velkommen!</string>
+    <string name="tv_info">Dette er en oversettelsesapp.</string>
+    <string name="tv_1">Oversett setningen du ser,</string>
+    <string name="tv_2">til språket du ønsker.</string>
+    <string name="tv_3">AI vurderer oversettelsen din på 4 måter: grammatikk, rettskrivning, naturlighet og betydning.</string>
+    <string name="tv_4">Hvis du sitter fast, kan du la feltet stå tomt og fortsette:</string>
+    <string name="tv_5">Hvis du vil øve på et uttrykk oftere, legg det til i læringslisten din.</string>
+    <string name="tv_ls_title">For å komme i gang</string>
+    <string name="tv_native_language">Velg morsmålet ditt:</string>
+    <string name="tv_target_language">Velg språket du vil oversette til:</string>
+    <string name="txt_mail_baslik">Logg inn:</string>
+    <string name="et_mail_hint">E-postkonto</string>
+    <string name="et_sifre_hint">Passord</string>
+    <string name="buton_giris">Logg inn</string>
+    <string name="txt_sifremi_unuttum">Glemt passord.</string>
+    <string name="txt_kayit_ol">Opprett en ny konto.</string>
+    <string name="txt_mail_kayit_baslik">Registrer deg med e-postkontoen din:</string>
+    <string name="et_mail_kayit_hint">Skriv inn e-postadressen din.</string>
+    <string name="et_sifre_kayit_hint">Opprett et passord.</string>
+    <string name="buton_kayit">Registrer</string>
+    <string name="txt_sifre_sifirlama_baslik">Vi vil sende en kobling for å tilbakestille passordet til e-posten din.</string>
+    <string name="et_mail_sifremi_unuttum_hint">Skriv inn e-postadressen din.</string>
+    <string name="buton_sifirla">Send</string>
+    <string name="familiarity_1">Ser det for første gang.</string>
+    <string name="familiarity_2">Jeg har sett det før.</string>
+    <string name="familiarity_3">Jeg kjenner det, men vil øve.</string>
+    <string name="example_sentence">Dette er min penn.</string>
+    <string name="example_sentence_blank">Dette er ____ penn.</string>
+    <string name="feature">Det er mer: Du kan velge vanskelighetsgrad og sørge for at uttrykkene eller mønstrene du er interessert i vises ofte. Hvis du vil lære med spredt repetisjon, er det bare å legge uttrykkene til læringslisten din.</string>
+    <string name="warn_select_difficulty">Prašome pasirinkti sunkumo lygį.</string>
+    <string name="registration_done">Registracija baigta.</string>
+    <string name="warn_expression_empty">Įveskite ieškomą frazę.</string>
+    <string name="warn_typo">Deja, jūsų įvesta frazė turi rašybos klaidų.</string>
+    <string name="warn_meaning">Yra reikšmės neatitikimas.</string>
+    <string name="update_successful">Įrašas atnaujintas.</string>
+    <string name="error_occured">Įvyko klaida.</string>
+    <string name="muilti_items_deleted">Ištrintų sakinių skaičius: xxx</string>
+    <string name="warn_missing_input">Trūksta informacijos.</string>
+    <string name="log_in_failed">Prisijungimas nepavyko: įvesta neteisinga informacija.</string>
+    <string name="no_given_translation">Įveskite vertimo tekstą.</string>
+    <string name="api_busy">Dirbtinis intelektas negalėjo atsakyti dėl užimtumo.</string>
+    <string name="apology">Atsiprašome už nepatogumus.</string>
+    <string name="try_again_later">Bandykite dar kartą vėliau.</string>
+    <string name="solace">Norėdami kompensuoti, pridėsime vieno mėnesio prenumeratą prie jūsų paskyros.</string>
+    <string name="warn_select_language">Nepasirinkote kalbos.</string>
+
+    <string name="dark_theme_title">Mørkt tema:</string>
+    <string name="arabic">Arabisk</string>
+    <string name="bengali">Bengali</string>
+    <string name="bulgarian">Bulgarsk</string>
+    <string name="chinese">Kinesisk</string>
+    <string name="croatian">Kroatisk</string>
+    <string name="czech">Tsjekkisk</string>
+    <string name="danish">Dansk</string>
+    <string name="dutch">Nederlandsk</string>
+    <string name="english">Engelsk</string>
+    <string name="estonian">Estisk</string>
+    <string name="finnish">Finsk</string>
+    <string name="french">Fransk</string>
+    <string name="german">Tysk</string>
+    <string name="greek">Gresk</string>
+    <string name="hebrew">Hebraisk</string>
+    <string name="hindi">Hindi</string>
+    <string name="hungarian">Ungarsk</string>
+    <string name="indonesian">Indonesisk</string>
+    <string name="italian">Italiensk</string>
+    <string name="japanese">Japansk</string>
+    <string name="korean">Koreansk</string>
+    <string name="latvian">Latvisk</string>
+    <string name="lithuanian">Litauisk</string>
+    <string name="norwegian">Norsk</string>
+    <string name="polish">Polsk</string>
+    <string name="portuguese">Portugisisk</string>
+    <string name="romanian">Rumensk</string>
+    <string name="russian">Russisk</string>
+    <string name="serbian">Serbisk</string>
+    <string name="slovak">Slovakisk</string>
+    <string name="slovenian">Slovensk</string>
+    <string name="spanish">Spansk</string>
+    <string name="swahili">Swahili</string>
+    <string name="swedish">Svensk</string>
+    <string name="thai">Thai</string>
+    <string name="turkish">Tyrkisk</string>
+    <string name="ukrainian">Ukrainsk</string>
+    <string name="vietnamese">Vietnamesisk</string>
+    <string name="txt_giris_bilgisi_google">Du har logget inn med Google (xxx).</string>
+    <string name="search_hint">Søk…</string>
+    <string name="review_interval">Gjennomgangsintervall</string>
+    <string name="day">dag</string>
+    <string name="nothing_to_show">Ingenting å vise her ennå.</string>
+
+    <string name="unknown">Ukjent</string>
+    <string name="select_theme">Velg tema:</string>
+    <string name="system_default">Systemstandard</string>
+    <string name="light_mode">Lyst tema</string>
+    <string name="dark_mode">Mørkt tema</string>
+    <string name="create_folder">Opprett mappe:</string>
+    <string name="folder_name">Mappenavn…</string>
+    <string name="folder">Mappe:</string>
+    <string name="start_from_scratch">Start fra begynnelsen!</string>
+    <string name="no_voice_engine">Det ble ikke funnet noen tidligere nedlastede lydfiler for dette språket. Vennligst last ned en lydfil og start appen på nytt.</string>
+    <string name="not_common_search">Dette uttrykket brukes ikke ofte på engelsk. Du kan likevel legge det til, men AI kan advare mot å bruke det i setninger.</string>
+    <string name="search_hint_text">I søk kan du bruke plassholdere i parentes i stedet for fast tekst:</string>
+    <string name="search_hint_1">lette [noens] sorg</string>
+    <string name="search_hint_2">male [noe] [farge]</string>
+    <string name="default_folder">Standard</string>
+    <string name="wrong_translation_direction">Oversettelsen din er ikke på forventet språk. Målrettet språk er satt til %1$s i kontoinnstillingene dine.</string>
+    <string name="buttonOk">OK</string>
+    <string name="buttonSettings">Gå til innstillinger</string>
+
+    <string name="query_no_blank">Jeg prøvde å oversette "%1$s" til %2$s.
+    Min oversettelse: "%3$s"
+    Vennligst vurder oversettelsen min på %4$s for grammatikk, staving, mening og naturlighet.
+    Svaret ditt skal være på %4$s og i følgende JSON-format:
+    { "isValid": "true / false.",
+    "feedBack": "Vurdering på %4$s." }</string>
+
+    <string name="query_no_blank_reverse">Jeg prøvde å oversette "%1$s" til mitt morsmål.
+    Jeg oversatte det slik: "%2$s"
+    Vennligst vurder oversettelsen min kun basert på meningsnøyaktighet; grammatikk og staving er ikke viktig for meg.
+    Svaret ditt skal være på %3$s og i følgende JSON-format:
+    { "isValid": "true / false.",
+    "feedBack": "Vurdering på %3$s." }</string>
+
+    <string name="query_with_blank">Jeg prøvde å oversette "%1$s" til %2$s.
+    Min ufullstendige oversettelse: "%3$s"
+    Tomrommet i oversettelsen indikerer delen jeg ikke kunne oversette.
+    Vennligst vurder oversettelsen min på %4$s for grammatikk, staving, mening og naturlighet.
+    Svaret ditt skal være på %4$s og i følgende JSON-format:
+    { "feedBack": "Vurdering på %4$s.",
+    "completeSentence": "Fullfør %2$s-oversettelsen ved å fylle inn tomrommene." }</string>
+
+    <string name="query_with_blank_reverse">Jeg prøvde å oversette "%1$s" til mitt morsmål.
+    Min ufullstendige oversettelse: "%2$s"
+    Tomrommet i oversettelsen indikerer delen jeg ikke kunne oversette.
+    Vennligst vurder oversettelsen min kun basert på meningsnøyaktighet; grammatikk og staving er ikke viktig for meg.
+    Svaret ditt skal være på %3$s og i følgende JSON-format:
+    { "feedBack": "Vurdering på %3$s.",
+    "completeSentence": "Fullfør %2$s-oversettelsen ved å fylle inn tomrommene." }</string>
+
+    <string name="query_for_no_translation">Mitt morsmål er %1$s.
+    Og jeg vil oversette setningen "%2$s" til %3$s.
+    Vennligst forklar trinn for trinn hvordan jeg skal oversette den.
+    Svaret ditt skal være i følgende JSON-format:
+    { "translation": "Skriv setningen oversatt til %3$s.",
+    "explanation": "Detaljert forklaring på %1$s." }</string>
+
+    <string name="search_issues">Det ser ut til å være noen problemer med søket ditt. Den endelige avgjørelsen er opp til deg.</string>
+    <string name="search_issue_1">Det søkte ordet eksisterer kanskje ikke på målspråket.</string>
+    <string name="search_issue_2">Det søkte ordet kan inneholde stavefeil.</string>
+    <string name="search_issue_3">Ordet og betydningen samsvarer kanskje ikke.</string>
+    <string name="search_issue_4">Det søkte begrepet brukes kanskje ikke ofte på målspråket.</string>
+    <string name="search_issue_5">Noe gikk galt, vennligst oppdater søket.</string>
+    <string name="tv_6">Trykk på ordene for å høre uttalen deres.</string>
+    <string name="example_word">penn</string>
+    <string name="liste_baslik_items">Alle poster:</string>
+    <string name="liste_baslik_folders">Alle mapper:</string>
+    <string name="create_folder_2">Opprett mappe: %1$s</string>
+    <string name="rename_folder">"Gi nytt navn til mappe:"</string>
+    <string name="tv_list_empty">Lag din egen oversettelsesliste.</string>
+    <string name="tv_password_criteria">Passordet ditt kan være hvilken som helst 6-tegnskombinasjon.</string>
+    <string name="error_email_already_in_use">Denne e-postadressen er allerede registrert.</string>
+    <string name="error_invalid_email">Vennligst skriv inn en gyldig e-postadresse.</string>
+    <string name="error_invalid_password">Vennligst skriv inn et gyldig passord.</string>
+    <string name="error_weak_password">Passordet er ikke sterkt nok.</string>
+    <string name="error_unknown">En feil oppstod. Vennligst prøv igjen.</string>
+    <string name="txt_remaining_translation_count">Gjenværende oversettelser i dag: %1$s</string>
+    <string name="txt_no_quota">Du har nådd din daglige oversettelsesgrense.</string>
+    <string name="item_count">Antall elementer: %1$s</string>
+    <string name="warn_min_sentence_number">Det må være minst %1$s setninger. Vennligst oppdater søket.</string>
+    <string name="folder_selected">Mappe: %1$s</string>
+    <string name="no_internet">Det er et problem med internettforbindelsen din.</string>
+    <string name="fail_some_features">Noen funksjoner kunne ikke lastes.</string>
+    <string name="example_evaluation_sentence">Oversettelsen din er grammatisk korrekt, formidler meningen nøyaktig og høres naturlig ut på \'%1$s\'. Den vanligste og mest naturlige ekvivalenten til \'%2$s\' på \'%1$s\' er \'%3$s\'. Flott oversettelse.</string>
+
+</resources>

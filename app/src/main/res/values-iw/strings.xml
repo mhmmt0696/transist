@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="txt_cumle_olustur_baslik">ביטוי שברצונך ללמוד:</string>
+    <string name="editText_ifade">מילה: (נדרש)</string>
+    <string name="editText_anlam">משמעות:</string>
+    <string name="editText_not">הקשר:</string>
+    <string name="button_ara">מצא משפטים</string>
+    <string name="txt_zorluk">בחר רמת קושי.</string>
+    <string name="buttonSave">אישור ושמירה</string>
+    <string name="txt_mail_basarisiz">השרתים שלנו לא מגיבים לבקשת אימות הדוא"ל. אנא נסה שוב מאוחר יותר.</string>
+    <string name="txt_mail_gonderildi">לחץ על קישור האימות ששלחנו לכתובת הדוא"ל שלך כדי שנוכל לאמת את החשבון שלך.</string>
+    <string name="tv_delete">האם ברצונך למחוק את החשבון שלך?</string>
+    <string name="tv_delete_btn">מחק!</string>
+    <string name="txt_delete_error">כדי למחוק את חשבונך, עליך להתחבר לאחרונה.</string>
+    <string name="tv_exit_check">האם אתה בטוח שברצונך להתנתק?</string>
+    <string name="tv_exit">התנתק!</string>
+    <string name="tv_phrases_title">ביטויים</string>
+    <string name="tv_words_title">מילים</string>
+    <string name="tv_selected_title">מצב נבחר:</string>
+    <string name="tv_selected_item">אקראי בכל משפט</string>
+    <string name="txt_reset_basarisiz">השרתים שלנו לא מגיבים לבקשת איפוס הסיסמה. אנא נסה שוב מאוחר יותר.</string>
+    <string name="txt_reset">בדוק את תיבת הדואר הנכנס שלך. אם קיימת הרשמה עם כתובת הדוא"ל הזו, תראה קישור לאיפוס סיסמה.</string>
+    <string name="txt_sifre_sifirlama">באפשרותך להמשיך את תהליך האיפוס באמצעות הקישור שנשלח אליך בדוא"ל.</string>
+    <string name="text_silinecek_aciklama">שומות עם מרווח סקירה של 30 ימים או יותר יימחקו.</string>
+    <string name="switch_view">בצע זאת אוטומטית עבורי.</string>
+    <string name="tv_sil">אשר ומחק</string>
+    <string name="txt_siralama_ölcütü">קריטריון מיון:</string>
+    <string name="txt_alfabetik">סדר אלפביתי</string>
+    <string name="txt_eklenme">סדר לפי תאריך הוספה</string>
+    <string name="txt_araliga_göre">סדר לפי מרווח חזרה</string>
+    <string name="loadingText">מכין משפטים…</string>
+    <string name="button_yenile">רענן משפטים</string>
+    <string name="txt_aralik">מרווח חזרה: xxx ימים</string>
+    <string name="buttonUpdate">עדכן</string>
+    <string name="buttonCancel">ביטול</string>
+    <string name="liste_baslik">רשימת הלמידה שלך:</string>
+    <string name="tv_unknown">בחר את שפת האם ושפת היעד שלך מהתפריט הצדדי.</string>
+    <string name="tv_empty_list">ביטויים שתוסיף לרשימה יופיעו בתרגומים.</string>
+    <string name="tv_empty_list_add">הוסף ביטויים שברצונך לראות בתרגומים לרשימת הלמידה שלך.</string>
+    <string name="txt_giris_baslik">פרטי הכניסה שלך:</string>
+    <string name="txt_giris_bilgisi_email">התחברת עם חשבון הדוא"ל שלך (xxx).</string>
+    <string name="txt_aktivasyon">שלח קישור לאימות דוא"ל.</string>
+    <string name="txt_sifre_değistir">אני רוצה לשנות את הסיסמה שלי.</string>
+    <string name="hesap_sil">מחק את החשבון שלי.</string>
+    <string name="txt_profil_baslik">פרטי החשבון שלך:</string>
+    <string name="txt_anadil_baslik">שפת האם שלך:</string>
+    <string name="txt_hedef_dil_baslik">השפה שאתה לומד:</string>
+    <string name="txt_hesap_turu_baslik">סוג חשבון:</string>
+    <string name="txt_hesap_turu_abonelik">מנוי</string>
+    <string name="txt_hesap_turu_ücretsiz">חינם</string>
+    <string name="txt_abonelik_suresi">פעיל עד xxx.</string>
+    <string name="button_buy">רכוש מנוי</string>
+    <string name="creating_sentence">יוצר את המשפט שלך…</string>
+    <string name="et_translation">כתוב את התרגום שלך…</string>
+    <string name="tv_break">סיימת לעבור על כל הביטויים שלך.</string>
+    <string name="button_marathon_start">התחל מההתחלה!</string>
+    <string name="button_marathon_end">סגור!</string>
+    <string name="tv_welcome">ברוך הבא!</string>
+    <string name="tv_info">זוהי אפליקציית תרגום.</string>
+    <string name="tv_1">תרגם את המשפט שאתה רואה,</string>
+    <string name="tv_2">לשפה שבה אתה בוחר.</string>
+    <string name="tv_3">ה-AI מעריך את התרגום שלך לפי 4 מדדים: דקדוק, איות, טבעיות ומשמעות.</string>
+    <string name="tv_4">אם אתה מתקשה, תוכל להשאיר ריק ולהמשיך:</string>
+    <string name="tv_5">אם ברצונך לתרגל ביטוי מסוים יותר, הוסף אותו לרשימת הלמידה שלך.</string>
+    <string name="tv_ls_title">להתחיל</string>
+    <string name="tv_native_language">בחר את שפת האם שלך:</string>
+    <string name="tv_target_language">בחר את שפת היעד:</string>
+    <string name="txt_mail_baslik">התחברות:</string>
+    <string name="et_mail_hint">חשבון אימייל</string>
+    <string name="et_sifre_hint">סיסמה</string>
+    <string name="buton_giris">התחבר</string>
+    <string name="txt_sifremi_unuttum">שכחתי את הסיסמה.</string>
+    <string name="txt_kayit_ol">צור חשבון חדש.</string>
+    <string name="txt_mail_kayit_baslik">הירשם עם כתובת האימייל שלך:</string>
+    <string name="et_mail_kayit_hint">הזן את כתובת האימייל שלך.</string>
+    <string name="et_sifre_kayit_hint">בחר סיסמה.</string>
+    <string name="buton_kayit">הרשמה</string>
+    <string name="txt_sifre_sifirlama_baslik">נשלח קישור לאיפוס סיסמה לכתובת האימייל שלך.</string>
+    <string name="et_mail_sifremi_unuttum_hint">הזן את כתובת האימייל שלך.</string>
+    <string name="buton_sifirla">שלח</string>
+    <string name="familiarity_1">אני רואה את זה לראשונה.</string>
+    <string name="familiarity_2">ראיתי את זה בעבר.</string>
+    <string name="familiarity_3">אני מכיר את זה, אבל רוצה להתאמן.</string>
+    <string name="example_sentence">זה העט שלי.</string>
+    <string name="example_sentence_blank">זה ____ עט.</string>
+    <string name="feature">יש עוד: תוכל לבחור רמת קושי ולוודא שהביטויים או התבניות שמעניינים אותך יופיעו לעיתים קרובות. אם ברצונך ללמוד באמצעות שיטת חזרה מרווחת, פשוט הוסף את הביטויים לרשימת הלמידה שלך.</string>
+    <string name="warn_select_difficulty">אנא בחר רמת קושי.</string>
+    <string name="registration_done">ההרשמה הושלמה.</string>
+    <string name="warn_expression_empty">אנא כתוב את הביטוי שברצונך לחפש.</string>
+    <string name="warn_typo">לצערנו, הביטוי שהוזן מכיל שגיאת כתיב.</string>
+    <string name="warn_meaning">יש אי התאמה במשמעות.</string>
+    <string name="update_successful">הרשומה עודכנה.</string>
+    <string name="error_occured">אירעה שגיאה.</string>
+    <string name="muilti_items_deleted">מספר המשפטים שנמחקו: xxx</string>
+    <string name="warn_missing_input">יש מידע חסר.</string>
+    <string name="log_in_failed">ההתחברות נכשלה: הזנת מידע שגוי.</string>
+    <string name="no_given_translation">אנא הזן את הטקסט לתרגום.</string>
+    <string name="api_busy">הבינה המלאכותית לא הצליחה להגיב עקב עומס.</string>
+    <string name="apology">אנו מצטערים על התקלה.</string>
+    <string name="try_again_later">אנא נסה שוב מאוחר יותר.</string>
+    <string name="solace">כפיצוי, נוסיף לחשבונך מנוי לחודש אחד.</string>
+    <string name="warn_select_language">לא בחרת שפה.</string>
+
+
+    <string name="dark_theme_title">ערכת נושא כהה:</string>
+    <string name="arabic">ערבית</string>
+    <string name="bengali">בנגלית</string>
+    <string name="bulgarian">בולגרית</string>
+    <string name="chinese">סינית</string>
+    <string name="croatian">קרואטית</string>
+    <string name="czech">צ\'כית</string>
+    <string name="danish">דנית</string>
+    <string name="dutch">הולנדית</string>
+    <string name="english">אנגלית</string>
+    <string name="estonian">אסטונית</string>
+    <string name="finnish">פינית</string>
+    <string name="french">צרפתית</string>
+    <string name="german">גרמנית</string>
+    <string name="greek">יוונית</string>
+    <string name="hebrew">עברית</string>
+    <string name="hindi">הינדית</string>
+    <string name="hungarian">הונגרית</string>
+    <string name="indonesian">אינדונזית</string>
+    <string name="italian">איטלקית</string>
+    <string name="japanese">יפנית</string>
+    <string name="korean">קוריאנית</string>
+    <string name="latvian">לטבית</string>
+    <string name="lithuanian">ליטאית</string>
+    <string name="norwegian">נורווגית</string>
+    <string name="polish">פולנית</string>
+    <string name="portuguese">פורטוגזית</string>
+    <string name="romanian">רומנית</string>
+    <string name="russian">רוסית</string>
+    <string name="serbian">סרבית</string>
+    <string name="slovak">סלובקית</string>
+    <string name="slovenian">סלובנית</string>
+    <string name="spanish">ספרדית</string>
+    <string name="swahili">סוואהילית</string>
+    <string name="swedish">שוודית</string>
+    <string name="thai">תאילנדית</string>
+    <string name="turkish">טורקית</string>
+    <string name="ukrainian">אוקראינית</string>
+    <string name="vietnamese">וייטנאמית</string>
+    <string name="txt_giris_bilgisi_google">נכנסת באמצעות Google ‏(xxx).</string>
+    <string name="search_hint">חפש…</string>
+    <string name="review_interval">מרווח סקירה</string>
+    <string name="day">יום</string>
+    <string name="nothing_to_show">אין מה להציג כאן עדיין.</string>
+
+    <string name="unknown">לא ידוע</string>
+    <string name="select_theme">בחר נושא:</string>
+    <string name="system_default">ברירת המחדל של המערכת</string>
+    <string name="light_mode">מצב בהיר</string>
+    <string name="dark_mode">מצב כהה</string>
+    <string name="create_folder">צור תיקיה:</string>
+    <string name="folder_name">שם התיקיה…</string>
+    <string name="folder">תיקיה:</string>
+    <string name="start_from_scratch">התחל מההתחלה!</string>
+    <string name="no_voice_engine">לא נמצא קובץ קול שהורד בעבר עבור שפה זו. הורד קובץ קול והפעל מחדש את האפליקציה.</string>
+    <string name="not_common_search">ביטוי זה אינו נפוץ באנגלית. ניתן להוסיף אותו, אך שים לב ש-AI עשוי להתריע מפני שימוש בו במשפטים.</string>
+    <string name="search_hint_text">בחיפושים שלך, ניתן להשתמש בממלאי מקומות בסוגריים במקום טקסט קבוע:</string>
+    <string name="search_hint_1">להקל על עצב [של מישהו]</string>
+    <string name="search_hint_2">לצבוע [משהו] ב[צבע]</string>
+    <string name="default_folder">ברירת מחדל</string>
+    <string name="wrong_translation_direction">התרגום שלך אינו בשפה הצפויה. שפת היעד שלך מוגדרת כ-%1$s בהגדרות החשבון שלך.</string>
+    <string name="buttonOk">אישור</string>
+    <string name="buttonSettings">עבור להגדרות</string>
+
+    <string name="query_no_blank">ניסיתי לתרגם את "%1$s" ל-%2$s.
+    התרגום שלי היה: "%3$s"
+    אנא הערך את תרגומי ב-%4$s מבחינת דקדוק, איות, משמעות וטבעיות.
+    התשובה שלך חייבת להיות ב-%4$s ובפורמט JSON הבא:
+    { "isValid": "true / false.",
+    "feedBack": "הערכה ב-%4$s." }</string>
+
+    <string name="query_no_blank_reverse">ניסיתי לתרגם את "%1$s" לשפת האם שלי.
+    תרגמתי כך: "%2$s"
+    אנא הערך את תרגומי רק מבחינת דיוק המשמעות; דקדוק ואיות אינם חשובים לי.
+    התשובה שלך חייבת להיות ב-%3$s ובפורמט JSON הבא:
+    { "isValid": "true / false.",
+    "feedBack": "הערכה ב-%3$s." }</string>
+
+    <string name="query_with_blank">ניסיתי לתרגם את "%1$s" ל-%2$s.
+    התרגום הלא שלם שלי: "%3$s"
+    הרווח בתרגום שלי מציין את החלק שלא הצלחתי לתרגם.
+    אנא הערך את תרגומי ב-%4$s מבחינת דקדוק, איות, משמעות וטבעיות.
+    התשובה שלך חייבת להיות ב-%4$s ובפורמט JSON הבא:
+    { "feedBack": "הערכה ב-%4$s.",
+    "completeSentence": "השלים את תרגום ה-%2$s על ידי מילוי החסר." }</string>
+
+    <string name="query_with_blank_reverse">ניסיתי לתרגם את "%1$s" לשפת האם שלי.
+    התרגום הלא שלם שלי: "%2$s"
+    הרווח בתרגום שלי מציין את החלק שלא הצלחתי לתרגם.
+    אנא הערך את תרגומי רק מבחינת דיוק המשמעות; דקדוק ואיות אינם חשובים לי.
+    התשובה שלך חייבת להיות ב-%3$s ובפורמט JSON הבא:
+    { "feedBack": "הערכה ב-%3$s.",
+    "completeSentence": "השלים את תרגום ה-%2$s על ידי מילוי החסר." }</string>
+
+    <string name="query_for_no_translation">שפת האם שלי היא %1$s.
+    ואני רוצה לתרגם את המשפט "%2$s" ל-%3$s.
+    אנא הסבר לי שלב-שלב כיצד עלי לתרגם אותו.
+    התשובה שלך חייבת להיות בפורמט JSON הבא:
+    { "translation": "כתוב את המשפט המתורגם ב-%3$s.",
+    "explanation": "הסבר מפורט ב-%1$s." }</string>
+
+    <string name="search_issues">נראה שיש כמה בעיות בחיפוש שלך. ההחלטה הסופית היא שלך.</string>
+    <string name="search_issue_1">המילה שחיפשת עשויה לא להתקיים בשפה היעד.</string>
+    <string name="search_issue_2">ייתכן שהמילה שחיפשת מכילה שגיאות כתיב.</string>
+    <string name="search_issue_3">ייתכן שהמילה והמשמעות אינן תואמות.</string>
+    <string name="search_issue_4">המונח שחיפשת עשוי לא להיות בשימוש נפוץ בשפה היעד.</string>
+    <string name="search_issue_5">משהו השתבש, אנא רענן את החיפוש שלך.</string>
+    <string name="tv_6">הקש על המילים כדי לשמוע את ההגייה שלהן.</string>
+    <string name="example_word">עט</string>
+    <string name="liste_baslik_items">כל הרשומות:</string>
+    <string name="liste_baslik_folders">כל התיקיות:</string>
+    <string name="create_folder_2">צור תיקייה: %1$s</string>
+    <string name="rename_folder">"שנה שם תיקייה:"</string>
+    <string name="tv_list_empty">צור את רשימת התרגום שלך.</string>
+    <string name="tv_password_criteria">הסיסמה שלך יכולה להיות כל שילוב של 6 תווים.</string>
+    <string name="error_email_already_in_use">כתובת אימייל זו כבר רשומה.</string>
+    <string name="error_invalid_email">אנא הזן כתובת אימייל תקפה.</string>
+    <string name="error_invalid_password">אנא הזן סיסמה תקפה.</string>
+    <string name="error_weak_password">הסיסמה אינה חזקה מספיק.</string>
+    <string name="error_unknown">אירעה שגיאה. נסה שוב.</string>
+    <string name="txt_remaining_translation_count">תרגומים שנותרו היום: %1$s</string>
+    <string name="txt_no_quota">הגעת למגבלת התרגומים היומית שלך.</string>
+    <string name="item_count">מספר פריטים: %1$s</string>
+    <string name="warn_min_sentence_number">חייב להיות לפחות %1$s משפטים. אנא רענן את החיפוש שלך.</string>
+    <string name="folder_selected">תיקייה: %1$s</string>
+    <string name="no_internet">יש בעיה בחיבור לאינטרנט.</string>
+    <string name="fail_some_features">חלק מהפונקציות לא נטענו.</string>
+    <string name="example_evaluation_sentence">התרגום שלך דקדוקי נכון, מעביר את המשמעות במדויק ונשמע טבעי ב-\'%1$s\'. ההתאמה הנפוצה והטבעית ביותר ל-\'%2$s\' ב-\'%1$s\' היא \'%3$s\'. תרגום מצוין.</string>
+</resources>

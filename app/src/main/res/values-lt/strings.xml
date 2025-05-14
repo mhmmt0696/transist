@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="txt_cumle_olustur_baslik">Išraiška, kurią norite išmokti:</string>
+    <string name="editText_ifade">Žodis: (privaloma)</string>
+    <string name="editText_anlam">Reikšmė:</string>
+    <string name="editText_not">Kontekstas:</string>
+    <string name="button_ara">Rasti sakinius</string>
+    <string name="txt_zorluk">Pasirinkite sunkumo lygį.</string>
+    <string name="buttonSave">Patvirtinti ir išsaugoti</string>
+    <string name="txt_mail_basarisiz">Mūsų serveriai neatsako į el. pašto aktyvinimo užklausą. Pabandykite dar kartą vėliau.</string>
+    <string name="txt_mail_gonderildi">Spustelėkite aktyvinimo nuorodą, kurią išsiuntėme į jūsų el. paštą, kad patvirtintume jūsų paskyrą.</string>
+    <string name="tv_delete">Ar tikrai norite ištrinti savo paskyrą?</string>
+    <string name="tv_delete_btn">IŠTRINTI!</string>
+    <string name="txt_delete_error">Norėdami ištrinti paskyrą, turite būti prisijungę neseniai.</string>
+    <string name="tv_exit_check">Ar tikrai norite atsijungti?</string>
+    <string name="tv_exit">Atsijungti!</string>
+    <string name="tv_phrases_title">Frazių</string>
+    <string name="tv_words_title">Žodžiai</string>
+    <string name="tv_selected_title">Pasirinktas režimas:</string>
+    <string name="tv_selected_item">Atsitiktinai kiekviename sakinyje</string>
+    <string name="txt_reset_basarisiz">Mūsų serveriai neatsako į slaptažodžio atstatymo užklausą. Pabandykite dar kartą vėliau.</string>
+    <string name="txt_reset">Patikrinkite savo pašto dėžutę. Jei šis el. pašto adresas jau buvo užregistruotas, gausite nuorodą slaptažodžiui atstatyti.</string>
+    <string name="txt_sifre_sifirlama">Galite tęsti slaptažodžio atstatymo procesą naudodamiesi nuoroda, išsiųsta į jūsų el. paštą.</string>
+    <string name="text_silinecek_aciklama">Įrašai, kurių peržiūros intervalas yra 30 dienų ar daugiau, bus ištrinti.</string>
+    <string name="switch_view">Atlikite tai automatiškai už mane.</string>
+    <string name="tv_sil">Patvirtinti ir ištrinti</string>
+    <string name="txt_siralama_ölcütü">Rikiavimo kriterijus:</string>
+    <string name="txt_alfabetik">Pagal abėcėlę</string>
+    <string name="txt_eklenme">Pagal pridėjimo datą</string>
+    <string name="txt_araliga_göre">Pagal peržiūros intervalą</string>
+    <string name="loadingText">Sakiniai ruošiami…</string>
+    <string name="button_yenile">Atnaujinti sakinius</string>
+    <string name="txt_aralik">Peržiūros intervalas: xxx dienų</string>
+    <string name="buttonUpdate">Atnaujinti</string>
+    <string name="buttonCancel">Atšaukti</string>
+    <string name="liste_baslik">Jūsų mokymosi sąrašas:</string>
+    <string name="tv_unknown">Pasirinkite gimtąją ir tikslinę kalbą iš šoninio meniu.</string>
+    <string name="tv_empty_list">Išraiškos, kurias pridėjote į savo sąrašą, pasirodys vertimuose.</string>
+    <string name="tv_empty_list_add">Pridėkite norimas išraiškas į mokymosi sąrašą, kad jos pasirodytų vertimuose.</string>
+    <string name="txt_giris_baslik">Jūsų prisijungimo informacija:</string>
+    <string name="txt_giris_bilgisi_email">Jūs prisijungėte su el. pašto paskyra (xxx).</string>
+    <string name="txt_aktivasyon">Siųsti aktyvinimo nuorodą el. paštu.</string>
+    <string name="txt_sifre_değistir">Noriu pakeisti slaptažodį.</string>
+    <string name="hesap_sil">Ištrinti mano paskyrą.</string>
+    <string name="txt_profil_baslik">Jūsų paskyros informacija:</string>
+    <string name="txt_anadil_baslik">Jūsų gimtoji kalba:</string>
+    <string name="txt_hedef_dil_baslik">Mokoma kalba:</string>
+    <string name="txt_hesap_turu_baslik">Paskyros tipas:</string>
+    <string name="txt_hesap_turu_abonelik">Prenumerata</string>
+    <string name="txt_hesap_turu_ücretsiz">Nemokama</string>
+    <string name="txt_abonelik_suresi">Aktyvi iki xxx.</string>
+    <string name="button_buy">Pirkti prenumeratą</string>
+    <string name="creating_sentence">Sakinys kuriamas…</string>
+    <string name="et_translation">Įveskite savo vertimą…</string>
+    <string name="tv_break">Peržiūrėjote visas savo išraiškas.</string>
+    <string name="button_marathon_start">Pradėti iš naujo!</string>
+    <string name="button_marathon_end">Uždaryti!</string>
+    <string name="tv_welcome">Sveiki atvykę!</string>
+    <string name="tv_info">Tai vertimo programa.</string>
+    <string name="tv_1">Išverskite matomą sakinį,</string>
+    <string name="tv_2">į pasirinktą kalbą.</string>
+    <string name="tv_3">Dirbtinis intelektas vertina jūsų vertimą 4 aspektais: gramatika, rašyba, natūralumas ir reikšmė.</string>
+    <string name="tv_4">Jei užstrigote, galite palikti tuščią ir tęsti:</string>
+    <string name="tv_5">Jei norite dažniau praktikuoti išraišką, pridėkite ją į savo mokymosi sąrašą.</string>
+    <string name="tv_ls_title">Norėdami pradėti</string>
+    <string name="tv_native_language">Pasirinkite savo gimtąją kalbą:</string>
+    <string name="tv_target_language">Pasirinkite kalbą, į kurią versti:</string>
+    <string name="txt_mail_baslik">Prisijunkite:</string>
+    <string name="et_mail_hint">El. pašto paskyra</string>
+    <string name="et_sifre_hint">Slaptažodis</string>
+    <string name="buton_giris">Prisijungti</string>
+    <string name="txt_sifremi_unuttum">Pamiršau slaptažodį.</string>
+    <string name="txt_kayit_ol">Sukurti naują paskyrą.</string>
+    <string name="txt_mail_kayit_baslik">Užsiregistruokite naudodami savo el. pašto paskyrą:</string>
+    <string name="et_mail_kayit_hint">Įveskite savo el. pašto adresą.</string>
+    <string name="et_sifre_kayit_hint">Nustatykite savo slaptažodį.</string>
+    <string name="buton_kayit">Registruotis</string>
+    <string name="txt_sifre_sifirlama_baslik">Išsiųsime nuorodą slaptažodžio atkūrimui į jūsų el. paštą.</string>
+    <string name="et_mail_sifremi_unuttum_hint">Įveskite savo el. pašto adresą.</string>
+    <string name="buton_sifirla">Siųsti</string>
+    <string name="familiarity_1">Matau pirmą kartą.</string>
+    <string name="familiarity_2">Anksčiau esu matęs.</string>
+    <string name="familiarity_3">Žinau, bet noriu praktikuotis.</string>
+    <string name="example_sentence">Tai yra mano rašiklis.</string>
+    <string name="example_sentence_blank">Tai yra ____ rašiklis.</string>
+    <string name="feature">Yra dar daugiau: galite pasirinkti sunkumo lygį ir užtikrinti, kad jus dominančios frazės ar šablonai būtų dažnai rodomi. Jei norite mokytis taikydami išdėstyto kartojimo metodą, tiesiog pridėkite frazes į savo mokymosi sąrašą.</string>
+    <string name="warn_select_difficulty">Prašome pasirinkti sunkumo lygį.</string>
+    <string name="registration_done">Registracija baigta.</string>
+    <string name="warn_expression_empty">Įveskite ieškomą frazę.</string>
+    <string name="warn_typo">Deja, jūsų įvesta frazė turi rašybos klaidų.</string>
+    <string name="warn_meaning">Yra reikšmės neatitikimas.</string>
+    <string name="update_successful">Įrašas atnaujintas.</string>
+    <string name="error_occured">Įvyko klaida.</string>
+    <string name="muilti_items_deleted">Ištrintų sakinių skaičius: xxx</string>
+    <string name="warn_missing_input">Trūksta informacijos.</string>
+    <string name="log_in_failed">Prisijungimas nepavyko: įvesta neteisinga informacija.</string>
+    <string name="no_given_translation">Įveskite vertimo tekstą.</string>
+    <string name="api_busy">Dirbtinis intelektas negalėjo atsakyti dėl užimtumo.</string>
+    <string name="apology">Atsiprašome už nepatogumus.</string>
+    <string name="try_again_later">Bandykite dar kartą vėliau.</string>
+    <string name="solace">Norėdami kompensuoti, pridėsime vieno mėnesio prenumeratą prie jūsų paskyros.</string>
+    <string name="warn_select_language">Nepasirinkote kalbos.</string>
+
+    <string name="dark_theme_title">Tamsi tema:</string>
+    <string name="arabic">Arabų</string>
+    <string name="bengali">Bengalų</string>
+    <string name="bulgarian">Bulgarų</string>
+    <string name="chinese">Kinų</string>
+    <string name="croatian">Kroatų</string>
+    <string name="czech">Čekų</string>
+    <string name="danish">Danų</string>
+    <string name="dutch">Olandų</string>
+    <string name="english">Anglų</string>
+    <string name="estonian">Estų</string>
+    <string name="finnish">Suomių</string>
+    <string name="french">Prancūzų</string>
+    <string name="german">Vokiečių</string>
+    <string name="greek">Graikų</string>
+    <string name="hebrew">Hebrajų</string>
+    <string name="hindi">Hindi</string>
+    <string name="hungarian">Vengrų</string>
+    <string name="indonesian">Indoneziečių</string>
+    <string name="italian">Italų</string>
+    <string name="japanese">Japonų</string>
+    <string name="korean">Korėjiečių</string>
+    <string name="latvian">Latvių</string>
+    <string name="lithuanian">Lietuvių</string>
+    <string name="norwegian">Norvegų</string>
+    <string name="polish">Lenkų</string>
+    <string name="portuguese">Portugalų</string>
+    <string name="romanian">Rumunų</string>
+    <string name="russian">Rusų</string>
+    <string name="serbian">Serbų</string>
+    <string name="slovak">Slovakų</string>
+    <string name="slovenian">Slovėnų</string>
+    <string name="spanish">Ispanų</string>
+    <string name="swahili">Suahili</string>
+    <string name="swedish">Švedų</string>
+    <string name="thai">Tajų</string>
+    <string name="turkish">Turkų</string>
+    <string name="ukrainian">Ukrainiečių</string>
+    <string name="vietnamese">Vietnamiečių</string>
+    <string name="txt_giris_bilgisi_google">Prisijungėte naudodami „Google“ (xxx).</string>
+    <string name="search_hint">Ieškoti…</string>
+    <string name="review_interval">Peržiūros intervalas</string>
+    <string name="day">diena</string>
+    <string name="nothing_to_show">Čia kol kas nėra ką rodyti.</string>
+
+    <string name="unknown">Nežinomas</string>
+    <string name="select_theme">Pasirinkite temą:</string>
+    <string name="system_default">Sistemos numatytasis</string>
+    <string name="light_mode">Šviesi tema</string>
+    <string name="dark_mode">Tamsi tema</string>
+    <string name="create_folder">Sukurti aplanką:</string>
+    <string name="folder_name">Aplanko pavadinimas…</string>
+    <string name="folder">Aplankas:</string>
+    <string name="start_from_scratch">Pradėti nuo pradžių!</string>
+    <string name="no_voice_engine">Šiai kalbai anksčiau atsisiųsto garso failo nerasta. Atsisiųskite garso failą ir paleiskite programą iš naujo.</string>
+    <string name="not_common_search">Ši frazė nėra dažnai naudojama anglų kalboje. Galite ją pridėti, bet AI gali įspėti, kad jos nenaudotumėte sakiniuose.</string>
+    <string name="search_hint_text">Paieškose galite naudoti žymes skliaustuose vietoj fiksuoto teksto:</string>
+    <string name="search_hint_1">palengvinti [kieno] liūdesį</string>
+    <string name="search_hint_2">nudažyti [ką nors] [spalva]</string>
+    <string name="default_folder">Numatytasis</string>
+    <string name="wrong_translation_direction">Jūsų vertimas nėra numatytoje kalboje. Tikslinė kalba nustatyta %1$s jūsų paskyros nustatymuose.</string>
+    <string name="buttonOk">Gerai</string>
+    <string name="buttonSettings">Eiti į nustatymus</string>
+
+    <string name="query_no_blank">Bandžiau išversti "%1$s" į %2$s.
+    Mano vertimas: "%3$s"
+    Prašome įvertinti mano vertimą %4$s pagal gramatiką, rašybą, prasmę ir natūralumą.
+    Atsakymas turi būti %4$s kalba ir šiuo JSON formatu:
+    { "isValid": "true / false.",
+    "feedBack": "Įvertinimas %4$s kalba." }</string>
+
+    <string name="query_no_blank_reverse">Bandžiau išversti "%1$s" į savo gimtąją kalbą.
+    Išvertiau taip: "%2$s"
+    Prašome įvertinti mano vertimą tik pagal prasmės tikslumą; gramatika ir rašyba man nėra svarbi.
+    Atsakymas turi būti %3$s kalba ir šiuo JSON formatu:
+    { "isValid": "true / false.",
+    "feedBack": "Įvertinimas %3$s kalba." }</string>
+
+    <string name="query_with_blank">Bandžiau išversti "%1$s" į %2$s.
+    Mano neišbaigtas vertimas: "%3$s"
+    Vertime esanti tuščia vieta nurodo dalį, kurios negalėjau išversti.
+    Prašome įvertinti mano vertimą %4$s pagal gramatiką, rašybą, prasmę ir natūralumą.
+    Atsakymas turi būti %4$s kalba ir šiuo JSON formatu:
+    { "feedBack": "Įvertinimas %4$s kalba.",
+    "completeSentence": "Užpildykite tuščias vietas, kad užbaigtumėte %2$s vertimą." }</string>
+
+    <string name="query_with_blank_reverse">Bandžiau išversti "%1$s" į savo gimtąją kalbą.
+    Mano neišbaigtas vertimas: "%2$s"
+    Vertime esanti tuščia vieta nurodo dalį, kurios negalėjau išversti.
+    Prašome įvertinti mano vertimą tik pagal prasmės tikslumą; gramatika ir rašyba man nėra svarbi.
+    Atsakymas turi būti %3$s kalba ir šiuo JSON formatu:
+    { "feedBack": "Įvertinimas %3$s kalba.",
+    "completeSentence": "Užpildykite tuščias vietas, kad užbaigtumėte %2$s vertimą." }</string>
+
+    <string name="query_for_no_translation">Mano gimtoji kalba yra %1$s.
+    Ir noriu išversti sakinį "%2$s" į %3$s.
+    Prašome paaiškinti žingsnis po žingsnio, kaip turiu tai išversti.
+    Atsakymas turi būti šiuo JSON formatu:
+    { "translation": "Parašykite išverstą sakinį %3$s kalba.",
+    "explanation": "Išsamus paaiškinimas %1$s kalba." }</string>
+
+    <string name="search_issues">Atrodo, kad jūsų paieškoje yra kai kurių problemų. Galutinį sprendimą priimate jūs.</string>
+    <string name="search_issue_1">Ieškomas žodis gali neegzistuoti tikslinėje kalboje.</string>
+    <string name="search_issue_2">Ieškomame žodyje gali būti rašybos klaidų.</string>
+    <string name="search_issue_3">Žodis ir reikšmė gali nesutapti.</string>
+    <string name="search_issue_4">Ieškomas terminas gali būti retai naudojamas tikslinėje kalboje.</string>
+    <string name="search_issue_5">Įvyko klaida, prašome atnaujinti paiešką.</string>
+    <string name="tv_6">Bakstelėkite žodžius, kad išgirstumėte jų tarimą.</string>
+    <string name="example_word">rašiklis</string>
+    <string name="liste_baslik_items">Visi įrašai:</string>
+    <string name="liste_baslik_folders">Visi aplankai:</string>
+    <string name="create_folder_2">Sukurti aplanką: %1$s</string>
+    <string name="rename_folder">"Pervardyti aplanką:"</string>
+    <string name="tv_list_empty">Sukurkite savo vertimų sąrašą.</string>
+    <string name="tv_password_criteria">Jūsų slaptažodis gali būti bet koks 6 simbolių derinys.</string>
+    <string name="error_email_already_in_use">Šis el. pašto adresas jau užregistruotas.</string>
+    <string name="error_invalid_email">Įveskite galiojantį el. pašto adresą.</string>
+    <string name="error_invalid_password">Įveskite galiojantį slaptažodį.</string>
+    <string name="error_weak_password">Slaptažodis nėra pakankamai stiprus.</string>
+    <string name="error_unknown">Įvyko klaida. Bandykite dar kartą.</string>
+    <string name="txt_remaining_translation_count">Šiandien likę vertimai: %1$s</string>
+    <string name="txt_no_quota">Pasiekėte savo dienos vertimo limitą.</string>
+    <string name="item_count">Elementų skaičius: %1$s</string>
+    <string name="warn_min_sentence_number">Turi būti bent %1$s sakinių. Prašome atnaujinti paiešką.</string>
+    <string name="folder_selected">Aplankas: %1$s</string>
+    <string name="no_internet">Yra problema su jūsų interneto ryšiu.</string>
+    <string name="fail_some_features">Kai kurios funkcijos nebuvo įkeltos.</string>
+    <string name="example_evaluation_sentence">Jūsų vertimas yra gramatiškai teisingas, tiksliai perteikia prasmę ir skamba natūraliai \'%1$s\' kalboje. Dažniausiai vartojamas ir natūralus atitikmuo žodžiui \'%2$s\' \'%1$s\' kalboje yra \'%3$s\'. Puikus vertimas.</string>
+
+</resources>

@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="txt_cumle_olustur_baslik">Izraz koji želite da naučite:</string>
+    <string name="editText_ifade">Reč: (obavezno)</string>
+    <string name="editText_anlam">Značenje:</string>
+    <string name="editText_not">Kontekst:</string>
+    <string name="button_ara">Pronađi rečenice</string>
+    <string name="txt_zorluk">Izaberite nivo težine.</string>
+    <string name="buttonSave">Potvrdi i sačuvaj</string>
+    <string name="txt_mail_basarisiz">Naši serveri ne odgovaraju na zahtev za aktivaciju e-pošte. Pokušajte ponovo kasnije.</string>
+    <string name="txt_mail_gonderildi">Kliknite na link za aktivaciju koji smo poslali na vašu e-poštu kako bismo verifikovali vaš nalog.</string>
+    <string name="tv_delete">Da li želite da izbrišete svoj nalog?</string>
+    <string name="tv_delete_btn">OBRIŠI!</string>
+    <string name="txt_delete_error">Da biste izbrisali nalog, morate se nedavno prijaviti.</string>
+    <string name="tv_exit_check">Da li ste sigurni da želite da se odjavite?</string>
+    <string name="tv_exit">Odjavi se!</string>
+    <string name="tv_phrases_title">Izrazi</string>
+    <string name="tv_words_title">Reči</string>
+    <string name="tv_selected_title">Izabrani režim:</string>
+    <string name="tv_selected_item">Nasumično u svakoj rečenici</string>
+    <string name="txt_reset_basarisiz">Naši serveri ne odgovaraju na zahtev za resetovanje lozinke. Pokušajte ponovo kasnije.</string>
+    <string name="txt_reset">Proverite prijemno sanduče. Ako je nalog ranije registrovan sa ovom adresom, videćete link za resetovanje lozinke.</string>
+    <string name="txt_sifre_sifirlama">Možete nastaviti proces resetovanja lozinke pomoću linka poslatog na vašu e-poštu.</string>
+    <string name="text_silinecek_aciklama">Unosi sa intervalom ponavljanja od 30 dana ili više biće obrisani.</string>
+    <string name="switch_view">Uradi to automatski za mene.</string>
+    <string name="tv_sil">Potvrdi i obriši</string>
+    <string name="txt_siralama_ölcütü">Kriterijum sortiranja:</string>
+    <string name="txt_alfabetik">Abecedni red</string>
+    <string name="txt_eklenme">Sortiraj po datumu dodavanja</string>
+    <string name="txt_araliga_göre">Sortiraj po intervalu ponavljanja</string>
+    <string name="loadingText">Pripremaju se rečenice…</string>
+    <string name="button_yenile">Osveži rečenice</string>
+    <string name="txt_aralik">Interval ponavljanja: xxx dana</string>
+    <string name="buttonUpdate">Ažuriraj</string>
+    <string name="buttonCancel">Otkaži</string>
+    <string name="liste_baslik">Vaša lista za učenje:</string>
+    <string name="tv_unknown">Molimo izaberite svoj maternji i ciljni jezik iz bočnog panela.</string>
+    <string name="tv_empty_list">Izrazi koje dodate na svoju listu za usvajanje pojavljivaće se u prevodima.</string>
+    <string name="tv_empty_list_add">Dodajte izraze koje želite da vidite u prevodima na listu za učenje.</string>
+    <string name="txt_giris_baslik">Vaši podaci za prijavu:</string>
+    <string name="txt_giris_bilgisi_email">Prijavili ste se putem e-pošte (xxx).</string>
+    <string name="txt_aktivasyon">Pošalji link za aktivaciju putem e-pošte.</string>
+    <string name="txt_sifre_değistir">Želim da promenim lozinku.</string>
+    <string name="hesap_sil">Izbriši moj nalog.</string>
+    <string name="txt_profil_baslik">Informacije o vašem nalogu:</string>
+    <string name="txt_anadil_baslik">Vaš maternji jezik:</string>
+    <string name="txt_hedef_dil_baslik">Jezik koji učite:</string>
+    <string name="txt_hesap_turu_baslik">Tip naloga:</string>
+    <string name="txt_hesap_turu_abonelik">Pretplata</string>
+    <string name="txt_hesap_turu_ücretsiz">Besplatan</string>
+    <string name="txt_abonelik_suresi">Aktivan do xxx.</string>
+    <string name="button_buy">Kupi pretplatu</string>
+    <string name="creating_sentence">Generišem vašu rečenicu…</string>
+    <string name="et_translation">Napišite svoj prevod…</string>
+    <string name="tv_break">Pregledali ste sve izraze.</string>
+    <string name="button_marathon_start">Počni ispočetka!</string>
+    <string name="button_marathon_end">Zatvori!</string>
+    <string name="tv_welcome">Dobrodošli!</string>
+    <string name="tv_info">Ovo je aplikacija za prevod.</string>
+    <string name="tv_1">Prevedite rečenicu koju vidite,</string>
+    <string name="tv_2">na jezik po vašem izboru.</string>
+    <string name="tv_3">AI ocenjuje vaš prevod po 4 osnova: gramatika, pravopis, prirodnost i značenje.</string>
+    <string name="tv_4">Ako se zaglavite, možete ostaviti prazno i nastaviti:</string>
+    <string name="tv_5">Ako želite da češće vežbate izraz, dodajte ga na listu za učenje.</string>
+    <string name="tv_ls_title">Za početak</string>
+    <string name="tv_native_language">Izaberite svoj maternji jezik:</string>
+    <string name="tv_target_language">Izaberite jezik za prevod:</string>
+    <string name="txt_mail_baslik">Prijava:</string>
+    <string name="et_mail_hint">E-mail nalog</string>
+    <string name="et_sifre_hint">Lozinka</string>
+    <string name="buton_giris">Prijavi se</string>
+    <string name="txt_sifremi_unuttum">Zaboravio sam lozinku.</string>
+    <string name="txt_kayit_ol">Kreiraj novi nalog.</string>
+    <string name="txt_mail_kayit_baslik">Registruj se pomoću e-mail naloga:</string>
+    <string name="et_mail_kayit_hint">Unesite svoj e-mail.</string>
+    <string name="et_sifre_kayit_hint">Unesite lozinku.</string>
+    <string name="buton_kayit">Registruj se</string>
+    <string name="txt_sifre_sifirlama_baslik">Poslaćemo link za resetovanje lozinke na vaš e-mail.</string>
+    <string name="et_mail_sifremi_unuttum_hint">Unesite svoj e-mail.</string>
+    <string name="buton_sifirla">Pošalji</string>
+    <string name="familiarity_1">Prvi put vidim.</string>
+    <string name="familiarity_2">Već sam video.</string>
+    <string name="familiarity_3">Znam, ali želim da vežbam.</string>
+    <string name="example_sentence">Ovo je moja olovka.</string>
+    <string name="example_sentence_blank">Ovo je ____ olovka.</string>
+    <string name="feature">Ima još: možete izabrati nivo težine i osigurati da se izrazi ili obrasci koji vas zanimaju često pojavljuju. Ako želite da učite pomoću metode ponavljanja u razmacima, samo dodajte izraze na svoju listu za učenje.</string>
+    <string name="warn_select_difficulty">Molimo vas da izaberete nivo težine.</string>
+    <string name="registration_done">Registracija je uspešno završena.</string>
+    <string name="warn_expression_empty">Unesite izraz koji želite da pretražite.</string>
+    <string name="warn_typo">Nažalost, uneti izraz sadrži pravopisnu grešku.</string>
+    <string name="warn_meaning">Postoji neusaglašenost značenja.</string>
+    <string name="update_successful">Zapis je ažuriran.</string>
+    <string name="error_occured">Došlo je do greške.</string>
+    <string name="muilti_items_deleted">Broj obrisanih rečenica: xxx</string>
+    <string name="warn_missing_input">Nedostaju podaci.</string>
+    <string name="log_in_failed">Prijava neuspešna: Uneli ste netačne podatke.</string>
+    <string name="no_given_translation">Molimo unesite tekst prevoda.</string>
+    <string name="api_busy">Veštačka inteligencija nije mogla da odgovori zbog opterećenja.</string>
+    <string name="apology">Izvinjavamo se zbog neprijatnosti.</string>
+    <string name="try_again_later">Pokušajte ponovo kasnije.</string>
+    <string name="solace">Kao nadoknadu dodaćemo jednomesečnu pretplatu na vaš nalog.</string>
+    <string name="warn_select_language">Niste izabrali jezik.</string>
+
+    <string name="search_hint">Претрага…</string>
+    <string name="dark_theme_title">Tamna tema:</string>
+    <string name="arabic">Arapski</string>
+    <string name="bengali">Bengalski</string>
+    <string name="bulgarian">Bugarski</string>
+    <string name="chinese">Kineski</string>
+    <string name="croatian">Hrvatski</string>
+    <string name="czech">Češki</string>
+    <string name="danish">Danski</string>
+    <string name="dutch">Holandski</string>
+    <string name="english">Engleski</string>
+    <string name="estonian">Estonski</string>
+    <string name="finnish">Finski</string>
+    <string name="french">Francuski</string>
+    <string name="german">Nemački</string>
+    <string name="greek">Grčki</string>
+    <string name="hebrew">Hebrejski</string>
+    <string name="hindi">Hindu</string>
+    <string name="hungarian">Mađarski</string>
+    <string name="indonesian">Indonežanski</string>
+    <string name="italian">Italijanski</string>
+    <string name="japanese">Japanski</string>
+    <string name="korean">Korejski</string>
+    <string name="latvian">Letonski</string>
+    <string name="lithuanian">Litvanski</string>
+    <string name="norwegian">Norveški</string>
+    <string name="polish">Poljski</string>
+    <string name="portuguese">Portugalski</string>
+    <string name="romanian">Rumunski</string>
+    <string name="russian">Ruski</string>
+    <string name="serbian">Srpski</string>
+    <string name="slovak">Slovački</string>
+    <string name="slovenian">Slovenački</string>
+    <string name="spanish">Španski</string>
+    <string name="swahili">Svahili</string>
+    <string name="swedish">Švedski</string>
+    <string name="thai">Tajlandski</string>
+    <string name="turkish">Turski</string>
+    <string name="ukrainian">Ukrajinski</string>
+    <string name="vietnamese">Vijetnamski</string>
+    <string name="txt_giris_bilgisi_google">Prijavili ste se putem Google naloga (xxx).</string>
+    <string name="review_interval">Interval ponavljanja</string>
+    <string name="day">dan</string>
+    <string name="nothing_to_show">Ovde još uvek nema šta da se prikaže.</string>
+
+    <string name="unknown">Nepoznato</string>
+    <string name="select_theme">Izaberite temu:</string>
+    <string name="system_default">Podrazumevano sistema</string>
+    <string name="light_mode">Svetla tema</string>
+    <string name="dark_mode">Tamna tema</string>
+    <string name="create_folder">Kreiraj folder:</string>
+    <string name="folder_name">Ime foldera…</string>
+    <string name="folder">Folder:</string>
+    <string name="start_from_scratch">Počni od početka!</string>
+    <string name="no_voice_engine">Nije pronađen nijedan prethodno preuzet audio fajl za ovaj jezik. Molimo preuzmite audio fajl i ponovo pokrenite aplikaciju.</string>
+    <string name="not_common_search">Ovaj izraz se ne koristi često na engleskom. Ipak ga možete dodati, ali AI može upozoriti da ga ne koristite u rečenicama.</string>
+    <string name="search_hint_text">U pretragama možete koristiti zamenjive oznake u zagradama umesto fiksnog teksta:</string>
+    <string name="search_hint_1">olakšati tugu [nekoga]</string>
+    <string name="search_hint_2">ofarbati [nešto] u [boju]</string>
+    <string name="default_folder">Podrazumevano</string>
+    <string name="wrong_translation_direction">Vaš prevod nije na očekivanom jeziku. Ciljni jezik je postavljen na %1$s u podešavanjima naloga.</string>
+    <string name="buttonOk">OK</string>
+    <string name="buttonSettings">Idi na podešavanja</string>
+
+    <string name="query_no_blank">Pokušao sam da prevedem "%1$s" na %2$s.
+    Moj prevod: "%3$s"
+    Molimo ocenite moj prevod na %4$s u pogledu gramatike, pravopisa, značenja i prirodnosti.
+    Vaš odgovor treba biti na %4$s i u sledećem JSON formatu:
+    { "isValid": "true / false.",
+    "feedBack": "Ocena na %4$s." }</string>
+
+    <string name="query_no_blank_reverse">Pokušao sam da prevedem "%1$s" na moj maternji jezik.
+    Preveo sam ovako: "%2$s"
+    Molimo ocenite moj prevod samo po tačnosti značenja; gramatika i pravopis nisu važni za mene.
+    Vaš odgovor treba biti na %3$s i u sledećem JSON formatu:
+    { "isValid": "true / false.",
+    "feedBack": "Ocena na %3$s." }</string>
+
+    <string name="query_with_blank">Pokušao sam da prevedem "%1$s" na %2$s.
+    Moj nepotpun prevod: "%3$s"
+    Prazno mesto u prevodu označava deo koji nisam mogao da prevedem.
+    Molimo ocenite moj prevod na %4$s u pogledu gramatike, pravopisa, značenja i prirodnosti.
+    Vaš odgovor treba biti na %4$s i u sledećem JSON formatu:
+    { "feedBack": "Ocena na %4$s.",
+    "completeSentence": "Dovršite %2$s prevod popunjavanjem praznina." }</string>
+
+    <string name="query_with_blank_reverse">Pokušao sam da prevedem "%1$s" na moj maternji jezik.
+    Moj nepotpun prevod: "%2$s"
+    Prazno mesto u prevodu označava deo koji nisam mogao da prevedem.
+    Molimo ocenite moj prevod samo po tačnosti značenja; gramatika i pravopis nisu važni za mene.
+    Vaš odgovor treba biti na %3$s i u sledećem JSON formatu:
+    { "feedBack": "Ocena na %3$s.",
+    "completeSentence": "Dovršite %2$s prevod popunjavanjem praznina." }</string>
+
+    <string name="query_for_no_translation">Moj maternji jezik je %1$s.
+    I želim da prevedem rečenicu "%2$s" na %3$s.
+    Molimo objasnite mi korak po korak kako da prevedem.
+    Vaš odgovor treba biti u sledećem JSON formatu:
+    { "translation": "Napišite rečenicu prevedenu na %3$s.",
+    "explanation": "Detaljno objašnjenje na %1$s." }</string>
+
+    <string name="search_issues">Izgleda da postoje neki problemi sa vašom pretragom. Konačna odluka je na vama.</string>
+    <string name="search_issue_1">Tražena reč možda ne postoji na ciljanom jeziku.</string>
+    <string name="search_issue_2">Tražena reč može sadržati pravopisne greške.</string>
+    <string name="search_issue_3">Reč i značenje možda se ne poklapaju.</string>
+    <string name="search_issue_4">Traženi termin možda nije često korišćen na ciljanom jeziku.</string>
+    <string name="search_issue_5">Nešto je pošlo po zlu, osvežite pretragu.</string>
+    <string name="tv_6">Dodirnite reči da biste čuli njihovu izgovor.</string>
+    <string name="example_word">olovka</string>
+    <string name="liste_baslik_items">Svi zapisi:</string>
+    <string name="liste_baslik_folders">Sve fascikle:</string>
+    <string name="create_folder_2">Kreiraj fasciklu: %1$s</string>
+    <string name="rename_folder">"Preimenuj fasciklu:"</string>
+    <string name="tv_list_empty">Kreirajte svoju listu prevoda.</string>
+    <string name="tv_password_criteria">Vaša lozinka može biti bilo koja kombinacija od 6 karaktera.</string>
+    <string name="error_email_already_in_use">Ova e-mail adresa je već registrovana.</string>
+    <string name="error_invalid_email">Molimo unesite važeću e-mail adresu.</string>
+    <string name="error_invalid_password">Molimo unesite važeću lozinku.</string>
+    <string name="error_weak_password">Lozinka nije dovoljno jaka.</string>
+    <string name="error_unknown">Došlo je do greške. Pokušajte ponovo.</string>
+    <string name="txt_remaining_translation_count">Preostali prevodi danas: %1$s</string>
+    <string name="txt_no_quota">Dostigli ste dnevni limit prevoda.</string>
+    <string name="item_count">Broj stavki: %1$s</string>
+    <string name="warn_min_sentence_number">Mora biti najmanje %1$s rečenica. Osvežite pretragu.</string>
+    <string name="folder_selected">Fascikla: %1$s</string>
+    <string name="no_internet">Postoji problem sa vašom internet konekcijom.</string>
+    <string name="fail_some_features">Neke funkcije nisu mogle biti učitane.</string>
+    <string name="example_evaluation_sentence">Vaš prevod je gramatički ispravan, precizno prenosi značenje i zvuči prirodno na \'%1$s\'. Najčešći i najprirodniji ekvivalent za \'%2$s\' u \'%1$s\' je \'%3$s\'. Odličan prevod.</string>
+
+</resources>

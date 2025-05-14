@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="txt_cumle_olustur_baslik">Izteiksme, ko vēlies iemācīties:</string>
+    <string name="editText_ifade">Vārds: (obligāts)</string>
+    <string name="editText_anlam">Nozīme:</string>
+    <string name="editText_not">Konteksts:</string>
+    <string name="button_ara">Atrast teikumus</string>
+    <string name="txt_zorluk">Izvēlies grūtības līmeni.</string>
+    <string name="buttonSave">Apstiprināt un saglabāt</string>
+    <string name="txt_mail_basarisiz">Mūsu serveri neatbild uz e-pasta aktivizācijas pieprasījumu. Lūdzu, mēģiniet vēlreiz vēlāk.</string>
+    <string name="txt_mail_gonderildi">Klikšķiniet uz aktivizācijas saites, ko nosūtījām uz jūsu e-pastu, lai apstiprinātu kontu.</string>
+    <string name="tv_delete">Vai vēlaties dzēst savu kontu?</string>
+    <string name="tv_delete_btn">DZĒST!</string>
+    <string name="txt_delete_error">Lai dzēstu kontu, jums nesen bija jāpiesakās.</string>
+    <string name="tv_exit_check">Vai tiešām vēlaties izrakstīties?</string>
+    <string name="tv_exit">Izrakstīties!</string>
+    <string name="tv_phrases_title">Frāzes</string>
+    <string name="tv_words_title">Vārdi</string>
+    <string name="tv_selected_title">Izvēlētais režīms:</string>
+    <string name="tv_selected_item">Katrs teikums nejaušs</string>
+    <string name="txt_reset_basarisiz">Mūsu serveri neatbild uz paroles atiestatīšanas pieprasījumu. Lūdzu, mēģiniet vēlreiz vēlāk.</string>
+    <string name="txt_reset">Pārbaudiet savu iesūtni. Ja šai e-pasta adresei jau ir konts, jūs saņemsiet paroles atiestatīšanas saiti.</string>
+    <string name="txt_sifre_sifirlama">Jūs varat turpināt paroles atiestatīšanu, izmantojot saiti, kas nosūtīta uz jūsu e-pastu.</string>
+    <string name="text_silinecek_aciklama">Ieraksti ar 30 dienu vai ilgāku pārskatīšanas intervālu tiks dzēsti.</string>
+    <string name="switch_view">Izpildi šo automātiski manā vietā.</string>
+    <string name="tv_sil">Apstiprināt un dzēst</string>
+    <string name="txt_siralama_ölcütü">Kārtošanas kritērijs:</string>
+    <string name="txt_alfabetik">Alfabētiskā secībā</string>
+    <string name="txt_eklenme">Pēc pievienošanas datuma</string>
+    <string name="txt_araliga_göre">Pēc pārskatīšanas intervāla</string>
+    <string name="loadingText">Teikumi tiek sagatavoti…</string>
+    <string name="button_yenile">Atjaunināt teikumus</string>
+    <string name="txt_aralik">Pārskatīšanas intervāls: xxx dienas</string>
+    <string name="buttonUpdate">Atjaunināt</string>
+    <string name="buttonCancel">Atcelt</string>
+    <string name="liste_baslik">Jūsu mācību saraksts:</string>
+    <string name="tv_unknown">Lūdzu, izvēlieties savu dzimto un mērķa valodu sānu panelī.</string>
+    <string name="tv_empty_list">Izteiksmes, kuras pievienojat apguves sarakstam, parādīsies tulkojumos.</string>
+    <string name="tv_empty_list_add">Pievienojiet izteiksmes, ko vēlaties redzēt tulkojumos, savam mācību sarakstam.</string>
+    <string name="txt_giris_baslik">Jūsu pieteikšanās informācija:</string>
+    <string name="txt_giris_bilgisi_email">Jūs piesakāties ar e-pasta kontu (xxx).</string>
+    <string name="txt_aktivasyon">Sūtīt e-pasta aktivizācijas saiti.</string>
+    <string name="txt_sifre_değistir">Es vēlos nomainīt paroli.</string>
+    <string name="hesap_sil">Dzēst manu kontu.</string>
+    <string name="txt_profil_baslik">Jūsu konta informācija:</string>
+    <string name="txt_anadil_baslik">Jūsu dzimtā valoda:</string>
+    <string name="txt_hedef_dil_baslik">Valoda, kuru jūs mācāties:</string>
+    <string name="txt_hesap_turu_baslik">Konta tips:</string>
+    <string name="txt_hesap_turu_abonelik">Abonements</string>
+    <string name="txt_hesap_turu_ücretsiz">Bezmaksas</string>
+    <string name="txt_abonelik_suresi">Aktīvs līdz xxx.</string>
+    <string name="button_buy">Pirkt abonementu</string>
+    <string name="creating_sentence">Teikums tiek ģenerēts…</string>
+    <string name="et_translation">Ierakstiet savu tulkojumu…</string>
+    <string name="tv_break">Jūs esat pārskatījis visas savas izteiksmes.</string>
+    <string name="button_marathon_start">Sākt no sākuma!</string>
+    <string name="button_marathon_end">Aizvērt!</string>
+    <string name="tv_welcome">Laipni lūdzam!</string>
+    <string name="tv_info">Šī ir tulkošanas lietotne.</string>
+    <string name="tv_1">Tulkot redzamo teikumu,</string>
+    <string name="tv_2">jūsu izvēlētajā valodā.</string>
+    <string name="tv_3">AI novērtē jūsu tulkojumu četros veidos: Gramatika, pareizrakstība, dabiskums un nozīme.</string>
+    <string name="tv_4">Ja iestrēgstiet, varat atstāt tukšu un turpināt:</string>
+    <string name="tv_5">Ja vēlaties biežāk praktizēt izteiksmi, pievienojiet to mācību sarakstam.</string>
+    <string name="tv_ls_title">Lai sāktu</string>
+    <string name="tv_native_language">Izvēlieties savu dzimto valodu:</string>
+    <string name="tv_target_language">Izvēlieties valodu, uz kuru tulkot:</string>
+    <string name="txt_mail_baslik">Pieslēdzieties:</string>
+    <string name="et_mail_hint">E-pasta konts</string>
+    <string name="et_sifre_hint">Parole</string>
+    <string name="buton_giris">Pieslēgties</string>
+    <string name="txt_sifremi_unuttum">Aizmirsi paroli.</string>
+    <string name="txt_kayit_ol">Izveidot jaunu kontu.</string>
+    <string name="txt_mail_kayit_baslik">Reģistrējieties ar savu e-pasta kontu:</string>
+    <string name="et_mail_kayit_hint">Ievadiet savu e-pasta adresi.</string>
+    <string name="et_sifre_kayit_hint">Iestatiet savu paroli.</string>
+    <string name="buton_kayit">Reģistrēties</string>
+    <string name="txt_sifre_sifirlama_baslik">Mēs nosūtīsim paroles atiestatīšanas saiti uz jūsu e-pastu.</string>
+    <string name="et_mail_sifremi_unuttum_hint">Ievadiet savu e-pasta adresi.</string>
+    <string name="buton_sifirla">Nosūtīt</string>
+    <string name="familiarity_1">Redzu pirmo reizi.</string>
+    <string name="familiarity_2">Esmu redzējis iepriekš.</string>
+    <string name="familiarity_3">Zinu, bet vēlos praktizēt.</string>
+    <string name="example_sentence">Šī ir mana pildspalva.</string>
+    <string name="example_sentence_blank">Šī ir ____ pildspalva.</string>
+    <string name="feature">Ir vēl vairāk: jūs varat izvēlēties grūtības līmeni un nodrošināt, lai interesējošās izteiksmes vai modeļi biežāk parādītos. Ja vēlaties mācīties, izmantojot atstarotās atkārtošanas metodi, vienkārši pievienojiet izteiksmes savai mācību sarakstā.</string>
+    <string name="warn_select_difficulty">Lūdzu, izvēlieties grūtības pakāpi.</string>
+    <string name="registration_done">Reģistrācija pabeigta.</string>
+    <string name="warn_expression_empty">Lūdzu, ievadiet izteicienu, kuru vēlaties meklēt.</string>
+    <string name="warn_typo">Diemžēl ievadītajā izteicienā ir pareizrakstības kļūda.</string>
+    <string name="warn_meaning">Ir nozīmes neatbilstība.</string>
+    <string name="update_successful">Ieraksts atjaunināts.</string>
+    <string name="error_occured">Radās kļūda.</string>
+    <string name="muilti_items_deleted">Dzēsto teikumu skaits: xxx</string>
+    <string name="warn_missing_input">Trūkst informācijas.</string>
+    <string name="log_in_failed">Pieteikšanās neizdevās: Ievadīta nepareiza informācija.</string>
+    <string name="no_given_translation">Lūdzu, ievadiet tulkojamo tekstu.</string>
+    <string name="api_busy">AI šobrīd ir aizņemts un nevarēja atbildēt.</string>
+    <string name="apology">Atvainojamies par sagādātajām neērtībām.</string>
+    <string name="try_again_later">Lūdzu, mēģiniet vēlreiz vēlāk.</string>
+    <string name="solace">Kompensācijai mēs pievienosim vienu mēnesi abonementa jūsu kontam.</string>
+    <string name="warn_select_language">Jūs neesat izvēlējies valodu.</string>
+
+    <string name="dark_theme_title">Tumšā tēma:</string>
+    <string name="arabic">Arābu</string>
+    <string name="bengali">Bengāļu</string>
+    <string name="bulgarian">Bulgāru</string>
+    <string name="chinese">Ķīniešu</string>
+    <string name="croatian">Horvātu</string>
+    <string name="czech">Čehu</string>
+    <string name="danish">Dāņu</string>
+    <string name="dutch">Holandiešu</string>
+    <string name="english">Angļu</string>
+    <string name="estonian">Igauņu</string>
+    <string name="finnish">Somu</string>
+    <string name="french">Franču</string>
+    <string name="german">Vācu</string>
+    <string name="greek">Grieķu</string>
+    <string name="hebrew">Ebreju</string>
+    <string name="hindi">Hindī</string>
+    <string name="hungarian">Ungāru</string>
+    <string name="indonesian">Indonēziešu</string>
+    <string name="italian">Itāļu</string>
+    <string name="japanese">Japāņu</string>
+    <string name="korean">Korejiešu</string>
+    <string name="latvian">Latviešu</string>
+    <string name="lithuanian">Lietuviešu</string>
+    <string name="norwegian">Norvēģu</string>
+    <string name="polish">Poļu</string>
+    <string name="portuguese">Portugāļu</string>
+    <string name="romanian">Rumāņu</string>
+    <string name="russian">Krievu</string>
+    <string name="serbian">Serbu</string>
+    <string name="slovak">Slovāku</string>
+    <string name="slovenian">Slovēņu</string>
+    <string name="spanish">Spāņu</string>
+    <string name="swahili">Svahili</string>
+    <string name="swedish">Zviedru</string>
+    <string name="thai">Taju</string>
+    <string name="turkish">Turku</string>
+    <string name="ukrainian">Ukraiņu</string>
+    <string name="vietnamese">Vjetnamiešu</string>
+    <string name="txt_giris_bilgisi_google">Jūs esat pieteicies ar Google (xxx).</string>
+    <string name="search_hint">Meklēt…</string>
+    <string name="review_interval">Pārskatīšanas intervāls</string>
+    <string name="day">diena</string>
+    <string name="nothing_to_show">Šeit pagaidām nav ko rādīt.</string>
+
+    <string name="unknown">Nezināms</string>
+    <string name="select_theme">Izvēlieties tēmu:</string>
+    <string name="system_default">Sistēmas noklusējums</string>
+    <string name="light_mode">Gaišā tēma</string>
+    <string name="dark_mode">Tumšā tēma</string>
+    <string name="create_folder">Izveidot mapi:</string>
+    <string name="folder_name">Mapes nosaukums…</string>
+    <string name="folder">Mape:</string>
+    <string name="start_from_scratch">Sākt no sākuma!</string>
+    <string name="no_voice_engine">Šai valodai iepriekš lejupielādēts audio fails netika atrasts. Lūdzu, lejupielādējiet audio failu un restartējiet lietotni.</string>
+    <string name="not_common_search">Šī izteiksme angļu valodā nav bieži lietota. Jūs to varat pievienot, taču AI var brīdināt, ka to nevajadzētu izmantot teikumos.</string>
+    <string name="search_hint_text">Meklējot, varat izmantot aizstājējzīmes iekavās, nevis fiksētu tekstu:</string>
+    <string name="search_hint_1">mazināt [kāda] skumjas</string>
+    <string name="search_hint_2">nokrāsot [kaut ko] [krāsā]</string>
+    <string name="default_folder">Noklusējums</string>
+    <string name="wrong_translation_direction">Jūsu tulkojums nav paredzētajā valodā. Mērķa valoda jūsu konta iestatījumos ir iestatīta uz %1$s.</string>
+    <string name="buttonOk">Labi</string>
+    <string name="buttonSettings">Iet uz iestatījumiem</string>
+
+    <string name="query_no_blank">Es mēģināju tulkot "%1$s" uz %2$s.
+    Mans tulkojums: "%3$s"
+    Lūdzu, novērtējiet manu tulkojumu %4$s pēc gramatikas, pareizrakstības, nozīmes un dabiskuma.
+    Jūsu atbilde jāsniedz %4$s valodā un šādā JSON formātā:
+    { "isValid": "true / false.",
+    "feedBack": "Novērtējums %4$s valodā." }</string>
+
+    <string name="query_no_blank_reverse">Es mēģināju tulkot "%1$s" savā dzimtajā valodā.
+    Es to tulkoju šādi: "%2$s"
+    Lūdzu, novērtējiet manu tulkojumu tikai pēc nozīmes precizitātes; gramatika un pareizrakstība man nav svarīga.
+    Jūsu atbilde jāsniedz %3$s valodā un šādā JSON formātā:
+    { "isValid": "true / false.",
+    "feedBack": "Novērtējums %3$s valodā." }</string>
+
+    <string name="query_with_blank">Es mēģināju tulkot "%1$s" uz %2$s.
+    Mans nepabeigtais tulkojums: "%3$s"
+    Tulkojumā esošā tukšā vieta norāda daļu, ko es nevarēju iztulkot.
+    Lūdzu, novērtējiet manu tulkojumu %4$s pēc gramatikas, pareizrakstības, nozīmes un dabiskuma.
+    Jūsu atbilde jāsniedz %4$s valodā un šādā JSON formātā:
+    { "feedBack": "Novērtējums %4$s valodā.",
+    "completeSentence": "Aizpildiet tukšumus, lai pabeigtu %2$s tulkojumu." }</string>
+
+    <string name="query_with_blank_reverse">Es mēģināju tulkot "%1$s" savā dzimtajā valodā.
+    Mans nepabeigtais tulkojums: "%2$s"
+    Tulkojumā esošā tukšā vieta norāda daļu, ko es nevarēju iztulkot.
+    Lūdzu, novērtējiet manu tulkojumu tikai pēc nozīmes precizitātes; gramatika un pareizrakstība man nav svarīga.
+    Jūsu atbilde jāsniedz %3$s valodā un šādā JSON formātā:
+    { "feedBack": "Novērtējums %3$s valodā.",
+    "completeSentence": "Aizpildiet tukšumus, lai pabeigtu %2$s tulkojumu." }</string>
+
+    <string name="query_for_no_translation">Mana dzimtā valoda ir %1$s.
+    Un es vēlos tulkot teikumu "%2$s" uz %3$s.
+    Lūdzu, izskaidrojiet man pa soļiem, kā tulkot.
+    Jūsu atbilde jāsniedz šādā JSON formātā:
+    { "translation": "Uzrakstiet tulkoto teikumu %3$s valodā.",
+    "explanation": "Detalizēts skaidrojums %1$s valodā." }</string>
+
+    <string name="search_issues">Šķiet, ka jūsu meklēšanā ir radušās dažas problēmas. Galīgā lēmuma pieņemšana ir jūsu ziņā.</string>
+    <string name="search_issue_1">Meklētā vārda var nebūt mērķa valodā.</string>
+    <string name="search_issue_2">Meklētajā vārdā var būt pareizrakstības kļūdas.</string>
+    <string name="search_issue_3">Vārds un nozīme var nesakrist.</string>
+    <string name="search_issue_4">Meklētais termins var nebūt bieži lietots mērķa valodā.</string>
+    <string name="search_issue_5">Radās kļūda, lūdzu, atsvaidziniet savu meklēšanu.</string>
+    <string name="tv_6">Pieskarieties vārdiem, lai noklausītos to izrunu.</string>
+    <string name="example_word">pildspalva</string>
+    <string name="liste_baslik_items">Visi ieraksti:</string>
+    <string name="liste_baslik_folders">Visas mapes:</string>
+    <string name="create_folder_2">Izveidot mapi: %1$s</string>
+    <string name="rename_folder">"Pārdēvēt mapi:"</string>
+    <string name="tv_list_empty">Izveidojiet savu tulkojumu sarakstu.</string>
+    <string name="tv_password_criteria">Jūsu parole var būt jebkura 6 rakstzīmju kombinācija.</string>
+    <string name="error_email_already_in_use">Šī e-pasta adrese jau ir reģistrēta.</string>
+    <string name="error_invalid_email">Lūdzu, ievadiet derīgu e-pasta adresi.</string>
+    <string name="error_invalid_password">Lūdzu, ievadiet derīgu paroli.</string>
+    <string name="error_weak_password">Parole nav pietiekami stipra.</string>
+    <string name="error_unknown">Radās kļūda. Lūdzu, mēģiniet vēlreiz.</string>
+    <string name="txt_remaining_translation_count">Atlikušie tulkojumi šodien: %1$s</string>
+    <string name="txt_no_quota">Jūsu ikdienas tulkošanas limits ir sasniegts.</string>
+    <string name="item_count">Vienību skaits: %1$s</string>
+    <string name="warn_min_sentence_number">Jābūt vismaz %1$s teikumiem. Lūdzu, atsvaidziniet savu meklēšanu.</string>
+    <string name="folder_selected">Mape: %1$s</string>
+    <string name="no_internet">Jūsu interneta savienojumā ir problēma.</string>
+    <string name="fail_some_features">Dažas funkcijas neizdevās ielādēt.</string>
+    <string name="example_evaluation_sentence">Jūsu tulkojums ir gramatiski pareizs, precīzi nodod nozīmi un skan dabiski valodā \'%1$s\'. Visizplatītākais un dabiskais ekvivalents vārdam \'%2$s\' valodā \'%1$s\' ir \'%3$s\'. Lielisks tulkojums.</string>
+
+</resources>

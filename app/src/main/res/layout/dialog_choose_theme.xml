@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    android:paddingBottom="20dp"
+    android:background="@drawable/dialog_round_back_ground">
+
+    <TextView
+        android:id="@+id/tv_theme_title"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="@string/select_theme"
+        android:textColor="@color/textColorPrimary"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <RadioButton
+        android:id="@+id/rb_system_default"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/system_default"
+        android:textColor="@color/textColorPrimary"
+        android:textSize="14sp"
+        android:checked="false"
+        app:layout_constraintTop_toBottomOf="@id/tv_theme_title"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"/>
+
+    <RadioButton
+        android:id="@+id/rb_light"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/light_mode"
+        android:textColor="@color/textColorPrimary"
+        android:textSize="14sp"
+        android:checked="false"
+        app:layout_constraintTop_toBottomOf="@id/rb_system_default"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="10dp"/>
+
+    <RadioButton
+        android:id="@+id/rb_dark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dark_mode"
+        android:textColor="@color/textColorPrimary"
+        android:textSize="14sp"
+        android:checked="false"
+        app:layout_constraintTop_toBottomOf="@id/rb_light"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/tv_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buttonOk"
+        android:background="@drawable/bg_text"
+        android:gravity="center"
+        android:textColor="@color/green"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:padding="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/rb_dark"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <TextView
+        android:id="@+id/tv_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buttonCancel"
+        android:background="@drawable/bg_text"
+        android:gravity="center"
+        android:textColor="@color/red"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:padding="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintEnd_toStartOf="@id/tv_ok"
+        app:layout_constraintTop_toBottomOf="@id/rb_dark"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

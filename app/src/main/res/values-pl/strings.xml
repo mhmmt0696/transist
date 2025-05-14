@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="txt_cumle_olustur_baslik">Wyrażenie, którego chcesz się nauczyć:</string>
+    <string name="editText_ifade">Słowo: (wymagane)</string>
+    <string name="editText_anlam">Znaczenie:</string>
+    <string name="editText_not">Kontekst:</string>
+    <string name="button_ara">Znajdź zdania</string>
+    <string name="txt_zorluk">Wybierz poziom trudności.</string>
+    <string name="buttonSave">Zatwierdź i zapisz</string>
+    <string name="txt_mail_basarisiz">Nasze serwery nie odpowiadają na żądanie aktywacji e-mail. Spróbuj ponownie później.</string>
+    <string name="txt_mail_gonderildi">Kliknij link aktywacyjny, który wysłaliśmy na Twój adres e-mail, abyśmy mogli zweryfikować Twoje konto.</string>
+    <string name="tv_delete">Czy chcesz usunąć swoje konto?</string>
+    <string name="tv_delete_btn">USUŃ!</string>
+    <string name="txt_delete_error">Aby usunąć konto, musisz być ostatnio zalogowany.</string>
+    <string name="tv_exit_check">Czy na pewno chcesz się wylogować?</string>
+    <string name="tv_exit">Wyloguj się!</string>
+    <string name="tv_phrases_title">Zwroty</string>
+    <string name="tv_words_title">Słowa</string>
+    <string name="tv_selected_title">Wybrany tryb:</string>
+    <string name="tv_selected_item">Losowe w każdym zdaniu</string>
+    <string name="txt_reset_basarisiz">Nasze serwery nie odpowiadają na żądanie zresetowania hasła. Spróbuj ponownie później.</string>
+    <string name="txt_reset">Sprawdź swoją skrzynkę odbiorczą. Jeśli konto zostało wcześniej zarejestrowane z tym adresem e-mail, zobaczysz link do zresetowania hasła.</string>
+    <string name="txt_sifre_sifirlama">Możesz kontynuować proces resetowania hasła, korzystając z linku wysłanego na Twój adres e-mail.</string>
+    <string name="text_silinecek_aciklama">Wpisy z odstępem powtórzeń wynoszącym 30 dni lub więcej zostaną usunięte.</string>
+    <string name="switch_view">Wykonaj to automatycznie za mnie.</string>
+    <string name="tv_sil">Zatwierdź i usuń</string>
+    <string name="txt_siralama_ölcütü">Kryterium sortowania:</string>
+    <string name="txt_alfabetik">Kolejność alfabetyczna</string>
+    <string name="txt_eklenme">Sortuj według daty dodania</string>
+    <string name="txt_araliga_göre">Sortuj według odstępu powtórzeń</string>
+    <string name="loadingText">Przygotowywanie zdań…</string>
+    <string name="button_yenile">Odśwież zdania</string>
+    <string name="txt_aralik">Odstęp powtórzeń: xxx dni</string>
+    <string name="buttonUpdate">Aktualizuj</string>
+    <string name="buttonCancel">Anuluj</string>
+    <string name="liste_baslik">Twoja lista nauki:</string>
+    <string name="tv_unknown">Wybierz swój język ojczysty i język docelowy z bocznego panelu.</string>
+    <string name="tv_empty_list">Wyrażenia dodane do listy nauki pojawią się w tłumaczeniach.</string>
+    <string name="tv_empty_list_add">Dodaj wyrażenia, które chcesz zobaczyć w tłumaczeniach, do swojej listy nauki.</string>
+    <string name="txt_giris_baslik">Twoje dane logowania:</string>
+    <string name="txt_giris_bilgisi_email">Zalogowano przy użyciu konta e-mail (xxx).</string>
+    <string name="txt_aktivasyon">Wyślij link aktywacyjny e-mail.</string>
+    <string name="txt_sifre_değistir">Chcę zmienić hasło.</string>
+    <string name="hesap_sil">Usuń moje konto.</string>
+    <string name="txt_profil_baslik">Informacje o koncie:</string>
+    <string name="txt_anadil_baslik">Twój język ojczysty:</string>
+    <string name="txt_hedef_dil_baslik">Język, którego się uczysz:</string>
+    <string name="txt_hesap_turu_baslik">Typ konta:</string>
+    <string name="txt_hesap_turu_abonelik">Subskrypcja</string>
+    <string name="txt_hesap_turu_ücretsiz">Bezpłatne</string>
+    <string name="txt_abonelik_suresi">Aktywne do xxx.</string>
+    <string name="button_buy">Kup subskrypcję</string>
+    <string name="creating_sentence">Generowanie zdania…</string>
+    <string name="et_translation">Napisz swoje tłumaczenie…</string>
+    <string name="tv_break">Przejrzałeś wszystkie swoje wyrażenia.</string>
+    <string name="button_marathon_start">Zacznij od początku!</string>
+    <string name="button_marathon_end">Zamknij!</string>
+    <string name="tv_welcome">Witamy!</string>
+    <string name="tv_info">To jest aplikacja do tłumaczeń.</string>
+    <string name="tv_1">Przetłumacz zdanie, które widzisz,</string>
+    <string name="tv_2">na wybrany przez siebie język.</string>
+    <string name="tv_3">Sztuczna inteligencja ocenia Twoje tłumaczenie na 4 sposoby: gramatyka, pisownia, naturalność i znaczenie.</string>
+    <string name="tv_4">Jeśli utkniesz, możesz zostawić puste i kontynuować:</string>
+    <string name="tv_5">Jeśli chcesz częściej ćwiczyć dane wyrażenie, dodaj je do swojej listy nauki.</string>
+    <string name="tv_ls_title">Aby rozpocząć</string>
+    <string name="tv_native_language">Wybierz swój język ojczysty:</string>
+    <string name="tv_target_language">Wybierz język tłumaczenia:</string>
+    <string name="txt_mail_baslik">Zaloguj się:</string>
+    <string name="et_mail_hint">Konto e-mail</string>
+    <string name="et_sifre_hint">Hasło</string>
+    <string name="buton_giris">Zaloguj się</string>
+    <string name="txt_sifremi_unuttum">Zapomniałem hasła.</string>
+    <string name="txt_kayit_ol">Utwórz nowe konto.</string>
+    <string name="txt_mail_kayit_baslik">Zarejestruj się za pomocą konta e-mail:</string>
+    <string name="et_mail_kayit_hint">Wpisz swój adres e-mail.</string>
+    <string name="et_sifre_kayit_hint">Ustaw swoje hasło.</string>
+    <string name="buton_kayit">Zarejestruj się</string>
+    <string name="txt_sifre_sifirlama_baslik">Wyślemy link do resetowania hasła na Twój adres e-mail.</string>
+    <string name="et_mail_sifremi_unuttum_hint">Wpisz swój adres e-mail.</string>
+    <string name="buton_sifirla">Wyślij</string>
+    <string name="familiarity_1">Widzę to po raz pierwszy.</string>
+    <string name="familiarity_2">Widziałem to wcześniej.</string>
+    <string name="familiarity_3">Znam to, ale chcę poćwiczyć.</string>
+    <string name="example_sentence">To jest mój długopis.</string>
+    <string name="example_sentence_blank">To jest ____ długopis.</string>
+    <string name="feature">Jest więcej: możesz wybrać poziom trudności i sprawić, aby interesujące Cię wyrażenia lub wzorce pojawiały się częściej. Jeśli chcesz uczyć się metodą powtórek rozłożonych w czasie, po prostu dodaj wyrażenia do swojej listy nauki.</string>
+    <string name="warn_select_difficulty">Proszę wybrać poziom trudności.</string>
+    <string name="registration_done">Rejestracja zakończona.</string>
+    <string name="warn_expression_empty">Wprowadź wyrażenie, które chcesz wyszukać.</string>
+    <string name="warn_typo">Wprowadzone wyrażenie zawiera błąd ortograficzny.</string>
+    <string name="warn_meaning">Występuje niezgodność znaczenia.</string>
+    <string name="update_successful">Rekord został zaktualizowany.</string>
+    <string name="error_occured">Wystąpił błąd.</string>
+    <string name="muilti_items_deleted">Liczba usuniętych zdań: xxx</string>
+    <string name="warn_missing_input">Brakuje danych.</string>
+    <string name="log_in_failed">Logowanie nie powiodło się: wprowadzono błędne dane.</string>
+    <string name="no_given_translation">Proszę wprowadzić tekst tłumaczenia.</string>
+    <string name="api_busy">Sztuczna inteligencja nie mogła odpowiedzieć z powodu dużego obciążenia.</string>
+    <string name="apology">Przepraszamy za niedogodności.</string>
+    <string name="try_again_later">Proszę spróbować ponownie później.</string>
+    <string name="solace">W ramach rekompensaty dodamy miesięczny abonament do Twojego konta.</string>
+    <string name="warn_select_language">Nie wybrano języka.</string>
+
+    <string name="dark_theme_title">Ciemny motyw:</string>
+    <string name="arabic">Arabski</string>
+    <string name="bengali">Bengalski</string>
+    <string name="bulgarian">Bułgarski</string>
+    <string name="chinese">Chiński</string>
+    <string name="croatian">Chorwacki</string>
+    <string name="czech">Czeski</string>
+    <string name="danish">Duński</string>
+    <string name="dutch">Holenderski</string>
+    <string name="english">Angielski</string>
+    <string name="estonian">Estoński</string>
+    <string name="finnish">Fiński</string>
+    <string name="french">Francuski</string>
+    <string name="german">Niemiecki</string>
+    <string name="greek">Grecki</string>
+    <string name="hebrew">Hebrajski</string>
+    <string name="hindi">Hindi</string>
+    <string name="hungarian">Węgierski</string>
+    <string name="indonesian">Indonezyjski</string>
+    <string name="italian">Włoski</string>
+    <string name="japanese">Japoński</string>
+    <string name="korean">Koreański</string>
+    <string name="latvian">Łotewski</string>
+    <string name="lithuanian">Litewski</string>
+    <string name="norwegian">Norweski</string>
+    <string name="polish">Polski</string>
+    <string name="portuguese">Portugalski</string>
+    <string name="romanian">Rumuński</string>
+    <string name="russian">Rosyjski</string>
+    <string name="serbian">Serbski</string>
+    <string name="slovak">Słowacki</string>
+    <string name="slovenian">Słoweński</string>
+    <string name="spanish">Hiszpański</string>
+    <string name="swahili">Suahili</string>
+    <string name="swedish">Szwedzki</string>
+    <string name="thai">Tajski</string>
+    <string name="turkish">Turecki</string>
+    <string name="ukrainian">Ukraiński</string>
+    <string name="vietnamese">Wietnamski</string>
+    <string name="txt_giris_bilgisi_google">Zalogowano przy użyciu konta Google (xxx).</string>
+    <string name="search_hint">Szukaj…</string>
+    <string name="review_interval">Interwał powtórek</string>
+    <string name="day">dzień</string>
+    <string name="nothing_to_show">Nie ma tu jeszcze nic do pokazania.</string>
+
+    <string name="unknown">Nieznany</string>
+    <string name="select_theme">Wybierz motyw:</string>
+    <string name="system_default">Domyślny systemowy</string>
+    <string name="light_mode">Jasny motyw</string>
+    <string name="dark_mode">Ciemny motyw</string>
+    <string name="create_folder">Utwórz folder:</string>
+    <string name="folder_name">Nazwa folderu…</string>
+    <string name="folder">Folder:</string>
+    <string name="start_from_scratch">Zacznij od nowa!</string>
+    <string name="no_voice_engine">Nie znaleziono wcześniej pobranego pliku dźwiękowego dla tego języka. Pobierz plik dźwiękowy i uruchom ponownie aplikację.</string>
+    <string name="not_common_search">To wyrażenie nie jest powszechnie używane w języku angielskim. Możesz je dodać, ale AI może ostrzegać, aby go nie używać w zdaniach.</string>
+    <string name="search_hint_text">W wyszukiwaniu możesz używać symboli zastępczych w nawiasach zamiast stałego tekstu:</string>
+    <string name="search_hint_1">ukoić smutek [kogoś]</string>
+    <string name="search_hint_2">pomalować [coś] na [kolor]</string>
+    <string name="default_folder">Domyślny</string>
+    <string name="wrong_translation_direction">Twoje tłumaczenie nie jest w oczekiwanym języku. Język docelowy został ustawiony na %1$s w ustawieniach konta.</string>
+    <string name="buttonOk">OK</string>
+    <string name="buttonSettings">Przejdź do ustawień</string>
+
+    <string name="query_no_blank">Próbowałem przetłumaczyć "%1$s" na %2$s.
+    Moje tłumaczenie: "%3$s"
+    Oceń moje tłumaczenie w %4$s pod względem gramatyki, ortografii, znaczenia i naturalności.
+    Twoja odpowiedź powinna być w %4$s i w następującym formacie JSON:
+    { "isValid": "true / false.",
+    "feedBack": "Ocena w %4$s." }</string>
+
+    <string name="query_no_blank_reverse">Próbowałem przetłumaczyć "%1$s" na mój język ojczysty.
+    Przetłumaczyłem to tak: "%2$s"
+    Oceń moje tłumaczenie wyłącznie pod względem dokładności znaczenia; gramatyka i ortografia nie są dla mnie istotne.
+    Twoja odpowiedź powinna być w %3$s i w następującym formacie JSON:
+    { "isValid": "true / false.",
+    "feedBack": "Ocena w %3$s." }</string>
+
+    <string name="query_with_blank">Próbowałem przetłumaczyć "%1$s" na %2$s.
+    Moje nieukończone tłumaczenie: "%3$s"
+    Puste miejsce w tłumaczeniu wskazuje część, której nie udało mi się przetłumaczyć.
+    Oceń moje tłumaczenie w %4$s pod względem gramatyki, ortografii, znaczenia i naturalności.
+    Twoja odpowiedź powinna być w %4$s i w następującym formacie JSON:
+    { "feedBack": "Ocena w %4$s.",
+    "completeSentence": "Uzupełnij tłumaczenie %2$s, wypełniając puste miejsca." }</string>
+
+    <string name="query_with_blank_reverse">Próbowałem przetłumaczyć "%1$s" na mój język ojczysty.
+    Moje nieukończone tłumaczenie: "%2$s"
+    Puste miejsce w tłumaczeniu wskazuje część, której nie udało mi się przetłumaczyć.
+    Oceń moje tłumaczenie wyłącznie pod względem dokładności znaczenia; gramatyka i ortografia nie są dla mnie istotne.
+    Twoja odpowiedź powinna być w %3$s i w następującym formacie JSON:
+    { "feedBack": "Ocena w %3$s.",
+    "completeSentence": "Uzupełnij tłumaczenie %2$s, wypełniając puste miejsca." }</string>
+
+    <string name="query_for_no_translation">Mój język ojczysty to %1$s.
+    I chcę przetłumaczyć zdanie "%2$s" na %3$s.
+    Wyjaśnij mi krok po kroku, jak to przetłumaczyć.
+    Twoja odpowiedź powinna być w następującym formacie JSON:
+    { "translation": "Napisz zdanie przetłumaczone na %3$s.",
+    "explanation": "Szczegółowe wyjaśnienie w %1$s." }</string>
+
+    <string name="search_issues">Wygląda na to, że wystąpiły pewne problemy z wyszukiwaniem. Ostateczna decyzja należy do Ciebie.</string>
+    <string name="search_issue_1">Szukane słowo może nie istnieć w języku docelowym.</string>
+    <string name="search_issue_2">Szukane słowo może zawierać błędy ortograficzne.</string>
+    <string name="search_issue_3">Słowo i jego znaczenie mogą się nie zgadzać.</string>
+    <string name="search_issue_4">Szukany termin może nie być powszechnie używany w języku docelowym.</string>
+    <string name="search_issue_5">Coś poszło nie tak, odśwież wyszukiwanie.</string>
+    <string name="tv_6">Stuknij w słowa, aby usłyszeć ich wymowę.</string>
+    <string name="example_word">długopis</string>
+    <string name="liste_baslik_items">Wszystkie rekordy:</string>
+    <string name="liste_baslik_folders">Wszystkie foldery:</string>
+    <string name="create_folder_2">Utwórz folder: %1$s</string>
+    <string name="rename_folder">"Zmień nazwę folderu:"</string>
+    <string name="tv_list_empty">Utwórz własną listę tłumaczeń.</string>
+    <string name="tv_password_criteria">Twoje hasło może być dowolną kombinacją 6 znaków.</string>
+    <string name="error_email_already_in_use">Ten adres e-mail jest już zarejestrowany.</string>
+    <string name="error_invalid_email">Wprowadź prawidłowy adres e-mail.</string>
+    <string name="error_invalid_password">Wprowadź prawidłowe hasło.</string>
+    <string name="error_weak_password">Hasło nie jest wystarczająco silne.</string>
+    <string name="error_unknown">Wystąpił błąd. Spróbuj ponownie.</string>
+    <string name="txt_remaining_translation_count">Pozostałe tłumaczenia dzisiaj: %1$s</string>
+    <string name="txt_no_quota">Osiągnąłeś dzienny limit tłumaczeń.</string>
+    <string name="item_count">Liczba elementów: %1$s</string>
+    <string name="warn_min_sentence_number">Musi być co najmniej %1$s zdań. Odśwież wyszukiwanie.</string>
+    <string name="folder_selected">Folder: %1$s</string>
+    <string name="no_internet">Wystąpił problem z połączeniem internetowym.</string>
+    <string name="fail_some_features">Niektóre funkcje nie mogły zostać załadowane.</string>
+    <string name="example_evaluation_sentence">Twoje tłumaczenie jest poprawne gramatycznie, dokładnie przekazuje znaczenie i brzmi naturalnie w języku \'%1$s\'. Najczęstszy i najbardziej naturalny odpowiednik \'%2$s\' w języku \'%1$s\' to \'%3$s\'. Świetne tłumaczenie.</string>
+
+
+</resources>

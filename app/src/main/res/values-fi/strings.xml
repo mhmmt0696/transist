@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="txt_cumle_olustur_baslik">Ilmaisu, jonka haluat oppia:</string>
+    <string name="editText_ifade">Sana: (pakollinen)</string>
+    <string name="editText_anlam">Merkitys:</string>
+    <string name="editText_not">Konteksti:</string>
+    <string name="button_ara">Etsi lauseita</string>
+    <string name="txt_zorluk">Valitse vaikeustaso.</string>
+    <string name="buttonSave">Vahvista ja tallenna</string>
+    <string name="txt_mail_basarisiz">Palvelimemme eivät vastaa sähköpostin aktivointipyyntöön. Yritä myöhemmin uudelleen.</string>
+    <string name="txt_mail_gonderildi">Klikkaa sähköpostiisi lähettämäämme aktivointilinkkiä, jotta voimme vahvistaa tilisi.</string>
+    <string name="tv_delete">Haluatko poistaa tilisi?</string>
+    <string name="tv_delete_btn">POISTA!</string>
+    <string name="txt_delete_error">Tilin poistamiseksi sinun on täytynyt kirjautua hiljattain sisään.</string>
+    <string name="tv_exit_check">Haluatko varmasti kirjautua ulos?</string>
+    <string name="tv_exit">Kirjaudu ulos!</string>
+    <string name="tv_phrases_title">Ilmaisut</string>
+    <string name="tv_words_title">Sanat</string>
+    <string name="tv_selected_title">Valittu tila:</string>
+    <string name="tv_selected_item">Satunnainen jokaisessa lauseessa</string>
+    <string name="txt_reset_basarisiz">Palvelimemme eivät vastaa salasanan palautuspyyntöön. Yritä myöhemmin uudelleen.</string>
+    <string name="txt_reset">Tarkista sähköpostisi. Jos tällä sähköpostilla on rekisteröity tili, näet palautuslinkin.</string>
+    <string name="txt_sifre_sifirlama">Voit jatkaa salasanan palautusta sähköpostiisi lähetetyn linkin kautta.</string>
+    <string name="text_silinecek_aciklama">Merkinnät, joiden toistoväli on 30 päivää tai enemmän, poistetaan.</string>
+    <string name="switch_view">Tee tämä automaattisesti puolestani.</string>
+    <string name="tv_sil">Vahvista ja poista</string>
+    <string name="txt_siralama_ölcütü">Lajitteluperuste:</string>
+    <string name="txt_alfabetik">Aakkosjärjestys</string>
+    <string name="txt_eklenme">Lisäyspäivän mukaan</string>
+    <string name="txt_araliga_göre">Toistovälin mukaan</string>
+    <string name="loadingText">Valmistellaan lauseita…</string>
+    <string name="button_yenile">Päivitä lauseet</string>
+    <string name="txt_aralik">Toistoväli: xxx päivää</string>
+    <string name="buttonUpdate">Päivitä</string>
+    <string name="buttonCancel">Peruuta</string>
+    <string name="liste_baslik">Oppimislistasi:</string>
+    <string name="tv_unknown">Valitse äidinkielesi ja kohdekieli sivupalkista.</string>
+    <string name="tv_empty_list">Lisäämäsi ilmaukset näkyvät käännöksissä.</string>
+    <string name="tv_empty_list_add">Lisää ilmauksia, jotka haluat nähdä käännöksissä, oppimislistaasi.</string>
+    <string name="txt_giris_baslik">Kirjautumistietosi:</string>
+    <string name="txt_giris_bilgisi_email">Olet kirjautunut sisään sähköpostitililläsi (xxx).</string>
+    <string name="txt_aktivasyon">Lähetä sähköpostin aktivointilinkki.</string>
+    <string name="txt_sifre_değistir">Haluan vaihtaa salasanani.</string>
+    <string name="hesap_sil">Poista tilini.</string>
+    <string name="txt_profil_baslik">Tilisi tiedot:</string>
+    <string name="txt_anadil_baslik">Äidinkielesi:</string>
+    <string name="txt_hedef_dil_baslik">Oppimasi kieli:</string>
+    <string name="txt_hesap_turu_baslik">Tilin tyyppi:</string>
+    <string name="txt_hesap_turu_abonelik">Tilaus</string>
+    <string name="txt_hesap_turu_ücretsiz">Ilmainen</string>
+    <string name="txt_abonelik_suresi">Aktiivinen päivään xxx saakka.</string>
+    <string name="button_buy">Osta tilaus</string>
+    <string name="creating_sentence">Luodaan lausetta…</string>
+    <string name="et_translation">Kirjoita käännöksesi…</string>
+    <string name="tv_break">Olet harjoitellut kaikki ilmauksesi.</string>
+    <string name="button_marathon_start">Aloita alusta!</string>
+    <string name="button_marathon_end">Sulje!</string>
+    <string name="tv_welcome">Tervetuloa!</string>
+    <string name="tv_info">Tämä on käännössovellus.</string>
+    <string name="tv_1">Käännä näkemäsi lause</string>
+    <string name="tv_2">haluamallesi kielelle.</string>
+    <string name="tv_3">Tekoäly arvioi käännöksesi neljällä tavalla: kielioppi, oikeinkirjoitus, luonnollisuus ja merkitys.</string>
+    <string name="tv_4">Jos jäät jumiin, voit jättää sen tyhjäksi ja jatkaa:</string>
+    <string name="tv_5">Jos haluat harjoitella ilmaisua useammin, lisää se oppimislistaasi.</string>
+    <string name="tv_ls_title">Aloittaaksesi</string>
+    <string name="tv_native_language">Valitse äidinkielesi:</string>
+    <string name="tv_target_language">Valitse kieli, jolle haluat kääntää:</string>
+    <string name="txt_mail_baslik">Kirjaudu sisään:</string>
+    <string name="et_mail_hint">Sähköpostitili</string>
+    <string name="et_sifre_hint">Salasana</string>
+    <string name="buton_giris">Kirjaudu</string>
+    <string name="txt_sifremi_unuttum">Unohdin salasanani.</string>
+    <string name="txt_kayit_ol">Luo uusi tili.</string>
+    <string name="txt_mail_kayit_baslik">Rekisteröidy sähköpostiosoitteellasi:</string>
+    <string name="et_mail_kayit_hint">Syötä sähköpostiosoitteesi.</string>
+    <string name="et_sifre_kayit_hint">Aseta salasanasi.</string>
+    <string name="buton_kayit">Rekisteröidy</string>
+    <string name="txt_sifre_sifirlama_baslik">Lähetämme salasanan palautuslinkin sähköpostiisi.</string>
+    <string name="et_mail_sifremi_unuttum_hint">Syötä sähköpostiosoitteesi.</string>
+    <string name="buton_sifirla">Lähetä</string>
+    <string name="familiarity_1">Näen tämän ensimmäistä kertaa.</string>
+    <string name="familiarity_2">Olen nähnyt tämän aiemmin.</string>
+    <string name="familiarity_3">Tiedän tämän, mutta haluan harjoitella.</string>
+    <string name="example_sentence">Tämä on minun kynäni.</string>
+    <string name="example_sentence_blank">Tämä on ____ kynäni.</string>
+    <string name="feature">Vielä enemmän: voit valita vaikeustason ja varmistaa, että kiinnostavat ilmaukset tai mallit näkyvät usein. Jos haluat oppia toistetun harjoittelun avulla, lisää ilmaukset vain oppimislistaasi.</string>
+    <string name="warn_select_difficulty">Valitse vaikeustaso.</string>
+    <string name="registration_done">Rekisteröinti onnistui.</string>
+    <string name="warn_expression_empty">Kirjoita haettava ilmaisu.</string>
+    <string name="warn_typo">Antamasi ilmaisu sisältää kirjoitusvirheen.</string>
+    <string name="warn_meaning">Merkityksessä on ristiriita.</string>
+    <string name="update_successful">Tietue päivitetty.</string>
+    <string name="error_occured">Tapahtui virhe.</string>
+    <string name="muilti_items_deleted">Poistettujen lauseiden määrä: xxx</string>
+    <string name="warn_missing_input">Tietoja puuttuu.</string>
+    <string name="log_in_failed">Kirjautuminen epäonnistui: väärät tiedot.</string>
+    <string name="no_given_translation">Kirjoita käännösteksti.</string>
+    <string name="api_busy">Tekoäly ei pysty vastaamaan ruuhkan vuoksi.</string>
+    <string name="apology">Pahoittelemme tapahtunutta häiriötä.</string>
+    <string name="try_again_later">Yritä myöhemmin uudelleen.</string>
+    <string name="solace">Hyvityksenä lisäämme tilillesi kuukauden tilauksen.</string>
+    <string name="warn_select_language">Et ole valinnut kieltä.</string>
+
+
+    <string name="dark_theme_title">Tumma teema:</string>
+    <string name="arabic">Arabia</string>
+    <string name="bengali">Bengali</string>
+    <string name="bulgarian">Bulgaria</string>
+    <string name="chinese">Kiina</string>
+    <string name="croatian">Kroatia</string>
+    <string name="czech">Tšekki</string>
+    <string name="danish">Tanska</string>
+    <string name="dutch">Hollanti</string>
+    <string name="english">Englanti</string>
+    <string name="estonian">Viro</string>
+    <string name="finnish">Suomi</string>
+    <string name="french">Ranska</string>
+    <string name="german">Saksa</string>
+    <string name="greek">Kreikka</string>
+    <string name="hebrew">Heprea</string>
+    <string name="hindi">Hindi</string>
+    <string name="hungarian">Unkari</string>
+    <string name="indonesian">Indonesia</string>
+    <string name="italian">Italia</string>
+    <string name="japanese">Japani</string>
+    <string name="korean">Korea</string>
+    <string name="latvian">Latvia</string>
+    <string name="lithuanian">Liettua</string>
+    <string name="norwegian">Norja</string>
+    <string name="polish">Puola</string>
+    <string name="portuguese">Portugali</string>
+    <string name="romanian">Romania</string>
+    <string name="russian">Venäjä</string>
+    <string name="serbian">Serbia</string>
+    <string name="slovak">Slovakia</string>
+    <string name="slovenian">Slovenia</string>
+    <string name="spanish">Espanja</string>
+    <string name="swahili">Swahili</string>
+    <string name="swedish">Ruotsi</string>
+    <string name="thai">Thai</string>
+    <string name="turkish">Turkki</string>
+    <string name="ukrainian">Ukraina</string>
+    <string name="vietnamese">Vietnam</string>
+    <string name="txt_giris_bilgisi_google">Olet kirjautunut sisään Google-tilillä (xxx).</string>
+    <string name="search_hint">Hae…</string>
+    <string name="review_interval">Kertausväli</string>
+    <string name="day">päivä</string>
+    <string name="nothing_to_show">Täällä ei ole vielä mitään näytettävää.</string>
+
+    <string name="unknown">Tuntematon</string>
+    <string name="select_theme">Valitse teema:</string>
+    <string name="system_default">Järjestelmän oletus</string>
+    <string name="light_mode">Vaalea tila</string>
+    <string name="dark_mode">Tumma tila</string>
+    <string name="create_folder">Luo kansio:</string>
+    <string name="folder_name">Kansion nimi…</string>
+    <string name="folder">Kansio:</string>
+    <string name="start_from_scratch">Aloita alusta!</string>
+    <string name="no_voice_engine">Tälle kielelle ei löytynyt aiemmin ladattua äänitiedostoa. Lataa äänitiedosto ja käynnistä sovellus uudelleen.</string>
+    <string name="not_common_search">Tätä ilmaisua ei käytetä yleisesti englannissa. Voit silti lisätä sen, mutta huomioi, että tekoäly voi varoittaa, ettet käytä sitä lauseissa.</string>
+    <string name="search_hint_text">Haussa voit käyttää sulkeissa olevia paikkamerkkejä kiinteän tekstin sijaan:</string>
+    <string name="search_hint_1">lievittää [jonkun] surua</string>
+    <string name="search_hint_2">maalata [jotain] [värillä]</string>
+    <string name="default_folder">Oletus</string>
+    <string name="wrong_translation_direction">Käännöksesi ei ole odotetulla kielellä. Tiliasetuksissasi kohdekieleksi on määritetty %1$s.</string>
+    <string name="buttonOk">OK</string>
+    <string name="buttonSettings">Siirry asetuksiin</string>
+
+    <string name="query_no_blank">"%1$s" yritin kääntää kielelle %2$s.
+    Käännökseni oli: "%3$s"
+    Arvioi käännökseni kielellä %4$s kieliopin, oikeinkirjoituksen, merkityksen ja luonnollisuuden osalta.
+    Vastauksesi on oltava kielellä %4$s ja seuraavassa JSON-muodossa:
+    { "isValid": "true / false.",
+    "feedBack": "Arvio kielellä %4$s." }</string>
+
+    <string name="query_no_blank_reverse">"%1$s" yritin kääntää äidinkielelleni.
+    Käänsin sen näin: "%2$s"
+    Arvioi käännökseni vain merkityksen tarkkuuden perusteella; kielioppi ja oikeinkirjoitus eivät ole minulle tärkeitä.
+    Vastauksesi on oltava kielellä %3$s ja seuraavassa JSON-muodossa:
+    { "isValid": "true / false.",
+    "feedBack": "Arvio kielellä %3$s." }</string>
+
+    <string name="query_with_blank">"%1$s" yritin kääntää kielelle %2$s.
+    Epätäydellinen käännökseni: "%3$s"
+    Käännökseni tyhjä kohta osoittaa kohdan, jota en pystynyt kääntämään.
+    Arvioi käännökseni kielellä %4$s kieliopin, oikeinkirjoituksen, merkityksen ja luonnollisuuden osalta.
+    Vastauksesi on oltava kielellä %4$s ja seuraavassa JSON-muodossa:
+    { "feedBack": "Arvio kielellä %4$s.",
+    "completeSentence": "Täydennä %2$s käännös täyttämällä tyhjät kohdat." }</string>
+
+    <string name="query_with_blank_reverse">"%1$s" yritin kääntää äidinkielelleni.
+    Epätäydellinen käännökseni: "%2$s"
+    Käännökseni tyhjä kohta osoittaa kohdan, jota en pystynyt kääntämään.
+    Arvioi käännökseni vain merkityksen tarkkuuden perusteella; kielioppi ja oikeinkirjoitus eivät ole minulle tärkeitä.
+    Vastauksesi on oltava kielellä %3$s ja seuraavassa JSON-muodossa:
+    { "feedBack": "Arvio kielellä %3$s.",
+    "completeSentence": "Täydennä %2$s käännös täyttämällä tyhjät kohdat." }</string>
+
+    <string name="query_for_no_translation">Äidinkieleni on %1$s.
+    Ja haluan kääntää lauseen "%2$s" kielelle %3$s.
+    Selitä vaihe vaiheelta, miten minun tulee kääntää se.
+    Vastauksesi on oltava seuraavassa JSON-muodossa:
+    { "translation": "Kirjoita käännetty lause kielellä %3$s.",
+    "explanation": "Yksityiskohtainen selitys kielellä %1$s." }</string>
+
+    <string name="search_issues">Hakusi kanssa näyttää olevan joitakin ongelmia. Lopullinen päätös on sinun.</string>
+    <string name="search_issue_1">Haettavaa sanaa ei välttämättä ole kohdekielessä.</string>
+    <string name="search_issue_2">Haettavassa sanassa voi olla kirjoitusvirheitä.</string>
+    <string name="search_issue_3">Sana ja sen merkitys eivät välttämättä vastaa toisiaan.</string>
+    <string name="search_issue_4">Haettu termi ei välttämättä ole yleisesti käytössä kohdekielessä.</string>
+    <string name="search_issue_5">Jokin meni pieleen, päivitä haku.</string>
+    <string name="tv_6">Napauta sanoja kuullaksesi niiden ääntämisen.</string>
+    <string name="example_word">kynä</string>
+    <string name="liste_baslik_items">Kaikki merkinnät:</string>
+    <string name="liste_baslik_folders">Kaikki kansiot:</string>
+    <string name="create_folder_2">Luo kansio: %1$s</string>
+    <string name="rename_folder">"Nimeä kansio uudelleen:"</string>
+    <string name="tv_list_empty">Luo oma käännöslista.</string>
+    <string name="tv_password_criteria">Salasanasi voi olla mikä tahansa 6-merkkinen yhdistelmä.</string>
+    <string name="error_email_already_in_use">Tämä sähköpostiosoite on jo rekisteröity.</string>
+    <string name="error_invalid_email">Anna kelvollinen sähköpostiosoite.</string>
+    <string name="error_invalid_password">Anna kelvollinen salasana.</string>
+    <string name="error_weak_password">Salasana ei ole tarpeeksi vahva.</string>
+    <string name="error_unknown">Tapahtui virhe. Yritä uudelleen.</string>
+    <string name="txt_remaining_translation_count">Jäljellä olevat käännökset tänään: %1$s</string>
+    <string name="txt_no_quota">Päivittäinen käännösrajasi on saavutettu.</string>
+    <string name="item_count">Kohteiden määrä: %1$s</string>
+    <string name="warn_min_sentence_number">Vähintään %1$s lausetta vaaditaan. Päivitä haku.</string>
+    <string name="folder_selected">Kansio: %1$s</string>
+    <string name="no_internet">Internet-yhteydessäsi on ongelma.</string>
+    <string name="fail_some_features">Joidenkin ominaisuuksien lataaminen epäonnistui.</string>
+    <string name="example_evaluation_sentence">Käännöksesi on kieliopillisesti oikein, välittää merkityksen tarkasti ja kuulostaa luonnolliselta kielellä \'%1$s\'. Yleisimmän ja luonnollisimman vastineen sanalle \'%2$s\' kielellä \'%1$s\' on \'%3$s\'. Erinomainen käännös.</string>
+</resources>

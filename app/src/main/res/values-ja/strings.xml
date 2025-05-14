@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="txt_cumle_olustur_baslik">学びたい表現:</string>
+    <string name="editText_ifade">単語：(必須)</string>
+    <string name="editText_anlam">意味：</string>
+    <string name="editText_not">文脈：</string>
+    <string name="button_ara">例文を探す</string>
+    <string name="txt_zorluk">難易度を選択してください。</string>
+    <string name="buttonSave">確認して保存</string>
+    <string name="txt_mail_basarisiz">サーバーがメール認証のリクエストに応答していません。後でもう一度お試しください。</string>
+    <string name="txt_mail_gonderildi">アカウントを確認するために、送信されたメール内の認証リンクをクリックしてください。</string>
+    <string name="tv_delete">アカウントを削除しますか？</string>
+    <string name="tv_delete_btn">削除！</string>
+    <string name="txt_delete_error">アカウントを削除するには、最近ログインしている必要があります。</string>
+    <string name="tv_exit_check">本当にログアウトしますか？</string>
+    <string name="tv_exit">ログアウト！</string>
+    <string name="tv_phrases_title">フレーズ</string>
+    <string name="tv_words_title">単語</string>
+    <string name="tv_selected_title">選択モード:</string>
+    <string name="tv_selected_item">各文でランダム</string>
+    <string name="txt_reset_basarisiz">サーバーがパスワードリセットのリクエストに応答していません。後でもう一度お試しください。</string>
+    <string name="txt_reset">受信トレイを確認してください。このメールアドレスで登録されたアカウントがある場合、リセットリンクが届きます。</string>
+    <string name="txt_sifre_sifirlama">メールで送信されたリンクでパスワードのリセットを続行できます。</string>
+    <string name="text_silinecek_aciklama">レビュー間隔が30日以上のエントリは削除されます。</string>
+    <string name="switch_view">自動で行ってください。</string>
+    <string name="tv_sil">確認して削除</string>
+    <string name="txt_siralama_ölcütü">並び替え基準:</string>
+    <string name="txt_alfabetik">アルファベット順</string>
+    <string name="txt_eklenme">追加日順</string>
+    <string name="txt_araliga_göre">レビュー間隔順</string>
+    <string name="loadingText">例文を準備中…</string>
+    <string name="button_yenile">例文を更新</string>
+    <string name="txt_aralik">レビュー間隔: xxx日</string>
+    <string name="buttonUpdate">更新</string>
+    <string name="buttonCancel">キャンセル</string>
+    <string name="liste_baslik">学習リスト:</string>
+    <string name="tv_unknown">サイドパネルから母国語と対象言語を選択してください。</string>
+    <string name="tv_empty_list">学習リストに追加した表現は翻訳画面に表示されます。</string>
+    <string name="tv_empty_list_add">翻訳に表示したい表現を学習リストに追加してください。</string>
+    <string name="txt_giris_baslik">ログイン情報:</string>
+    <string name="txt_giris_bilgisi_email">メールアカウント（xxx）でログインしました。</string>
+    <string name="txt_aktivasyon">メール認証リンクを送信</string>
+    <string name="txt_sifre_değistir">パスワードを変更したいです。</string>
+    <string name="hesap_sil">アカウントを削除</string>
+    <string name="txt_profil_baslik">アカウント情報:</string>
+    <string name="txt_anadil_baslik">母国語：</string>
+    <string name="txt_hedef_dil_baslik">学習中の言語：</string>
+    <string name="txt_hesap_turu_baslik">アカウント種別：</string>
+    <string name="txt_hesap_turu_abonelik">サブスクリプション</string>
+    <string name="txt_hesap_turu_ücretsiz">無料</string>
+    <string name="txt_abonelik_suresi">xxx まで有効。</string>
+    <string name="button_buy">サブスクリプション購入</string>
+    <string name="creating_sentence">文章を生成中…</string>
+    <string name="et_translation">翻訳を入力…</string>
+    <string name="tv_break">全ての表現を確認しました。</string>
+    <string name="button_marathon_start">最初から始める！</string>
+    <string name="button_marathon_end">閉じる！</string>
+    <string name="tv_welcome">ようこそ！</string>
+    <string name="tv_info">これは翻訳アプリです。</string>
+    <string name="tv_1">表示された文を、</string>
+    <string name="tv_2">希望の言語に翻訳してください。</string>
+    <string name="tv_3">AIは翻訳を文法、スペル、自然さ、意味の4つで評価します。</string>
+    <string name="tv_4">詰まった場合は、空欄のまま続けてください：</string>
+    <string name="tv_5">特定の表現をもっと練習したい場合は、学習リストに追加してください。</string>
+    <string name="tv_ls_title">開始するには</string>
+    <string name="tv_native_language">母国語を選択：</string>
+    <string name="tv_target_language">翻訳する言語を選択：</string>
+    <string name="txt_mail_baslik">ログイン：</string>
+    <string name="et_mail_hint">メールアカウント</string>
+    <string name="et_sifre_hint">パスワード</string>
+    <string name="buton_giris">ログイン</string>
+    <string name="txt_sifremi_unuttum">パスワードを忘れました。</string>
+    <string name="txt_kayit_ol">新しいアカウントを作成する。</string>
+    <string name="txt_mail_kayit_baslik">メールアカウントで登録：</string>
+    <string name="et_mail_kayit_hint">メールアドレスを入力してください。</string>
+    <string name="et_sifre_kayit_hint">パスワードを設定してください。</string>
+    <string name="buton_kayit">登録</string>
+    <string name="txt_sifre_sifirlama_baslik">パスワードリセットリンクをメールアドレスに送信します。</string>
+    <string name="et_mail_sifremi_unuttum_hint">メールアドレスを入力してください。</string>
+    <string name="buton_sifirla">送信</string>
+    <string name="familiarity_1">初めて見ました。</string>
+    <string name="familiarity_2">前に見たことがあります。</string>
+    <string name="familiarity_3">知っていますが、練習したいです。</string>
+    <string name="example_sentence">これは私のペンです。</string>
+    <string name="example_sentence_blank">これは ____ ペンです。</string>
+    <string name="feature">さらに機能があります：難易度を選択して、興味のある表現やパターンが頻繁に表示されるようにできます。間隔反復法で学習したい場合は、表現を学習リストに追加するだけでOKです。</string>
+    <string name="warn_select_difficulty">難易度を選択してください。</string>
+    <string name="registration_done">登録が完了しました。</string>
+    <string name="warn_expression_empty">検索したい表現を入力してください。</string>
+    <string name="warn_typo">入力された表現にはスペルミスがあります。</string>
+    <string name="warn_meaning">意味の不一致があります。</string>
+    <string name="update_successful">登録が更新されました。</string>
+    <string name="error_occured">エラーが発生しました。</string>
+    <string name="muilti_items_deleted">削除された文の数：xxx</string>
+    <string name="warn_missing_input">情報が不足しています。</string>
+    <string name="log_in_failed">ログインに失敗しました：誤った情報を入力しました。</string>
+    <string name="no_given_translation">翻訳文を入力してください。</string>
+    <string name="api_busy">AIが混雑のため応答できませんでした。</string>
+    <string name="apology">ご不便をおかけして申し訳ありません。</string>
+    <string name="try_again_later">後でもう一度お試しください。</string>
+    <string name="solace">補償として、アカウントに1か月のサブスクリプションを追加します。</string>
+    <string name="warn_select_language">言語が選択されていません。</string>
+
+    <string name="dark_theme_title">ダークテーマ：</string>
+    <string name="arabic">アラビア語</string>
+    <string name="bengali">ベンガル語</string>
+    <string name="bulgarian">ブルガリア語</string>
+    <string name="chinese">中国語</string>
+    <string name="croatian">クロアチア語</string>
+    <string name="czech">チェコ語</string>
+    <string name="danish">デンマーク語</string>
+    <string name="dutch">オランダ語</string>
+    <string name="english">英語</string>
+    <string name="estonian">エストニア語</string>
+    <string name="finnish">フィンランド語</string>
+    <string name="french">フランス語</string>
+    <string name="german">ドイツ語</string>
+    <string name="greek">ギリシャ語</string>
+    <string name="hebrew">ヘブライ語</string>
+    <string name="hindi">ヒンディー語</string>
+    <string name="hungarian">ハンガリー語</string>
+    <string name="indonesian">インドネシア語</string>
+    <string name="italian">イタリア語</string>
+    <string name="japanese">日本語</string>
+    <string name="korean">韓国語</string>
+    <string name="latvian">ラトビア語</string>
+    <string name="lithuanian">リトアニア語</string>
+    <string name="norwegian">ノルウェー語</string>
+    <string name="polish">ポーランド語</string>
+    <string name="portuguese">ポルトガル語</string>
+    <string name="romanian">ルーマニア語</string>
+    <string name="russian">ロシア語</string>
+    <string name="serbian">セルビア語</string>
+    <string name="slovak">スロバキア語</string>
+    <string name="slovenian">スロベニア語</string>
+    <string name="spanish">スペイン語</string>
+    <string name="swahili">スワヒリ語</string>
+    <string name="swedish">スウェーデン語</string>
+    <string name="thai">タイ語</string>
+    <string name="turkish">トルコ語</string>
+    <string name="ukrainian">ウクライナ語</string>
+    <string name="vietnamese">ベトナム語</string>
+    <string name="txt_giris_bilgisi_google">Google（xxx）でログインしました。</string>
+    <string name="search_hint">検索…</string>
+    <string name="review_interval">復習間隔</string>
+    <string name="day">日</string>
+    <string name="nothing_to_show">ここにはまだ表示するものがありません。</string>
+
+    <string name="unknown">不明</string>
+    <string name="select_theme">テーマを選択:</string>
+    <string name="system_default">システムデフォルト</string>
+    <string name="light_mode">ライトテーマ</string>
+    <string name="dark_mode">ダークテーマ</string>
+    <string name="create_folder">フォルダを作成:</string>
+    <string name="folder_name">フォルダ名…</string>
+    <string name="folder">フォルダ:</string>
+    <string name="start_from_scratch">最初から始める！</string>
+    <string name="no_voice_engine">この言語用の既存の音声ファイルは見つかりませんでした。音声ファイルをダウンロードしてアプリを再起動してください。</string>
+    <string name="not_common_search">この表現は英語で一般的に使用されていません。それでも追加できますが、AIが文中での使用を警告する場合があります。</string>
+    <string name="search_hint_text">検索では、固定テキストの代わりに括弧内にプレースホルダーを使用できます:</string>
+    <string name="search_hint_1">[誰か] の悲しみを和らげる</string>
+    <string name="search_hint_2">[何か] を [色] に塗る</string>
+    <string name="default_folder">デフォルト</string>
+    <string name="wrong_translation_direction">翻訳は期待される言語ではありません。ターゲット言語はアカウント設定で %1$s に設定されています。</string>
+    <string name="buttonOk">OK</string>
+    <string name="buttonSettings">設定に移動</string>
+
+    <string name="query_no_blank">"%1$s" を %2$s に翻訳しようとしました。
+    私の翻訳: "%3$s"
+    文法、スペル、意味、自然さの観点から %4$s で評価してください。
+    回答は %4$s で、以下の JSON 形式でお願いします:
+    { "isValid": "true / false.",
+    "feedBack": "%4$s での評価。" }</string>
+
+    <string name="query_no_blank_reverse">"%1$s" を母国語に翻訳しようとしました。
+    このように翻訳しました: "%2$s"
+    意味の正確さの観点のみで評価してください。文法やスペルは重要ではありません。
+    回答は %3$s で、以下の JSON 形式でお願いします:
+    { "isValid": "true / false.",
+    "feedBack": "%3$s での評価。" }</string>
+
+    <string name="query_with_blank">"%1$s" を %2$s に翻訳しようとしました。
+    未完成の翻訳: "%3$s"
+    翻訳内の空欄は翻訳できなかった部分を示します。
+    文法、スペル、意味、自然さの観点から %4$s で評価してください。
+    回答は %4$s で、以下の JSON 形式でお願いします:
+    { "feedBack": "%4$s での評価。",
+    "completeSentence": "空欄を埋めて %2$s の翻訳を完成させてください。" }</string>
+
+    <string name="query_with_blank_reverse">"%1$s" を母国語に翻訳しようとしました。
+    未完成の翻訳: "%2$s"
+    翻訳内の空欄は翻訳できなかった部分を示します。
+    意味の正確さの観点のみで評価してください。文法やスペルは重要ではありません。
+    回答は %3$s で、以下の JSON 形式でお願いします:
+    { "feedBack": "%3$s での評価。",
+    "completeSentence": "空欄を埋めて %2$s の翻訳を完成させてください。" }</string>
+
+    <string name="query_for_no_translation">母国語は %1$s です。
+    文 "%2$s" を %3$s に翻訳したいです。
+    どのように翻訳するか段階的に説明してください。
+    回答は以下の JSON 形式でお願いします:
+    { "translation": "%3$s の翻訳文を書いてください。",
+    "explanation": "%1$s で詳細な説明。" }</string>
+
+    <string name="search_issues">検索にいくつか問題があるようです。最終的な判断はあなた次第です。</string>
+    <string name="search_issue_1">検索された単語は対象言語に存在しない可能性があります。</string>
+    <string name="search_issue_2">検索された単語にスペルミスが含まれている可能性があります。</string>
+    <string name="search_issue_3">単語と意味が一致しない可能性があります。</string>
+    <string name="search_issue_4">検索された用語は対象言語で一般的に使用されていない可能性があります。</string>
+    <string name="search_issue_5">何か問題が発生しました。検索を更新してください。</string>
+    <string name="tv_6">単語をタップして発音を聞いてください。</string>
+    <string name="example_word">ペン</string>
+    <string name="liste_baslik_items">すべての記録：</string>
+    <string name="liste_baslik_folders">すべてのフォルダ：</string>
+    <string name="create_folder_2">フォルダを作成: %1$s</string>
+    <string name="rename_folder">"フォルダ名を変更:"</string>
+    <string name="tv_list_empty">自分の翻訳リストを作成してください。</string>
+    <string name="tv_password_criteria">パスワードは任意の6文字の組み合わせにできます。</string>
+    <string name="error_email_already_in_use">このメールアドレスは既に登録されています。</string>
+    <string name="error_invalid_email">有効なメールアドレスを入力してください。</string>
+    <string name="error_invalid_password">有効なパスワードを入力してください。</string>
+    <string name="error_weak_password">パスワードが十分に強くありません。</string>
+    <string name="error_unknown">エラーが発生しました。再試行してください。</string>
+    <string name="txt_remaining_translation_count">今日の残り翻訳数: %1$s</string>
+    <string name="txt_no_quota">1日の翻訳上限に達しました。</string>
+    <string name="item_count">アイテム数: %1$s</string>
+    <string name="warn_min_sentence_number">少なくとも %1$s 文が必要です。検索を更新してください。</string>
+    <string name="folder_selected">フォルダ: %1$s</string>
+    <string name="no_internet">インターネット接続に問題があります。</string>
+    <string name="fail_some_features">一部の機能を読み込めませんでした。</string>
+    <string name="example_evaluation_sentence">あなたの翻訳は文法的に正しく、意味を正確に伝え、\'%1$s\' では自然に聞こえます。\'%1$s\' における \'%2$s\' の最も一般的で自然な対応は \'%3$s\' です。素晴らしい翻訳です。</string>
+
+</resources>

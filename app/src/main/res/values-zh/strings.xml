@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="txt_cumle_olustur_baslik">您想学习的表达方式：</string>
+    <string name="editText_ifade">单词：（必填）</string>
+    <string name="editText_anlam">含义：</string>
+    <string name="editText_not">上下文：</string>
+    <string name="button_ara">查找句子</string>
+    <string name="txt_zorluk">选择难度等级。</string>
+    <string name="buttonSave">确认并保存</string>
+    <string name="txt_mail_basarisiz">我们的服务器未响应电子邮件激活请求。请稍后再试。</string>
+    <string name="txt_mail_gonderildi">点击我们发送到您邮箱的激活链接，以验证您的账户。</string>
+    <string name="tv_delete">您想删除您的账户吗？</string>
+    <string name="tv_delete_btn">删除！</string>
+    <string name="txt_delete_error">删除账户前，您需要最近登录过。</string>
+    <string name="tv_exit_check">您确定要退出吗？</string>
+    <string name="tv_exit">退出！</string>
+    <string name="tv_phrases_title">短语</string>
+    <string name="tv_words_title">单词</string>
+    <string name="tv_selected_title">当前模式：</string>
+    <string name="tv_selected_item">每个句子中随机出现</string>
+    <string name="txt_reset_basarisiz">我们的服务器未响应密码重置请求。请稍后再试。</string>
+    <string name="txt_reset">请检查您的收件箱。如果此邮箱已注册过账户，您将收到密码重置链接。</string>
+    <string name="txt_sifre_sifirlama">您可以通过发送到邮箱的链接继续密码重置流程。</string>
+    <string name="text_silinecek_aciklama">复习间隔为30天或更长的记录将被删除。</string>
+    <string name="switch_view">为我自动执行此操作。</string>
+    <string name="tv_sil">确认并删除</string>
+    <string name="txt_siralama_ölcütü">排序依据：</string>
+    <string name="txt_alfabetik">按字母顺序</string>
+    <string name="txt_eklenme">按添加日期排序</string>
+    <string name="txt_araliga_göre">按复习间隔排序</string>
+    <string name="loadingText">正在准备句子…</string>
+    <string name="button_yenile">刷新句子</string>
+    <string name="txt_aralik">复习间隔：xxx 天</string>
+    <string name="buttonUpdate">更新</string>
+    <string name="buttonCancel">取消</string>
+    <string name="liste_baslik">您的学习清单：</string>
+    <string name="tv_unknown">请从侧边栏选择您的母语和目标语言。</string>
+    <string name="tv_empty_list">您添加到学习清单的表达将在翻译中显示。</string>
+    <string name="tv_empty_list_add">将您想在翻译中看到的表达添加到学习清单中。</string>
+    <string name="txt_giris_baslik">您的登录信息：</string>
+    <string name="txt_giris_bilgisi_email">您已使用电子邮件账户 (xxx) 登录。</string>
+    <string name="txt_aktivasyon">发送电子邮件激活链接。</string>
+    <string name="txt_sifre_değistir">我想更改密码。</string>
+    <string name="hesap_sil">删除我的账户。</string>
+    <string name="txt_profil_baslik">您的账户信息：</string>
+    <string name="txt_anadil_baslik">您的母语：</string>
+    <string name="txt_hedef_dil_baslik">您正在学习的语言：</string>
+    <string name="txt_hesap_turu_baslik">账户类型：</string>
+    <string name="txt_hesap_turu_abonelik">订阅</string>
+    <string name="txt_hesap_turu_ücretsiz">免费</string>
+    <string name="txt_abonelik_suresi">有效期至 xxx。</string>
+    <string name="button_buy">购买订阅</string>
+    <string name="creating_sentence">正在生成您的句子…</string>
+    <string name="et_translation">写下您的翻译…</string>
+    <string name="tv_break">您已经复习了所有表达。</string>
+    <string name="button_marathon_start">重新开始！</string>
+    <string name="button_marathon_end">关闭！</string>
+    <string name="tv_welcome">欢迎！</string>
+    <string name="tv_info">这是一个翻译应用。</string>
+    <string name="tv_1">翻译您看到的句子，</string>
+    <string name="tv_2">翻译成您选择的语言。</string>
+    <string name="tv_3">人工智能将从4个方面评估您的翻译：语法、拼写、自然度和含义。</string>
+    <string name="tv_4">如果您卡住了，可以留空继续：</string>
+    <string name="tv_5">如果您想更频繁地练习某个表达，请将其添加到学习清单中。</string>
+    <string name="tv_ls_title">开始使用</string>
+    <string name="tv_native_language">选择您的母语：</string>
+    <string name="tv_target_language">选择要翻译的语言：</string>
+    <string name="txt_mail_baslik">登录：</string>
+    <string name="et_mail_hint">电子邮件账户</string>
+    <string name="et_sifre_hint">密码</string>
+    <string name="buton_giris">登录</string>
+    <string name="txt_sifremi_unuttum">忘记密码</string>
+    <string name="txt_kayit_ol">创建新账户。</string>
+    <string name="txt_mail_kayit_baslik">使用您的电子邮件注册：</string>
+    <string name="et_mail_kayit_hint">请输入您的电子邮件。</string>
+    <string name="et_sifre_kayit_hint">设置您的密码。</string>
+    <string name="buton_kayit">注册</string>
+    <string name="txt_sifre_sifirlama_baslik">我们将向您的电子邮件发送密码重置链接。</string>
+    <string name="et_mail_sifremi_unuttum_hint">请输入您的电子邮件。</string>
+    <string name="buton_sifirla">发送</string>
+    <string name="familiarity_1">第一次见。</string>
+    <string name="familiarity_2">以前见过。</string>
+    <string name="familiarity_3">我知道，但我想练习。</string>
+    <string name="example_sentence">这是我的钢笔。</string>
+    <string name="example_sentence_blank">这是____钢笔。</string>
+    <string name="feature">还有更多：你可以选择一个难度等级，并确保你感兴趣的表达或模式经常出现。如果你想使用间隔重复的方法学习，只需将表达添加到学习列表中。</string>
+    <string name="warn_select_difficulty">请选择一个难度级别。</string>
+    <string name="registration_done">注册成功。</string>
+    <string name="warn_expression_empty">请输入您要搜索的表达。</string>
+    <string name="warn_typo">很抱歉，您输入的表达包含拼写错误。</string>
+    <string name="warn_meaning">含义不一致。</string>
+    <string name="update_successful">记录已更新。</string>
+    <string name="error_occured">发生了一个错误。</string>
+    <string name="muilti_items_deleted">已删除的句子数量：xxx</string>
+    <string name="warn_missing_input">有缺失的信息。</string>
+    <string name="log_in_failed">登录失败：您输入的信息有误。</string>
+    <string name="no_given_translation">请输入翻译文本。</string>
+    <string name="api_busy">由于系统繁忙，AI 无法响应。</string>
+    <string name="apology">很抱歉给您带来不便。</string>
+    <string name="try_again_later">请稍后再试。</string>
+    <string name="solace">为弥补问题，我们将为您的账户添加一个月的订阅。</string>
+    <string name="warn_select_language">您尚未选择语言。</string>
+
+    <string name="dark_theme_title">深色主题：</string>
+    <string name="arabic">阿拉伯语</string>
+    <string name="bengali">孟加拉语</string>
+    <string name="bulgarian">保加利亚语</string>
+    <string name="chinese">中文</string>
+    <string name="croatian">克罗地亚语</string>
+    <string name="czech">捷克语</string>
+    <string name="danish">丹麦语</string>
+    <string name="dutch">荷兰语</string>
+    <string name="english">英语</string>
+    <string name="estonian">爱沙尼亚语</string>
+    <string name="finnish">芬兰语</string>
+    <string name="french">法语</string>
+    <string name="german">德语</string>
+    <string name="greek">希腊语</string>
+    <string name="hebrew">希伯来语</string>
+    <string name="hindi">印地语</string>
+    <string name="hungarian">匈牙利语</string>
+    <string name="indonesian">印尼语</string>
+    <string name="italian">意大利语</string>
+    <string name="japanese">日语</string>
+    <string name="korean">韩语</string>
+    <string name="latvian">拉脱维亚语</string>
+    <string name="lithuanian">立陶宛语</string>
+    <string name="norwegian">挪威语</string>
+    <string name="polish">波兰语</string>
+    <string name="portuguese">葡萄牙语</string>
+    <string name="romanian">罗马尼亚语</string>
+    <string name="russian">俄语</string>
+    <string name="serbian">塞尔维亚语</string>
+    <string name="slovak">斯洛伐克语</string>
+    <string name="slovenian">斯洛文尼亚语</string>
+    <string name="spanish">西班牙语</string>
+    <string name="swahili">斯瓦希里语</string>
+    <string name="swedish">瑞典语</string>
+    <string name="thai">泰语</string>
+    <string name="turkish">土耳其语</string>
+    <string name="ukrainian">乌克兰语</string>
+    <string name="vietnamese">越南语</string>
+    <string name="txt_giris_bilgisi_google">您已通过 Google (xxx) 登录。</string>
+    <string name="search_hint">搜索…</string>
+    <string name="review_interval">复习间隔</string>
+    <string name="day">天</string>
+    <string name="nothing_to_show">此处暂无内容。</string>
+
+    <string name="unknown">未知</string>
+    <string name="select_theme">选择主题：</string>
+    <string name="system_default">系统默认</string>
+    <string name="light_mode">浅色模式</string>
+    <string name="dark_mode">深色模式</string>
+    <string name="create_folder">创建文件夹：</string>
+    <string name="folder_name">文件夹名称…</string>
+    <string name="folder">文件夹：</string>
+    <string name="start_from_scratch">重新开始！</string>
+    <string name="no_voice_engine">未找到此语言的已下载语音文件。请下载语音文件并重新启动应用程序。</string>
+    <string name="not_common_search">该表达在英语中并不常用。您仍然可以添加，但需注意，人工智能可能会提醒您不要在句子中使用它。</string>
+    <string name="search_hint_text">在搜索时，您可以使用括号中的占位符来代替固定文本：</string>
+    <string name="search_hint_1">to ease [某人的] 悲伤</string>
+    <string name="search_hint_2">将 [某物] 涂成 [某种颜色]</string>
+    <string name="default_folder">默认</string>
+    <string name="wrong_translation_direction">您的翻译不是预期的语言。在账户设置中，您的目标语言已设置为 %1$s。</string>
+    <string name="buttonOk">确定</string>
+    <string name="buttonSettings">前往设置</string>
+
+    <string name="query_no_blank">“%1$s” 这句话我尝试翻译成 %2$s。
+    我的翻译是：“%3$s”
+    请用 %4$s 从语法、拼写、意义和自然度方面评价我的翻译。
+    您的回答必须使用 %4$s，并采用以下 JSON 格式：
+    { "isValid": "true / false.",
+    "feedBack": "%4$s 的评价信息。" }</string>
+
+    <string name="query_no_blank_reverse">“%1$s” 这句话我尝试翻译成我的母语。
+    我翻译成这样：“%2$s”
+    请仅从意义准确性方面评价我的翻译，语法和拼写对我来说并不重要。
+    您的回答必须使用 %3$s，并采用以下 JSON 格式：
+    { "isValid": "true / false.",
+    "feedBack": "%3$s 的评价信息。" }</string>
+
+    <string name="query_with_blank">“%1$s” 这句话我尝试翻译成 %2$s。
+    我的不完整翻译是：“%3$s”
+    我翻译中的空白处表示我无法翻译的部分。
+    请用 %4$s 从语法、拼写、意义和自然度方面评价我的翻译。
+    您的回答必须使用 %4$s，并采用以下 JSON 格式：
+    { "feedBack": "%4$s 的评价信息。",
+    "completeSentence": "填补空白，完成 %2$s 的翻译。" }</string>
+
+    <string name="query_with_blank_reverse">“%1$s” 这句话我尝试翻译成我的母语。
+    我的不完整翻译是：“%2$s”
+    我翻译中的空白处表示我无法翻译的部分。
+    请仅从意义准确性方面评价我的翻译，语法和拼写对我来说并不重要。
+    您的回答必须使用 %3$s，并采用以下 JSON 格式：
+    { "feedBack": "%3$s 的评价信息。",
+    "completeSentence": "填补空白，完成 %2$s 的翻译。" }</string>
+
+    <string name="query_for_no_translation">我的母语是 %1$s。
+    我想把“%2$s” 这句话翻译成 %3$s。
+    请逐步解释我该如何翻译。
+    您的回答必须采用以下 JSON 格式：
+    { "translation": "写出 %3$s 的翻译句子。",
+    "explanation": "%1$s 的详细解释。" }</string>
+
+    <string name="search_issues">您的搜索似乎有一些问题。最终决定权在您。</string>
+    <string name="search_issue_1">搜索的单词可能不在目标语言中。</string>
+    <string name="search_issue_2">搜索的单词可能有拼写错误。</string>
+    <string name="search_issue_3">单词与其含义可能不匹配。</string>
+    <string name="search_issue_4">您搜索的内容在目标语言中可能不常用。</string>
+    <string name="search_issue_5">出现了一些问题，请刷新搜索。</string>
+    <string name="tv_6">点击单词即可听取发音。</string>
+    <string name="example_word">笔</string>
+    <string name="liste_baslik_items">所有记录：</string>
+    <string name="liste_baslik_folders">所有文件夹：</string>
+    <string name="create_folder_2">创建文件夹：%1$s</string>
+    <string name="rename_folder">"重命名文件夹:"</string>
+    <string name="tv_list_empty">创建您自己的翻译列表。</string>
+    <string name="tv_password_criteria">您的密码可以是任意6位字符。</string>
+    <string name="error_email_already_in_use">该电子邮件地址已被注册。</string>
+    <string name="error_invalid_email">请输入有效的电子邮件地址。</string>
+    <string name="error_invalid_password">请输入有效的密码。</string>
+    <string name="error_weak_password">密码不够强。</string>
+    <string name="error_unknown">发生错误。请再试一次。</string>
+    <string name="txt_remaining_translation_count">今日剩余翻译次数：%1$s</string>
+    <string name="txt_no_quota">今日翻译次数已用完。</string>
+    <string name="item_count">项目数：%1$s</string>
+    <string name="warn_min_sentence_number">至少需要 %1$s 个句子。请刷新搜索。</string>
+    <string name="folder_selected">文件夹：%1$s</string>
+    <string name="no_internet">您的网络连接有问题。</string>
+    <string name="fail_some_features">部分功能加载失败。</string>
+    <string name="example_evaluation_sentence">您的翻译语法正确，准确传达了意思，并且在“%1$s”中听起来自然。\'%2$s\'在\'%1$s\'中最常见、最自然的表达是\'%3$s\'。翻译很成功。</string>
+
+</resources>

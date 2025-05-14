@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="txt_cumle_olustur_baslik">Izraz, ki se ga želite naučiti:</string>
+    <string name="editText_ifade">Beseda: (obvezno)</string>
+    <string name="editText_anlam">Pomen:</string>
+    <string name="editText_not">Kontekst:</string>
+    <string name="button_ara">Najdi stavke</string>
+    <string name="txt_zorluk">Izberite stopnjo težavnosti.</string>
+    <string name="buttonSave">Potrdi in shrani</string>
+    <string name="txt_mail_basarisiz">Naši strežniki ne odgovarjajo na zahtevo za aktivacijo e-pošte. Poskusite znova kasneje.</string>
+    <string name="txt_mail_gonderildi">Kliknite povezavo za aktivacijo, ki smo vam jo poslali na vaš e-poštni naslov, da potrdimo vaš račun.</string>
+    <string name="tv_delete">Želite izbrisati svoj račun?</string>
+    <string name="tv_delete_btn">IZBRIŠI!</string>
+    <string name="txt_delete_error">Za izbris računa se morate nedavno prijaviti.</string>
+    <string name="tv_exit_check">Ali ste prepričani, da se želite odjaviti?</string>
+    <string name="tv_exit">Odjavi se!</string>
+    <string name="tv_phrases_title">Izrazi</string>
+    <string name="tv_words_title">Besede</string>
+    <string name="tv_selected_title">Izbrani način:</string>
+    <string name="tv_selected_item">Naključno v vsakem stavku</string>
+    <string name="txt_reset_basarisiz">Naši strežniki ne odgovarjajo na zahtevo za ponastavitev gesla. Poskusite znova kasneje.</string>
+    <string name="txt_reset">Preverite svoj poštni predal. Če je bil ta e-poštni naslov že registriran, boste prejeli povezavo za ponastavitev gesla.</string>
+    <string name="txt_sifre_sifirlama">Nadaljujete lahko s postopkom ponastavitve gesla prek povezave, poslane na vaš e-poštni naslov.</string>
+    <string name="text_silinecek_aciklama">Vpisi z intervalom ponovitve 30 dni ali več bodo izbrisani.</string>
+    <string name="switch_view">Naredi to samodejno namesto mene.</string>
+    <string name="tv_sil">Potrdi in izbriši</string>
+    <string name="txt_siralama_ölcütü">Merilo za razvrščanje:</string>
+    <string name="txt_alfabetik">Abecedni vrstni red</string>
+    <string name="txt_eklenme">Razvrsti po datumu dodajanja</string>
+    <string name="txt_araliga_göre">Razvrsti po intervalu ponovitve</string>
+    <string name="loadingText">Priprava stavkov…</string>
+    <string name="button_yenile">Osveži stavke</string>
+    <string name="txt_aralik">Interval ponovitve: xxx dni</string>
+    <string name="buttonUpdate">Posodobi</string>
+    <string name="buttonCancel">Prekliči</string>
+    <string name="liste_baslik">Vaš učni seznam:</string>
+    <string name="tv_unknown">Izberite svoj materni in ciljni jezik iz stranske vrstice.</string>
+    <string name="tv_empty_list">Izrazi, ki jih dodate na svoj seznam, se bodo prikazali v prevodih.</string>
+    <string name="tv_empty_list_add">Dodajte izraze, ki jih želite videti v prevodih, na svoj učni seznam.</string>
+    <string name="txt_giris_baslik">Vaši prijavni podatki:</string>
+    <string name="txt_giris_bilgisi_email">Prijavljeni ste z e-poštnim računom (xxx).</string>
+    <string name="txt_aktivasyon">Pošlji povezavo za aktivacijo e-pošte.</string>
+    <string name="txt_sifre_değistir">Želim spremeniti svoje geslo.</string>
+    <string name="hesap_sil">Izbriši moj račun.</string>
+    <string name="txt_profil_baslik">Podatki o računu:</string>
+    <string name="txt_anadil_baslik">Vaš materni jezik:</string>
+    <string name="txt_hedef_dil_baslik">Jezik, ki se ga učite:</string>
+    <string name="txt_hesap_turu_baslik">Vrsta računa:</string>
+    <string name="txt_hesap_turu_abonelik">Naročnina</string>
+    <string name="txt_hesap_turu_ücretsiz">Brezplačno</string>
+    <string name="txt_abonelik_suresi">Aktivno do xxx.</string>
+    <string name="button_buy">Kupite naročnino</string>
+    <string name="creating_sentence">Stavek se ustvarja…</string>
+    <string name="et_translation">Napišite svoj prevod…</string>
+    <string name="tv_break">Preverili ste vse svoje izraze.</string>
+    <string name="button_marathon_start">Začni znova!</string>
+    <string name="button_marathon_end">Zapri!</string>
+    <string name="tv_welcome">Dobrodošli!</string>
+    <string name="tv_info">To je prevajalska aplikacija.</string>
+    <string name="tv_1">Prevedite prikazani stavek,</string>
+    <string name="tv_2">v jezik po vaši izbiri.</string>
+    <string name="tv_3">UI oceni vaš prevod v 4 vidikih: slovnica, črkovanje, naravnost in pomen.</string>
+    <string name="tv_4">Če se zataknete, pustite prazno in nadaljujte:</string>
+    <string name="tv_5">Če želite določen izraz vaditi pogosteje, ga dodajte na svoj učni seznam.</string>
+    <string name="tv_ls_title">Za začetek</string>
+    <string name="tv_native_language">Izberite svoj materni jezik:</string>
+    <string name="tv_target_language">Izberite jezik za prevod:</string>
+    <string name="txt_mail_baslik">Prijavite se:</string>
+    <string name="et_mail_hint">E-poštni račun</string>
+    <string name="et_sifre_hint">Geslo</string>
+    <string name="buton_giris">Prijava</string>
+    <string name="txt_sifremi_unuttum">Pozabil sem geslo.</string>
+    <string name="txt_kayit_ol">Ustvari nov račun.</string>
+    <string name="txt_mail_kayit_baslik">Registrirajte se z e-poštnim računom:</string>
+    <string name="et_mail_kayit_hint">Vnesite svoj e-poštni naslov.</string>
+    <string name="et_sifre_kayit_hint">Vnesite svoje geslo.</string>
+    <string name="buton_kayit">Registracija</string>
+    <string name="txt_sifre_sifirlama_baslik">Na vaš e-mail bomo poslali povezavo za ponastavitev gesla.</string>
+    <string name="et_mail_sifremi_unuttum_hint">Vnesite svoj e-poštni naslov.</string>
+    <string name="buton_sifirla">Pošlji</string>
+    <string name="familiarity_1">Prvič vidim.</string>
+    <string name="familiarity_2">Že sem to videl(a).</string>
+    <string name="familiarity_3">Poznam, a želim vaditi.</string>
+    <string name="example_sentence">To je moje pero.</string>
+    <string name="example_sentence_blank">To je ____ pero.</string>
+    <string name="feature">Še več: izberete lahko stopnjo težavnosti in zagotovite, da se izrazi ali vzorci, ki vas zanimajo, pogosto prikazujejo. Če se želite učiti s pomočjo metode ponavljanja v razmiku, preprosto dodajte izraze na svoj seznam učenja.</string>
+    <string name="warn_select_difficulty">Prosimo, izberite stopnjo težavnosti.</string>
+    <string name="registration_done">Registracija je zaključena.</string>
+    <string name="warn_expression_empty">Vnesite izraz, ki ga želite poiskati.</string>
+    <string name="warn_typo">Na žalost vneseni izraz vsebuje tipkarsko napako.</string>
+    <string name="warn_meaning">Obstaja neskladje v pomenu.</string>
+    <string name="update_successful">Vnos je bil posodobljen.</string>
+    <string name="error_occured">Prišlo je do napake.</string>
+    <string name="muilti_items_deleted">Število izbrisanih stavkov: xxx</string>
+    <string name="warn_missing_input">Manjkajo podatki.</string>
+    <string name="log_in_failed">Prijava ni uspela: Vnesli ste napačne podatke.</string>
+    <string name="no_given_translation">Prosimo, vnesite prevod.</string>
+    <string name="api_busy">Zaradi velike obremenitve umetna inteligenca ni mogla odgovoriti.</string>
+    <string name="apology">Opravičujemo se za nevšečnosti.</string>
+    <string name="try_again_later">Poskusite znova pozneje.</string>
+    <string name="solace">Kot nadomestilo vam bomo dodali enomesečno naročnino na račun.</string>
+    <string name="warn_select_language">Niste izbrali jezika.</string>
+
+    <string name="dark_theme_title">Temna tema:</string>
+    <string name="arabic">Arabščina</string>
+    <string name="bengali">Bengalščina</string>
+    <string name="bulgarian">Bolgarščina</string>
+    <string name="chinese">Kitajščina</string>
+    <string name="croatian">Hrvaščina</string>
+    <string name="czech">Češčina</string>
+    <string name="danish">Danščina</string>
+    <string name="dutch">Nizozemščina</string>
+    <string name="english">Angleščina</string>
+    <string name="estonian">Estonščina</string>
+    <string name="finnish">Finščina</string>
+    <string name="french">Francoščina</string>
+    <string name="german">Nemščina</string>
+    <string name="greek">Grščina</string>
+    <string name="hebrew">Hebrejščina</string>
+    <string name="hindi">Hindijščina</string>
+    <string name="hungarian">Madžarščina</string>
+    <string name="indonesian">Indonezijščina</string>
+    <string name="italian">Italijanščina</string>
+    <string name="japanese">Japonščina</string>
+    <string name="korean">Korejščina</string>
+    <string name="latvian">Latvijščina</string>
+    <string name="lithuanian">Litovščina</string>
+    <string name="norwegian">Norveščina</string>
+    <string name="polish">Poljščina</string>
+    <string name="portuguese">Portugalščina</string>
+    <string name="romanian">Romunščina</string>
+    <string name="russian">Ruščina</string>
+    <string name="serbian">Srbščina</string>
+    <string name="slovak">Slovaščina</string>
+    <string name="slovenian">Slovenščina</string>
+    <string name="spanish">Španščina</string>
+    <string name="swahili">Svahilščina</string>
+    <string name="swedish">Švedščina</string>
+    <string name="thai">Tajščina</string>
+    <string name="turkish">Turščina</string>
+    <string name="ukrainian">Ukrajinščina</string>
+    <string name="vietnamese">Vietnamščina</string>
+    <string name="txt_giris_bilgisi_google">Prijavili ste se z Google računom (xxx).</string>
+    <string name="search_hint">Iskanje…</string>
+    <string name="review_interval">Interval pregleda</string>
+    <string name="day">dan</string>
+    <string name="nothing_to_show">Tukaj zaenkrat ni ničesar za prikazati.</string>
+
+    <string name="unknown">Neznano</string>
+    <string name="select_theme">Izberite temo:</string>
+    <string name="system_default">Privzeto sistema</string>
+    <string name="light_mode">Svetla tema</string>
+    <string name="dark_mode">Temna tema</string>
+    <string name="create_folder">Ustvari mapo:</string>
+    <string name="folder_name">Ime mape…</string>
+    <string name="folder">Mapa:</string>
+    <string name="start_from_scratch">Začni znova!</string>
+    <string name="no_voice_engine">Za ta jezik ni bilo najdenih prej prenesenih zvočnih datotek. Prosimo, prenesite zvočno datoteko in ponovno zaženite aplikacijo.</string>
+    <string name="not_common_search">Ta izraz ni pogosto uporabljen v angleščini. Kljub temu ga lahko dodate, vendar vas AI lahko opozori, da ga ne uporabljate v stavkih.</string>
+    <string name="search_hint_text">Pri iskanju lahko uporabite nadomestne oznake v oklepajih namesto fiksnega besedila:</string>
+    <string name="search_hint_1">omiliti žalost [nekoga]</string>
+    <string name="search_hint_2">obarvati [nekaj] v [barvo]</string>
+    <string name="default_folder">Privzeto</string>
+    <string name="wrong_translation_direction">Vaš prevod ni v pričakovanem jeziku. Ciljni jezik je nastavljen na %1$s v nastavitvah računa.</string>
+    <string name="buttonOk">V redu</string>
+    <string name="buttonSettings">Pojdi na nastavitve</string>
+
+    <string name="query_no_blank">Poskušal sem prevesti "%1$s" v %2$s.
+    Moj prevod: "%3$s"
+    Prosimo, ocenite moj prevod v %4$s glede na slovnico, črkovanje, pomen in naravnost.
+    Vaš odgovor mora biti v %4$s in v naslednji obliki JSON:
+    { "isValid": "true / false.",
+    "feedBack": "Ocenitev v %4$s." }</string>
+
+    <string name="query_no_blank_reverse">Poskušal sem prevesti "%1$s" v moj materni jezik.
+    Prevedel sem tako: "%2$s"
+    Prosimo, ocenite moj prevod samo glede natančnosti pomena; slovnica in črkovanje mi nista pomembna.
+    Vaš odgovor mora biti v %3$s in v naslednji obliki JSON:
+    { "isValid": "true / false.",
+    "feedBack": "Ocenitev v %3$s." }</string>
+
+    <string name="query_with_blank">Poskušal sem prevesti "%1$s" v %2$s.
+    Moj nepopoln prevod: "%3$s"
+    Prazno mesto v prevodu označuje del, ki ga nisem mogel prevesti.
+    Prosimo, ocenite moj prevod v %4$s glede na slovnico, črkovanje, pomen in naravnost.
+    Vaš odgovor mora biti v %4$s in v naslednji obliki JSON:
+    { "feedBack": "Ocenitev v %4$s.",
+    "completeSentence": "Dokončajte %2$s prevod z izpolnitvijo praznih mest." }</string>
+
+    <string name="query_with_blank_reverse">Poskušal sem prevesti "%1$s" v moj materni jezik.
+    Moj nepopoln prevod: "%2$s"
+    Prazno mesto v prevodu označuje del, ki ga nisem mogel prevesti.
+    Prosimo, ocenite moj prevod samo glede natančnosti pomena; slovnica in črkovanje mi nista pomembna.
+    Vaš odgovor mora biti v %3$s in v naslednji obliki JSON:
+    { "feedBack": "Ocenitev v %3$s.",
+    "completeSentence": "Dokončajte %2$s prevod z izpolnitvijo praznih mest." }</string>
+
+    <string name="query_for_no_translation">Moj materni jezik je %1$s.
+    In želim prevesti stavek "%2$s" v %3$s.
+    Prosimo, razložite mi korak za korakom, kako ga prevesti.
+    Vaš odgovor mora biti v naslednji obliki JSON:
+    { "translation": "Napišite preveden stavek v %3$s.",
+    "explanation": "Podrobna razlaga v %1$s." }</string>
+
+    <string name="search_issues">Zdi se, da je pri vašem iskanju nekaj težav. Končna odločitev je vaša.</string>
+    <string name="search_issue_1">Iskana beseda morda ne obstaja v ciljnem jeziku.</string>
+    <string name="search_issue_2">Iskana beseda lahko vsebuje pravopisne napake.</string>
+    <string name="search_issue_3">Beseda in pomen se morda ne ujemata.</string>
+    <string name="search_issue_4">Iskani izraz morda ni pogosto uporabljen v ciljnem jeziku.</string>
+    <string name="search_issue_5">Nekaj je šlo narobe, osvežite iskanje.</string>
+    <string name="tv_6">Tapnite besede, da slišite njihov izgovor.</string>
+    <string name="example_word">pero</string>
+    <string name="liste_baslik_items">Vsi zapisi:</string>
+    <string name="liste_baslik_folders">Vse mape:</string>
+    <string name="create_folder_2">Ustvari mapo: %1$s</string>
+    <string name="rename_folder">"Preimenuj mapo:"</string>
+    <string name="tv_list_empty">Ustvarite svoj seznam prevodov.</string>
+    <string name="tv_password_criteria">Vaše geslo je lahko katera koli kombinacija 6 znakov.</string>
+    <string name="error_email_already_in_use">Ta e-poštni naslov je že registriran.</string>
+    <string name="error_invalid_email">Vnesite veljaven e-poštni naslov.</string>
+    <string name="error_invalid_password">Vnesite veljavno geslo.</string>
+    <string name="error_weak_password">Geslo ni dovolj močno.</string>
+    <string name="error_unknown">Prišlo je do napake. Poskusite znova.</string>
+    <string name="txt_remaining_translation_count">Preostali prevodi danes: %1$s</string>
+    <string name="txt_no_quota">Dosegli ste dnevno omejitev prevodov.</string>
+    <string name="item_count">Število elementov: %1$s</string>
+    <string name="warn_min_sentence_number">Mora biti vsaj %1$s stavkov. Osvežite iskanje.</string>
+    <string name="folder_selected">Mapa: %1$s</string>
+    <string name="no_internet">Pri vaši internetni povezavi je težava.</string>
+    <string name="fail_some_features">Nekaterih funkcij ni bilo mogoče naložiti.</string>
+    <string name="example_evaluation_sentence">Vaš prevod je slovnično pravilen, natančno posreduje pomen in zveni naravno v \'%1$s\'. Najpogostejši in najbolj naravni ekvivalent za \'%2$s\' v \'%1$s\' je \'%3$s\'. Odličen prevod.</string>
+
+</resources>

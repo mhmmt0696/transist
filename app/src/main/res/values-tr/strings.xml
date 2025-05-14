@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="txt_cumle_olustur_baslik">Öğrenmek istediğiniz ifade:</string>
+    <string name="editText_ifade">Kelime: (zorunlu)</string>
+    <string name="editText_anlam">Anlam:</string>
+    <string name="editText_not">Bağlam:</string>
+    <string name="button_ara">Cümleleri bul</string>
+    <string name="txt_zorluk">Zorluk seviyesini seçin.</string>
+    <string name="buttonSave">Onayla ve Kaydet</string>
+    <string name="txt_mail_basarisiz">Sunucularımız e-mail aktivasyon isteğine yanıt vermiyor. Lütfen daha sonra tekrar deneyin.</string>
+    <string name="txt_mail_gonderildi">E-mail adresinizi doğrulayabilmemiz için e-mail hesabınıza gönderdiğimiz aktivasyon bağlantısına tıklayın.</string>
+    <string name="tv_delete">Hesabınızı silelim mi?</string>
+    <string name="tv_delete_btn">SİL!</string>
+    <string name="txt_delete_error">Hesap silme işlemi için yakın zamanda giriş yapmış olmanız gerekir.</string>
+    <string name="tv_exit_check">Çıkış yapmak istiyor musun?</string>
+    <string name="tv_exit">Çıkış yap!</string>
+    <string name="tv_phrases_title">Kalıplar</string>
+    <string name="tv_words_title">Kelimeler</string>
+    <string name="tv_selected_title">Seçili mod:</string>
+    <string name="tv_selected_item">Her cümlede rastgele</string>
+    <string name="txt_reset_basarisiz">Sunucularımız şifre sıfırlama isteğine yanıt vermiyor. Lütfen daha sonra tekrar deneyin.</string>
+    <string name="txt_reset">Gelen kutunuzu kontrol edin. Eğer bu mail adresi ile daha önce kayıt olunmuşsa, bir şifre sıfırlama bağlantısı göreceksiniz.</string>
+    <string name="txt_sifre_sifirlama">Şifre değiştirme işlemlerine e-mail hesabınıza gönderilen bağlantı aracılığıyla devam edebilirsiniz.</string>
+    <string name="text_silinecek_aciklama">Tekrar aralığı 30 gün ve daha fazla olan kayıtlar silinecek.</string>
+    <string name="switch_view">Bu işlemi benim için otomatik olarak yap.</string>
+    <string name="tv_sil">Onayla ve Sil</string>
+    <string name="txt_siralama_ölcütü">Sıralama Ölçütü:</string>
+    <string name="txt_alfabetik">Alfabetik sıralama</string>
+    <string name="txt_eklenme">Eklenme zamanına göre sıralama</string>
+    <string name="txt_araliga_göre">Tekrar aralığına göre sıralama</string>
+    <string name="loadingText">Cümleler hazırlanıyor…</string>
+    <string name="button_yenile">Cümleleri yenile</string>
+    <string name="txt_aralik">Tekrar aralığı: xxx gün</string>
+    <string name="buttonUpdate">Güncelle</string>
+    <string name="buttonCancel">Vazgeç</string>
+    <string name="liste_baslik">Öğrenme Listeniz:</string>
+    <string name="tv_unknown">Lütfen anadilinizi ve çeviri dilini yan taraftan seçiniz.</string>
+    <string name="tv_empty_list">Öğrenme listenize eklediğiniz ifadeler çevirilerde karşınıza çıkar.</string>
+    <string name="tv_empty_list_add">Çevirilerde geçmesini istediğiniz ifadeleri öğrenme listenize ekleyin.</string>
+    <string name="txt_giris_baslik">Giriş bilgileriniz:</string>
+    <string name="txt_giris_bilgisi_email">E-mail hesabınız (xxx) ile giriş yaptınız.</string>
+    <string name="txt_aktivasyon">E-mail aktivasyon linki gönder.</string>
+    <string name="txt_sifre_değistir">Şifremi değiştirmek istiyorum.</string>
+    <string name="hesap_sil">Hesabımı sil.</string>
+    <string name="txt_profil_baslik">Hesap bilgileriniz:</string>
+    <string name="txt_anadil_baslik">Anadiliniz:</string>
+    <string name="txt_hedef_dil_baslik">Öğrendiğiniz dil:</string>
+    <string name="txt_hesap_turu_baslik">Hesap türü:</string>
+    <string name="txt_hesap_turu_abonelik">Abonelik</string>
+    <string name="txt_hesap_turu_ücretsiz">Ücretsiz</string>
+    <string name="txt_abonelik_suresi">xxx tarihine kadar aktif.</string>
+    <string name="button_buy">Abonelik Al</string>
+    <string name="creating_sentence">Cümleniz oluşturuluyor…</string>
+    <string name="et_translation">Çevirinizi yazın…</string>
+    <string name="tv_break">İfadelerinizin hepsini çalıştınız.</string>
+    <string name="button_marathon_start">Baştan başla!</string>
+    <string name="button_marathon_end">Kapat!</string>
+    <string name="tv_welcome">Hoş geldiniz!</string>
+    <string name="tv_info">Bu bir çeviri uygulamasıdır.</string>
+    <string name="tv_1">Gördüğünüz cümleyi,</string>
+    <string name="tv_2">İstediğiniz dile çevirin.</string>
+    <string name="tv_3">Yapay zeka, çevirinizi 4 yönden değerlendirir: Dil bilgisi, yazım yanlışları, doğallık ve anlam.</string>
+    <string name="tv_4">Çeviride zorlanırsanız, boşluk bırakarak devam edin:</string>
+    <string name="tv_5">Eğer bir ifadeyi daha sık çevirmek istiyorsanız, onu öğrenme listenize alın.</string>
+    <string name="tv_ls_title">Başlamak için</string>
+    <string name="tv_native_language">Anadilinizi seçin:</string>
+    <string name="tv_target_language">Çevireceğiniz dili seçin:</string>
+    <string name="txt_mail_baslik">Oturum açın:</string>
+    <string name="et_mail_hint">E-mail hesabı</string>
+    <string name="et_sifre_hint">Şifre</string>
+    <string name="buton_giris">Giriş Yap</string>
+    <string name="txt_sifremi_unuttum">Şifremi unuttum.</string>
+    <string name="txt_kayit_ol">Yeni bir hesap oluştur.</string>
+    <string name="txt_mail_kayit_baslik">E-mail hesabınız ile kayıt olun:</string>
+    <string name="et_mail_kayit_hint">E-mail hesabınızı yazın.</string>
+    <string name="et_sifre_kayit_hint">Şifrenizi belirleyin.</string>
+    <string name="buton_kayit">Kayıt ol</string>
+    <string name="txt_sifre_sifirlama_baslik">E-mail hesabınıza şifre sıfırlama bağlantısı göndereceğiz.</string>
+    <string name="et_mail_sifremi_unuttum_hint">E-mail hesabınızı yazın.</string>
+    <string name="buton_sifirla">Gönder</string>
+    <string name="familiarity_1">İlk defa görüyorum.</string>
+    <string name="familiarity_2">Daha önce görmüştüm.</string>
+    <string name="familiarity_3">Biliyorum ama pratik yapmak istiyorum.</string>
+
+    <string name="example_sentence">Bu benim kalemim.</string>
+    <string name="example_sentence_blank">Bu ____ kalemim.</string>
+    <string name="feature">Daha fazlası da var: Zorluk seviyesini seçebilir, ilgini çeken ifadelerin veya kalıpların sana sıkça gösterilmesini sağlayabilirsin. Aralıklı tekrar yöntemiyle öğrenmek istersen, ifadeleri öğrenme listene eklemen yeterli.</string>
+    <string name="warn_select_difficulty">Lütfen bir zorluk seviyesi belirtin.</string>
+    <string name="registration_done">Kayıt yapıldı.</string>
+    <string name="warn_expression_empty">Lütfen aramak istediğiniz ifadeyi yazın.</string>
+    <string name="warn_typo">Malesef, girdiğiniz ifade yazım yanlışı içeriyor.</string>
+    <string name="warn_meaning">Anlam uyuşmazlığı var.</string>
+    <string name="update_successful">Kayıt güncellendi.</string>
+    <string name="error_occured">Bir hata meydana geldi.</string>
+    <string name="muilti_items_deleted">Silinen cümle sayısı: xxx"</string>
+    <string name="warn_missing_input">Eksik bilgi var."</string>
+    <string name="log_in_failed">Giriş başarısız: Hatalı bilgi girdiniz."</string>
+    <string name="no_given_translation">Lütfen çeviri metnini giriniz."</string>
+    <string name="api_busy">Yapay zeka, yoğunluktan dolayı yanıt veremedi."</string>
+    <string name="apology">Yaşadığınız aksaklıktan dolayı üzgünüz."</string>
+    <string name="try_again_later">Lütfen daha sonra tekrar deneyin."</string>
+    <string name="solace">Sorunu telafi edebilmek için, hesabınıza bir aylık abonelik tanımlayacağız."</string>
+    <string name="warn_select_language">Dil seçimi yapmadınız."</string>
+
+    <string name="dark_theme_title">Koyu tema:</string>
+    <string name="arabic">Arapça</string>
+    <string name="bengali">Bengalce</string>
+    <string name="bulgarian">Bulgarca</string>
+    <string name="chinese">Çince</string>
+    <string name="croatian">Hırvatça</string>
+    <string name="czech">Çekçe</string>
+    <string name="danish">Danca</string>
+    <string name="dutch">Felemenkçe</string>
+    <string name="english">İngilizce</string>
+    <string name="estonian">Estonca</string>
+    <string name="finnish">Fince</string>
+    <string name="french">Fransızca</string>
+    <string name="german">Almanca</string>
+    <string name="greek">Yunanca</string>
+    <string name="hebrew">İbranice</string>
+    <string name="hindi">Hintçe</string>
+    <string name="hungarian">Macarca</string>
+    <string name="indonesian">Endonezce</string>
+    <string name="italian">İtalyanca</string>
+    <string name="japanese">Japonca</string>
+    <string name="korean">Korece</string>
+    <string name="latvian">Letonca</string>
+    <string name="lithuanian">Litvanca</string>
+    <string name="norwegian">Norveççe</string>
+    <string name="polish">Lehçe</string>
+    <string name="portuguese">Portekizce</string>
+    <string name="romanian">Romence</string>
+    <string name="russian">Rusça</string>
+    <string name="serbian">Sırpça</string>
+    <string name="slovak">Slovakça</string>
+    <string name="slovenian">Slovence</string>
+    <string name="spanish">İspanyolca</string>
+    <string name="swahili">Svahili</string>
+    <string name="swedish">İsveççe</string>
+    <string name="thai">Tayca</string>
+    <string name="turkish">Türkçe</string>
+    <string name="ukrainian">Ukraynaca</string>
+    <string name="vietnamese">Vietnamca</string>
+    <string name="txt_giris_bilgisi_google">Google (xxx) ile giriş yaptınız.</string>
+    <string name="search_hint">Ara…</string>
+    <string name="review_interval">Tekrar aralığı</string>
+    <string name="day">gün</string>
+    <string name="nothing_to_show">Burada henüz gösterilecek bir şey yok.</string>
+
+    <string name="unknown">Belirsiz</string>
+    <string name="select_theme">Temayı seçin:</string>
+    <string name="system_default">Sistem varsayılanı</string>
+    <string name="light_mode">Aydınlık Tema</string>
+    <string name="dark_mode">Karanlık Tema</string>
+    <string name="create_folder">Klasör Oluştur:</string>
+    <string name="folder_name">Klasör adı…</string>
+    <string name="folder">Klasör:</string>
+    <string name="start_from_scratch">Baştan başla!</string>
+    <string name="no_voice_engine">Bu dilde daha önce yüklenmiş bir ses dosyası bulunamadı. Lütfen bir ses dosyası indirin ve uygulamayı yeniden başlatın.</string>
+    <string name="not_common_search">Bu ingilizce dilinde yaygın kullanılan bir ifade değil. Yine de eklemeye devam edebilirsiniz ama bilmelisiniz ki yapay zeka, bu ifadeyi cümlelerde kullanmamanız konusunda sizi uyarabilir.</string>
+    <string name="search_hint_text">Aramalarınızda sabit metinler yerine parantez içerisinde yer tutucular kullanabilirsiniz:</string>
+    <string name="search_hint_1">to ease [one\'s] sadness</string>
+    <string name="search_hint_2">to paint [something] a [color]</string>
+    <string name="default_folder">Varsayılan</string>
+    <string name="wrong_translation_direction">Çeviriniz beklenen dilde değil. Hesap ayarlarınızda hedef diliniz %1$s olarak belirlenmiş.</string>
+    <string name="buttonOk">Tamam</string>
+    <string name="buttonSettings">Ayarlara git </string>
+
+    <string name="query_no_blank">\"%1$s\" cümlesini %2$s diline çeviri yapmaya çalıştım.
+        Yaptığım çeviri: \"%3$s\"
+        Lütfen çevirimi dil bilgisi, yazım hataları, anlam ve doğallık yönlerinden %4$s dilinde değerlendir.
+        Cevabını %4$s dilinde ve aşağıdaki JSON formatında vermelisin:
+        { \"isValid\": \"true / false.\",
+        \"feedBack\": \"%4$s Değerlendirme mesajı.\" }</string>
+
+    <string name="query_no_blank_reverse">\"%1$s\" cümlesini ana dilime çevirmeye çalıştım.
+        Şu şekilde çevirdim: \"%2$s\"
+        Lütfen çevirimi sadece anlam doğruluğu yönünden değerlendir, dil bilgisi ve yazım hataları benim için önemli değil.
+        Cevabını %3$s dilinde ve aşağıdaki JSON formatında vermelisin:
+        { \"isValid\": \"true / false.\",
+        \"feedBack\": \"%3$s Değerlendirme mesajı.\" }</string>
+
+    <string name="query_with_blank">\"%1$s\" cümlesini %2$s diline çeviri yapmaya çalıştım.
+        Benim tamamlanmamış çevirim: \"%3$s\"
+        Çevirimde bulunan boşluk, benim çevirisini yapamadığım yere işaret ediyor.
+        Lütfen çevirimi dil bilgisi, yazım hataları, anlam ve doğallık yönlerinden %4$s dilinde değerlendir.
+        Cevabını %4$s dilinde ve aşağıdaki JSON formatında vermelisin:
+        { \"feedBack\": \"%4$s Değerlendirme mesajı.\",
+        \"completeSentence\": \"Complete the %2$s translation filling the blanks.\" }</string>
+
+    <string name="query_with_blank_reverse">\"%1$s\" cümlesini ana dilime çevirmeye çalıştım.
+        Benim tamamlanmamış çevirim: \"%2$s\"
+        Çevirimde bulunan boşluk, benim çevirisini yapamadığım yere işaret ediyor.
+        Lütfen çevirimi sadece anlam doğruluğu yönünden değerlendir, dil bilgisi ve yazım hataları benim için önemli değil.
+        Cevabını %3$s dilinde ve aşağıdaki JSON formatında vermelisin:
+        { \"feedBack\": \"%3$s Değerlendirme mesajı.\",
+        \"completeSentence\": \"Complete the %2$s translation filling the blanks.\" }</string>
+
+    <string name="query_for_no_translation">Benim anadilim %1$s.
+        Ve \"%2$s\" cümlesini %3$s diline çevirmek istiyorum.
+        Lütfen bana parçalar halinde nasıl çeviri yapacağımı açıkla.
+        Cevabını aşağıdaki JSON formatında vermelisin:
+        { \"translation\": \"%3$s dilindeki çeviri cümleni yaz.\",
+        \"explanation\": \"%1$s dilinde ayrıntılı açıklama.\" }</string>
+    <string name="search_issues">Aramanızda bazı sorunlar var gibi görünüyor. Yine de son karar size ait.</string>
+    <string name="search_issue_1">Aratılan kelime hedef dilde olmayabilir.</string>
+    <string name="search_issue_2">Aratılan kelimede yazım hataları olabilir.</string>
+    <string name="search_issue_3">Kelime ile anlam birbirine uymuyor olabilir.</string>
+    <string name="search_issue_4">Aratılan şey, hedef dilde yaygın kullanım olmayabilir.</string>
+    <string name="search_issue_5">Bir şeyler ters gitti lütfen aramanızı yenileyin.</string>
+    <string name="tv_6">Telafuzları dinlemek için kelimelerin üzerine dokunun.</string>
+    <string name="example_word">kalem</string>
+    <string name="liste_baslik_items">Tüm kayıtlar:</string>
+    <string name="liste_baslik_folders">Tüm klasörler:</string>
+    <string name="create_folder_2">Create folder: %1$s</string>
+    <string name="rename_folder">"Klasör Adı Değiştir:"</string>
+    <string name="tv_list_empty">Kendi çeviri listenizi oluşturun.</string>
+    <string name="tv_password_criteria">Şifreniz 6 haneli herhangi bir şey olabilir.</string>
+    <string name="error_email_already_in_use">Bu e-posta adresi zaten kayıtlı.</string>
+    <string name="error_invalid_email">Geçerli bir e-posta adresi girin.</string>
+    <string name="error_invalid_password">Geçerli bir şifre girin.</string>
+    <string name="error_weak_password">Şifre yeterince güçlü değil.</string>
+    <string name="error_unknown">Bir hata oluştu. Lütfen tekrar deneyin.</string>
+    <string name="txt_remaining_translation_count">Kalan günlük çeviri hakkınız: %1$s</string>
+    <string name="txt_no_quota">Günlük çeviri hakkınız doldu.</string>
+    <string name="item_count">Eleman sayısı: %1$s</string>
+    <string name="warn_min_sentence_number">En az %1$s cümle olmalıdır. Lütfen aramanızı yenileyin.</string>
+    <string name="folder_selected">Klasör: %1$s</string>
+    <string name="no_internet">İnternet bağlantınızda bir sorun var.</string>
+    <string name="fail_some_features">Bazı özellikler yüklenemedi.</string>
+    <string name="example_evaluation_sentence">Çeviriniz dilbilgisi açısından doğru, anlamı doğru şekilde aktarıyor ve \'%1$s\' dilinde doğal görünüyor. \'%2$s\' ifadesinin \'%1$s\' dilindeki en yaygın ve doğal karşılığı \'%3$s\'tir. Harika bir çeviri.</string>
+
+</resources>

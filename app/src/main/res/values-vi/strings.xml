@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="txt_cumle_olustur_baslik">Cụm từ bạn muốn học:</string>
+    <string name="editText_ifade">Từ: (bắt buộc)</string>
+    <string name="editText_anlam">Ý nghĩa:</string>
+    <string name="editText_not">Ngữ cảnh:</string>
+    <string name="button_ara">Tìm câu</string>
+    <string name="txt_zorluk">Chọn cấp độ khó.</string>
+    <string name="buttonSave">Xác nhận và lưu</string>
+    <string name="txt_mail_basarisiz">Máy chủ của chúng tôi không phản hồi yêu cầu kích hoạt email. Vui lòng thử lại sau.</string>
+    <string name="txt_mail_gonderildi">Hãy nhấp vào liên kết kích hoạt mà chúng tôi đã gửi đến địa chỉ email của bạn để xác minh tài khoản.</string>
+    <string name="tv_delete">Bạn có muốn xóa tài khoản của mình không?</string>
+    <string name="tv_delete_btn">XÓA!</string>
+    <string name="txt_delete_error">Để xóa tài khoản, bạn cần đăng nhập gần đây.</string>
+    <string name="tv_exit_check">Bạn có chắc chắn muốn đăng xuất không?</string>
+    <string name="tv_exit">Đăng xuất!</string>
+    <string name="tv_phrases_title">Cụm từ</string>
+    <string name="tv_words_title">Từ vựng</string>
+    <string name="tv_selected_title">Chế độ đã chọn:</string>
+    <string name="tv_selected_item">Ngẫu nhiên trong mỗi câu</string>
+    <string name="txt_reset_basarisiz">Máy chủ của chúng tôi không phản hồi yêu cầu đặt lại mật khẩu. Vui lòng thử lại sau.</string>
+    <string name="txt_reset">Kiểm tra hộp thư đến của bạn. Nếu tài khoản đã được đăng ký bằng email này, bạn sẽ nhận được liên kết đặt lại mật khẩu.</string>
+    <string name="txt_sifre_sifirlama">Bạn có thể tiếp tục quá trình đặt lại mật khẩu bằng liên kết đã gửi đến email của mình.</string>
+    <string name="text_silinecek_aciklama">Các mục có khoảng thời gian ôn tập từ 30 ngày trở lên sẽ bị xóa.</string>
+    <string name="switch_view">Tự động thực hiện việc này cho tôi.</string>
+    <string name="tv_sil">Xác nhận và xóa</string>
+    <string name="txt_siralama_ölcütü">Tiêu chí sắp xếp:</string>
+    <string name="txt_alfabetik">Thứ tự chữ cái</string>
+    <string name="txt_eklenme">Sắp xếp theo ngày thêm</string>
+    <string name="txt_araliga_göre">Sắp xếp theo khoảng thời gian ôn tập</string>
+    <string name="loadingText">Đang chuẩn bị câu…</string>
+    <string name="button_yenile">Làm mới câu</string>
+    <string name="txt_aralik">Khoảng thời gian ôn tập: xxx ngày</string>
+    <string name="buttonUpdate">Cập nhật</string>
+    <string name="buttonCancel">Hủy bỏ</string>
+    <string name="liste_baslik">Danh sách học của bạn:</string>
+    <string name="tv_unknown">Vui lòng chọn ngôn ngữ mẹ đẻ và ngôn ngữ mục tiêu của bạn từ bảng điều khiển bên.</string>
+    <string name="tv_empty_list">Các cụm từ bạn thêm vào danh sách học sẽ xuất hiện trong phần dịch.</string>
+    <string name="tv_empty_list_add">Thêm các cụm từ bạn muốn xuất hiện trong bản dịch vào danh sách học của bạn.</string>
+    <string name="txt_giris_baslik">Thông tin đăng nhập của bạn:</string>
+    <string name="txt_giris_bilgisi_email">Bạn đã đăng nhập bằng tài khoản email (xxx).</string>
+    <string name="txt_aktivasyon">Gửi liên kết kích hoạt email.</string>
+    <string name="txt_sifre_değistir">Tôi muốn thay đổi mật khẩu.</string>
+    <string name="hesap_sil">Xóa tài khoản của tôi.</string>
+    <string name="txt_profil_baslik">Thông tin tài khoản của bạn:</string>
+    <string name="txt_anadil_baslik">Ngôn ngữ mẹ đẻ của bạn:</string>
+    <string name="txt_hedef_dil_baslik">Ngôn ngữ bạn đang học:</string>
+    <string name="txt_hesap_turu_baslik">Loại tài khoản:</string>
+    <string name="txt_hesap_turu_abonelik">Gói đăng ký</string>
+    <string name="txt_hesap_turu_ücretsiz">Miễn phí</string>
+    <string name="txt_abonelik_suresi">Kích hoạt đến xxx.</string>
+    <string name="button_buy">Mua gói đăng ký</string>
+    <string name="creating_sentence">Đang tạo câu của bạn…</string>
+    <string name="et_translation">Viết bản dịch của bạn…</string>
+    <string name="tv_break">Bạn đã ôn lại tất cả các cụm từ.</string>
+    <string name="button_marathon_start">Bắt đầu lại!</string>
+    <string name="button_marathon_end">Đóng!</string>
+    <string name="tv_welcome">Chào mừng!</string>
+    <string name="tv_info">Đây là ứng dụng dịch thuật.</string>
+    <string name="tv_1">Hãy dịch câu bạn thấy,</string>
+    <string name="tv_2">sang ngôn ngữ bạn chọn.</string>
+    <string name="tv_3">AI sẽ đánh giá bản dịch của bạn qua 4 yếu tố: Ngữ pháp, chính tả, tự nhiên và ý nghĩa.</string>
+    <string name="tv_4">Nếu bạn gặp khó khăn, có thể bỏ trống và tiếp tục:</string>
+    <string name="tv_5">Nếu bạn muốn luyện tập cụm từ nào thường xuyên hơn, hãy thêm nó vào danh sách học của mình.</string>
+    <string name="tv_ls_title">Để bắt đầu</string>
+    <string name="tv_native_language">Chọn ngôn ngữ mẹ đẻ của bạn:</string>
+    <string name="tv_target_language">Chọn ngôn ngữ để dịch sang:</string>
+    <string name="txt_mail_baslik">Đăng nhập:</string>
+    <string name="et_mail_hint">Tài khoản email</string>
+    <string name="et_sifre_hint">Mật khẩu</string>
+    <string name="buton_giris">Đăng nhập</string>
+    <string name="txt_sifremi_unuttum">Quên mật khẩu.</string>
+    <string name="txt_kayit_ol">Tạo tài khoản mới.</string>
+    <string name="txt_mail_kayit_baslik">Đăng ký bằng tài khoản email của bạn:</string>
+    <string name="et_mail_kayit_hint">Nhập địa chỉ email của bạn.</string>
+    <string name="et_sifre_kayit_hint">Tạo mật khẩu của bạn.</string>
+    <string name="buton_kayit">Đăng ký</string>
+    <string name="txt_sifre_sifirlama_baslik">Chúng tôi sẽ gửi liên kết đặt lại mật khẩu đến email của bạn.</string>
+    <string name="et_mail_sifremi_unuttum_hint">Nhập địa chỉ email của bạn.</string>
+    <string name="buton_sifirla">Gửi</string>
+    <string name="familiarity_1">Tôi thấy lần đầu tiên.</string>
+    <string name="familiarity_2">Tôi đã thấy trước đây.</string>
+    <string name="familiarity_3">Tôi biết nhưng muốn luyện tập thêm.</string>
+    <string name="example_sentence">Đây là cây bút của tôi.</string>
+    <string name="example_sentence_blank">Đây là ____ cây bút.</string>
+    <string name="feature">Còn nhiều hơn thế: Bạn có thể chọn mức độ khó và đảm bảo rằng các cụm từ hoặc mẫu câu bạn quan tâm xuất hiện thường xuyên. Nếu bạn muốn học bằng phương pháp lặp lại ngắt quãng, chỉ cần thêm các cụm từ vào danh sách học của bạn.</string>
+    <string name="warn_select_difficulty">Vui lòng chọn mức độ khó.</string>
+    <string name="registration_done">Đăng ký hoàn tất.</string>
+    <string name="warn_expression_empty">Vui lòng nhập cụm từ bạn muốn tìm kiếm.</string>
+    <string name="warn_typo">Rất tiếc, cụm từ bạn nhập có lỗi chính tả.</string>
+    <string name="warn_meaning">Có sự không khớp về nghĩa.</string>
+    <string name="update_successful">Bản ghi đã được cập nhật.</string>
+    <string name="error_occured">Đã xảy ra lỗi.</string>
+    <string name="muilti_items_deleted">Số câu đã xóa: xxx</string>
+    <string name="warn_missing_input">Thiếu thông tin.</string>
+    <string name="log_in_failed">Đăng nhập thất bại: Thông tin không chính xác.</string>
+    <string name="no_given_translation">Vui lòng nhập văn bản cần dịch.</string>
+    <string name="api_busy">Trí tuệ nhân tạo không thể phản hồi do quá tải.</string>
+    <string name="apology">Chúng tôi xin lỗi vì sự cố bạn gặp phải.</string>
+    <string name="try_again_later">Vui lòng thử lại sau.</string>
+    <string name="solace">Để bù đắp, chúng tôi sẽ thêm một tháng đăng ký vào tài khoản của bạn.</string>
+    <string name="warn_select_language">Bạn chưa chọn ngôn ngữ.</string>
+
+    <string name="dark_theme_title">Giao diện tối:</string>
+    <string name="arabic">Tiếng Ả Rập</string>
+    <string name="bengali">Tiếng Bengal</string>
+    <string name="bulgarian">Tiếng Bulgaria</string>
+    <string name="chinese">Tiếng Trung</string>
+    <string name="croatian">Tiếng Croatia</string>
+    <string name="czech">Tiếng Séc</string>
+    <string name="danish">Tiếng Đan Mạch</string>
+    <string name="dutch">Tiếng Hà Lan</string>
+    <string name="english">Tiếng Anh</string>
+    <string name="estonian">Tiếng Estonia</string>
+    <string name="finnish">Tiếng Phần Lan</string>
+    <string name="french">Tiếng Pháp</string>
+    <string name="german">Tiếng Đức</string>
+    <string name="greek">Tiếng Hy Lạp</string>
+    <string name="hebrew">Tiếng Do Thái</string>
+    <string name="hindi">Tiếng Hindi</string>
+    <string name="hungarian">Tiếng Hungary</string>
+    <string name="indonesian">Tiếng Indonesia</string>
+    <string name="italian">Tiếng Ý</string>
+    <string name="japanese">Tiếng Nhật</string>
+    <string name="korean">Tiếng Hàn</string>
+    <string name="latvian">Tiếng Latvia</string>
+    <string name="lithuanian">Tiếng Litva</string>
+    <string name="norwegian">Tiếng Na Uy</string>
+    <string name="polish">Tiếng Ba Lan</string>
+    <string name="portuguese">Tiếng Bồ Đào Nha</string>
+    <string name="romanian">Tiếng Romania</string>
+    <string name="russian">Tiếng Nga</string>
+    <string name="serbian">Tiếng Serbia</string>
+    <string name="slovak">Tiếng Slovak</string>
+    <string name="slovenian">Tiếng Slovenia</string>
+    <string name="spanish">Tiếng Tây Ban Nha</string>
+    <string name="swahili">Tiếng Swahili</string>
+    <string name="swedish">Tiếng Thụy Điển</string>
+    <string name="thai">Tiếng Thái</string>
+    <string name="turkish">Tiếng Thổ Nhĩ Kỳ</string>
+    <string name="ukrainian">Tiếng Ukraina</string>
+    <string name="vietnamese">Tiếng Việt</string>
+    <string name="txt_giris_bilgisi_google">Bạn đã đăng nhập bằng Google (xxx).</string>
+    <string name="search_hint">Tìm kiếm…</string>
+    <string name="review_interval">Khoảng thời gian ôn tập</string>
+    <string name="day">ngày</string>
+    <string name="nothing_to_show">Chưa có gì để hiển thị ở đây.</string>
+
+    <string name="unknown">Không xác định</string>
+    <string name="select_theme">Chọn chủ đề:</string>
+    <string name="system_default">Mặc định hệ thống</string>
+    <string name="light_mode">Chủ đề sáng</string>
+    <string name="dark_mode">Chủ đề tối</string>
+    <string name="create_folder">Tạo thư mục:</string>
+    <string name="folder_name">Tên thư mục…</string>
+    <string name="folder">Thư mục:</string>
+    <string name="start_from_scratch">Bắt đầu lại từ đầu!</string>
+    <string name="no_voice_engine">Không tìm thấy tệp âm thanh đã tải trước đó cho ngôn ngữ này. Vui lòng tải tệp âm thanh và khởi động lại ứng dụng.</string>
+    <string name="not_common_search">Cụm từ này không phổ biến trong tiếng Anh. Bạn vẫn có thể thêm, nhưng AI có thể cảnh báo bạn không sử dụng trong câu.</string>
+    <string name="search_hint_text">Trong tìm kiếm, bạn có thể sử dụng trình giữ chỗ trong ngoặc thay vì văn bản cố định:</string>
+    <string name="search_hint_1">làm dịu nỗi buồn của [ai đó]</string>
+    <string name="search_hint_2">tô [cái gì đó] màu [màu sắc]</string>
+    <string name="default_folder">Mặc định</string>
+    <string name="wrong_translation_direction">Bản dịch của bạn không ở ngôn ngữ mong đợi. Ngôn ngữ đích được đặt thành %1$s trong cài đặt tài khoản.</string>
+    <string name="buttonOk">OK</string>
+    <string name="buttonSettings">Đi tới cài đặt</string>
+
+    <string name="query_no_blank">Tôi đã cố gắng dịch "%1$s" sang %2$s.
+    Bản dịch của tôi: "%3$s"
+    Vui lòng đánh giá bản dịch của tôi bằng %4$s về ngữ pháp, chính tả, ý nghĩa và tự nhiên.
+    Câu trả lời của bạn phải bằng %4$s và theo định dạng JSON sau:
+    { "isValid": "true / false.",
+    "feedBack": "Đánh giá bằng %4$s." }</string>
+
+    <string name="query_no_blank_reverse">Tôi đã cố gắng dịch "%1$s" sang ngôn ngữ mẹ đẻ của tôi.
+    Tôi đã dịch như sau: "%2$s"
+    Vui lòng chỉ đánh giá bản dịch của tôi về độ chính xác về ý nghĩa; ngữ pháp và chính tả không quan trọng đối với tôi.
+    Câu trả lời của bạn phải bằng %3$s và theo định dạng JSON sau:
+    { "isValid": "true / false.",
+    "feedBack": "Đánh giá bằng %3$s." }</string>
+
+    <string name="query_with_blank">Tôi đã cố gắng dịch "%1$s" sang %2$s.
+    Bản dịch chưa hoàn chỉnh của tôi: "%3$s"
+    Khoảng trống trong bản dịch chỉ phần tôi không thể dịch.
+    Vui lòng đánh giá bản dịch của tôi bằng %4$s về ngữ pháp, chính tả, ý nghĩa và tự nhiên.
+    Câu trả lời của bạn phải bằng %4$s và theo định dạng JSON sau:
+    { "feedBack": "Đánh giá bằng %4$s.",
+    "completeSentence": "Hoàn thành bản dịch %2$s bằng cách điền vào chỗ trống." }</string>
+
+    <string name="query_with_blank_reverse">Tôi đã cố gắng dịch "%1$s" sang ngôn ngữ mẹ đẻ của tôi.
+    Bản dịch chưa hoàn chỉnh của tôi: "%2$s"
+    Khoảng trống trong bản dịch chỉ phần tôi không thể dịch.
+    Vui lòng chỉ đánh giá bản dịch của tôi về độ chính xác về ý nghĩa; ngữ pháp và chính tả không quan trọng đối với tôi.
+    Câu trả lời của bạn phải bằng %3$s và theo định dạng JSON sau:
+    { "feedBack": "Đánh giá bằng %3$s.",
+    "completeSentence": "Hoàn thành bản dịch %2$s bằng cách điền vào chỗ trống." }</string>
+
+    <string name="query_for_no_translation">Ngôn ngữ mẹ đẻ của tôi là %1$s.
+    Và tôi muốn dịch câu "%2$s" sang %3$s.
+    Vui lòng giải thích chi tiết từng bước cách tôi nên dịch.
+    Câu trả lời của bạn phải ở định dạng JSON sau:
+    { "translation": "Viết câu đã được dịch sang %3$s.",
+    "explanation": "Giải thích chi tiết bằng %1$s." }</string>
+
+    <string name="search_issues">Có vẻ như có một số vấn đề với tìm kiếm của bạn. Quyết định cuối cùng thuộc về bạn.</string>
+    <string name="search_issue_1">Từ được tìm kiếm có thể không tồn tại trong ngôn ngữ mục tiêu.</string>
+    <string name="search_issue_2">Từ được tìm kiếm có thể chứa lỗi chính tả.</string>
+    <string name="search_issue_3">Từ và ý nghĩa có thể không khớp nhau.</string>
+    <string name="search_issue_4">Thuật ngữ được tìm kiếm có thể không được sử dụng phổ biến trong ngôn ngữ mục tiêu.</string>
+    <string name="search_issue_5">Đã có sự cố, vui lòng làm mới tìm kiếm của bạn.</string>
+    <string name="tv_6">Chạm vào các từ để nghe cách phát âm của chúng.</string>
+    <string name="example_word">bút</string>
+    <string name="liste_baslik_items">Tất cả bản ghi:</string>
+    <string name="liste_baslik_folders">Tất cả thư mục:</string>
+    <string name="create_folder_2">Tạo thư mục: %1$s</string>
+    <string name="rename_folder">"Đổi tên thư mục:"</string>
+    <string name="tv_list_empty">Tạo danh sách dịch của riêng bạn.</string>
+    <string name="tv_password_criteria">Mật khẩu của bạn có thể là bất kỳ kết hợp nào gồm 6 ký tự.</string>
+    <string name="error_email_already_in_use">Địa chỉ email này đã được đăng ký.</string>
+    <string name="error_invalid_email">Vui lòng nhập địa chỉ email hợp lệ.</string>
+    <string name="error_invalid_password">Vui lòng nhập mật khẩu hợp lệ.</string>
+    <string name="error_weak_password">Mật khẩu không đủ mạnh.</string>
+    <string name="error_unknown">Đã xảy ra lỗi. Vui lòng thử lại.</string>
+    <string name="txt_remaining_translation_count">Số bản dịch còn lại hôm nay: %1$s</string>
+    <string name="txt_no_quota">Bạn đã đạt giới hạn dịch hằng ngày.</string>
+    <string name="item_count">Số mục: %1$s</string>
+    <string name="warn_min_sentence_number">Phải có ít nhất %1$s câu. Vui lòng làm mới tìm kiếm của bạn.</string>
+    <string name="folder_selected">Thư mục: %1$s</string>
+    <string name="no_internet">Có sự cố với kết nối internet của bạn.</string>
+    <string name="fail_some_features">Một số tính năng không thể tải.</string>
+    <string name="example_evaluation_sentence">Bản dịch của bạn đúng ngữ pháp, truyền đạt ý nghĩa chính xác và nghe tự nhiên trong \'%1$s\'. Tương đương phổ biến và tự nhiên nhất của \'%2$s\' trong \'%1$s\' là \'%3$s\'. Bản dịch tuyệt vời.</string>
+
+</resources>

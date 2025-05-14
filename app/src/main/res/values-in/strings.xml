@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="txt_cumle_olustur_baslik">Ekspresi yang ingin Anda pelajari:</string>
+    <string name="editText_ifade">Kata: (wajib)</string>
+    <string name="editText_anlam">Makna:</string>
+    <string name="editText_not">Konteks:</string>
+    <string name="button_ara">Cari kalimat</string>
+    <string name="txt_zorluk">Pilih tingkat kesulitan.</string>
+    <string name="buttonSave">Konfirmasi dan Simpan</string>
+    <string name="txt_mail_basarisiz">Server kami tidak merespons permintaan aktivasi melalui email. Silakan coba lagi nanti.</string>
+    <string name="txt_mail_gonderildi">Klik tautan aktivasi yang kami kirimkan ke email Anda agar kami dapat memverifikasi akun Anda.</string>
+    <string name="tv_delete">Apakah Anda ingin menghapus akun Anda?</string>
+    <string name="tv_delete_btn">HAPUS!</string>
+    <string name="txt_delete_error">Untuk menghapus akun, Anda harus baru saja masuk.</string>
+    <string name="tv_exit_check">Apakah Anda yakin ingin keluar?</string>
+    <string name="tv_exit">Keluar!</string>
+    <string name="tv_phrases_title">Frasa</string>
+    <string name="tv_words_title">Kata</string>
+    <string name="tv_selected_title">Mode yang Dipilih:</string>
+    <string name="tv_selected_item">Acak dalam setiap kalimat</string>
+    <string name="txt_reset_basarisiz">Server kami tidak merespons permintaan reset kata sandi. Silakan coba lagi nanti.</string>
+    <string name="txt_reset">Periksa kotak masuk Anda. Jika akun telah terdaftar dengan email ini, Anda akan melihat tautan reset.</string>
+    <string name="txt_sifre_sifirlama">Anda dapat melanjutkan reset kata sandi melalui tautan yang dikirimkan ke email Anda.</string>
+    <string name="text_silinecek_aciklama">Entri dengan interval ulasan 30 hari atau lebih akan dihapus.</string>
+    <string name="switch_view">Lakukan ini secara otomatis untuk saya.</string>
+    <string name="tv_sil">Konfirmasi dan Hapus</string>
+    <string name="txt_siralama_ölcütü">Kriteria Penyortiran:</string>
+    <string name="txt_alfabetik">Urutkan alfabet</string>
+    <string name="txt_eklenme">Urutkan berdasarkan tanggal ditambahkan</string>
+    <string name="txt_araliga_göre">Urutkan berdasarkan interval ulasan</string>
+    <string name="loadingText">Menyiapkan kalimat…</string>
+    <string name="button_yenile">Muat ulang kalimat</string>
+    <string name="txt_aralik">Interval ulasan: xxx hari</string>
+    <string name="buttonUpdate">Perbarui</string>
+    <string name="buttonCancel">Batal</string>
+    <string name="liste_baslik">Daftar Belajar Anda:</string>
+    <string name="tv_unknown">Silakan pilih bahasa asli dan target dari panel samping.</string>
+    <string name="tv_empty_list">Frasa yang Anda tambahkan ke daftar akan muncul dalam terjemahan.</string>
+    <string name="tv_empty_list_add">Tambahkan frasa yang ingin Anda lihat dalam terjemahan ke daftar belajar Anda.</string>
+    <string name="txt_giris_baslik">Info login Anda:</string>
+    <string name="txt_giris_bilgisi_email">Anda telah masuk dengan akun email (xxx).</string>
+    <string name="txt_aktivasyon">Kirim tautan aktivasi email.</string>
+    <string name="txt_sifre_değistir">Saya ingin mengganti kata sandi saya.</string>
+    <string name="hesap_sil">Hapus akun saya.</string>
+    <string name="txt_profil_baslik">Informasi akun Anda:</string>
+    <string name="txt_anadil_baslik">Bahasa asli Anda:</string>
+    <string name="txt_hedef_dil_baslik">Bahasa yang sedang Anda pelajari:</string>
+    <string name="txt_hesap_turu_baslik">Jenis akun:</string>
+    <string name="txt_hesap_turu_abonelik">Langganan</string>
+    <string name="txt_hesap_turu_ücretsiz">Gratis</string>
+    <string name="txt_abonelik_suresi">Aktif hingga xxx.</string>
+    <string name="button_buy">Beli Langganan</string>
+    <string name="creating_sentence">Membuat kalimat Anda…</string>
+    <string name="et_translation">Tuliskan terjemahan Anda…</string>
+    <string name="tv_break">Anda telah meninjau semua frasa Anda.</string>
+    <string name="button_marathon_start">Mulai ulang dari awal!</string>
+    <string name="button_marathon_end">Tutup!</string>
+    <string name="tv_welcome">Selamat datang!</string>
+    <string name="tv_info">Ini adalah aplikasi terjemahan.</string>
+    <string name="tv_1">Terjemahkan kalimat yang Anda lihat,</string>
+    <string name="tv_2">ke dalam bahasa pilihan Anda.</string>
+    <string name="tv_3">AI menilai terjemahan Anda berdasarkan 4 aspek: Tata bahasa, ejaan, kelancaran, dan makna.</string>
+    <string name="tv_4">Jika Anda terjebak, Anda dapat membiarkannya kosong dan melanjutkan:</string>
+    <string name="tv_5">Jika Anda ingin berlatih frasa lebih sering, tambahkan ke daftar belajar Anda.</string>
+    <string name="tv_ls_title">Untuk memulai</string>
+    <string name="tv_native_language">Pilih bahasa asli Anda:</string>
+    <string name="tv_target_language">Pilih bahasa target:</string>
+    <string name="txt_mail_baslik">Masuk:</string>
+    <string name="et_mail_hint">Akun email</string>
+    <string name="et_sifre_hint">Kata sandi</string>
+    <string name="buton_giris">Masuk</string>
+    <string name="txt_sifremi_unuttum">Lupa kata sandi.</string>
+    <string name="txt_kayit_ol">Buat akun baru.</string>
+    <string name="txt_mail_kayit_baslik">Daftar dengan akun email Anda:</string>
+    <string name="et_mail_kayit_hint">Masukkan alamat email Anda.</string>
+    <string name="et_sifre_kayit_hint">Buat kata sandi Anda.</string>
+    <string name="buton_kayit">Daftar</string>
+    <string name="txt_sifre_sifirlama_baslik">Kami akan mengirimkan tautan reset kata sandi ke alamat email Anda.</string>
+    <string name="et_mail_sifremi_unuttum_hint">Masukkan alamat email Anda.</string>
+    <string name="buton_sifirla">Kirim</string>
+    <string name="familiarity_1">Saya baru pertama kali melihat ini.</string>
+    <string name="familiarity_2">Saya pernah melihat ini sebelumnya.</string>
+    <string name="familiarity_3">Saya tahu ini, tetapi ingin berlatih.</string>
+    <string name="example_sentence">Ini pena saya.</string>
+    <string name="example_sentence_blank">Ini ____ pena.</string>
+    <string name="feature">Masih ada lagi: Anda dapat memilih tingkat kesulitan dan memastikan ekspresi atau pola yang Anda minati muncul lebih sering. Jika Anda ingin belajar menggunakan metode pengulangan berspasi, cukup tambahkan ekspresi ke daftar pembelajaran Anda.</string>
+    <string name="warn_select_difficulty">Silakan pilih tingkat kesulitan.</string>
+    <string name="registration_done">Pendaftaran berhasil.</string>
+    <string name="warn_expression_empty">Silakan tuliskan ekspresi yang ingin Anda cari.</string>
+    <string name="warn_typo">Maaf, ekspresi yang Anda masukkan mengandung kesalahan ejaan.</string>
+    <string name="warn_meaning">Ada ketidaksesuaian makna.</string>
+    <string name="update_successful">Data berhasil diperbarui.</string>
+    <string name="error_occured">Terjadi kesalahan.</string>
+    <string name="muilti_items_deleted">Jumlah kalimat yang dihapus: xxx</string>
+    <string name="warn_missing_input">Informasi tidak lengkap.</string>
+    <string name="log_in_failed">Gagal masuk: Informasi yang Anda masukkan salah.</string>
+    <string name="no_given_translation">Silakan masukkan teks terjemahan.</string>
+    <string name="api_busy">AI tidak dapat merespons karena sedang sibuk.</string>
+    <string name="apology">Maaf atas ketidaknyamanannya.</string>
+    <string name="try_again_later">Silakan coba lagi nanti.</string>
+    <string name="solace">Sebagai kompensasi, kami akan menambahkan langganan satu bulan ke akun Anda.</string>
+    <string name="warn_select_language">Anda belum memilih bahasa.</string>
+
+
+    <string name="dark_theme_title">Tema gelap:</string>
+    <string name="arabic">Arab</string>
+    <string name="bengali">Bengali</string>
+    <string name="bulgarian">Bulgaria</string>
+    <string name="chinese">Tionghoa</string>
+    <string name="croatian">Kroasia</string>
+    <string name="czech">Ceko</string>
+    <string name="danish">Denmark</string>
+    <string name="dutch">Belanda</string>
+    <string name="english">Inggris</string>
+    <string name="estonian">Estonia</string>
+    <string name="finnish">Finlandia</string>
+    <string name="french">Prancis</string>
+    <string name="german">Jerman</string>
+    <string name="greek">Yunani</string>
+    <string name="hebrew">Ibrani</string>
+    <string name="hindi">Hindi</string>
+    <string name="hungarian">Hongaria</string>
+    <string name="indonesian">Indonesia</string>
+    <string name="italian">Italia</string>
+    <string name="japanese">Jepang</string>
+    <string name="korean">Korea</string>
+    <string name="latvian">Latvia</string>
+    <string name="lithuanian">Lituania</string>
+    <string name="norwegian">Norwegia</string>
+    <string name="polish">Polandia</string>
+    <string name="portuguese">Portugal</string>
+    <string name="romanian">Rumania</string>
+    <string name="russian">Rusia</string>
+    <string name="serbian">Serbia</string>
+    <string name="slovak">Slovakia</string>
+    <string name="slovenian">Slovenia</string>
+    <string name="spanish">Spanyol</string>
+    <string name="swahili">Swahili</string>
+    <string name="swedish">Swedia</string>
+    <string name="thai">Thailand</string>
+    <string name="turkish">Turki</string>
+    <string name="ukrainian">Ukraina</string>
+    <string name="vietnamese">Vietnam</string>
+    <string name="txt_giris_bilgisi_google">Anda telah masuk dengan Google (xxx).</string>
+    <string name="search_hint">Cari…</string>
+    <string name="review_interval">Interval tinjauan</string>
+    <string name="day">hari</string>
+    <string name="nothing_to_show">Belum ada yang bisa ditampilkan di sini.</string>
+
+    <string name="unknown">Tidak diketahui</string>
+    <string name="select_theme">Pilih tema:</string>
+    <string name="system_default">Default sistem</string>
+    <string name="light_mode">Tema terang</string>
+    <string name="dark_mode">Tema gelap</string>
+    <string name="create_folder">Buat folder:</string>
+    <string name="folder_name">Nama folder…</string>
+    <string name="folder">Folder:</string>
+    <string name="start_from_scratch">Mulai dari awal!</string>
+    <string name="no_voice_engine">Tidak ditemukan file suara yang sudah diunduh sebelumnya untuk bahasa ini. Silakan unduh file suara dan mulai ulang aplikasi.</string>
+    <string name="not_common_search">Ungkapan ini tidak umum digunakan dalam bahasa Inggris. Anda tetap bisa menambahkannya, tetapi AI mungkin memperingatkan agar tidak digunakan dalam kalimat.</string>
+    <string name="search_hint_text">Dalam pencarian, Anda dapat menggunakan placeholder di dalam tanda kurung alih-alih teks tetap:</string>
+    <string name="search_hint_1">meringankan kesedihan [seseorang]</string>
+    <string name="search_hint_2">mengecat [sesuatu] dengan [warna]</string>
+    <string name="default_folder">Default</string>
+    <string name="wrong_translation_direction">Terjemahan Anda tidak dalam bahasa yang diharapkan. Bahasa target Anda diatur ke %1$s pada pengaturan akun.</string>
+    <string name="buttonOk">OK</string>
+    <string name="buttonSettings">Buka pengaturan</string>
+
+    <string name="query_no_blank">Saya mencoba menerjemahkan "%1$s" ke %2$s.
+    Terjemahan saya: "%3$s"
+    Tolong nilai terjemahan saya dalam %4$s berdasarkan tata bahasa, ejaan, makna, dan kelancaran.
+    Jawaban Anda harus dalam %4$s dan dalam format JSON berikut:
+    { "isValid": "true / false.",
+    "feedBack": "Penilaian dalam %4$s." }</string>
+
+    <string name="query_no_blank_reverse">Saya mencoba menerjemahkan "%1$s" ke bahasa ibu saya.
+    Saya menerjemahkannya sebagai: "%2$s"
+    Tolong nilai terjemahan saya hanya berdasarkan keakuratan makna; tata bahasa dan ejaan tidak penting bagi saya.
+    Jawaban Anda harus dalam %3$s dan dalam format JSON berikut:
+    { "isValid": "true / false.",
+    "feedBack": "Penilaian dalam %3$s." }</string>
+
+    <string name="query_with_blank">Saya mencoba menerjemahkan "%1$s" ke %2$s.
+    Terjemahan saya yang belum lengkap: "%3$s"
+    Kekosongan dalam terjemahan saya menunjukkan bagian yang belum bisa saya terjemahkan.
+    Tolong nilai terjemahan saya dalam %4$s berdasarkan tata bahasa, ejaan, makna, dan kelancaran.
+    Jawaban Anda harus dalam %4$s dan dalam format JSON berikut:
+    { "feedBack": "Penilaian dalam %4$s.",
+    "completeSentence": "Lengkapi terjemahan %2$s dengan mengisi bagian yang kosong." }</string>
+
+    <string name="query_with_blank_reverse">Saya mencoba menerjemahkan "%1$s" ke bahasa ibu saya.
+    Terjemahan saya yang belum lengkap: "%2$s"
+    Kekosongan dalam terjemahan saya menunjukkan bagian yang belum bisa saya terjemahkan.
+    Tolong nilai terjemahan saya hanya berdasarkan keakuratan makna; tata bahasa dan ejaan tidak penting bagi saya.
+    Jawaban Anda harus dalam %3$s dan dalam format JSON berikut:
+    { "feedBack": "Penilaian dalam %3$s.",
+    "completeSentence": "Lengkapi terjemahan %2$s dengan mengisi bagian yang kosong." }</string>
+
+    <string name="query_for_no_translation">Bahasa ibu saya adalah %1$s.
+    Dan saya ingin menerjemahkan kalimat "%2$s" ke %3$s.
+    Tolong jelaskan langkah demi langkah bagaimana saya harus menerjemahkannya.
+    Jawaban Anda harus dalam format JSON berikut:
+    { "translation": "Tulis kalimat yang diterjemahkan dalam %3$s.",
+    "explanation": "Penjelasan rinci dalam %1$s." }</string>
+
+    <string name="search_issues">Sepertinya ada beberapa masalah dengan pencarian Anda. Keputusan akhir ada pada Anda.</string>
+    <string name="search_issue_1">Kata yang dicari mungkin tidak ada dalam bahasa target.</string>
+    <string name="search_issue_2">Kata yang dicari mungkin mengandung kesalahan ejaan.</string>
+    <string name="search_issue_3">Kata dan maknanya mungkin tidak sesuai.</string>
+    <string name="search_issue_4">Istilah yang dicari mungkin tidak umum digunakan dalam bahasa target.</string>
+    <string name="search_issue_5">Terjadi kesalahan, silakan segarkan pencarian Anda.</string>
+    <string name="tv_6">Ketuk kata-kata untuk mendengarkan pengucapannya.</string>
+    <string name="example_word">pena</string>
+    <string name="liste_baslik_items">Semua catatan:</string>
+    <string name="liste_baslik_folders">Semua folder:</string>
+    <string name="create_folder_2">Buat folder: %1$s</string>
+    <string name="rename_folder">"Ganti nama folder:"</string>
+    <string name="tv_list_empty">Buat daftar terjemahan Anda sendiri.</string>
+    <string name="tv_password_criteria">Kata sandi Anda dapat berupa kombinasi 6 karakter apa pun.</string>
+    <string name="error_email_already_in_use">Alamat email ini sudah terdaftar.</string>
+    <string name="error_invalid_email">Silakan masukkan alamat email yang valid.</string>
+    <string name="error_invalid_password">Silakan masukkan kata sandi yang valid.</string>
+    <string name="error_weak_password">Kata sandi tidak cukup kuat.</string>
+    <string name="error_unknown">Terjadi kesalahan. Silakan coba lagi.</string>
+    <string name="txt_remaining_translation_count">Sisa terjemahan hari ini: %1$s</string>
+    <string name="txt_no_quota">Batas terjemahan harian Anda telah tercapai.</string>
+    <string name="item_count">Jumlah item: %1$s</string>
+    <string name="warn_min_sentence_number">Harus ada setidaknya %1$s kalimat. Silakan segarkan pencarian Anda.</string>
+    <string name="folder_selected">Folder: %1$s</string>
+    <string name="no_internet">Ada masalah dengan koneksi internet Anda.</string>
+    <string name="fail_some_features">Beberapa fitur gagal dimuat.</string>
+    <string name="example_evaluation_sentence">Terjemahan Anda secara tata bahasa benar, menyampaikan makna secara akurat, dan terdengar alami dalam \'%1$s\'. Padanan paling umum dan alami dari \'%2$s\' dalam \'%1$s\' adalah \'%3$s\'. Terjemahan yang sangat baik.</string>
+
+</resources>

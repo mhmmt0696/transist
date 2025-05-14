@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="txt_cumle_olustur_baslik">التعبير الذي تريد تعلمه:</string>
+    <string name="editText_ifade">الكلمة: (إجباري)</string>
+    <string name="editText_anlam">المعنى:</string>
+    <string name="editText_not">السياق:</string>
+    <string name="button_ara">اعثر على الجمل</string>
+    <string name="txt_zorluk">اختر مستوى الصعوبة.</string>
+    <string name="buttonSave">تأكيد وحفظ</string>
+    <string name="txt_mail_basarisiz">خوادمنا لا تستجيب لطلب تفعيل البريد الإلكتروني. يرجى المحاولة لاحقاً.</string>
+    <string name="txt_mail_gonderildi">انقر على رابط التفعيل الذي أرسلناه إلى بريدك الإلكتروني لتأكيد حسابك.</string>
+    <string name="tv_delete">هل تريد حذف حسابك؟</string>
+    <string name="tv_delete_btn">احذف!</string>
+    <string name="txt_delete_error">لحذف الحساب، يجب أن تكون قد سجلت الدخول مؤخراً.</string>
+    <string name="tv_exit_check">هل تريد تسجيل الخروج؟</string>
+    <string name="tv_exit">تسجيل الخروج!</string>
+    <string name="tv_phrases_title">تعبيرات</string>
+    <string name="tv_words_title">كلمات</string>
+    <string name="tv_selected_title">الوضع المحدد:</string>
+    <string name="tv_selected_item">عشوائي في كل جملة</string>
+    <string name="txt_reset_basarisiz">خوادمنا لا تستجيب لطلب إعادة تعيين كلمة المرور. يرجى المحاولة لاحقاً.</string>
+    <string name="txt_reset">تحقق من بريدك الوارد. إذا كان هناك حساب مسجل بهذا البريد، ستجد رابط إعادة تعيين كلمة المرور.</string>
+    <string name="txt_sifre_sifirlama">يمكنك متابعة إجراءات تغيير كلمة المرور من خلال الرابط المرسل إلى بريدك الإلكتروني.</string>
+    <string name="text_silinecek_aciklama">سيتم حذف السجلات التي يتجاوز فاصل تكرارها 30 يوماً.</string>
+    <string name="switch_view">قم بهذا نيابة عني تلقائياً.</string>
+    <string name="tv_sil">تأكيد وحذف</string>
+    <string name="txt_siralama_ölcütü">معيار الترتيب:</string>
+    <string name="txt_alfabetik">ترتيب أبجدي</string>
+    <string name="txt_eklenme">ترتيب حسب تاريخ الإضافة</string>
+    <string name="txt_araliga_göre">ترتيب حسب فاصل التكرار</string>
+    <string name="loadingText">يتم تجهيز الجمل…</string>
+    <string name="button_yenile">تحديث الجمل</string>
+    <string name="txt_aralik">فاصل التكرار: xxx يوم</string>
+    <string name="buttonUpdate">تحديث</string>
+    <string name="buttonCancel">إلغاء</string>
+    <string name="liste_baslik">قائمة التعلم الخاصة بك:</string>
+    <string name="tv_unknown">يرجى اختيار لغتك الأم ولغة الترجمة من الجانب.</string>
+    <string name="tv_empty_list">التعبيرات التي تضيفها إلى قائمة الاكتساب ستظهر في الترجمات.</string>
+    <string name="tv_empty_list_add">أضف التعبيرات التي تريد رؤيتها في الترجمات إلى قائمة التعلم الخاصة بك.</string>
+    <string name="txt_giris_baslik">معلومات تسجيل الدخول الخاصة بك:</string>
+    <string name="txt_giris_bilgisi_email">لقد قمت بتسجيل الدخول باستخدام بريدك الإلكتروني (xxx).</string>
+    <string name="txt_aktivasyon">أرسل رابط تفعيل البريد الإلكتروني.</string>
+    <string name="txt_sifre_değistir">أريد تغيير كلمة المرور الخاصة بي.</string>
+    <string name="hesap_sil">احذف حسابي.</string>
+    <string name="txt_profil_baslik">معلومات حسابك:</string>
+    <string name="txt_anadil_baslik">لغتك الأم:</string>
+    <string name="txt_hedef_dil_baslik">اللغة التي تتعلمها:</string>
+    <string name="txt_hesap_turu_baslik">نوع الحساب:</string>
+    <string name="txt_hesap_turu_abonelik">اشتراك</string>
+    <string name="txt_hesap_turu_ücretsiz">مجاني</string>
+    <string name="txt_abonelik_suresi">نشط حتى تاريخ xxx.</string>
+    <string name="button_buy">اشترِ اشتراكاً</string>
+    <string name="creating_sentence">يتم إنشاء الجملة…</string>
+    <string name="et_translation">اكتب ترجمتك…</string>
+    <string name="tv_break">لقد أكملت جميع التعبيرات.</string>
+    <string name="button_marathon_start">ابدأ من جديد!</string>
+    <string name="button_marathon_end">إغلاق!</string>
+    <string name="tv_welcome">مرحباً بك!</string>
+    <string name="tv_info">هذا تطبيق ترجمة.</string>
+    <string name="tv_1">قم بترجمة الجملة التي تراها،</string>
+    <string name="tv_2">إلى اللغة التي تريدها.</string>
+    <string name="tv_3">الذكاء الاصطناعي يقيم ترجمتك من ٤ نواحٍ: القواعد، الإملاء، الطبيعية، والمعنى.</string>
+    <string name="tv_4">إذا واجهت صعوبة في الترجمة، يمكنك تركها فارغة والمتابعة:</string>
+    <string name="tv_5">إذا كنت تريد ترجمة تعبير بشكل متكرر، أضفه إلى قائمة التعلم الخاصة بك.</string>
+    <string name="tv_ls_title">للبدء</string>
+    <string name="tv_native_language">اختر لغتك الأم:</string>
+    <string name="tv_target_language">اختر اللغة التي ستترجم إليها:</string>
+    <string name="txt_mail_baslik">تسجيل الدخول:</string>
+    <string name="et_mail_hint">حساب البريد الإلكتروني</string>
+    <string name="et_sifre_hint">كلمة المرور</string>
+    <string name="buton_giris">تسجيل الدخول</string>
+    <string name="txt_sifremi_unuttum">هل نسيت كلمة المرور؟</string>
+    <string name="txt_kayit_ol">إنشاء حساب جديد.</string>
+    <string name="txt_mail_kayit_baslik">سجل باستخدام بريدك الإلكتروني:</string>
+    <string name="et_mail_kayit_hint">أدخل بريدك الإلكتروني.</string>
+    <string name="et_sifre_kayit_hint">قم بتعيين كلمة المرور الخاصة بك.</string>
+    <string name="buton_kayit">سجل</string>
+    <string name="txt_sifre_sifirlama_baslik">سنرسل رابط إعادة تعيين كلمة المرور إلى بريدك الإلكتروني.</string>
+    <string name="et_mail_sifremi_unuttum_hint">أدخل بريدك الإلكتروني.</string>
+    <string name="buton_sifirla">إرسال</string>
+    <string name="familiarity_1">أراها لأول مرة.</string>
+    <string name="familiarity_2">لقد رأيتها من قبل.</string>
+    <string name="familiarity_3">أعرفها لكن أريد التدرب عليها.</string>
+    <string name="example_sentence">هذا قلمي.</string>
+    <string name="example_sentence_blank">هذا هو ____ القلم.</string>
+    <string name="feature">هناك المزيد: يمكنك اختيار مستوى الصعوبة والتأكد من ظهور العبارات أو الأنماط التي تهمك بشكل متكرر. إذا كنت ترغب في التعلم باستخدام التكرار المتباعد، ما عليك سوى إضافة العبارات إلى قائمة التعلم الخاصة بك.</string>
+    <string name="warn_select_difficulty">يرجى تحديد مستوى الصعوبة.</string>
+    <string name="registration_done">تم التسجيل.</string>
+    <string name="warn_expression_empty">يرجى إدخال العبارة التي تريد البحث عنها.</string>
+    <string name="warn_typo">للأسف، تحتوي العبارة التي أدخلتها على خطأ إملائي.</string>
+    <string name="warn_meaning">هناك عدم تطابق في المعنى.</string>
+    <string name="update_successful">تم تحديث السجل.</string>
+    <string name="error_occured">حدث خطأ.</string>
+    <string name="muilti_items_deleted">عدد الجمل المحذوفة: xxx</string>
+    <string name="warn_missing_input">هناك معلومات ناقصة.</string>
+    <string name="log_in_failed">فشل تسجيل الدخول: تم إدخال معلومات غير صحيحة.</string>
+    <string name="no_given_translation">يرجى إدخال نص الترجمة.</string>
+    <string name="api_busy">لم يتمكن الذكاء الاصطناعي من الرد بسبب الازدحام.</string>
+    <string name="apology">نأسف للإزعاج الذي واجهته.</string>
+    <string name="try_again_later">يرجى المحاولة مرة أخرى لاحقًا.</string>
+    <string name="solace">للتعويض عن المشكلة، سنضيف اشتراكًا لمدة شهر إلى حسابك.</string>
+    <string name="warn_select_language">لم تقم باختيار لغة.</string>
+
+    <string name="dark_theme_title">الوضع الداكن:</string>
+    <string name="arabic">العربية</string>
+    <string name="bengali">البنغالية</string>
+    <string name="bulgarian">البلغارية</string>
+    <string name="chinese">الصينية</string>
+    <string name="croatian">الكرواتية</string>
+    <string name="czech">التشيكية</string>
+    <string name="danish">الدنماركية</string>
+    <string name="dutch">الهولندية</string>
+    <string name="english">الإنجليزية</string>
+    <string name="estonian">الإستونية</string>
+    <string name="finnish">الفنلندية</string>
+    <string name="french">الفرنسية</string>
+    <string name="german">الألمانية</string>
+    <string name="greek">اليونانية</string>
+    <string name="hebrew">العبرية</string>
+    <string name="hindi">الهندية</string>
+    <string name="hungarian">الهنغارية</string>
+    <string name="indonesian">الإندونيسية</string>
+    <string name="italian">الإيطالية</string>
+    <string name="japanese">اليابانية</string>
+    <string name="korean">الكورية</string>
+    <string name="latvian">اللاتفية</string>
+    <string name="lithuanian">الليتوانية</string>
+    <string name="norwegian">النرويجية</string>
+    <string name="polish">البولندية</string>
+    <string name="portuguese">البرتغالية</string>
+    <string name="romanian">الرومانية</string>
+    <string name="russian">الروسية</string>
+    <string name="serbian">الصربية</string>
+    <string name="slovak">السلوفاكية</string>
+    <string name="slovenian">السلوفينية</string>
+    <string name="spanish">الإسبانية</string>
+    <string name="swahili">السواحيلية</string>
+    <string name="swedish">السويدية</string>
+    <string name="thai">التايلاندية</string>
+    <string name="turkish">التركية</string>
+    <string name="ukrainian">الأوكرانية</string>
+    <string name="vietnamese">الفيتنامية</string>
+    <string name="txt_giris_bilgisi_google">لقد سجلت الدخول باستخدام Google (xxx).</string>
+    <string name="search_hint">ابحث…</string>
+    <string name="review_interval">فترة المراجعة</string>
+    <string name="day">يوم</string>
+    <string name="nothing_to_show">لا يوجد شيء لعرضه هنا بعد.</string>
+
+    <string name="unknown">غير معروف</string>
+    <string name="select_theme">اختر السمة:</string>
+    <string name="system_default">الإعداد الافتراضي للنظام</string>
+    <string name="light_mode">الوضع الفاتح</string>
+    <string name="dark_mode">الوضع الداكن</string>
+    <string name="create_folder">إنشاء مجلد:</string>
+    <string name="folder_name">اسم المجلد…</string>
+    <string name="folder">مجلد:</string>
+    <string name="start_from_scratch">ابدأ من جديد!</string>
+    <string name="no_voice_engine">لم يتم العثور على ملف صوتي مُحمّل مسبقاً لهذه اللغة. يرجى تنزيل ملف صوتي وإعادة تشغيل التطبيق.</string>
+    <string name="not_common_search">هذا التعبير ليس شائع الاستخدام في اللغة الإنجليزية. يمكنك إضافته على أي حال، لكن يجب أن تعلم أن الذكاء الاصطناعي قد يحذّرك من استخدامه في الجمل.</string>
+    <string name="search_hint_text">يمكنك في عمليات البحث استخدام عناصر نائبة بين قوسين بدلاً من النصوص الثابتة:</string>
+    <string name="search_hint_1">لتخفيف [حزن أحدهم]</string>
+    <string name="search_hint_2">لطلاء [شيء ما] بلون [معين]</string>
+    <string name="default_folder">افتراضي</string>
+    <string name="wrong_translation_direction">ترجمتك ليست باللغة المتوقعة. تم تعيين لغتك المستهدفة في إعدادات الحساب كـ %1$s.</string>
+    <string name="buttonOk">حسناً</string>
+    <string name="buttonSettings">الانتقال إلى الإعدادات</string>
+
+    <string name="query_no_blank">" %1$s " حاولت ترجمة الجملة إلى لغة %2$s.
+    ترجمتي كانت: "%3$s"
+    من فضلك قيّم ترجمتي من حيث القواعد الإملائية والنحوية والمعنى والطبيعية في لغة %4$s.
+    يجب أن يكون ردك بلغة %4$s وبصيغة JSON التالية:
+    { "isValid": "true / false.",
+    "feedBack": "رسالة تقييم بلغة %4$s." }</string>
+
+    <string name="query_no_blank_reverse">" %1$s " حاولت ترجمة الجملة إلى لغتي الأم.
+    ترجمتها بهذا الشكل: "%2$s"
+    من فضلك قيّم ترجمتي فقط من حيث صحة المعنى، أما القواعد والإملاء فلا تهمني.
+    يجب أن يكون ردك بلغة %3$s وبصيغة JSON التالية:
+    { "isValid": "true / false.",
+    "feedBack": "رسالة تقييم بلغة %3$s." }</string>
+
+    <string name="query_with_blank">" %1$s " حاولت ترجمة الجملة إلى لغة %2$s.
+    ترجمتي غير المكتملة: "%3$s"
+    الفراغ في ترجمتي يشير إلى المكان الذي لم أستطع ترجمته.
+    من فضلك قيّم ترجمتي من حيث القواعد الإملائية والنحوية والمعنى والطبيعية في لغة %4$s.
+    يجب أن يكون ردك بلغة %4$s وبصيغة JSON التالية:
+    { "feedBack": "رسالة تقييم بلغة %4$s.",
+    "completeSentence": "أكمل الترجمة إلى %2$s بملء الفراغات." }</string>
+
+    <string name="query_with_blank_reverse">" %1$s " حاولت ترجمة الجملة إلى لغتي الأم.
+    ترجمتي غير المكتملة: "%2$s"
+    الفراغ في ترجمتي يشير إلى المكان الذي لم أستطع ترجمته.
+    من فضلك قيّم ترجمتي فقط من حيث صحة المعنى، أما القواعد والإملاء فلا تهمني.
+    يجب أن يكون ردك بلغة %3$s وبصيغة JSON التالية:
+    { "feedBack": "رسالة تقييم بلغة %3$s.",
+    "completeSentence": "أكمل الترجمة إلى %2$s بملء الفراغات." }</string>
+
+    <string name="query_for_no_translation">لغتي الأم هي %1$s.
+    وأريد ترجمة الجملة "%2$s" إلى لغة %3$s.
+    من فضلك اشرح لي خطوة بخطوة كيف أترجمها.
+    يجب أن يكون ردك بصيغة JSON التالية:
+    { "translation": "اكتب الجملة المترجمة إلى %3$s.",
+    "explanation": "شرح مفصل بلغة %1$s." }</string>
+
+    <string name="search_issues">يبدو أن هناك بعض المشكلات في بحثك. القرار النهائي لك.</string>
+    <string name="search_issue_1">الكلمة التي تبحث عنها قد لا تكون موجودة في اللغة المستهدفة.</string>
+    <string name="search_issue_2">قد تحتوي الكلمة التي بحثت عنها على أخطاء إملائية.</string>
+    <string name="search_issue_3">قد لا يتطابق المعنى مع الكلمة.</string>
+    <string name="search_issue_4">ما تبحث عنه قد لا يكون شائع الاستخدام في اللغة المستهدفة.</string>
+    <string name="search_issue_5">حدث خطأ ما، يرجى تحديث البحث.</string>
+    <string name="tv_6">اضغط على الكلمات للاستماع إلى النطق.</string>
+    <string name="example_word">قلم</string>
+    <string name="liste_baslik_items">جميع السجلات:</string>
+    <string name="liste_baslik_folders">جميع المجلدات:</string>
+    <string name="create_folder_2">إنشاء مجلد: %1$s</string>
+    <string name="rename_folder">"إعادة تسمية المجلد:"</string>
+    <string name="tv_list_empty">أنشئ قائمة الترجمة الخاصة بك.</string>
+    <string name="tv_password_criteria">يمكن أن تكون كلمة المرور أي شيء مكون من 6 أحرف.</string>
+    <string name="error_email_already_in_use">عنوان البريد الإلكتروني هذا مسجل بالفعل.</string>
+    <string name="error_invalid_email">أدخل عنوان بريد إلكتروني صالحًا.</string>
+    <string name="error_invalid_password">أدخل كلمة مرور صالحة.</string>
+    <string name="error_weak_password">كلمة المرور ليست قوية بما فيه الكفاية.</string>
+    <string name="error_unknown">حدث خطأ. يرجى المحاولة مرة أخرى.</string>
+    <string name="txt_remaining_translation_count">الترجمات المتبقية اليوم: %1$s</string>
+    <string name="txt_no_quota">لقد استهلكت جميع الترجمات اليومية.</string>
+    <string name="item_count">عدد العناصر: %1$s</string>
+    <string name="warn_min_sentence_number">يجب أن تكون هناك %1$s جمل على الأقل. يرجى تحديث البحث.</string>
+    <string name="folder_selected">المجلد: %1$s</string>
+    <string name="no_internet">هناك مشكلة في اتصال الإنترنت.</string>
+    <string name="fail_some_features">تعذر تحميل بعض الميزات.</string>
+    <string name="example_evaluation_sentence">ترجمتك صحيحة نحويًا، وتنقل المعنى بدقة وتبدو طبيعية في \'%1$s\'. المقابل الأكثر شيوعًا والطبيعي لـ \'%2$s\' في \'%1$s\' هو \'%3$s\'. ترجمة ناجحة.</string>
+
+
+</resources>

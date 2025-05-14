@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="txt_cumle_olustur_baslik">Kifejezés, amit meg szeretnél tanulni:</string>
+    <string name="editText_ifade">Szó: (kötelező)</string>
+    <string name="editText_anlam">Jelentés:</string>
+    <string name="editText_not">Környezet:</string>
+    <string name="button_ara">Mondatok keresése</string>
+    <string name="txt_zorluk">Válassz nehézségi szintet.</string>
+    <string name="buttonSave">Megerősítés és mentés</string>
+    <string name="txt_mail_basarisiz">Szervereink nem válaszolnak az e-mail aktivációs kérésre. Kérjük, próbáld újra később.</string>
+    <string name="txt_mail_gonderildi">Kattints az e-mailben küldött aktivációs linkre, hogy igazolhassuk fiókodat.</string>
+    <string name="tv_delete">Törölni szeretnéd a fiókodat?</string>
+    <string name="tv_delete_btn">TÖRLÉS!</string>
+    <string name="txt_delete_error">A fiók törléséhez nemrég be kell jelentkezned.</string>
+    <string name="tv_exit_check">Biztosan kijelentkezel?</string>
+    <string name="tv_exit">Kijelentkezés!</string>
+    <string name="tv_phrases_title">Kifejezések</string>
+    <string name="tv_words_title">Szavak</string>
+    <string name="tv_selected_title">Kiválasztott mód:</string>
+    <string name="tv_selected_item">Véletlenszerű minden mondatban</string>
+    <string name="txt_reset_basarisiz">Szervereink nem válaszolnak a jelszó visszaállítási kérelemre. Kérjük, próbáld újra később.</string>
+    <string name="txt_reset">Ellenőrizd a postaládádat. Ha volt ezzel az e-mail címmel regisztrált fiók, kapsz egy visszaállítási linket.</string>
+    <string name="txt_sifre_sifirlama">Folytathatod a jelszó visszaállítást az e-mailben küldött link segítségével.</string>
+    <string name="text_silinecek_aciklama">A 30 napos vagy annál hosszabb ismétlődési idővel rendelkező bejegyzések törlődnek.</string>
+    <string name="switch_view">Automatikusan csináld helyettem.</string>
+    <string name="tv_sil">Megerősítés és törlés</string>
+    <string name="txt_siralama_ölcütü">Rendezési szempont:</string>
+    <string name="txt_alfabetik">Ábécé sorrend</string>
+    <string name="txt_eklenme">Hozzáadás dátuma szerint</string>
+    <string name="txt_araliga_göre">Ismétlési intervallum szerint</string>
+    <string name="loadingText">Mondatok előkészítése…</string>
+    <string name="button_yenile">Mondatok frissítése</string>
+    <string name="txt_aralik">Ismétlési intervallum: xxx nap</string>
+    <string name="buttonUpdate">Frissítés</string>
+    <string name="buttonCancel">Mégse</string>
+    <string name="liste_baslik">Tanulási listád:</string>
+    <string name="tv_unknown">Kérlek, válaszd ki az anyanyelved és a célnyelvet az oldalsó panelről.</string>
+    <string name="tv_empty_list">A tanulási listád kifejezései megjelennek a fordításokban.</string>
+    <string name="tv_empty_list_add">Add hozzá a listádhoz azokat a kifejezéseket, amiket látni szeretnél a fordításoknál.</string>
+    <string name="txt_giris_baslik">Bejelentkezési adataid:</string>
+    <string name="txt_giris_bilgisi_email">Bejelentkeztél az e-mail fiókoddal (xxx).</string>
+    <string name="txt_aktivasyon">E-mail aktivációs link elküldése.</string>
+    <string name="txt_sifre_değistir">Szeretném megváltoztatni a jelszavamat.</string>
+    <string name="hesap_sil">Fiókom törlése.</string>
+    <string name="txt_profil_baslik">Fiókadataid:</string>
+    <string name="txt_anadil_baslik">Anyanyelved:</string>
+    <string name="txt_hedef_dil_baslik">A tanult nyelv:</string>
+    <string name="txt_hesap_turu_baslik">Fiók típusa:</string>
+    <string name="txt_hesap_turu_abonelik">Előfizetés</string>
+    <string name="txt_hesap_turu_ücretsiz">Ingyenes</string>
+    <string name="txt_abonelik_suresi">Aktív: xxx-ig.</string>
+    <string name="button_buy">Előfizetés vásárlása</string>
+    <string name="creating_sentence">Mondat generálása…</string>
+    <string name="et_translation">Írdd be a fordításodat…</string>
+    <string name="tv_break">Minden kifejezésedet átnézted.</string>
+    <string name="button_marathon_start">Kezdés újra!</string>
+    <string name="button_marathon_end">Bezárás!</string>
+    <string name="tv_welcome">Üdvözöllek!</string>
+    <string name="tv_info">Ez egy fordítóalkalmazás.</string>
+    <string name="tv_1">Fordítsd le az általad látott mondatot,</string>
+    <string name="tv_2">a kívánt nyelvre.</string>
+    <string name="tv_3">Az MI a fordításodat négy szempont szerint értékeli: nyelvtan, helyesírás, természetesség és jelentés.</string>
+    <string name="tv_4">Ha elakadsz, hagyhatod üresen, és folytathatod:</string>
+    <string name="tv_5">Ha egy kifejezést gyakrabban szeretnél gyakorolni, add hozzá a listádhoz.</string>
+    <string name="tv_ls_title">Kezdéshez</string>
+    <string name="tv_native_language">Válaszd ki az anyanyelved:</string>
+    <string name="tv_target_language">Válaszd ki a fordítás nyelvét:</string>
+    <string name="txt_mail_baslik">Bejelentkezés:</string>
+    <string name="et_mail_hint">E-mail fiók</string>
+    <string name="et_sifre_hint">Jelszó</string>
+    <string name="buton_giris">Bejelentkezés</string>
+    <string name="txt_sifremi_unuttum">Elfelejtettem a jelszavam.</string>
+    <string name="txt_kayit_ol">Új fiók létrehozása.</string>
+    <string name="txt_mail_kayit_baslik">Regisztráljon e-mail fiókjával:</string>
+    <string name="et_mail_kayit_hint">Írja be e-mail címét.</string>
+    <string name="et_sifre_kayit_hint">Állítsa be jelszavát.</string>
+    <string name="buton_kayit">Regisztráció</string>
+    <string name="txt_sifre_sifirlama_baslik">Elküldjük a jelszó visszaállító linket az e-mail címére.</string>
+    <string name="et_mail_sifremi_unuttum_hint">Írja be e-mail címét.</string>
+    <string name="buton_sifirla">Küldés</string>
+    <string name="familiarity_1">Most látom először.</string>
+    <string name="familiarity_2">Már láttam korábban.</string>
+    <string name="familiarity_3">Ismerem, de gyakorolni szeretnék.</string>
+    <string name="example_sentence">Ez az én tollam.</string>
+    <string name="example_sentence_blank">Ez ____ toll.</string>
+    <string name="feature">És ez még nem minden: Kiválaszthatod a nehézségi szintet, és gondoskodhatsz róla, hogy a téged érdeklő kifejezések vagy minták gyakran megjelenjenek. Ha szakaszos ismétléses módszerrel szeretnél tanulni, egyszerűen add hozzá a kifejezéseket a tanulási listádhoz.</string>
+    <string name="warn_select_difficulty">Kérjük, válasszon nehézségi szintet.</string>
+    <string name="registration_done">A regisztráció megtörtént.</string>
+    <string name="warn_expression_empty">Kérjük, írja be a keresni kívánt kifejezést.</string>
+    <string name="warn_typo">Sajnáljuk, a megadott kifejezés helyesírási hibát tartalmaz.</string>
+    <string name="warn_meaning">Jelentésbeli eltérés van.</string>
+    <string name="update_successful">A bejegyzés frissítve lett.</string>
+    <string name="error_occured">Hiba történt.</string>
+    <string name="muilti_items_deleted">Törölt mondatok száma: xxx</string>
+    <string name="warn_missing_input">Hiányzó információ.</string>
+    <string name="log_in_failed">Sikertelen bejelentkezés: Hibás adatokat adott meg.</string>
+    <string name="no_given_translation">Kérjük, adja meg a fordítandó szöveget.</string>
+    <string name="api_busy">A mesterséges intelligencia nem tudott válaszolni a leterheltség miatt.</string>
+    <string name="apology">Elnézést kérünk a kellemetlenségért.</string>
+    <string name="try_again_later">Kérjük, próbálja meg később újra.</string>
+    <string name="solace">Kárpótlásul egy hónapos előfizetést adunk a fiókjához.</string>
+    <string name="warn_select_language">Nem választott nyelvet.</string>
+
+    <string name="dark_theme_title">Sötét téma:</string>
+    <string name="arabic">Arab</string>
+    <string name="bengali">Bengáli</string>
+    <string name="bulgarian">Bolgár</string>
+    <string name="chinese">Kínai</string>
+    <string name="croatian">Horvát</string>
+    <string name="czech">Cseh</string>
+    <string name="danish">Dán</string>
+    <string name="dutch">Holland</string>
+    <string name="english">Angol</string>
+    <string name="estonian">Észt</string>
+    <string name="finnish">Finn</string>
+    <string name="french">Francia</string>
+    <string name="german">Német</string>
+    <string name="greek">Görög</string>
+    <string name="hebrew">Héber</string>
+    <string name="hindi">Hindi</string>
+    <string name="hungarian">Magyar</string>
+    <string name="indonesian">Indonéz</string>
+    <string name="italian">Olasz</string>
+    <string name="japanese">Japán</string>
+    <string name="korean">Koreai</string>
+    <string name="latvian">Lett</string>
+    <string name="lithuanian">Litván</string>
+    <string name="norwegian">Norvég</string>
+    <string name="polish">Lengyel</string>
+    <string name="portuguese">Portugál</string>
+    <string name="romanian">Román</string>
+    <string name="russian">Orosz</string>
+    <string name="serbian">Szerb</string>
+    <string name="slovak">Szlovák</string>
+    <string name="slovenian">Szlovén</string>
+    <string name="spanish">Spanyol</string>
+    <string name="swahili">Szuahéli</string>
+    <string name="swedish">Svéd</string>
+    <string name="thai">Thai</string>
+    <string name="turkish">Török</string>
+    <string name="ukrainian">Ukrán</string>
+    <string name="vietnamese">Vietnami</string>
+    <string name="txt_giris_bilgisi_google">Bejelentkeztél a Google (xxx) segítségével.</string>
+    <string name="search_hint">Keresés…</string>
+    <string name="review_interval">Ismétlési időköz</string>
+    <string name="day">nap</string>
+    <string name="nothing_to_show">Még nincs itt semmi megjeleníthető.</string>
+
+    <string name="unknown">Ismeretlen</string>
+    <string name="select_theme">Téma kiválasztása:</string>
+    <string name="system_default">Rendszer alapértelmezett</string>
+    <string name="light_mode">Világos téma</string>
+    <string name="dark_mode">Sötét téma</string>
+    <string name="create_folder">Mappa létrehozása:</string>
+    <string name="folder_name">Mappa neve…</string>
+    <string name="folder">Mappa:</string>
+    <string name="start_from_scratch">Kezdj az elejéről!</string>
+    <string name="no_voice_engine">Ehhez a nyelvhez korábban letöltött hangfájl nem található. Kérjük, töltsön le egy hangfájlt, majd indítsa újra az alkalmazást.</string>
+    <string name="not_common_search">Ez a kifejezés nem gyakori az angolban. Mégis hozzáadhatja, de vegye figyelembe, hogy az AI figyelmeztethet, ha mondatokban használja.</string>
+    <string name="search_hint_text">A keresésekben zárójelekben lévő helykitöltőket használhat a fix szöveg helyett:</string>
+    <string name="search_hint_1">[valaki] bánatának enyhítése</string>
+    <string name="search_hint_2">[valami] [szín] színre festése</string>
+    <string name="default_folder">Alapértelmezett</string>
+    <string name="wrong_translation_direction">A fordítás nem a várt nyelven van. A célnyelv fiókbeállításokban %1$s-re van állítva.</string>
+    <string name="buttonOk">Rendben</string>
+    <string name="buttonSettings">Beállításokhoz</string>
+
+    <string name="query_no_blank">Megpróbáltam lefordítani a "%1$s" kifejezést %2$s nyelvre.
+    A fordításom: "%3$s"
+    Kérjük, értékelje a fordításomat %4$s nyelven a nyelvtan, helyesírás, jelentés és természetesség szempontjából.
+    A válasznak %4$s nyelven kell lennie, az alábbi JSON formátumban:
+    { "isValid": "true / false.",
+    "feedBack": "%4$s nyelvű értékelés." }</string>
+
+    <string name="query_no_blank_reverse">Megpróbáltam lefordítani a "%1$s" kifejezést az anyanyelvemre.
+    Ezt így fordítottam: "%2$s"
+    Kérjük, értékelje a fordításomat csak a jelentés pontossága alapján; a nyelvtan és helyesírás nem fontos számomra.
+    A válasznak %3$s nyelven kell lennie, az alábbi JSON formátumban:
+    { "isValid": "true / false.",
+    "feedBack": "%3$s nyelvű értékelés." }</string>
+
+    <string name="query_with_blank">Megpróbáltam lefordítani a "%1$s" kifejezést %2$s nyelvre.
+    A befejezetlen fordításom: "%3$s"
+    A hiányzó rész a fordításomban azt jelzi, amit nem tudtam lefordítani.
+    Kérjük, értékelje a fordításomat %4$s nyelven a nyelvtan, helyesírás, jelentés és természetesség szempontjából.
+    A válasznak %4$s nyelven kell lennie, az alábbi JSON formátumban:
+    { "feedBack": "%4$s nyelvű értékelés.",
+    "completeSentence": "Töltse ki a hiányzó részeket a %2$s fordításban." }</string>
+
+    <string name="query_with_blank_reverse">Megpróbáltam lefordítani a "%1$s" kifejezést az anyanyelvemre.
+    A befejezetlen fordításom: "%2$s"
+    A hiányzó rész a fordításomban azt jelzi, amit nem tudtam lefordítani.
+    Kérjük, értékelje a fordításomat csak a jelentés pontossága alapján; a nyelvtan és helyesírás nem fontos számomra.
+    A válasznak %3$s nyelven kell lennie, az alábbi JSON formátumban:
+    { "feedBack": "%3$s nyelvű értékelés.",
+    "completeSentence": "Töltse ki a hiányzó részeket a %2$s fordításban." }</string>
+
+    <string name="query_for_no_translation">Az anyanyelvem %1$s.
+    És szeretném lefordítani a "%2$s" mondatot %3$s nyelvre.
+    Kérlek, magyarázd el lépésről lépésre, hogyan kell lefordítanom.
+    A válasznak az alábbi JSON formátumban kell lennie:
+    { "translation": "Írd le a lefordított mondatot %3$s nyelven.",
+    "explanation": "Részletes magyarázat %1$s nyelven." }</string>
+
+    <string name="search_issues">Úgy tűnik, néhány probléma van a kereséssel. A végső döntés az Ön kezében van.</string>
+    <string name="search_issue_1">A keresett szó előfordulhat, hogy nem létezik a célnyelven.</string>
+    <string name="search_issue_2">A keresett szó tartalmazhat helyesírási hibákat.</string>
+    <string name="search_issue_3">A szó és a jelentés nem biztos, hogy megfelelnek egymásnak.</string>
+    <string name="search_issue_4">A keresett kifejezés nem biztos, hogy gyakran használt a célnyelven.</string>
+    <string name="search_issue_5">Valami hiba történt, kérjük frissítse a keresést.</string>
+    <string name="tv_6">Érintse meg a szavakat a kiejtésük meghallgatásához.</string>
+    <string name="example_word">toll</string>
+    <string name="liste_baslik_items">Minden rekord:</string>
+    <string name="liste_baslik_folders">Minden mappa:</string>
+    <string name="create_folder_2">Mappa létrehozása: %1$s</string>
+    <string name="rename_folder">"Mappa átnevezése:"</string>
+    <string name="tv_list_empty">Hozza létre saját fordítási listáját.</string>
+    <string name="tv_password_criteria">A jelszava bármilyen 6 karakteres kombináció lehet.</string>
+    <string name="error_email_already_in_use">Ez az e-mail cím már regisztrálva van.</string>
+    <string name="error_invalid_email">Kérjük, adjon meg érvényes e-mail címet.</string>
+    <string name="error_invalid_password">Kérjük, adjon meg érvényes jelszót.</string>
+    <string name="error_weak_password">A jelszó nem elég erős.</string>
+    <string name="error_unknown">Hiba történt. Kérjük, próbálja újra.</string>
+    <string name="txt_remaining_translation_count">Ma hátralévő fordítások: %1$s</string>
+    <string name="txt_no_quota">Elérte a napi fordítási limitet.</string>
+    <string name="item_count">Elemek száma: %1$s</string>
+    <string name="warn_min_sentence_number">Legalább %1$s mondatnak kell lennie. Kérjük, frissítse a keresést.</string>
+    <string name="folder_selected">Mappa: %1$s</string>
+    <string name="no_internet">Probléma van az internetkapcsolatával.</string>
+    <string name="fail_some_features">Néhány funkció nem töltődött be.</string>
+    <string name="example_evaluation_sentence">A fordítása nyelvtanilag helyes, pontosan közvetíti a jelentést, és természetesnek hangzik \'%1$s\' nyelven. A \'%1$s\' nyelvben a \'%2$s\' leggyakoribb és legtermészetesebb megfelelője a(z) \'%3$s\'. Kiváló fordítás.</string>
+
+</resources>

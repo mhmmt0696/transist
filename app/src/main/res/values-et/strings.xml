@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="txt_cumle_olustur_baslik">Väljend, mida soovite õppida:</string>
+    <string name="editText_ifade">Sõna: (kohustuslik)</string>
+    <string name="editText_anlam">Tähendus:</string>
+    <string name="editText_not">Kontekst:</string>
+    <string name="button_ara">Leia laused</string>
+    <string name="txt_zorluk">Vali raskusaste.</string>
+    <string name="buttonSave">Kinnita ja salvesta</string>
+    <string name="txt_mail_basarisiz">Meie serverid ei vasta e-posti aktiveerimispäringule. Palun proovi hiljem uuesti.</string>
+    <string name="txt_mail_gonderildi">Klõpsake lingil, mille saatsime teie e-posti aadressile, et kinnitada oma konto.</string>
+    <string name="tv_delete">Kas soovite oma konto kustutada?</string>
+    <string name="tv_delete_btn">KUSTUTA!</string>
+    <string name="txt_delete_error">Konto kustutamiseks peate olema hiljuti sisse loginud.</string>
+    <string name="tv_exit_check">Oled kindel, et soovid välja logida?</string>
+    <string name="tv_exit">Logi välja!</string>
+    <string name="tv_phrases_title">Väljendid</string>
+    <string name="tv_words_title">Sõnad</string>
+    <string name="tv_selected_title">Valitud režiim:</string>
+    <string name="tv_selected_item">Juhuslik iga lauses</string>
+    <string name="txt_reset_basarisiz">Meie serverid ei vasta parooli lähtestamise päringule. Palun proovi hiljem uuesti.</string>
+    <string name="txt_reset">Kontrolli oma postkasti. Kui selle e-posti aadressiga oli varem registreeritud konto, näete parooli lähtestamise linki.</string>
+    <string name="txt_sifre_sifirlama">Saate jätkata parooli lähtestamist e-posti teel saadetud lingi abil.</string>
+    <string name="text_silinecek_aciklama">Kirjed, mille ülevaatamisintervall on 30 päeva või rohkem, kustutatakse.</string>
+    <string name="switch_view">Tee see minu eest automaatselt.</string>
+    <string name="tv_sil">Kinnita ja kustuta</string>
+    <string name="txt_siralama_ölcütü">Sortimise kriteerium:</string>
+    <string name="txt_alfabetik">Tähestikuline järjekord</string>
+    <string name="txt_eklenme">Lisamise kuupäeva järgi sorteerimine</string>
+    <string name="txt_araliga_göre">Vaheaja järgi sorteerimine</string>
+    <string name="loadingText">Laused valmistatakse ette…</string>
+    <string name="button_yenile">Värskenda lauseid</string>
+    <string name="txt_aralik">Ülevaatamisintervall: xxx päeva</string>
+    <string name="buttonUpdate">Uuenda</string>
+    <string name="buttonCancel">Tühista</string>
+    <string name="liste_baslik">Teie õpiloend:</string>
+    <string name="tv_unknown">Palun vali külgribalt oma emakeel ja sihtkeel.</string>
+    <string name="tv_empty_list">Väljendid, mille lisad oma õpiloendisse, kuvatakse tõlgetes.</string>
+    <string name="tv_empty_list_add">Lisa väljendid, mida soovid tõlgetes näha, oma õpiloendisse.</string>
+    <string name="txt_giris_baslik">Teie sisselogimisandmed:</string>
+    <string name="txt_giris_bilgisi_email">Olete sisse loginud oma e-posti kontoga (xxx).</string>
+    <string name="txt_aktivasyon">Saada e-posti aktiveerimise link.</string>
+    <string name="txt_sifre_değistir">Soovin muuta oma parooli.</string>
+    <string name="hesap_sil">Kustuta minu konto.</string>
+    <string name="txt_profil_baslik">Teie konto andmed:</string>
+    <string name="txt_anadil_baslik">Teie emakeel:</string>
+    <string name="txt_hedef_dil_baslik">Keel, mida õpite:</string>
+    <string name="txt_hesap_turu_baslik">Konto tüüp:</string>
+    <string name="txt_hesap_turu_abonelik">Tellijapõhine</string>
+    <string name="txt_hesap_turu_ücretsiz">Tasuta</string>
+    <string name="txt_abonelik_suresi">Aktiivne kuni xxx.</string>
+    <string name="button_buy">Osta tellimus</string>
+    <string name="creating_sentence">Teie lause luuakse…</string>
+    <string name="et_translation">Kirjutage oma tõlge…</string>
+    <string name="tv_break">Olete kõik oma väljendid üle vaadanud.</string>
+    <string name="button_marathon_start">Alusta algusest!</string>
+    <string name="button_marathon_end">Sulge!</string>
+    <string name="tv_welcome">Tere tulemast!</string>
+    <string name="tv_info">See on tõlkerakendus.</string>
+    <string name="tv_1">Tõlgi kuvatav lause,</string>
+    <string name="tv_2">valitud keelde.</string>
+    <string name="tv_3">Tehisintellekt hindab teie tõlget nelja aspekti alusel: grammatika, õigekiri, loomulikkus ja tähendus.</string>
+    <string name="tv_4">Kui jääte hätta, võite jätta selle tühjaks ja jätkata:</string>
+    <string name="tv_5">Kui soovite väljendit sagedamini harjutada, lisage see oma õpiloendisse.</string>
+    <string name="tv_ls_title">Alustamiseks</string>
+    <string name="tv_native_language">Vali oma emakeel:</string>
+    <string name="tv_target_language">Vali keel, millesse soovid tõlkida:</string>
+    <string name="txt_mail_baslik">Logi sisse:</string>
+    <string name="et_mail_hint">E-posti konto</string>
+    <string name="et_sifre_hint">Parool</string>
+    <string name="buton_giris">Logi sisse</string>
+    <string name="txt_sifremi_unuttum">Unustasid parooli.</string>
+    <string name="txt_kayit_ol">Loo uus konto.</string>
+    <string name="txt_mail_kayit_baslik">Registreeru oma e-posti aadressiga:</string>
+    <string name="et_mail_kayit_hint">Sisesta oma e-posti aadress.</string>
+    <string name="et_sifre_kayit_hint">Sea oma parool.</string>
+    <string name="buton_kayit">Registreeru</string>
+    <string name="txt_sifre_sifirlama_baslik">Saadame sinu e-posti aadressile parooli lähtestamise lingi.</string>
+    <string name="et_mail_sifremi_unuttum_hint">Sisesta oma e-posti aadress.</string>
+    <string name="buton_sifirla">Saada</string>
+    <string name="familiarity_1">Ma näen seda esimest korda.</string>
+    <string name="familiarity_2">Olen seda varem näinud.</string>
+    <string name="familiarity_3">Ma tean seda, aga tahan harjutada.</string>
+    <string name="example_sentence">See on minu pastakas.</string>
+    <string name="example_sentence_blank">See on ____ pastakas.</string>
+    <string name="feature">Veelgi enam: saad valida raskusastme ja teha nii, et sind huvitavad väljendid või mustrid ilmuksid sagedamini. Kui soovid õppida hajusa kordamise meetodil, lisa väljendid lihtsalt oma õpilisti.</string>
+    <string name="warn_select_difficulty">Palun vali raskusaste.</string>
+    <string name="registration_done">Registreerimine õnnestus.</string>
+    <string name="warn_expression_empty">Palun sisesta väljend, mida soovid otsida.</string>
+    <string name="warn_typo">Sisestatud väljendis on kahjuks kirjaviga.</string>
+    <string name="warn_meaning">Tähendus ei vasta ootustele.</string>
+    <string name="update_successful">Kirje on uuendatud.</string>
+    <string name="error_occured">Tekkis viga.</string>
+    <string name="muilti_items_deleted">Kustutatud lausete arv: xxx</string>
+    <string name="warn_missing_input">Puudulik info.</string>
+    <string name="log_in_failed">Sisselogimine ebaõnnestus: vale teave.</string>
+    <string name="no_given_translation">Palun sisesta tõlge.</string>
+    <string name="api_busy">Tehisintellekt on hõivatud ega saa praegu vastata.</string>
+    <string name="apology">Vabandame ebamugavuste pärast.</string>
+    <string name="try_again_later">Palun proovi hiljem uuesti.</string>
+    <string name="solace">Hüvitisena aktiveerime sinu kontole ühe kuu tellimuse.</string>
+    <string name="warn_select_language">Sa ei ole keelt valinud.</string>
+
+
+    <string name="dark_theme_title">Tume teema:</string>
+    <string name="arabic">Araabia</string>
+    <string name="bengali">Bengali</string>
+    <string name="bulgarian">Bulgaaria</string>
+    <string name="chinese">Hiina</string>
+    <string name="croatian">Horvaatia</string>
+    <string name="czech">Tšehhi</string>
+    <string name="danish">Taani</string>
+    <string name="dutch">Hollandi</string>
+    <string name="english">Inglise</string>
+    <string name="estonian">Eesti</string>
+    <string name="finnish">Soome</string>
+    <string name="french">Prantsuse</string>
+    <string name="german">Saksa</string>
+    <string name="greek">Kreeka</string>
+    <string name="hebrew">Heebrea</string>
+    <string name="hindi">Hindi</string>
+    <string name="hungarian">Ungari</string>
+    <string name="indonesian">Indoneesia</string>
+    <string name="italian">Itaalia</string>
+    <string name="japanese">Jaapani</string>
+    <string name="korean">Korea</string>
+    <string name="latvian">Läti</string>
+    <string name="lithuanian">Leedu</string>
+    <string name="norwegian">Norra</string>
+    <string name="polish">Poola</string>
+    <string name="portuguese">Portugali</string>
+    <string name="romanian">Rumeenia</string>
+    <string name="russian">Vene</string>
+    <string name="serbian">Serbia</string>
+    <string name="slovak">Slovaki</string>
+    <string name="slovenian">Sloveeni</string>
+    <string name="spanish">Hispaania</string>
+    <string name="swahili">Suahiili</string>
+    <string name="swedish">Rootsi</string>
+    <string name="thai">Tai</string>
+    <string name="turkish">Türgi</string>
+    <string name="ukrainian">Ukraina</string>
+    <string name="vietnamese">Vietnami</string>
+    <string name="txt_giris_bilgisi_google">Olete sisse loginud Google’iga (xxx).</string>
+    <string name="search_hint">Otsi…</string>
+    <string name="review_interval">Ülevaatuse intervall</string>
+    <string name="day">päev</string>
+    <string name="nothing_to_show">Siin pole veel midagi näidata.</string>
+
+    <string name="unknown">Tundmatu</string>
+    <string name="select_theme">Vali teema:</string>
+    <string name="system_default">Süsteemi vaikeseade</string>
+    <string name="light_mode">Hele režiim</string>
+    <string name="dark_mode">Tume režiim</string>
+    <string name="create_folder">Loo kaust:</string>
+    <string name="folder_name">Kausta nimi…</string>
+    <string name="folder">Kaust:</string>
+    <string name="start_from_scratch">Alusta algusest!</string>
+    <string name="no_voice_engine">Selle keele jaoks pole varem alla laaditud häälfaili leitud. Palun laadi häälfail alla ja taaskäivita rakendus.</string>
+    <string name="not_common_search">See väljend ei ole inglise keeles sageli kasutusel. Saate selle siiski lisada, kuid pidage meeles, et tehisintellekt võib hoiatada teid selle lausetes mitte kasutama.</string>
+    <string name="search_hint_text">Otsingutes saate kasutada sulgudes olevat kohatäitjat fikseeritud teksti asemel:</string>
+    <string name="search_hint_1">leevendada [kellegi] kurbust</string>
+    <string name="search_hint_2">maalida [midagi] [värviga]</string>
+    <string name="default_folder">Vaikimisi</string>
+    <string name="wrong_translation_direction">Teie tõlge ei ole oodatud keeles. Teie sihtkeel on konto seadetes määratud kui %1$s.</string>
+    <string name="buttonOk">OK</string>
+    <string name="buttonSettings">Minge seadistustesse</string>
+
+    <string name="query_no_blank">"%1$s" proovisin tõlkida keelde %2$s.
+    Minu tõlge oli: "%3$s"
+    Palun hinnake minu tõlget keeles %4$s grammatika, õigekirja, tähenduse ja loomulikkuse osas.
+    Teie vastus peab olema keeles %4$s ja järgima allolevat JSON-formaati:
+    { "isValid": "true / false.",
+    "feedBack": "Hinnang keeles %4$s." }</string>
+
+    <string name="query_no_blank_reverse">"%1$s" proovisin tõlkida oma emakeelde.
+    Tõlkisin selle järgmiselt: "%2$s"
+    Palun hinnake minu tõlget ainult tähenduse täpsuse põhjal; grammatika ja õigekiri pole minu jaoks olulised.
+    Teie vastus peab olema keeles %3$s ja järgima allolevat JSON-formaati:
+    { "isValid": "true / false.",
+    "feedBack": "Hinnang keeles %3$s." }</string>
+
+    <string name="query_with_blank">"%1$s" proovisin tõlkida keelde %2$s.
+    Minu lõpetamata tõlge: "%3$s"
+    Tühik minu tõlkes näitab osa, mida ma ei suutnud tõlkida.
+    Palun hinnake minu tõlget keeles %4$s grammatika, õigekirja, tähenduse ja loomulikkuse osas.
+    Teie vastus peab olema keeles %4$s ja järgima allolevat JSON-formaati:
+    { "feedBack": "Hinnang keeles %4$s.",
+    "completeSentence": "Täiendage %2$s tõlget, täites tühikud." }</string>
+
+    <string name="query_with_blank_reverse">"%1$s" proovisin tõlkida oma emakeelde.
+    Minu lõpetamata tõlge: "%2$s"
+    Tühik minu tõlkes näitab osa, mida ma ei suutnud tõlkida.
+    Palun hinnake minu tõlget ainult tähenduse täpsuse põhjal; grammatika ja õigekiri pole minu jaoks olulised.
+    Teie vastus peab olema keeles %3$s ja järgima allolevat JSON-formaati:
+    { "feedBack": "Hinnang keeles %3$s.",
+    "completeSentence": "Täiendage %2$s tõlget, täites tühikud." }</string>
+
+    <string name="query_for_no_translation">Minu emakeel on %1$s.
+    Ja ma tahan tõlkida lause "%2$s" keelde %3$s.
+    Palun selgitage samm-sammult, kuidas peaksin seda tõlkima.
+    Teie vastus peab olema järgivas JSON-formaadis:
+    { "translation": "Kirjutage tõlgitud lause keeles %3$s.",
+    "explanation": "Üksikasjalik selgitus keeles %1$s." }</string>
+
+    <string name="search_issues">Tundub, et teie otsinguga on mõned probleemid. Lõplik otsus on teie teha.</string>
+    <string name="search_issue_1">Otsitav sõna ei pruugi sihtkeeles eksisteerida.</string>
+    <string name="search_issue_2">Otsitav sõna võib sisaldada kirjavigu.</string>
+    <string name="search_issue_3">Sõna ja tähendus ei pruugi ühtida.</string>
+    <string name="search_issue_4">Otsitav termin ei pruugi sihtkeeles sageli kasutusel olla.</string>
+    <string name="search_issue_5">Midagi läks valesti, värskendage oma otsingut.</string>
+    <string name="tv_6">Puudutage sõnu, et kuulda nende hääldust.</string>
+    <string name="example_word">pliiats</string>
+    <string name="liste_baslik_items">Kõik kirjed:</string>
+    <string name="liste_baslik_folders">Kõik kaustad:</string>
+    <string name="create_folder_2">Loo kaust: %1$s</string>
+    <string name="rename_folder">"Nimeta kaust ümber:"</string>
+    <string name="tv_list_empty">Loo oma tõlkelist.</string>
+    <string name="tv_password_criteria">Teie parool võib olla mis tahes 6-kohaline kombinatsioon.</string>
+    <string name="error_email_already_in_use">See e-posti aadress on juba registreeritud.</string>
+    <string name="error_invalid_email">Sisestage kehtiv e-posti aadress.</string>
+    <string name="error_invalid_password">Sisestage kehtiv parool.</string>
+    <string name="error_weak_password">Parool ei ole piisavalt tugev.</string>
+    <string name="error_unknown">Ilmnes viga. Palun proovige uuesti.</string>
+    <string name="txt_remaining_translation_count">Täna jäänud tõlkeid: %1$s</string>
+    <string name="txt_no_quota">Teie päevane tõlkelimiit on täis.</string>
+    <string name="item_count">Kirjete arv: %1$s</string>
+    <string name="warn_min_sentence_number">Peab olema vähemalt %1$s lauset. Palun värskendage oma otsingut.</string>
+    <string name="folder_selected">Kaust: %1$s</string>
+    <string name="no_internet">Teie internetiühenduses on probleem.</string>
+    <string name="fail_some_features">Mõned funktsioonid ei saanud laadida.</string>
+    <string name="example_evaluation_sentence">Teie tõlge on grammatiliselt korrektne, edastab tähenduse täpselt ja kõlab loomulikult keeles \'%1$s\'. Kõige tavalisem ja loomulikum vaste sõnale \'%2$s\' keeles \'%1$s\' on \'%3$s\'. Suurepärane tõlge.</string>
+</resources>

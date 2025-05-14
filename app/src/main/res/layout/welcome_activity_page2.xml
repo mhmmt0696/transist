@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@+id/cl_welcome_2"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/arkaplan">
+
+    <ScrollView
+        android:id="@+id/sv_language_selection"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/cl_language_selection"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/ib_ls_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:background="@drawable/bg_round_back"
+                android:elevation="3dp"
+                android:padding="0dp"
+                android:src="@drawable/baseline_arrow_back_24"
+                app:layout_constraintBottom_toBottomOf="@id/ib_ls_done"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@id/ib_ls_done"
+                app:tint="@color/textColorPrimary" />
+
+            <TextView
+                android:id="@+id/tv_ls_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginTop="40dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:textColor="@color/koyu_yesil"
+                android:text="@string/tv_ls_title"
+                android:textSize="30sp"/>
+
+            <ImageView
+                android:id="@+id/iv_native_language"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/daisy"
+                app:layout_constraintTop_toBottomOf="@id/tv_ls_title"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginTop="40dp"
+                android:layout_marginStart="40dp"/>
+
+            <TextView
+                android:id="@+id/tv_native_language"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="@+id/iv_native_language"
+                android:layout_marginStart="10dp"
+                app:layout_constraintStart_toEndOf="@id/iv_native_language"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="40dp"
+                android:textColor="@color/textColorPrimary"
+                android:text="@string/tv_native_language"
+                android:fontFamily="sans-serif"
+                android:textSize="16sp"/>
+
+            <Spinner
+                android:id="@+id/spinner_ls_native"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_white_buton"
+                android:elevation="3dp"
+                android:padding="5dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv_native_language"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="20dp"/>
+
+            <ImageView
+                android:id="@+id/iv_target_language"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/daisy"
+                app:layout_constraintTop_toBottomOf="@id/spinner_ls_native"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginTop="40dp"
+                android:layout_marginStart="40dp"/>
+
+            <TextView
+                android:id="@+id/tv_target_language"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="@+id/iv_target_language"
+                android:layout_marginStart="10dp"
+                app:layout_constraintStart_toEndOf="@id/iv_target_language"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="40dp"
+                android:textColor="@color/textColorPrimary"
+                android:text="@string/tv_target_language"
+                android:fontFamily="sans-serif"
+                android:textSize="16sp"/>
+
+            <Spinner
+                android:id="@+id/spinner_ls_target"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_white_buton"
+                android:elevation="3dp"
+                android:padding="5dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv_target_language"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="20dp"/>
+
+            <ImageButton
+                android:id="@+id/ib_ls_done"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="40dp"
+                android:background="@drawable/bg_round_btn"
+                android:elevation="3dp"
+                android:src="@drawable/baseline_done_outline_24"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/spinner_ls_target"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="40dp"
+                app:tint="@color/black" />
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                android:padding="10dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginBottom="40dp"
+                android:background="@drawable/bg_round_btn"
+                android:indeterminateTint="@color/black"
+                android:elevation="3dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/spinner_ls_target"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="40dp"/>
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

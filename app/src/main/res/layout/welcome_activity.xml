@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/arkaplan">
+
+   <include
+       android:id="@+id/welcome_1"
+       layout="@layout/welcome_activity_page1"/>
+
+   <include
+       android:id="@+id/welcome_2"
+       layout="@layout/welcome_activity_page2"/>
+
+   <androidx.cardview.widget.CardView
+       android:id="@+id/cv_toast"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="100dp"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:cardCornerRadius="22dp"
+       app:cardElevation="6dp">
+
+      <androidx.constraintlayout.widget.ConstraintLayout
+          android:background="@color/toastBackground"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:paddingTop="10dp"
+          android:paddingBottom="10dp"
+          android:paddingStart="15dp"
+          android:paddingEnd="15dp">
+
+         <TextView
+             android:id="@+id/tv_toast"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             tools:text="toast mesajı"
+             android:textStyle="bold"
+             android:textColor="@color/textColorPrimary"
+             android:textSize="14sp"
+             app:layout_constraintStart_toStartOf="parent"
+             app:layout_constraintTop_toTopOf="parent"/>
+
+      </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+   </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

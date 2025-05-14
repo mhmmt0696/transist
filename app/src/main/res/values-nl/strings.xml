@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="txt_cumle_olustur_baslik">Uitdrukking die je wilt leren:</string>
+    <string name="editText_ifade">Woord: (verplicht)</string>
+    <string name="editText_anlam">Betekenis:</string>
+    <string name="editText_not">Context:</string>
+    <string name="button_ara">Zinnen zoeken</string>
+    <string name="txt_zorluk">Selecteer moeilijkheidsgraad.</string>
+    <string name="buttonSave">Bevestigen en opslaan</string>
+    <string name="txt_mail_basarisiz">Onze servers reageren niet op het verzoek om e-mailactivatie. Probeer het later opnieuw.</string>
+    <string name="txt_mail_gonderildi">Klik op de activatielink die we naar je e-mailadres hebben gestuurd zodat we je account kunnen verifiëren.</string>
+    <string name="tv_delete">Wil je je account verwijderen?</string>
+    <string name="tv_delete_btn">VERWIJDEREN!</string>
+    <string name="txt_delete_error">Om je account te verwijderen, moet je onlangs hebben ingelogd.</string>
+    <string name="tv_exit_check">Weet je zeker dat je wilt uitloggen?</string>
+    <string name="tv_exit">Uitloggen!</string>
+    <string name="tv_phrases_title">Uitdrukkingen</string>
+    <string name="tv_words_title">Woorden</string>
+    <string name="tv_selected_title">Geselecteerde modus:</string>
+    <string name="tv_selected_item">Willekeurig in elke zin</string>
+    <string name="txt_reset_basarisiz">Onze servers reageren niet op het verzoek om wachtwoordherstel. Probeer het later opnieuw.</string>
+    <string name="txt_reset">Controleer je inbox. Als er eerder een account met dit e-mailadres is geregistreerd, zie je een link om je wachtwoord opnieuw in te stellen.</string>
+    <string name="txt_sifre_sifirlama">Je kunt het proces voor het opnieuw instellen van je wachtwoord voortzetten via de link die naar je e-mailadres is gestuurd.</string>
+    <string name="text_silinecek_aciklama">Invoer met een herhalingsinterval van 30 dagen of meer wordt verwijderd.</string>
+    <string name="switch_view">Doe dit automatisch voor mij.</string>
+    <string name="tv_sil">Bevestigen en verwijderen</string>
+    <string name="txt_siralama_ölcütü">Sorteercriterium:</string>
+    <string name="txt_alfabetik">Alfabetische volgorde</string>
+    <string name="txt_eklenme">Sorteren op toevoegdatum</string>
+    <string name="txt_araliga_göre">Sorteren op herhalingsinterval</string>
+    <string name="loadingText">Zinnen worden voorbereid…</string>
+    <string name="button_yenile">Zinnen verversen</string>
+    <string name="txt_aralik">Herhalingsinterval: xxx dagen</string>
+    <string name="buttonUpdate">Bijwerken</string>
+    <string name="buttonCancel">Annuleren</string>
+    <string name="liste_baslik">Jouw leerlijst:</string>
+    <string name="tv_unknown">Selecteer je moedertaal en doeltaal in het zijmenu.</string>
+    <string name="tv_empty_list">Uitdrukkingen die je aan je verwervingslijst toevoegt, verschijnen in vertalingen.</string>
+    <string name="tv_empty_list_add">Voeg uitdrukkingen die je in vertalingen wilt zien toe aan je leerlijst.</string>
+    <string name="txt_giris_baslik">Je inloggegevens:</string>
+    <string name="txt_giris_bilgisi_email">Je bent ingelogd met je e-mailaccount (xxx).</string>
+    <string name="txt_aktivasyon">Activatielink per e-mail verzenden.</string>
+    <string name="txt_sifre_değistir">Ik wil mijn wachtwoord wijzigen.</string>
+    <string name="hesap_sil">Verwijder mijn account.</string>
+    <string name="txt_profil_baslik">Je accountgegevens:</string>
+    <string name="txt_anadil_baslik">Je moedertaal:</string>
+    <string name="txt_hedef_dil_baslik">De taal die je leert:</string>
+    <string name="txt_hesap_turu_baslik">Accounttype:</string>
+    <string name="txt_hesap_turu_abonelik">Abonnement</string>
+    <string name="txt_hesap_turu_ücretsiz">Gratis</string>
+    <string name="txt_abonelik_suresi">Actief tot xxx.</string>
+    <string name="button_buy">Koop abonnement</string>
+    <string name="creating_sentence">Je zin wordt gegenereerd…</string>
+    <string name="et_translation">Schrijf je vertaling…</string>
+    <string name="tv_break">Je hebt al je uitdrukkingen doorgenomen.</string>
+    <string name="button_marathon_start">Begin opnieuw!</string>
+    <string name="button_marathon_end">Sluiten!</string>
+    <string name="tv_welcome">Welkom!</string>
+    <string name="tv_info">Dit is een vertaalapp.</string>
+    <string name="tv_1">Vertaal de zin die je ziet,</string>
+    <string name="tv_2">naar de taal van jouw keuze.</string>
+    <string name="tv_3">AI beoordeelt je vertaling op 4 punten: grammatica, spelling, natuurlijkheid en betekenis.</string>
+    <string name="tv_4">Als je vastloopt, kun je het veld leeg laten en doorgaan:</string>
+    <string name="tv_5">Als je een uitdrukking vaker wilt oefenen, voeg deze dan toe aan je leerlijst.</string>
+    <string name="tv_ls_title">Om te beginnen</string>
+    <string name="tv_native_language">Selecteer je moedertaal:</string>
+    <string name="tv_target_language">Selecteer de taal waarin je wilt vertalen:</string>
+    <string name="txt_mail_baslik">Log in:</string>
+    <string name="et_mail_hint">E-mailadres</string>
+    <string name="et_sifre_hint">Wachtwoord</string>
+    <string name="buton_giris">Inloggen</string>
+    <string name="txt_sifremi_unuttum">Wachtwoord vergeten.</string>
+    <string name="txt_kayit_ol">Een nieuw account aanmaken.</string>
+    <string name="txt_mail_kayit_baslik">Registreer je met je e-mailadres:</string>
+    <string name="et_mail_kayit_hint">Voer je e-mailadres in.</string>
+    <string name="et_sifre_kayit_hint">Stel je wachtwoord in.</string>
+    <string name="buton_kayit">Registreren</string>
+    <string name="txt_sifre_sifirlama_baslik">We sturen een link om je wachtwoord opnieuw in te stellen naar je e-mailadres.</string>
+    <string name="et_mail_sifremi_unuttum_hint">Voer je e-mailadres in.</string>
+    <string name="buton_sifirla">Verzenden</string>
+    <string name="familiarity_1">Ik zie dit voor het eerst.</string>
+    <string name="familiarity_2">Ik heb dit eerder gezien.</string>
+    <string name="familiarity_3">Ik ken dit, maar wil oefenen.</string>
+    <string name="example_sentence">Dit is mijn pen.</string>
+    <string name="example_sentence_blank">Dit is ____ pen.</string>
+    <string name="feature">Er is meer: Je kunt een moeilijkheidsniveau kiezen en ervoor zorgen dat de uitdrukkingen of patronen waarin je geïnteresseerd bent vaak verschijnen. Als je wilt leren met behulp van spaced repetition, voeg dan gewoon de uitdrukkingen toe aan je leerlijst.</string>
+    <string name="warn_select_difficulty">Selecteer een moeilijkheidsgraad.</string>
+    <string name="registration_done">Registratie voltooid.</string>
+    <string name="warn_expression_empty">Voer de uitdrukking in die je wilt zoeken.</string>
+    <string name="warn_typo">Helaas bevat de ingevoerde uitdrukking een spelfout.</string>
+    <string name="warn_meaning">Er is een betekenisverschil.</string>
+    <string name="update_successful">Invoer bijgewerkt.</string>
+    <string name="error_occured">Er is een fout opgetreden.</string>
+    <string name="muilti_items_deleted">Aantal verwijderde zinnen: xxx</string>
+    <string name="warn_missing_input">Er ontbreekt informatie.</string>
+    <string name="log_in_failed">Inloggen mislukt: onjuiste gegevens ingevoerd.</string>
+    <string name="no_given_translation">Voer de vertaling in.</string>
+    <string name="api_busy">AI kon vanwege drukte geen antwoord geven.</string>
+    <string name="apology">Onze excuses voor het ongemak.</string>
+    <string name="try_again_later">Probeer het later opnieuw.</string>
+    <string name="solace">Als compensatie activeren we een abonnement van één maand voor je account.</string>
+    <string name="warn_select_language">Je hebt geen taal geselecteerd.</string>
+
+    <string name="dark_theme_title">Donker thema:</string>
+    <string name="arabic">Arabisch</string>
+    <string name="bengali">Bengaals</string>
+    <string name="bulgarian">Bulgaars</string>
+    <string name="chinese">Chinees</string>
+    <string name="croatian">Kroatisch</string>
+    <string name="czech">Tsjechisch</string>
+    <string name="danish">Deens</string>
+    <string name="dutch">Nederlands</string>
+    <string name="english">Engels</string>
+    <string name="estonian">Ests</string>
+    <string name="finnish">Fins</string>
+    <string name="french">Frans</string>
+    <string name="german">Duits</string>
+    <string name="greek">Grieks</string>
+    <string name="hebrew">Hebreeuws</string>
+    <string name="hindi">Hindi</string>
+    <string name="hungarian">Hongaars</string>
+    <string name="indonesian">Indonesisch</string>
+    <string name="italian">Italiaans</string>
+    <string name="japanese">Japans</string>
+    <string name="korean">Koreaans</string>
+    <string name="latvian">Lets</string>
+    <string name="lithuanian">Litouws</string>
+    <string name="norwegian">Noors</string>
+    <string name="polish">Pools</string>
+    <string name="portuguese">Portugees</string>
+    <string name="romanian">Roemeens</string>
+    <string name="russian">Russisch</string>
+    <string name="serbian">Servisch</string>
+    <string name="slovak">Slowaaks</string>
+    <string name="slovenian">Sloveens</string>
+    <string name="spanish">Spaans</string>
+    <string name="swahili">Swahili</string>
+    <string name="swedish">Zweeds</string>
+    <string name="thai">Thais</string>
+    <string name="turkish">Turks</string>
+    <string name="ukrainian">Oekraïens</string>
+    <string name="vietnamese">Vietnamees</string>
+    <string name="txt_giris_bilgisi_google">Je bent ingelogd met Google (xxx).</string>
+    <string name="search_hint">Zoeken…</string>
+    <string name="review_interval">Herzieningsinterval</string>
+    <string name="day">dag</string>
+    <string name="nothing_to_show">Hier is nog niets om te tonen.</string>
+
+    <string name="unknown">Onbekend</string>
+    <string name="select_theme">Selecteer thema:</string>
+    <string name="system_default">Systeemstandaard</string>
+    <string name="light_mode">Licht thema</string>
+    <string name="dark_mode">Donker thema</string>
+    <string name="create_folder">Map maken:</string>
+    <string name="folder_name">Mapnaam…</string>
+    <string name="folder">Map:</string>
+    <string name="start_from_scratch">Begin opnieuw!</string>
+    <string name="no_voice_engine">Er is geen eerder gedownload spraakbestand gevonden voor deze taal. Download een spraakbestand en start de app opnieuw.</string>
+    <string name="not_common_search">Deze uitdrukking wordt niet vaak gebruikt in het Engels. Je kunt het nog steeds toevoegen, maar houd er rekening mee dat AI je kan waarschuwen om het niet in zinnen te gebruiken.</string>
+    <string name="search_hint_text">In zoekopdrachten kun je plaatsaanduiders in haakjes gebruiken in plaats van vaste tekst:</string>
+    <string name="search_hint_1">to ease [iemand\'s] verdriet</string>
+    <string name="search_hint_2">om [iets] een [kleur] te verven</string>
+    <string name="default_folder">Standaard</string>
+    <string name="wrong_translation_direction">Je vertaling is niet in de verwachte taal. Je doeltaal is ingesteld op %1$s in je accountinstellingen.</string>
+    <string name="buttonOk">OK</string>
+    <string name="buttonSettings">Ga naar instellingen</string>
+
+    <string name="query_no_blank">"%1$s" probeerde ik te vertalen naar %2$s.
+    Mijn vertaling was: "%3$s"
+    Beoordeel mijn vertaling op %4$s op grammatica, spelling, betekenis en natuurlijkheid.
+    Je antwoord moet in %4$s zijn en in het volgende JSON-formaat:
+    { "isValid": "true / false.",
+    "feedBack": "Beoordeling in %4$s." }</string>
+
+    <string name="query_no_blank_reverse">"%1$s" probeerde ik te vertalen naar mijn moedertaal.
+    Ik vertaalde het als: "%2$s"
+    Beoordeel mijn vertaling alleen op juistheid van betekenis, grammatica en spelling zijn voor mij niet belangrijk.
+    Je antwoord moet in %3$s zijn en in het volgende JSON-formaat:
+    { "isValid": "true / false.",
+    "feedBack": "Beoordeling in %3$s." }</string>
+
+    <string name="query_with_blank">"%1$s" probeerde ik te vertalen naar %2$s.
+    Mijn onvolledige vertaling: "%3$s"
+    Het lege gedeelte in mijn vertaling geeft aan wat ik niet kon vertalen.
+    Beoordeel mijn vertaling op %4$s op grammatica, spelling, betekenis en natuurlijkheid.
+    Je antwoord moet in %4$s zijn en in het volgende JSON-formaat:
+    { "feedBack": "Beoordeling in %4$s.",
+    "completeSentence": "Voltooi de %2$s vertaling door de lege plekken in te vullen." }</string>
+
+    <string name="query_with_blank_reverse">"%1$s" probeerde ik te vertalen naar mijn moedertaal.
+    Mijn onvolledige vertaling: "%2$s"
+    Het lege gedeelte in mijn vertaling geeft aan wat ik niet kon vertalen.
+    Beoordeel mijn vertaling alleen op juistheid van betekenis, grammatica en spelling zijn voor mij niet belangrijk.
+    Je antwoord moet in %3$s zijn en in het volgende JSON-formaat:
+    { "feedBack": "Beoordeling in %3$s.",
+    "completeSentence": "Voltooi de %2$s vertaling door de lege plekken in te vullen." }</string>
+
+    <string name="query_for_no_translation">Mijn moedertaal is %1$s.
+    En ik wil de zin "%2$s" vertalen naar %3$s.
+    Leg alstublieft stap voor stap uit hoe ik dit moet vertalen.
+    Je antwoord moet in het volgende JSON-formaat zijn:
+    { "translation": "Schrijf de vertaalde zin in %3$s.",
+    "explanation": "Uitgebreide uitleg in %1$s." }</string>
+
+    <string name="search_issues">Er lijken enkele problemen te zijn met je zoekopdracht. De uiteindelijke beslissing is aan jou.</string>
+    <string name="search_issue_1">Het gezochte woord bestaat mogelijk niet in de doeltaal.</string>
+    <string name="search_issue_2">Het gezochte woord kan spelfouten bevatten.</string>
+    <string name="search_issue_3">Het woord en de betekenis komen mogelijk niet overeen.</string>
+    <string name="search_issue_4">Wat je hebt gezocht, wordt mogelijk niet vaak gebruikt in de doeltaal.</string>
+    <string name="search_issue_5">Er is iets misgegaan. Vernieuw de zoekopdracht.</string>
+    <string name="tv_6">Tik op de woorden om de uitspraak te horen.</string>
+    <string name="example_word">pen</string>
+    <string name="liste_baslik_items">Alle items:</string>
+    <string name="liste_baslik_folders">Alle mappen:</string>
+    <string name="create_folder_2">Map maken: %1$s</string>
+    <string name="rename_folder">"Map hernoemen:"</string>
+    <string name="tv_list_empty">Maak je eigen vertaal­lijst.</string>
+    <string name="tv_password_criteria">Je wachtwoord kan elke combinatie van 6 tekens zijn.</string>
+    <string name="error_email_already_in_use">Dit e-mailadres is al geregistreerd.</string>
+    <string name="error_invalid_email">Voer een geldig e-mailadres in.</string>
+    <string name="error_invalid_password">Voer een geldig wachtwoord in.</string>
+    <string name="error_weak_password">Het wachtwoord is niet sterk genoeg.</string>
+    <string name="error_unknown">Er is een fout opgetreden. Probeer het opnieuw.</string>
+    <string name="txt_remaining_translation_count">Resterende vertalingen vandaag: %1$s</string>
+    <string name="txt_no_quota">Je dagelijkse vertaallimiet is bereikt.</string>
+    <string name="item_count">Aantal items: %1$s</string>
+    <string name="warn_min_sentence_number">Er moeten minstens %1$s zinnen zijn. Vernieuw de zoekopdracht.</string>
+    <string name="folder_selected">Map: %1$s</string>
+    <string name="no_internet">Er is een probleem met je internetverbinding.</string>
+    <string name="fail_some_features">Sommige functies konden niet worden geladen.</string>
+    <string name="example_evaluation_sentence">Je vertaling is grammaticaal correct, brengt de betekenis goed over en klinkt natuurlijk in \'%1$s\'. De meest gebruikelijke en natuurlijke vertaling van \'%2$s\' in \'%1$s\' is \'%3$s\'. Uitstekend vertaald.</string>
+
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/arkaplan">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_unknown"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="118dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        app:cardCornerRadius="30dp"
+        android:elevation="30dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:background="@color/cvBackground"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="20dp">
+
+            <ImageView
+                android:elevation="10dp"
+                android:id="@+id/iv_arrow_right"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/long_arrow_right"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"/>
+
+            <TextView
+                android:layoutDirection="locale"
+                android:id="@+id/tv_unknown"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/tv_unknown"
+                android:layout_marginTop="10dp"
+                app:layout_constraintTop_toBottomOf="@id/iv_arrow_right"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_marginBottom="20dp"
+                android:textSize="16sp"
+                android:textColor="@color/textColorPrimary"
+                android:textStyle="bold"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

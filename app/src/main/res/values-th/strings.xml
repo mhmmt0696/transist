@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="txt_cumle_olustur_baslik">วลีที่คุณต้องการเรียนรู้:</string>
+    <string name="editText_ifade">คำศัพท์: (จำเป็น)</string>
+    <string name="editText_anlam">ความหมาย:</string>
+    <string name="editText_not">บริบท:</string>
+    <string name="button_ara">ค้นหาประโยค</string>
+    <string name="txt_zorluk">เลือกระดับความยาก</string>
+    <string name="buttonSave">ยืนยันและบันทึก</string>
+    <string name="txt_mail_basarisiz">เซิร์ฟเวอร์ของเราไม่ตอบสนองต่อคำขอเปิดใช้งานอีเมล กรุณาลองใหม่อีกครั้งในภายหลัง</string>
+    <string name="txt_mail_gonderildi">คลิกที่ลิงก์เปิดใช้งานที่เราส่งไปยังอีเมลของคุณเพื่อยืนยันบัญชีของคุณ</string>
+    <string name="tv_delete">คุณต้องการลบบัญชีของคุณหรือไม่?</string>
+    <string name="tv_delete_btn">ลบเลย!</string>
+    <string name="txt_delete_error">คุณต้องเข้าสู่ระบบเมื่อไม่นานมานี้เพื่อดำเนินการลบบัญชี</string>
+    <string name="tv_exit_check">คุณแน่ใจหรือไม่ว่าต้องการออกจากระบบ?</string>
+    <string name="tv_exit">ออกจากระบบ!</string>
+    <string name="tv_phrases_title">วลี</string>
+    <string name="tv_words_title">คำศัพท์</string>
+    <string name="tv_selected_title">โหมดที่เลือก:</string>
+    <string name="tv_selected_item">สุ่มในแต่ละประโยค</string>
+    <string name="txt_reset_basarisiz">เซิร์ฟเวอร์ของเราไม่ตอบสนองต่อคำขอรีเซ็ตรหัสผ่าน กรุณาลองใหม่อีกครั้งในภายหลัง</string>
+    <string name="txt_reset">โปรดตรวจสอบกล่องจดหมายของคุณ หากมีบัญชีที่ลงทะเบียนด้วยอีเมลนี้ จะมีลิงก์สำหรับรีเซ็ตรหัสผ่าน</string>
+    <string name="txt_sifre_sifirlama">คุณสามารถรีเซ็ตรหัสผ่านผ่านลิงก์ที่ส่งไปยังอีเมลของคุณ</string>
+    <string name="text_silinecek_aciklama">รายการที่มีช่วงเวลาทบทวน 30 วันขึ้นไปจะถูกลบ</string>
+    <string name="switch_view">ทำสิ่งนี้ให้ฉันโดยอัตโนมัติ</string>
+    <string name="tv_sil">ยืนยันและลบ</string>
+    <string name="txt_siralama_ölcütü">เกณฑ์การจัดเรียง:</string>
+    <string name="txt_alfabetik">เรียงตามตัวอักษร</string>
+    <string name="txt_eklenme">เรียงตามวันที่เพิ่ม</string>
+    <string name="txt_araliga_göre">เรียงตามช่วงทบทวน</string>
+    <string name="loadingText">กำลังเตรียมประโยค…</string>
+    <string name="button_yenile">โหลดประโยคใหม่</string>
+    <string name="txt_aralik">ช่วงทบทวน: xxx วัน</string>
+    <string name="buttonUpdate">อัปเดต</string>
+    <string name="buttonCancel">ยกเลิก</string>
+    <string name="liste_baslik">รายการเรียนรู้ของคุณ:</string>
+    <string name="tv_unknown">กรุณาเลือกภาษาหลักและภาษาที่ต้องการแปลจากแถบด้านข้าง</string>
+    <string name="tv_empty_list">วลีที่คุณเพิ่มในรายการเรียนรู้ของคุณจะปรากฏในคำแปล</string>
+    <string name="tv_empty_list_add">เพิ่มวลีที่คุณต้องการให้แสดงในการแปลไปยังรายการเรียนรู้ของคุณ</string>
+    <string name="txt_giris_baslik">ข้อมูลเข้าสู่ระบบของคุณ:</string>
+    <string name="txt_giris_bilgisi_email">คุณได้เข้าสู่ระบบด้วยบัญชีอีเมล (xxx)</string>
+    <string name="txt_aktivasyon">ส่งลิงก์เปิดใช้งานทางอีเมล</string>
+    <string name="txt_sifre_değistir">ฉันต้องการเปลี่ยนรหัสผ่าน</string>
+    <string name="hesap_sil">ลบบัญชีของฉัน</string>
+    <string name="txt_profil_baslik">ข้อมูลบัญชีของคุณ:</string>
+    <string name="txt_anadil_baslik">ภาษาหลักของคุณ:</string>
+    <string name="txt_hedef_dil_baslik">ภาษาที่คุณกำลังเรียนรู้:</string>
+    <string name="txt_hesap_turu_baslik">ประเภทบัญชี:</string>
+    <string name="txt_hesap_turu_abonelik">สมัครสมาชิก</string>
+    <string name="txt_hesap_turu_ücretsiz">ฟรี</string>
+    <string name="txt_abonelik_suresi">ใช้งานได้ถึง xxx</string>
+    <string name="button_buy">ซื้อการสมัครสมาชิก</string>
+    <string name="creating_sentence">กำลังสร้างประโยคของคุณ…</string>
+    <string name="et_translation">เขียนคำแปลของคุณ…</string>
+    <string name="tv_break">คุณได้ทบทวนวลีทั้งหมดของคุณแล้ว</string>
+    <string name="button_marathon_start">เริ่มต้นใหม่!</string>
+    <string name="button_marathon_end">ปิด!</string>
+    <string name="tv_welcome">ยินดีต้อนรับ!</string>
+    <string name="tv_info">นี่คือแอปแปลภาษา</string>
+    <string name="tv_1">แปลประโยคที่คุณเห็น</string>
+    <string name="tv_2">เป็นภาษาที่คุณเลือก</string>
+    <string name="tv_3">AI จะประเมินคำแปลของคุณ 4 ด้าน: ไวยากรณ์ การสะกด ความเป็นธรรมชาติ และความหมาย</string>
+    <string name="tv_4">หากคุณติดขัด คุณสามารถเว้นว่างไว้และดำเนินการต่อ:</string>
+    <string name="tv_5">หากคุณต้องการฝึกวลีบ่อยขึ้น ให้นำไปใส่ในรายการเรียนรู้ของคุณ</string>
+    <string name="tv_ls_title">เริ่มต้นใช้งาน</string>
+    <string name="tv_native_language">เลือกภาษาหลักของคุณ:</string>
+    <string name="tv_target_language">เลือกภาษาที่จะแปล:</string>
+    <string name="txt_mail_baslik">เข้าสู่ระบบ:</string>
+    <string name="et_mail_hint">บัญชีอีเมล</string>
+    <string name="et_sifre_hint">รหัสผ่าน</string>
+    <string name="buton_giris">เข้าสู่ระบบ</string>
+    <string name="txt_sifremi_unuttum">ฉันลืมรหัสผ่าน</string>
+    <string name="txt_kayit_ol">สร้างบัญชีใหม่</string>
+    <string name="txt_mail_kayit_baslik">ลงทะเบียนด้วยอีเมลของคุณ:</string>
+    <string name="et_mail_kayit_hint">ป้อนที่อยู่อีเมลของคุณ</string>
+    <string name="et_sifre_kayit_hint">ตั้งรหัสผ่านของคุณ</string>
+    <string name="buton_kayit">ลงทะเบียน</string>
+    <string name="txt_sifre_sifirlama_baslik">เราจะส่งลิงก์รีเซ็ตรหัสผ่านไปยังอีเมลของคุณ</string>
+    <string name="et_mail_sifremi_unuttum_hint">ป้อนที่อยู่อีเมลของคุณ</string>
+    <string name="buton_sifirla">ส่ง</string>
+    <string name="familiarity_1">ฉันเพิ่งเห็นเป็นครั้งแรก</string>
+    <string name="familiarity_2">ฉันเคยเห็นมาก่อน</string>
+    <string name="familiarity_3">ฉันรู้จักมัน แต่ต้องการฝึกฝน</string>
+    <string name="example_sentence">นี่คือปากกาของฉัน</string>
+    <string name="example_sentence_blank">นี่คือ ____ ปากกา</string>
+    <string name="feature">ยังมีอีก: คุณสามารถเลือกระดับความยากและให้แน่ใจว่าสำนวนหรือรูปแบบที่คุณสนใจปรากฏบ่อย ๆ หากคุณต้องการเรียนรู้ด้วยวิธีเว้นช่วงการทบทวน เพียงเพิ่มสำนวนเหล่านั้นไปยังรายการเรียนรู้ของคุณ</string>
+    <string name="warn_select_difficulty">กรุณาเลือกระดับความยาก</string>
+    <string name="registration_done">ลงทะเบียนเรียบร้อยแล้ว</string>
+    <string name="warn_expression_empty">กรุณาป้อนข้อความที่คุณต้องการค้นหา</string>
+    <string name="warn_typo">ขออภัย ข้อความที่คุณป้อนมีข้อผิดพลาดในการสะกดคำ</string>
+    <string name="warn_meaning">ความหมายไม่ตรงกัน</string>
+    <string name="update_successful">อัปเดตรายการเรียบร้อยแล้ว</string>
+    <string name="error_occured">เกิดข้อผิดพลาด</string>
+    <string name="muilti_items_deleted">จำนวนประโยคที่ลบ: xxx</string>
+    <string name="warn_missing_input">ข้อมูลไม่ครบถ้วน</string>
+    <string name="log_in_failed">การเข้าสู่ระบบล้มเหลว: ข้อมูลไม่ถูกต้อง</string>
+    <string name="no_given_translation">กรุณาป้อนข้อความแปล</string>
+    <string name="api_busy">ปัญญาประดิษฐ์ไม่สามารถตอบกลับได้เนื่องจากมีการใช้งานสูง</string>
+    <string name="apology">ขออภัยในความไม่สะดวก</string>
+    <string name="try_again_later">กรุณาลองใหม่ในภายหลัง</string>
+    <string name="solace">เพื่อเป็นการชดเชย เราจะเพิ่มการสมัครสมาชิก 1 เดือนในบัญชีของคุณ</string>
+    <string name="warn_select_language">คุณยังไม่ได้เลือกภาษา</string>
+
+    <string name="dark_theme_title">ธีมสีเข้ม:</string>
+    <string name="arabic">อาหรับ</string>
+    <string name="bengali">เบงกาลี</string>
+    <string name="bulgarian">บัลแกเรีย</string>
+    <string name="chinese">จีน</string>
+    <string name="croatian">โครเอเชีย</string>
+    <string name="czech">เช็ก</string>
+    <string name="danish">เดนมาร์ก</string>
+    <string name="dutch">ดัตช์</string>
+    <string name="english">อังกฤษ</string>
+    <string name="estonian">เอสโตเนีย</string>
+    <string name="finnish">ฟินแลนด์</string>
+    <string name="french">ฝรั่งเศส</string>
+    <string name="german">เยอรมัน</string>
+    <string name="greek">กรีก</string>
+    <string name="hebrew">ฮีบรู</string>
+    <string name="hindi">ฮินดี</string>
+    <string name="hungarian">ฮังการี</string>
+    <string name="indonesian">อินโดนีเซีย</string>
+    <string name="italian">อิตาลี</string>
+    <string name="japanese">ญี่ปุ่น</string>
+    <string name="korean">เกาหลี</string>
+    <string name="latvian">ลัตเวีย</string>
+    <string name="lithuanian">ลิทัวเนีย</string>
+    <string name="norwegian">นอร์เวย์</string>
+    <string name="polish">โปแลนด์</string>
+    <string name="portuguese">โปรตุเกส</string>
+    <string name="romanian">โรมาเนีย</string>
+    <string name="russian">รัสเซีย</string>
+    <string name="serbian">เซอร์เบีย</string>
+    <string name="slovak">สโลวัก</string>
+    <string name="slovenian">สโลวีเนีย</string>
+    <string name="spanish">สเปน</string>
+    <string name="swahili">สวาฮีลี</string>
+    <string name="swedish">สวีเดน</string>
+    <string name="thai">ไทย</string>
+    <string name="turkish">ตุรกี</string>
+    <string name="ukrainian">ยูเครน</string>
+    <string name="vietnamese">เวียดนาม</string>
+    <string name="txt_giris_bilgisi_google">คุณได้เข้าสู่ระบบด้วย Google (xxx)</string>
+    <string name="search_hint">ค้นหา…</string>
+    <string name="review_interval">ช่วงเวลาทบทวน</string>
+    <string name="day">วัน</string>
+    <string name="nothing_to_show">ยังไม่มีอะไรที่จะแสดงที่นี่</string>
+
+    <string name="unknown">ไม่ทราบ</string>
+    <string name="select_theme">เลือกธีม:</string>
+    <string name="system_default">ค่าเริ่มต้นของระบบ</string>
+    <string name="light_mode">ธีมสว่าง</string>
+    <string name="dark_mode">ธีมมืด</string>
+    <string name="create_folder">สร้างโฟลเดอร์:</string>
+    <string name="folder_name">ชื่อโฟลเดอร์…</string>
+    <string name="folder">โฟลเดอร์:</string>
+    <string name="start_from_scratch">เริ่มต้นใหม่!</string>
+    <string name="no_voice_engine">ไม่พบไฟล์เสียงที่ดาวน์โหลดมาก่อนสำหรับภาษานี้ กรุณาดาวน์โหลดไฟล์เสียงและเริ่มแอปใหม่</string>
+    <string name="not_common_search">วลีนี้ไม่ใช่คำที่ใช้บ่อยในภาษาอังกฤษ อย่างไรก็ตามคุณสามารถเพิ่มได้ แต่ AI อาจเตือนให้คุณไม่ใช้ในประโยค</string>
+    <string name="search_hint_text">ในการค้นหา คุณสามารถใช้ตัวแทนในวงเล็บแทนข้อความคงที่:</string>
+    <string name="search_hint_1">บรรเทาความเศร้าของ [ใครบางคน]</string>
+    <string name="search_hint_2">ทาสี [สิ่งของ] เป็น [สี]</string>
+    <string name="default_folder">ค่าเริ่มต้น</string>
+    <string name="wrong_translation_direction">การแปลของคุณไม่ใช่ภาษาที่คาดไว้ ภาษาปลายทางถูกตั้งค่าเป็น %1$s ในการตั้งค่าบัญชี</string>
+    <string name="buttonOk">ตกลง</string>
+    <string name="buttonSettings">ไปที่การตั้งค่า</string>
+
+    <string name="query_no_blank">ฉันพยายามแปล "%1$s" เป็น %2$s
+    การแปลของฉัน: "%3$s"
+    กรุณาประเมินการแปลของฉันเป็น %4$s ในแง่ของไวยากรณ์ การสะกด ความหมาย และความเป็นธรรมชาติ
+    คำตอบของคุณต้องเป็น %4$s และในรูปแบบ JSON ดังนี้:
+    { "isValid": "true / false.",
+    "feedBack": "ประเมินผลเป็น %4$s." }</string>
+
+    <string name="query_no_blank_reverse">ฉันพยายามแปล "%1$s" เป็นภาษาพื้นเมืองของฉัน
+    ฉันแปลเป็น: "%2$s"
+    กรุณาประเมินการแปลของฉันเฉพาะความถูกต้องของความหมาย ไวยากรณ์และการสะกดไม่สำคัญสำหรับฉัน
+    คำตอบของคุณต้องเป็น %3$s และในรูปแบบ JSON ดังนี้:
+    { "isValid": "true / false.",
+    "feedBack": "ประเมินผลเป็น %3$s." }</string>
+
+    <string name="query_with_blank">ฉันพยายามแปล "%1$s" เป็น %2$s
+    การแปลไม่สมบูรณ์ของฉัน: "%3$s"
+    ช่องว่างในการแปลแสดงถึงส่วนที่ฉันไม่สามารถแปลได้
+    กรุณาประเมินการแปลของฉันเป็น %4$s ในแง่ของไวยากรณ์ การสะกด ความหมาย และความเป็นธรรมชาติ
+    คำตอบของคุณต้องเป็น %4$s และในรูปแบบ JSON ดังนี้:
+    { "feedBack": "ประเมินผลเป็น %4$s.",
+    "completeSentence": "ทำให้การแปล %2$s สมบูรณ์โดยเติมช่องว่าง." }</string>
+
+    <string name="query_with_blank_reverse">ฉันพยายามแปล "%1$s" เป็นภาษาพื้นเมืองของฉัน
+    การแปลไม่สมบูรณ์ของฉัน: "%2$s"
+    ช่องว่างในการแปลแสดงถึงส่วนที่ฉันไม่สามารถแปลได้
+    กรุณาประเมินการแปลของฉันเฉพาะความถูกต้องของความหมาย ไวยากรณ์และการสะกดไม่สำคัญสำหรับฉัน
+    คำตอบของคุณต้องเป็น %3$s และในรูปแบบ JSON ดังนี้:
+    { "feedBack": "ประเมินผลเป็น %3$s.",
+    "completeSentence": "ทำให้การแปล %2$s สมบูรณ์โดยเติมช่องว่าง." }</string>
+
+    <string name="query_for_no_translation">ภาษาพื้นเมืองของฉันคือ %1$s
+    และฉันต้องการแปลประโยค "%2$s" เป็น %3$s
+    กรุณาอธิบายทีละขั้นตอนว่าฉันจะแปลอย่างไร
+    คำตอบของคุณต้องอยู่ในรูปแบบ JSON ดังนี้:
+    { "translation": "เขียนประโยคที่แปลเป็น %3$s",
+    "explanation": "คำอธิบายโดยละเอียดเป็น %1$s." }</string>
+
+    <string name="search_issues">ดูเหมือนว่าจะมีปัญหาบางอย่างกับการค้นหาของคุณ การตัดสินใจขั้นสุดท้ายขึ้นอยู่กับคุณ</string>
+    <string name="search_issue_1">คำที่ค้นหาอาจไม่มีอยู่ในภาษาที่ต้องการ</string>
+    <string name="search_issue_2">คำที่ค้นหาอาจมีข้อผิดพลาดในการสะกด</string>
+    <string name="search_issue_3">คำและความหมายอาจไม่ตรงกัน</string>
+    <string name="search_issue_4">คำที่ค้นหาอาจไม่ได้ใช้บ่อยในภาษาที่ต้องการ</string>
+    <string name="search_issue_5">มีบางอย่างผิดพลาด กรุณารีเฟรชการค้นหาของคุณ</string>
+    <string name="tv_6">แตะที่คำเพื่อฟังการออกเสียง</string>
+    <string name="example_word">ปากกา</string>
+    <string name="liste_baslik_items">บันทึกทั้งหมด:</string>
+    <string name="liste_baslik_folders">โฟลเดอร์ทั้งหมด:</string>
+    <string name="create_folder_2">สร้างโฟลเดอร์: %1$s</string>
+    <string name="rename_folder">"เปลี่ยนชื่อโฟลเดอร์:"</string>
+    <string name="tv_list_empty">สร้างรายการคำแปลของคุณเอง</string>
+    <string name="tv_password_criteria">รหัสผ่านของคุณสามารถเป็นการรวมกันของตัวอักษร 6 ตัวใดก็ได้</string>
+    <string name="error_email_already_in_use">ที่อยู่อีเมลนี้ได้ลงทะเบียนแล้ว</string>
+    <string name="error_invalid_email">กรุณาใส่อีเมลที่ถูกต้อง</string>
+    <string name="error_invalid_password">กรุณาใส่รหัสผ่านที่ถูกต้อง</string>
+    <string name="error_weak_password">รหัสผ่านไม่แข็งแรงพอ</string>
+    <string name="error_unknown">เกิดข้อผิดพลาด กรุณาลองอีกครั้ง</string>
+    <string name="txt_remaining_translation_count">คำแปลที่เหลือในวันนี้: %1$s</string>
+    <string name="txt_no_quota">คุณถึงขีดจำกัดการแปลต่อวันแล้ว</string>
+    <string name="item_count">จำนวนรายการ: %1$s</string>
+    <string name="warn_min_sentence_number">ต้องมีประโยคอย่างน้อย %1$s ประโยค กรุณารีเฟรชการค้นหาของคุณ</string>
+    <string name="folder_selected">โฟลเดอร์: %1$s</string>
+    <string name="no_internet">มีปัญหากับการเชื่อมต่ออินเทอร์เน็ตของคุณ</string>
+    <string name="fail_some_features">ไม่สามารถโหลดคุณสมบัติบางอย่างได้</string>
+    <string name="example_evaluation_sentence">คำแปลของคุณถูกต้องตามไวยากรณ์ ถ่ายทอดความหมายได้แม่นยำ และฟังดูเป็นธรรมชาติใน \'%1$s\' คำที่ตรงกันและเป็นธรรมชาติที่สุดของ \'%2$s\' ใน \'%1$s\' คือ \'%3$s\' คำแปลยอดเยี่ยม</string>
+
+</resources>

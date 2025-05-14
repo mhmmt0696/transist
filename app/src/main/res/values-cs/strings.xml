@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="txt_cumle_olustur_baslik">Výraz, který se chcete naučit:</string>
+    <string name="editText_ifade">Slovo: (povinné)</string>
+    <string name="editText_anlam">Význam:</string>
+    <string name="editText_not">Kontext:</string>
+    <string name="button_ara">Najít věty</string>
+    <string name="txt_zorluk">Vyberte úroveň obtížnosti.</string>
+    <string name="buttonSave">Potvrdit a uložit</string>
+    <string name="txt_mail_basarisiz">Naše servery nereagují na požadavek aktivace e-mailu. Zkuste to prosím později znovu.</string>
+    <string name="txt_mail_gonderildi">Klikněte na aktivační odkaz, který jsme zaslali na váš e-mail, abychom mohli ověřit váš účet.</string>
+    <string name="tv_delete">Chcete smazat svůj účet?</string>
+    <string name="tv_delete_btn">SMAZAT!</string>
+    <string name="txt_delete_error">Pro smazání účtu se musíte nedávno přihlásit.</string>
+    <string name="tv_exit_check">Opravdu se chcete odhlásit?</string>
+    <string name="tv_exit">Odhlásit se!</string>
+    <string name="tv_phrases_title">Fráze</string>
+    <string name="tv_words_title">Slova</string>
+    <string name="tv_selected_title">Vybraný režim:</string>
+    <string name="tv_selected_item">Náhodně v každé větě</string>
+    <string name="txt_reset_basarisiz">Naše servery nereagují na požadavek na obnovení hesla. Zkuste to prosím později znovu.</string>
+    <string name="txt_reset">Zkontrolujte svou e-mailovou schránku. Pokud byl účet s touto e-mailovou adresou dříve zaregistrován, uvidíte odkaz na obnovení hesla.</string>
+    <string name="txt_sifre_sifirlama">Proces obnovení hesla můžete dokončit pomocí odkazu zaslaného na váš e-mail.</string>
+    <string name="text_silinecek_aciklama">Záznamy s intervalem opakování 30 dnů nebo více budou smazány.</string>
+    <string name="switch_view">Proveďte to automaticky za mě.</string>
+    <string name="tv_sil">Potvrdit a smazat</string>
+    <string name="txt_siralama_ölcütü">Kritérium třídění:</string>
+    <string name="txt_alfabetik">Abecední pořadí</string>
+    <string name="txt_eklenme">Třídit podle data přidání</string>
+    <string name="txt_araliga_göre">Třídit podle intervalu opakování</string>
+    <string name="loadingText">Připravují se věty…</string>
+    <string name="button_yenile">Obnovit věty</string>
+    <string name="txt_aralik">Interval opakování: xxx dní</string>
+    <string name="buttonUpdate">Aktualizovat</string>
+    <string name="buttonCancel">Zrušit</string>
+    <string name="liste_baslik">Váš seznam učení:</string>
+    <string name="tv_unknown">Vyberte svůj rodný a cílový jazyk v postranním panelu.</string>
+    <string name="tv_empty_list">Výrazy, které přidáte do svého seznamu, se objeví v překladech.</string>
+    <string name="tv_empty_list_add">Přidejte výrazy, které chcete vidět v překladech, do svého seznamu učení.</string>
+    <string name="txt_giris_baslik">Vaše přihlašovací údaje:</string>
+    <string name="txt_giris_bilgisi_email">Přihlásili jste se pomocí e-mailového účtu (xxx).</string>
+    <string name="txt_aktivasyon">Odeslat aktivační odkaz e-mailem.</string>
+    <string name="txt_sifre_değistir">Chci změnit své heslo.</string>
+    <string name="hesap_sil">Smazat můj účet.</string>
+    <string name="txt_profil_baslik">Informace o účtu:</string>
+    <string name="txt_anadil_baslik">Váš rodný jazyk:</string>
+    <string name="txt_hedef_dil_baslik">Jazyk, který se učíte:</string>
+    <string name="txt_hesap_turu_baslik">Typ účtu:</string>
+    <string name="txt_hesap_turu_abonelik">Předplatné</string>
+    <string name="txt_hesap_turu_ücretsiz">Zdarma</string>
+    <string name="txt_abonelik_suresi">Aktivní do xxx.</string>
+    <string name="button_buy">Zakoupit předplatné</string>
+    <string name="creating_sentence">Vaše věta se generuje…</string>
+    <string name="et_translation">Napište svůj překlad…</string>
+    <string name="tv_break">Zkontrolovali jste všechny své výrazy.</string>
+    <string name="button_marathon_start">Začněte od začátku!</string>
+    <string name="button_marathon_end">Zavřít!</string>
+    <string name="tv_welcome">Vítejte!</string>
+    <string name="tv_info">Toto je překladová aplikace.</string>
+    <string name="tv_1">Přeložte větu, kterou vidíte,</string>
+    <string name="tv_2">do jazyka dle vašeho výběru.</string>
+    <string name="tv_3">AI hodnotí váš překlad podle 4 kritérií: Gramatika, pravopis, přirozenost a význam.</string>
+    <string name="tv_4">Pokud si nevíte rady, nechte pole prázdné a pokračujte:</string>
+    <string name="tv_5">Pokud si chcete výraz procvičovat častěji, přidejte si ho do seznamu učení.</string>
+    <string name="tv_ls_title">Začněte</string>
+    <string name="tv_native_language">Vyberte svůj rodný jazyk:</string>
+    <string name="tv_target_language">Vyberte jazyk pro překlad:</string>
+    <string name="txt_mail_baslik">Přihlaste se:</string>
+    <string name="et_mail_hint">E-mailový účet</string>
+    <string name="et_sifre_hint">Heslo</string>
+    <string name="buton_giris">Přihlásit se</string>
+    <string name="txt_sifremi_unuttum">Zapomněl jsem heslo.</string>
+    <string name="txt_kayit_ol">Vytvořit nový účet.</string>
+    <string name="txt_mail_kayit_baslik">Zaregistrujte se pomocí svého e-mailu:</string>
+    <string name="et_mail_kayit_hint">Zadejte svůj e-mail.</string>
+    <string name="et_sifre_kayit_hint">Zadejte své heslo.</string>
+    <string name="buton_kayit">Registrovat</string>
+    <string name="txt_sifre_sifirlama_baslik">Zašleme odkaz pro obnovení hesla na váš e-mail.</string>
+    <string name="et_mail_sifremi_unuttum_hint">Zadejte svůj e-mail.</string>
+    <string name="buton_sifirla">Odeslat</string>
+    <string name="familiarity_1">Vidím to poprvé.</string>
+    <string name="familiarity_2">Už jsem to viděl(a).</string>
+    <string name="familiarity_3">Znám to, ale chci si procvičit.</string>
+    <string name="example_sentence">Tohle je moje pero.</string>
+    <string name="example_sentence_blank">Tohle je ____ pero.</string>
+    <string name="feature">Je toho víc: Můžete si vybrat úroveň obtížnosti a zajistit, aby se vám často zobrazovaly výrazy nebo vzory, které vás zajímají. Pokud se chcete učit metodou rozloženého opakování, jednoduše si přidejte výrazy do svého seznamu učení.</string>
+    <string name="warn_select_difficulty">Vyberte prosím úroveň obtížnosti.</string>
+    <string name="registration_done">Registrace byla úspěšná.</string>
+    <string name="warn_expression_empty">Zadejte prosím výraz, který chcete vyhledat.</string>
+    <string name="warn_typo">Litujeme, zadaný výraz obsahuje pravopisnou chybu.</string>
+    <string name="warn_meaning">Význam se neshoduje.</string>
+    <string name="update_successful">Záznam byl aktualizován.</string>
+    <string name="error_occured">Došlo k chybě.</string>
+    <string name="muilti_items_deleted">Počet odstraněných vět: xxx</string>
+    <string name="warn_missing_input">Chybí údaje.</string>
+    <string name="log_in_failed">Přihlášení se nezdařilo: Zadané údaje jsou nesprávné.</string>
+    <string name="no_given_translation">Zadejte prosím překladový text.</string>
+    <string name="api_busy">AI momentálně nemůže odpovědět kvůli vytížení.</string>
+    <string name="apology">Omlouváme se za způsobené potíže.</string>
+    <string name="try_again_later">Zkuste to prosím znovu později.</string>
+    <string name="solace">Jako kompenzaci vám aktivujeme měsíční předplatné.</string>
+    <string name="warn_select_language">Nezvolili jste jazyk.</string>
+
+    <string name="dark_theme_title">Tmavé téma:</string>
+    <string name="arabic">arabština</string>
+    <string name="bengali">bengálština</string>
+    <string name="bulgarian">bulharština</string>
+    <string name="chinese">čínština</string>
+    <string name="croatian">chorvatština</string>
+    <string name="czech">čeština</string>
+    <string name="danish">dánština</string>
+    <string name="dutch">nizozemština</string>
+    <string name="english">angličtina</string>
+    <string name="estonian">estonština</string>
+    <string name="finnish">finština</string>
+    <string name="french">francouzština</string>
+    <string name="german">němčina</string>
+    <string name="greek">řečtina</string>
+    <string name="hebrew">hebrejština</string>
+    <string name="hindi">hindština</string>
+    <string name="hungarian">maďarština</string>
+    <string name="indonesian">indonéština</string>
+    <string name="italian">italština</string>
+    <string name="japanese">japonština</string>
+    <string name="korean">korejština</string>
+    <string name="latvian">lotyština</string>
+    <string name="lithuanian">litevština</string>
+    <string name="norwegian">norština</string>
+    <string name="polish">polština</string>
+    <string name="portuguese">portugalština</string>
+    <string name="romanian">rumunština</string>
+    <string name="russian">ruština</string>
+    <string name="serbian">srbština</string>
+    <string name="slovak">slovenština</string>
+    <string name="slovenian">slovinština</string>
+    <string name="spanish">španělština</string>
+    <string name="swahili">svahilština</string>
+    <string name="swedish">švédština</string>
+    <string name="thai">thajština</string>
+    <string name="turkish">turečtina</string>
+    <string name="ukrainian">ukrajinština</string>
+    <string name="vietnamese">vietnamština</string>
+    <string name="txt_giris_bilgisi_google">Přihlásili jste se pomocí Googlu (xxx).</string>
+    <string name="search_hint">Hledat…</string>
+    <string name="review_interval">Interval opakování</string>
+    <string name="day">den</string>
+    <string name="nothing_to_show">Zatím zde není co zobrazit.</string>
+
+    <string name="unknown">Neznámé</string>
+    <string name="select_theme">Vyberte motiv:</string>
+    <string name="system_default">Výchozí systémový</string>
+    <string name="light_mode">Světlejší motiv</string>
+    <string name="dark_mode">Tmavý motiv</string>
+    <string name="create_folder">Vytvořit složku:</string>
+    <string name="folder_name">Název složky…</string>
+    <string name="folder">Složka:</string>
+    <string name="start_from_scratch">Začněte od začátku!</string>
+    <string name="no_voice_engine">Pro tento jazyk nebyl nalezen žádný dříve stažený hlasový soubor. Stáhněte prosím hlasový soubor a restartujte aplikaci.</string>
+    <string name="not_common_search">Tento výraz není v angličtině běžně používán. Stále jej můžete přidat, ale mějte na paměti, že AI vás může varovat, abyste jej ve větách nepoužívali.</string>
+    <string name="search_hint_text">Ve vyhledávání můžete místo pevného textu používat zástupné symboly v závorkách:</string>
+    <string name="search_hint_1">zmírnit [něčí] smutek</string>
+    <string name="search_hint_2">namalovat [něco] na [barvu]</string>
+    <string name="default_folder">Výchozí</string>
+    <string name="wrong_translation_direction">Váš překlad není v očekávaném jazyce. Ve vašem účtu je cílový jazyk nastaven na %1$s.</string>
+    <string name="buttonOk">OK</string>
+    <string name="buttonSettings">Přejít na nastavení</string>
+
+    <string name="query_no_blank">"%1$s" se pokusil/a přeložit do %2$s.
+    Můj překlad byl: "%3$s"
+    Prosím, ohodnoťte můj překlad z hlediska gramatiky, pravopisu, významu a přirozenosti v jazyce %4$s.
+    Vaše odpověď musí být v jazyce %4$s a v následujícím JSON formátu:
+    { "isValid": "true / false.",
+    "feedBack": "Hodnocení v jazyce %4$s." }</string>
+
+    <string name="query_no_blank_reverse">"%1$s" se pokusil/a přeložit do svého mateřského jazyka.
+    Přeložil/a jsem takto: "%2$s"
+    Prosím, ohodnoťte můj překlad pouze z hlediska přesnosti významu, gramatika a pravopis nejsou důležité.
+    Vaše odpověď musí být v jazyce %3$s a v následujícím JSON formátu:
+    { "isValid": "true / false.",
+    "feedBack": "Hodnocení v jazyce %3$s." }</string>
+
+    <string name="query_with_blank">"%1$s" se pokusil/a přeložit do %2$s.
+    Můj nedokončený překlad: "%3$s"
+    Mezera v mém překladu označuje část, kterou jsem nedokázal/a přeložit.
+    Prosím, ohodnoťte můj překlad z hlediska gramatiky, pravopisu, významu a přirozenosti v jazyce %4$s.
+    Vaše odpověď musí být v jazyce %4$s a v následujícím JSON formátu:
+    { "feedBack": "Hodnocení v jazyce %4$s.",
+    "completeSentence": "Dokončete překlad do %2$s vyplněním mezer." }</string>
+
+    <string name="query_with_blank_reverse">"%1$s" se pokusil/a přeložit do svého mateřského jazyka.
+    Můj nedokončený překlad: "%2$s"
+    Mezera v mém překladu označuje část, kterou jsem nedokázal/a přeložit.
+    Prosím, ohodnoťte můj překlad pouze z hlediska přesnosti významu, gramatika a pravopis nejsou důležité.
+    Vaše odpověď musí být v jazyce %3$s a v následujícím JSON formátu:
+    { "feedBack": "Hodnocení v jazyce %3$s.",
+    "completeSentence": "Dokončete překlad do %2$s vyplněním mezer." }</string>
+
+    <string name="query_for_no_translation">Můj mateřský jazyk je %1$s.
+    A chci přeložit větu "%2$s" do %3$s.
+    Prosím, vysvětlete mi krok za krokem, jak ji přeložit.
+    Vaše odpověď musí být v následujícím JSON formátu:
+    { "translation": "Napište větu přeloženou do %3$s.",
+    "explanation": "Podrobný popis v jazyce %1$s." }</string>
+
+    <string name="search_issues">Zdá se, že s vaším vyhledáváním jsou nějaké problémy. Konečné rozhodnutí je na vás.</string>
+    <string name="search_issue_1">Hledané slovo nemusí existovat v cílovém jazyce.</string>
+    <string name="search_issue_2">Hledané slovo může obsahovat překlepy.</string>
+    <string name="search_issue_3">Slovo a význam se nemusí shodovat.</string>
+    <string name="search_issue_4">Hledaný výraz nemusí být v cílovém jazyce běžný.</string>
+    <string name="search_issue_5">Něco se pokazilo, obnovte vyhledávání.</string>
+    <string name="tv_6">Klepněte na slova a poslechněte si jejich výslovnost.</string>
+    <string name="example_word">pero</string>
+    <string name="liste_baslik_items">Všechny záznamy:</string>
+    <string name="liste_baslik_folders">Všechny složky:</string>
+    <string name="create_folder_2">Vytvořit složku: %1$s</string>
+    <string name="rename_folder">"Přejmenovat složku:"</string>
+    <string name="tv_list_empty">Vytvořte si vlastní seznam překladů.</string>
+    <string name="tv_password_criteria">Vaše heslo může mít libovolných 6 znaků.</string>
+    <string name="error_email_already_in_use">Tento e-mail je již registrován.</string>
+    <string name="error_invalid_email">Zadejte platnou e-mailovou adresu.</string>
+    <string name="error_invalid_password">Zadejte platné heslo.</string>
+    <string name="error_weak_password">Heslo není dostatečně silné.</string>
+    <string name="error_unknown">Došlo k chybě. Zkuste to znovu.</string>
+    <string name="txt_remaining_translation_count">Zbývající denní počet překladů: %1$s</string>
+    <string name="txt_no_quota">Denní limit překladů byl vyčerpán.</string>
+    <string name="item_count">Počet položek: %1$s</string>
+    <string name="warn_min_sentence_number">Musí být alespoň %1$s vět. Obnovte vyhledávání.</string>
+    <string name="folder_selected">Složka: %1$s</string>
+    <string name="no_internet">Problém s připojením k internetu.</string>
+    <string name="fail_some_features">Některé funkce se nepodařilo načíst.</string>
+    <string name="example_evaluation_sentence">Váš překlad je gramaticky správný, přesně vystihuje význam a zní přirozeně v jazyce „%1$s“. Nejčastější a nejpřirozenější překlad výrazu „%2$s“ v „%1$s“ je „%3$s“. Výborný překlad.</string>
+
+</resources>

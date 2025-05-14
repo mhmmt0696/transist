@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="txt_cumle_olustur_baslik">배우고 싶은 표현:</string>
+    <string name="editText_ifade">단어: (필수)</string>
+    <string name="editText_anlam">의미:</string>
+    <string name="editText_not">문맥:</string>
+    <string name="button_ara">문장 찾기</string>
+    <string name="txt_zorluk">난이도를 선택하세요.</string>
+    <string name="buttonSave">확인 및 저장</string>
+    <string name="txt_mail_basarisiz">서버가 이메일 인증 요청에 응답하지 않습니다. 나중에 다시 시도해주세요.</string>
+    <string name="txt_mail_gonderildi">계정을 확인하려면 이메일로 보낸 인증 링크를 클릭하세요.</string>
+    <string name="tv_delete">계정을 삭제하시겠습니까?</string>
+    <string name="tv_delete_btn">삭제!</string>
+    <string name="txt_delete_error">계정을 삭제하려면 최근에 로그인했어야 합니다.</string>
+    <string name="tv_exit_check">정말 로그아웃하시겠습니까?</string>
+    <string name="tv_exit">로그아웃!</string>
+    <string name="tv_phrases_title">표현</string>
+    <string name="tv_words_title">단어</string>
+    <string name="tv_selected_title">선택된 모드:</string>
+    <string name="tv_selected_item">문장마다 무작위</string>
+    <string name="txt_reset_basarisiz">서버가 비밀번호 재설정 요청에 응답하지 않습니다. 나중에 다시 시도해주세요.</string>
+    <string name="txt_reset">받은 편지함을 확인하세요. 이 이메일 주소로 등록된 계정이 있으면 재설정 링크를 받게 됩니다.</string>
+    <string name="txt_sifre_sifirlama">이메일로 전송된 링크를 통해 비밀번호 재설정을 계속할 수 있습니다.</string>
+    <string name="text_silinecek_aciklama">복습 간격이 30일 이상인 항목은 삭제됩니다.</string>
+    <string name="switch_view">자동으로 처리해주세요.</string>
+    <string name="tv_sil">확인 및 삭제</string>
+    <string name="txt_siralama_ölcütü">정렬 기준:</string>
+    <string name="txt_alfabetik">알파벳순</string>
+    <string name="txt_eklenme">추가 날짜순</string>
+    <string name="txt_araliga_göre">복습 간격순</string>
+    <string name="loadingText">문장을 준비 중입니다…</string>
+    <string name="button_yenile">문장 새로고침</string>
+    <string name="txt_aralik">복습 간격: xxx일</string>
+    <string name="buttonUpdate">업데이트</string>
+    <string name="buttonCancel">취소</string>
+    <string name="liste_baslik">학습 목록:</string>
+    <string name="tv_unknown">왼쪽 패널에서 모국어와 번역할 언어를 선택하세요.</string>
+    <string name="tv_empty_list">습득 목록에 추가한 표현이 번역에 나타납니다.</string>
+    <string name="tv_empty_list_add">번역에 표시하고 싶은 표현을 학습 목록에 추가하세요.</string>
+    <string name="txt_giris_baslik">로그인 정보:</string>
+    <string name="txt_giris_bilgisi_email">이메일 계정 (xxx)으로 로그인하셨습니다.</string>
+    <string name="txt_aktivasyon">이메일 인증 링크 보내기</string>
+    <string name="txt_sifre_değistir">비밀번호를 변경하고 싶습니다.</string>
+    <string name="hesap_sil">계정 삭제</string>
+    <string name="txt_profil_baslik">계정 정보:</string>
+    <string name="txt_anadil_baslik">모국어:</string>
+    <string name="txt_hedef_dil_baslik">학습 중인 언어:</string>
+    <string name="txt_hesap_turu_baslik">계정 유형:</string>
+    <string name="txt_hesap_turu_abonelik">구독</string>
+    <string name="txt_hesap_turu_ücretsiz">무료</string>
+    <string name="txt_abonelik_suresi">xxx까지 활성화됨.</string>
+    <string name="button_buy">구독 구매</string>
+    <string name="creating_sentence">문장을 생성 중…</string>
+    <string name="et_translation">번역을 입력하세요…</string>
+    <string name="tv_break">모든 표현을 복습하셨습니다.</string>
+    <string name="button_marathon_start">처음부터 시작!</string>
+    <string name="button_marathon_end">닫기!</string>
+    <string name="tv_welcome">환영합니다!</string>
+    <string name="tv_info">이것은 번역 앱입니다.</string>
+    <string name="tv_1">보이는 문장을</string>
+    <string name="tv_2">원하는 언어로 번역하세요.</string>
+    <string name="tv_3">AI는 문법, 철자, 자연스러움, 의미의 네 가지 측면에서 번역을 평가합니다.</string>
+    <string name="tv_4">막히면 빈칸으로 넘어가세요:</string>
+    <string name="tv_5">표현을 더 자주 연습하고 싶다면 학습 목록에 추가하세요.</string>
+    <string name="tv_ls_title">시작하려면</string>
+    <string name="tv_native_language">모국어를 선택하세요:</string>
+    <string name="tv_target_language">번역할 언어를 선택하세요:</string>
+    <string name="txt_mail_baslik">로그인:</string>
+    <string name="et_mail_hint">이메일 계정</string>
+    <string name="et_sifre_hint">비밀번호</string>
+    <string name="buton_giris">로그인</string>
+    <string name="txt_sifremi_unuttum">비밀번호를 잊으셨나요?</string>
+    <string name="txt_kayit_ol">새 계정 만들기.</string>
+    <string name="txt_mail_kayit_baslik">이메일 계정으로 가입하세요:</string>
+    <string name="et_mail_kayit_hint">이메일 주소를 입력하세요.</string>
+    <string name="et_sifre_kayit_hint">비밀번호를 설정하세요.</string>
+    <string name="buton_kayit">가입하기</string>
+    <string name="txt_sifre_sifirlama_baslik">비밀번호 재설정 링크를 이메일 주소로 보내드립니다.</string>
+    <string name="et_mail_sifremi_unuttum_hint">이메일 주소를 입력하세요.</string>
+    <string name="buton_sifirla">보내기</string>
+    <string name="familiarity_1">처음 봅니다.</string>
+    <string name="familiarity_2">예전에 본 적이 있습니다.</string>
+    <string name="familiarity_3">알고 있지만 연습하고 싶어요.</string>
+    <string name="example_sentence">이것은 내 펜입니다.</string>
+    <string name="example_sentence_blank">이것은 ____ 펜입니다.</string>
+    <string name="feature">더 많은 기능이 있습니다: 난이도를 선택하고 관심 있는 표현이나 패턴이 자주 표시되도록 할 수 있습니다. 간격 반복 학습을 원한다면, 표현을 학습 목록에 추가하기만 하면 됩니다.</string>
+    <string name="warn_select_difficulty">난이도를 선택해 주세요.</string>
+    <string name="registration_done">등록이 완료되었습니다.</string>
+    <string name="warn_expression_empty">검색하려는 표현을 입력하세요.</string>
+    <string name="warn_typo">입력한 표현에 철자 오류가 있습니다.</string>
+    <string name="warn_meaning">의미 불일치가 있습니다.</string>
+    <string name="update_successful">기록이 업데이트되었습니다.</string>
+    <string name="error_occured">오류가 발생했습니다.</string>
+    <string name="muilti_items_deleted">삭제된 문장 수: xxx</string>
+    <string name="warn_missing_input">입력 정보가 누락되었습니다.</string>
+    <string name="log_in_failed">로그인 실패: 잘못된 정보를 입력하셨습니다.</string>
+    <string name="no_given_translation">번역할 텍스트를 입력하세요.</string>
+    <string name="api_busy">AI가 과부하로 인해 응답하지 못했습니다.</string>
+    <string name="apology">불편을 드려 죄송합니다.</string>
+    <string name="try_again_later">나중에 다시 시도해 주세요.</string>
+    <string name="solace">보상으로 계정에 1개월 구독을 추가해 드리겠습니다.</string>
+    <string name="warn_select_language">언어를 선택하지 않으셨습니다.</string>
+
+    <string name="dark_theme_title">다크 테마:</string>
+    <string name="arabic">아랍어</string>
+    <string name="bengali">벵골어</string>
+    <string name="bulgarian">불가리아어</string>
+    <string name="chinese">중국어</string>
+    <string name="croatian">크로아티아어</string>
+    <string name="czech">체코어</string>
+    <string name="danish">덴마크어</string>
+    <string name="dutch">네덜란드어</string>
+    <string name="english">영어</string>
+    <string name="estonian">에스토니아어</string>
+    <string name="finnish">핀란드어</string>
+    <string name="french">프랑스어</string>
+    <string name="german">독일어</string>
+    <string name="greek">그리스어</string>
+    <string name="hebrew">히브리어</string>
+    <string name="hindi">힌디어</string>
+    <string name="hungarian">헝가리어</string>
+    <string name="indonesian">인도네시아어</string>
+    <string name="italian">이탈리아어</string>
+    <string name="japanese">일본어</string>
+    <string name="korean">한국어</string>
+    <string name="latvian">라트비아어</string>
+    <string name="lithuanian">리투아니아어</string>
+    <string name="norwegian">노르웨이어</string>
+    <string name="polish">폴란드어</string>
+    <string name="portuguese">포르투갈어</string>
+    <string name="romanian">루마니아어</string>
+    <string name="russian">러시아어</string>
+    <string name="serbian">세르비아어</string>
+    <string name="slovak">슬로바키아어</string>
+    <string name="slovenian">슬로베니아어</string>
+    <string name="spanish">스페인어</string>
+    <string name="swahili">스와힐리어</string>
+    <string name="swedish">스웨덴어</string>
+    <string name="thai">태국어</string>
+    <string name="turkish">터키어</string>
+    <string name="ukrainian">우크라이나어</string>
+    <string name="vietnamese">베트남어</string>
+    <string name="txt_giris_bilgisi_google">Google(xxx) 계정으로 로그인하셨습니다.</string>
+    <string name="search_hint">검색…</string>
+    <string name="review_interval">복습 간격</string>
+    <string name="day">일</string>
+    <string name="nothing_to_show">여기에 아직 표시할 내용이 없습니다.</string>
+
+    <string name="unknown">알 수 없음</string>
+    <string name="select_theme">테마 선택:</string>
+    <string name="system_default">시스템 기본값</string>
+    <string name="light_mode">라이트 테마</string>
+    <string name="dark_mode">다크 테마</string>
+    <string name="create_folder">폴더 만들기:</string>
+    <string name="folder_name">폴더 이름…</string>
+    <string name="folder">폴더:</string>
+    <string name="start_from_scratch">처음부터 시작!</string>
+    <string name="no_voice_engine">이 언어에 대해 이전에 다운로드된 음성 파일을 찾을 수 없습니다. 음성 파일을 다운로드하고 앱을 다시 시작하세요.</string>
+    <string name="not_common_search">이 표현은 영어에서 일반적으로 사용되지 않습니다. 그래도 추가할 수 있지만, AI가 문장에서 사용하지 말라는 경고를 할 수 있습니다.</string>
+    <string name="search_hint_text">검색 시 고정 텍스트 대신 괄호 안의 자리 표시자를 사용할 수 있습니다:</string>
+    <string name="search_hint_1">[누군가]의 슬픔을 완화하다</string>
+    <string name="search_hint_2">[무언가]를 [색상]으로 칠하다</string>
+    <string name="default_folder">기본값</string>
+    <string name="wrong_translation_direction">번역이 예상 언어가 아닙니다. 계정 설정에서 대상 언어가 %1$s로 설정되어 있습니다.</string>
+    <string name="buttonOk">확인</string>
+    <string name="buttonSettings">설정으로 이동</string>
+
+    <string name="query_no_blank">"%1$s"를 %2$s로 번역하려고 했습니다.
+    제 번역: "%3$s"
+    문법, 맞춤법, 의미, 자연스러움 측면에서 %4$s에서 평가해주세요.
+    답변은 %4$s로, 아래 JSON 형식으로 작성해야 합니다:
+    { "isValid": "true / false.",
+    "feedBack": "%4$s에서의 평가." }</string>
+
+    <string name="query_no_blank_reverse">"%1$s"를 모국어로 번역하려고 했습니다.
+    이렇게 번역했습니다: "%2$s"
+    의미의 정확성 측면에서만 평가해주세요; 문법과 맞춤법은 중요하지 않습니다.
+    답변은 %3$s로, 아래 JSON 형식으로 작성해야 합니다:
+    { "isValid": "true / false.",
+    "feedBack": "%3$s에서의 평가." }</string>
+
+    <string name="query_with_blank">"%1$s"를 %2$s로 번역하려고 했습니다.
+    미완성 번역: "%3$s"
+    번역의 공백은 번역하지 못한 부분을 나타냅니다.
+    문법, 맞춤법, 의미, 자연스러움 측면에서 %4$s에서 평가해주세요.
+    답변은 %4$s로, 아래 JSON 형식으로 작성해야 합니다:
+    { "feedBack": "%4$s에서의 평가.",
+    "completeSentence": "공백을 채워 %2$s 번역을 완성하세요." }</string>
+
+    <string name="query_with_blank_reverse">"%1$s"를 모국어로 번역하려고 했습니다.
+    미완성 번역: "%2$s"
+    번역의 공백은 번역하지 못한 부분을 나타냅니다.
+    의미의 정확성 측면에서만 평가해주세요; 문법과 맞춤법은 중요하지 않습니다.
+    답변은 %3$s로, 아래 JSON 형식으로 작성해야 합니다:
+    { "feedBack": "%3$s에서의 평가.",
+    "completeSentence": "공백을 채워 %2$s 번역을 완성하세요." }</string>
+
+    <string name="query_for_no_translation">제 모국어는 %1$s입니다.
+    문장 "%2$s"를 %3$s로 번역하고 싶습니다.
+    단계별로 어떻게 번역해야 하는지 설명해주세요.
+    답변은 아래 JSON 형식으로 작성해야 합니다:
+    { "translation": "%3$s에서 번역된 문장을 작성하세요.",
+    "explanation": "%1$s로 상세 설명." }</string>
+
+    <string name="search_issues">검색에 몇 가지 문제가 있는 것 같습니다. 최종 결정은 귀하에게 있습니다.</string>
+    <string name="search_issue_1">검색한 단어가 대상 언어에 존재하지 않을 수 있습니다.</string>
+    <string name="search_issue_2">검색한 단어에 철자 오류가 포함될 수 있습니다.</string>
+    <string name="search_issue_3">단어와 의미가 일치하지 않을 수 있습니다.</string>
+    <string name="search_issue_4">검색한 용어가 대상 언어에서 일반적으로 사용되지 않을 수 있습니다.</string>
+    <string name="search_issue_5">문제가 발생했습니다. 검색을 새로 고치세요.</string>
+    <string name="tv_6">단어를 탭하여 발음을 들어보세요.</string>
+    <string name="example_word">펜</string>
+    <string name="liste_baslik_items">모든 기록:</string>
+    <string name="liste_baslik_folders">모든 폴더:</string>
+    <string name="create_folder_2">폴더 생성: %1$s</string>
+    <string name="rename_folder">"폴더 이름 바꾸기:"</string>
+    <string name="tv_list_empty">나만의 번역 목록을 만들어보세요.</string>
+    <string name="tv_password_criteria">비밀번호는 6자리 조합이면 됩니다.</string>
+    <string name="error_email_already_in_use">이 이메일 주소는 이미 등록되어 있습니다.</string>
+    <string name="error_invalid_email">유효한 이메일 주소를 입력하세요.</string>
+    <string name="error_invalid_password">유효한 비밀번호를 입력하세요.</string>
+    <string name="error_weak_password">비밀번호가 충분히 강하지 않습니다.</string>
+    <string name="error_unknown">오류가 발생했습니다. 다시 시도하세요.</string>
+    <string name="txt_remaining_translation_count">오늘 남은 번역: %1$s</string>
+    <string name="txt_no_quota">일일 번역 한도에 도달했습니다.</string>
+    <string name="item_count">항목 수: %1$s</string>
+    <string name="warn_min_sentence_number">최소 %1$s개의 문장이 필요합니다. 검색을 새로 고치세요.</string>
+    <string name="folder_selected">폴더: %1$s</string>
+    <string name="no_internet">인터넷 연결에 문제가 있습니다.</string>
+    <string name="fail_some_features">일부 기능을 불러오지 못했습니다.</string>
+    <string name="example_evaluation_sentence">번역이 문법적으로 올바르며 의미를 정확히 전달하고 \'%1$s\'에서 자연스럽게 들립니다. \'%1$s\'에서 \'%2$s\'의 가장 일반적이고 자연스러운 대응은 \'%3$s\'입니다. 훌륭한 번역입니다.</string>
+
+</resources>
