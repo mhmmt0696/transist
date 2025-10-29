@@ -10,7 +10,11 @@ import android.widget.AdapterView
 import android.widget.ArrayAdapter
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.content.ContextCompat
+import androidx.core.view.ViewCompat
+import androidx.core.view.WindowCompat
+import androidx.core.view.WindowInsetsCompat
 import com.transist.ui.main.ActivityMain
 import com.transist.R
 import com.transist.data.repository.LanguageRepository
@@ -39,6 +43,18 @@ class WelcomeActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         _binding = WelcomeActivityBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        // 1. Adım: Sistem padding’lerini devre dışı bırakıyorum.
+        WindowCompat.setDecorFitsSystemWindows(window, false)
+        setContentView(R.layout.main_activity)
+
+        val rootView = findViewById<ConstraintLayout>(R.id.main_root)
+        // 2. Adım: Top bar ve bottom bar'a göre yeniden padding veriyorum.
+        ViewCompat.setOnApplyWindowInsetsListener(rootView) { view, insets ->
+            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
+            view.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
+            insets
+        }
 
         val languageRepo = LanguageRepository(applicationContext)
         val prefRepo = PreferencesRepository(applicationContext)
