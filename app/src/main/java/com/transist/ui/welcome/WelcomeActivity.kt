@@ -3,6 +3,7 @@ package com.transist.ui.welcome
 import android.animation.Animator
 import android.content.Intent
 import android.os.Bundle
+import android.speech.tts.TextToSpeech
 import android.util.Log
 import android.view.View
 import android.widget.AdapterView
@@ -18,6 +19,9 @@ import com.transist.databinding.WelcomeActivityBinding
 import com.transist.util.getLocalizedContext
 import com.transist.util.getLocalizedString
 import com.transist.util.getStringId
+import com.transist.util.initTtsWithTargetLanguageSupport
+import com.transist.util.pronunciationClick
+import com.transist.util.showDialogNoVoiceEngine
 import com.transist.util.startToastAnimation
 import com.transist.util.stopToastAnimation
 import java.util.Locale
@@ -28,6 +32,8 @@ class WelcomeActivity : AppCompatActivity() {
     private var _binding: WelcomeActivityBinding? = null
     private val binding get() = _binding!!  // For null safety
     private var toastAnimator: Animator? = null
+    private lateinit var tts: TextToSpeech
+    private var isTTsExist = false
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -85,6 +91,27 @@ class WelcomeActivity : AppCompatActivity() {
         binding.welcome1.et2.setText(exampleSentenceInTargetLanguage)
         binding.welcome1.et4.setText(exampleSentenceInTargetLanguageWithBlank)
 
+        // Önce tüm yüklü ses motorlarını bulup, sonra herhangi birinde dil dosyası yüklü mü diye bakıyoruz.
+        initTtsWithTargetLanguageSupport(this, viewModel.targetLanguageCode) { tts1 ->
+            if (tts1 != null) {
+                isTTsExist = true
+                tts = tts1
+            } else {
+                // ❌ Hiçbir motor Türkçe desteklemiyor, kullanıcı ayarlara yönlendirilecek
+                isTTsExist = false
+            }
+        }
+
+        val targetLanguageContext = getLocalizedContext(this, viewModel.targetLanguageCode)
+        binding.welcome1.tvPronunciation.text = targetLanguageContext.getString(R.string.example_word)
+
+        binding.welcome1.ibPronunciation.setOnClickListener{
+            if (isTTsExist) {
+                pronunciationClick(binding.welcome1.tvPronunciation.text.toString(), tts)
+            } else {
+                showDialogNoVoiceEngine(this)
+            }
+        }
 
         // Transition from Welcome 1 page to Welcome 2 page.
         binding.welcome1.ibInfoNext.setOnClickListener {
@@ -178,6 +205,11 @@ class WelcomeActivity : AppCompatActivity() {
 
     override fun onDestroy() {
         super.onDestroy()
+        // TTS kaynaklarını serbest bırak
+        if (::tts.isInitialized) {
+            tts.stop()
+            tts.shutdown()
+        }
         _binding = null  // To prevent memory leaks
     }
 
