@@ -98,24 +98,8 @@ fun replaceBlanksWithDrawable(context: Context, textView: TextView, text: String
     textView.text = spannable
 }
 
-fun shrugClick (activity: Activity, editText: EditText){
-    editText.setText("")
-    // Drawable kaynağını al
-    val drawable: Drawable? = ContextCompat.getDrawable(activity, R.drawable.zig_zag)
-    drawable?.setBounds(0, 0, drawable.intrinsicWidth, drawable.intrinsicHeight)
-
-    // SpannableString oluştur
-    val spannableString = SpannableString("----")
-    val imageSpan = ImageSpan(drawable!!, ImageSpan.ALIGN_BASELINE)
-    spannableString.setSpan(imageSpan, 0, spannableString.length, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE)
-
-    // EditText'e ekle
-    val cursorPosition = editText.selectionStart
-    val editableText = editText.text
-    editableText.insert(cursorPosition, spannableString)
-}
-
 fun shrugClick(context: Context, editText: EditText) {
+    editText.setText("")
     val spannable = SpannableString("----")
     val imageSpan = DrawableSpan(context, R.drawable.zig_zag)
     spannable.setSpan(imageSpan, 0, spannable.length, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE)
