@@ -1,7 +1,9 @@
 package com.transist.ui.welcome
 
 import android.animation.Animator
+import android.content.Context
 import android.content.Intent
+import android.content.res.Configuration
 import android.os.Bundle
 import android.speech.tts.TextToSpeech
 import android.util.Log
@@ -42,13 +44,11 @@ class WelcomeActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         _binding = WelcomeActivityBinding.inflate(layoutInflater)
-        setContentView(binding.root)
-
         // 1. Adım: Sistem padding’lerini devre dışı bırakıyorum.
         WindowCompat.setDecorFitsSystemWindows(window, false)
-        setContentView(R.layout.main_activity)
+        setContentView(binding.root)
 
-        val rootView = findViewById<ConstraintLayout>(R.id.main_root)
+        val rootView = findViewById<ConstraintLayout>(R.id.welcome_root)
         // 2. Adım: Top bar ve bottom bar'a göre yeniden padding veriyorum.
         ViewCompat.setOnApplyWindowInsetsListener(rootView) { view, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
@@ -217,6 +217,14 @@ class WelcomeActivity : AppCompatActivity() {
             override fun onNothingSelected(parent: AdapterView<*>?) {}
         }
 
+    }
+
+    override fun attachBaseContext(newBase: Context) {
+        val locale = Locale.getDefault()
+        val config = Configuration(newBase.resources.configuration)
+        config.setLocale(locale)
+        val context = newBase.createConfigurationContext(config)
+        super.attachBaseContext(context)
     }
 
     override fun onDestroy() {

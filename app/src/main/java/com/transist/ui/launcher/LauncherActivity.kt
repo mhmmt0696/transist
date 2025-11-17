@@ -2,6 +2,7 @@ package com.transist.ui.launcher
 
 import android.content.Intent
 import android.os.Bundle
+import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.AppCompatDelegate
 import com.transist.ui.main.ActivityMain
@@ -10,6 +11,8 @@ import com.transist.data.repository.PreferencesRepository
 
 class LauncherActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
+
+        Log.d("DEBUGING", "onCreate: LauncherActivity")
 
         // Access the repository directly.
         val prefsRepository = PreferencesRepository(applicationContext)

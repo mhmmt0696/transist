@@ -21,7 +21,7 @@ android {
         applicationId = "com.transist"
         minSdk = 24
         targetSdk = 35
-        versionCode = 23
+        versionCode = 25
         versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"

@@ -1,6 +1,9 @@
 package com.transist.ui.main
 
+import android.content.Context
+import android.content.res.Configuration
 import android.os.Bundle
+import android.util.Log
 import android.widget.ImageButton
 import androidx.appcompat.app.AppCompatActivity
 import androidx.constraintlayout.widget.ConstraintLayout
@@ -13,6 +16,7 @@ import com.transist.ui.main.list.ListFragment
 import com.transist.R
 import com.transist.ui.main.study.random.StudyRandomFragment
 import com.transist.ui.main.profile.ProfileFragment
+import java.util.Locale
 
 class ActivityMain : AppCompatActivity() {
 
@@ -27,6 +31,8 @@ class ActivityMain : AppCompatActivity() {
         // 1. Adım: Sistem padding’lerini devre dışı bırakıyorum.
         WindowCompat.setDecorFitsSystemWindows(window, false)
         setContentView(R.layout.main_activity)
+
+        Log.d("DEBUGING", "onCreate: ActivityMain")
 
         val rootView = findViewById<ConstraintLayout>(R.id.main_root)
         // 2. Adım: Top bar ve bottom bar'a göre yeniden padding veriyorum.
@@ -92,5 +98,13 @@ class ActivityMain : AppCompatActivity() {
         findViewById<ImageButton>(R.id.bn_profile).setOnClickListener { viewModel.onBottomNavClicked("profile") }
 
 
+    }
+
+    override fun attachBaseContext(newBase: Context) {
+        val locale = Locale.getDefault()
+        val config = Configuration(newBase.resources.configuration)
+        config.setLocale(locale)
+        val context = newBase.createConfigurationContext(config)
+        super.attachBaseContext(context)
     }
 }

@@ -40,6 +40,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 android:textColor="@color/koyu_yesil"
+                android:textStyle="bold"
                 android:text="@string/tv_ls_title"
                 android:textSize="30sp"/>
 
