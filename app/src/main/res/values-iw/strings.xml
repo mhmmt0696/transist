@@ -231,4 +231,25 @@
     <string name="no_internet">יש בעיה בחיבור לאינטרנט.</string>
     <string name="fail_some_features">חלק מהפונקציות לא נטענו.</string>
     <string name="example_evaluation_sentence">התרגום שלך דקדוקי נכון, מעביר את המשמעות במדויק ונשמע טבעי ב-\'%1$s\'. ההתאמה הנפוצה והטבעית ביותר ל-\'%2$s\' ב-\'%1$s\' היא \'%3$s\'. תרגום מצוין.</string>
+
+    <string name="purchase_error">התשלום נכשל.</string>
+    <string name="recommend_login">אנא התחבר תחילה.</string>
+    <string name="processing">מעבד…</string>
+    <string name="verification_done">הפעולה הושלמה.</string>
+    <string name="direct_to_login">לא ניתן להמשיך ללא התחברות. התחבר כדי לקבל 10 ניסיונות חינמיים ביום.</string>
+    <string name="direct_to_subscription">ניצלת את כל הניסיונות החינמיים להיום. עיין במנוי החודשי לקבלת אפשרויות נוספות.</string>
+    <string name="force_logout">נותקת מהמערכת מכיוון שהייתה התחברות ממכשיר אחר. אם מדובר בטעות, שנה את הסיסמה והתחבר שוב.</string>
+    <string name="activation_explanation">שלב זה דרוש כדי לקבל 10 ניסיונות חינם ביום.</string>
+    <string name="password_criteria_1">הסיסמה שלך חייבת לכלול את השילוב הבא ולהיות באורך של לפחות 8 תווים:</string>
+    <string name="password_criteria_2">אות גדולה אחת</string>
+    <string name="password_criteria_3">אות קטנה אחת</string>
+    <string name="password_criteria_4">ספרה אחת</string>
+    <string name="app_introduction">הצגת האפליקציה:</string>
+    <string name="show">הצג</string>
+
+    <string name="animator_disabled_1">האנימציות כבויות בהגדרות המכשיר, ולכן לא תוכל לראות חלק מהאנימציות באפליקציה.</string>
+    <string name="animator_disabled_2">מצב זה אינו מונע מהאפליקציה לפעול.</string>
+    <string name="animator_disabled_3">לחוויית שימוש טובה יותר, שנה את ההגדרה ‘הגדרות - אפשרויות מפתח - קנה מידה של משך האנימציה’ ל־1x.</string>
+
+
 </resources>

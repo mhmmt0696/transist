@@ -9,7 +9,7 @@
     android:background="@drawable/dialog_round_back_ground">
 
     <ImageButton
-        android:id="@+id/ib_mail"
+        android:id="@+id/ib_no_daily_quota"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/baseline_exclamation_orange"
@@ -22,17 +22,18 @@
         android:layout_marginTop="5dp"/>
 
     <TextView
-        android:id="@+id/txt_mail_basarisiz"
+        android:id="@+id/txt_no_daily_quota"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
-        android:text="@string/txt_no_quota"
+        android:text="@string/direct_to_subscription"
         android:textColor="@color/textColorPrimary"
+        android:gravity="center"
         android:textSize="16sp"
         android:layout_marginStart="40dp"
         android:layout_marginEnd="40dp"
         android:layout_marginTop="15dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/ib_mail"/>
+        app:layout_constraintTop_toBottomOf="@id/ib_no_daily_quota"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -230,4 +230,23 @@
     <string name="fail_some_features">ไม่สามารถโหลดคุณสมบัติบางอย่างได้</string>
     <string name="example_evaluation_sentence">คำแปลของคุณถูกต้องตามไวยากรณ์ ถ่ายทอดความหมายได้แม่นยำ และฟังดูเป็นธรรมชาติใน \'%1$s\' คำที่ตรงกันและเป็นธรรมชาติที่สุดของ \'%2$s\' ใน \'%1$s\' คือ \'%3$s\' คำแปลยอดเยี่ยม</string>
 
+    <string name="purchase_error">การชำระเงินล้มเหลว</string>
+    <string name="recommend_login">กรุณาเข้าสู่ระบบก่อน</string>
+    <string name="processing">กำลังประมวลผล…</string>
+    <string name="verification_done">เสร็จสมบูรณ์</string>
+    <string name="direct_to_login">ไม่สามารถทำแบบทดสอบเพิ่มได้หากคุณยังไม่เข้าสู่ระบบ เข้าสู่ระบบเพื่อรับสิทธิ์ทดลองฟรีวันละ 10 ครั้ง</string>
+    <string name="direct_to_subscription">คุณใช้สิทธิ์ทดลองฟรีประจำวันหมดแล้ว ดูตัวเลือกการสมัครรายเดือนเพื่อใช้งานเพิ่มเติม</string>
+    <string name="force_logout">คุณถูกออกจากระบบเนื่องจากมีการเข้าสู่ระบบจากอุปกรณ์อื่น หากคิดว่าเป็นความผิดพลาด กรุณาเปลี่ยนรหัสผ่านและเข้าสู่ระบบใหม่</string>
+    <string name="activation_explanation">จำเป็นต้องทำขั้นตอนนี้เพื่อรับสิทธิ์ทดลองฟรีวันละ 10 ครั้ง</string>
+    <string name="password_criteria_1">รหัสผ่านต้องมีอย่างน้อย 8 ตัวอักษร และประกอบด้วย:</string>
+    <string name="password_criteria_2">ตัวอักษรพิมพ์ใหญ่หนึ่งตัว</string>
+    <string name="password_criteria_3">ตัวอักษรพิมพ์เล็กหนึ่งตัว</string>
+    <string name="password_criteria_4">ตัวเลขหนึ่งตัว</string>
+    <string name="app_introduction">แนะนำแอป:</string>
+    <string name="show">แสดง</string>
+
+    <string name="animator_disabled_1">แอนิเมชันถูกปิดไว้ในการตั้งค่าของอุปกรณ์ ทำให้คุณไม่เห็นแอนิเมชันบางส่วนในแอป</string>
+    <string name="animator_disabled_2">สิ่งนี้ไม่ส่งผลต่อการทำงานของแอป</string>
+    <string name="animator_disabled_3">เพื่อประสบการณ์ใช้งานที่ดียิ่งขึ้น โปรดตั้งค่า ‘การตั้งค่า - ตัวเลือกนักพัฒนา - สเกลระยะเวลาแอนิเมชัน’ เป็น 1x</string>
+
 </resources>

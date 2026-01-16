@@ -2,10 +2,13 @@ package com.transist.data.repository
 
 import android.content.Context
 import android.content.SharedPreferences
+import android.util.Log
 import androidx.appcompat.app.AppCompatDelegate
-import org.threeten.bp.LocalDate
+import com.google.android.gms.appset.AppSet
+import com.google.android.gms.appset.AppSetIdInfo
 
-class PreferencesRepository(context: Context) {
+class PreferencesRepository(private val context: Context) {
+
     private val sharedPref: SharedPreferences = context.getSharedPreferences("MyAppPrefs", Context.MODE_PRIVATE)
 
     fun isFirstLaunch(): Boolean = sharedPref.getBoolean("isFirstLaunch", true)
@@ -21,30 +24,19 @@ class PreferencesRepository(context: Context) {
         sharedPref.edit().putBoolean("isFirstLaunch", false).apply()
     }
 
-    fun setTranslationCount(count: Int) {
-        sharedPref.edit().putInt("translation_count", count).apply()
+    fun getInitalTranslationQuota(): Int = sharedPref.getInt("initial_translation_quota", 3)
+
+    fun setInitalTranslationQuota(count: Int) {
+        sharedPref.edit().putInt("initial_translation_quota", count).apply()
     }
 
-    fun checkAndResetDailyQuota() {
-        val today = LocalDate.now()
-        val lastDayString = sharedPref.getString("last_day", today.toString())
-        val lastDay = LocalDate.parse(lastDayString)
-
-        if (lastDay.isBefore(today)) {
-            // Yeni gün başlamış, kotayı sıfırla
-            sharedPref.edit().putInt("translation_count", 20)
-                .putString("last_day", today.toString())
-                .apply()
+    fun decreaseInitalTranslationQuota(): Int {
+        val currentQuota = getInitalTranslationQuota()
+        val decreasedQuota = currentQuota - 1
+        if (currentQuota > 0){
+            setInitalTranslationQuota(decreasedQuota)
         }
+        return decreasedQuota
     }
 
-    fun getTranslationQuota(): Int = sharedPref.getInt("translation_count", 20)
-
-    fun decreaseTranslationCount() {
-        checkAndResetDailyQuota()
-        val count = getTranslationQuota()
-        if (count != 0) {
-            sharedPref.edit().putInt("translation_count", count - 1).apply()
-        }
-    }
 }

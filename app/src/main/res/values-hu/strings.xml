@@ -230,4 +230,23 @@
     <string name="fail_some_features">Néhány funkció nem töltődött be.</string>
     <string name="example_evaluation_sentence">A fordítása nyelvtanilag helyes, pontosan közvetíti a jelentést, és természetesnek hangzik \'%1$s\' nyelven. A \'%1$s\' nyelvben a \'%2$s\' leggyakoribb és legtermészetesebb megfelelője a(z) \'%3$s\'. Kiváló fordítás.</string>
 
+    <string name="purchase_error">A fizetés sikertelen volt.</string>
+    <string name="recommend_login">Kérjük, jelentkezz be először.</string>
+    <string name="processing">Feldolgozás…</string>
+    <string name="verification_done">A folyamat befejeződött.</string>
+    <string name="direct_to_login">Bejelentkezés nélkül nem folytathatod. Jelentkezz be, hogy napi 10 ingyenes próbálkozást kapj.</string>
+    <string name="direct_to_subscription">Elfogytak a mai ingyenes próbálkozásaid. További lehetőségekért nézd meg a havi előfizetést.</string>
+    <string name="force_logout">Kijelentkeztettek, mert egy másik eszközről jelentkeztek be a fiókodba. Ha úgy gondolod, hogy ez hiba, változtasd meg a jelszavad, majd jelentkezz be újra.</string>
+    <string name="activation_explanation">Ez a lépés szükséges a napi 10 ingyenes próbálkozás megszerzéséhez.</string>
+    <string name="password_criteria_1">A jelszavadnak tartalmaznia kell a következőket, és legalább 8 karakter hosszúnak kell lennie:</string>
+    <string name="password_criteria_2">Egy nagybetű</string>
+    <string name="password_criteria_3">Egy kisbetű</string>
+    <string name="password_criteria_4">Egy szám</string>
+    <string name="app_introduction">Alkalmazás bemutatása:</string>
+    <string name="show">Mutat</string>
+
+    <string name="animator_disabled_1">Az eszköz beállításainál az animációk le vannak tiltva, ezért az alkalmazás egyes animációi nem fognak megjelenni.</string>
+    <string name="animator_disabled_2">Ez nem akadályozza az alkalmazás működését.</string>
+    <string name="animator_disabled_3">A jobb élmény érdekében állítsa a ‘Beállítások - Fejlesztői beállítások - Animáció időtartam skála’ értékét 1x-re.</string>
+
 </resources>

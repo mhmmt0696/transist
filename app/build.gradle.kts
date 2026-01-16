@@ -1,4 +1,3 @@
-import java.io.FileInputStream
 import java.util.Properties
 
 plugins {
@@ -21,7 +20,7 @@ android {
         applicationId = "com.transist"
         minSdk = 24
         targetSdk = 35
-        versionCode = 25
+        versionCode = 33
         versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
@@ -80,33 +79,17 @@ android {
 }
 
 dependencies {
-
-    implementation(libs.speech.to.text)
     implementation(libs.coroutines.core)
     implementation(libs.coroutines.android)
-
     implementation(libs.play.services.basement)
-    implementation(libs.grpc.okhttp)
-    implementation(libs.grpc.netty.shaded)
-    implementation(libs.grpc.stub)
-    implementation(libs.grpc.protobuf)
-    implementation(libs.grpc.core)
-    implementation(libs.grpc.auth)
-
-    implementation(libs.oauth2)
-    implementation(libs.gax)
-
-
     implementation(libs.billing.client)
-    implementation(libs.flexbox)
-    implementation(libs.google.identity)
     implementation(libs.googleid)
-    implementation(libs.credentials)
     implementation(libs.credentials.play.services)
     implementation(libs.google.auth)
-    implementation(libs.compose.compiler)
+    implementation(libs.google.appset)
     implementation(platform(libs.firebase.bom))
     implementation(libs.firebase.auth)
+    implementation(libs.firebase.database)
     implementation(libs.material)
     implementation(libs.fragment)
     implementation(libs.retrofit)
@@ -114,25 +97,35 @@ dependencies {
     implementation(libs.androidx.core.ktx)
     implementation(libs.okhttp3)
     implementation(libs.androidx.lifecycle.runtime.ktx)
-    implementation(libs.androidx.activity.compose)
-    implementation(platform(libs.androidx.compose.bom))
-    implementation(libs.androidx.ui)
-    implementation(libs.androidx.ui.graphics)
-    implementation(libs.androidx.ui.tooling.preview)
-    implementation(libs.androidx.material3)
-    implementation(libs.androidx.constraintlayout)
     implementation(libs.androidx.recyclerview)
-    implementation(libs.androidx.cardview)
-    implementation(libs.play.services.maps)
-    implementation(libs.androidx.navigation.fragment.ktx)
-    implementation(libs.androidx.navigation.ui.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.firebase.crashlytics)
-    testImplementation(libs.junit)
-    androidTestImplementation(libs.androidx.junit)
-    androidTestImplementation(libs.androidx.espresso.core)
-    androidTestImplementation(platform(libs.androidx.compose.bom))
-    androidTestImplementation(libs.androidx.ui.test.junit4)
-    debugImplementation(libs.androidx.ui.tooling)
-    debugImplementation(libs.androidx.ui.test.manifest)
+    implementation(libs.firebase.firestore)
+
+    implementation(libs.androidx.activity.compose)
+    implementation(platform(libs.androidx.compose.bom))
+    implementation(libs.androidx.material3)
+
+    // Compose ile alakalı kütüphaneleri kaldırdım:
+    //implementation(libs.compose.compiler)
+    //implementation(libs.androidx.ui)
+    //implementation(libs.androidx.ui.graphics)
+    //implementation(libs.androidx.ui.tooling.preview)
+    //debugImplementation(libs.androidx.ui.tooling)
+    //debugImplementation(libs.androidx.ui.test.manifest)
+
+    // Gereksiz kütüphaneleri kaldırdım:
+    //implementation(libs.google.identity)
+    //implementation(libs.androidx.navigation.fragment.ktx)
+    //implementation(libs.androidx.navigation.ui.ktx)
+    //implementation(libs.androidx.constraintlayout)
+    //implementation(libs.androidx.cardview)
+    //testImplementation(libs.junit)
+    //androidTestImplementation(libs.androidx.junit)
+    //androidTestImplementation(platform(libs.androidx.compose.bom))
+    //androidTestImplementation(libs.androidx.ui.test.junit4)
+    //implementation(libs.play.services.maps)
+    //implementation(libs.flexbox)
+    //implementation(libs.credentials)
+    //androidTestImplementation(libs.androidx.espresso.core)
 }

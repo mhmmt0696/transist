@@ -230,4 +230,23 @@
     <string name="fail_some_features">Деякі функції не вдалося завантажити.</string>
     <string name="example_evaluation_sentence">Ваш переклад граматично правильний, точно передає значення та звучить природно українською мовою \'%1$s\'. Найпоширеніший та найбільш природний еквівалент для \'%2$s\' у \'%1$s\' — \'%3$s\'. Чудовий переклад.</string>
 
+    <string name="purchase_error">Платіж не вдалося виконати.</string>
+    <string name="recommend_login">Будь ласка, увійдіть спочатку.</string>
+    <string name="processing">Обробка…</string>
+    <string name="verification_done">Готово.</string>
+    <string name="direct_to_login">Ви не можете виконувати більше спроб без входу. Увійдіть, щоб отримати 10 безкоштовних спроб щодня.</string>
+    <string name="direct_to_subscription">Ваші щоденні безкоштовні спроби вичерпано. Перегляньте місячну підписку для додаткових можливостей.</string>
+    <string name="force_logout">Ваш сеанс завершено, оскільки виявлено вхід з іншого пристрою. Якщо це помилка, змініть пароль і увійдіть знову.</string>
+    <string name="activation_explanation">Цей крок необхідний, щоб отримати 10 безкоштовних щоденних спроб.</string>
+    <string name="password_criteria_1">Ваш пароль має містити щонайменше 8 символів і включати таку комбінацію:</string>
+    <string name="password_criteria_2">Велику літеру</string>
+    <string name="password_criteria_3">Малу літеру</string>
+    <string name="password_criteria_4">Цифру</string>
+    <string name="app_introduction">Ознайомлення з додатком:</string>
+    <string name="show">Показати</string>
+
+    <string name="animator_disabled_1">У налаштуваннях вашого пристрою анімації вимкнено, тому деякі анімації в додатку не відображатимуться.</string>
+    <string name="animator_disabled_2">Це не впливає на роботу додатка.</string>
+    <string name="animator_disabled_3">Для кращого досвіду змініть ‘Налаштування – Параметри розробника – Масштаб тривалості анімації’ на 1x.</string>
+
 </resources>

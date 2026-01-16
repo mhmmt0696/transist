@@ -422,26 +422,27 @@ class ApiRepository {
                 var text = response.body()?.candidates?.firstOrNull()?.content?.parts?.firstOrNull()?.text
                 if (text != null) {
                     text = extractJson(text)
+                    Log.d("RandomSentence", text.toString())
                     try {
                         val sentencesResponse = Gson().fromJson(text, RandomSentencesResponse::class.java)
                         val randomSentence = sentencesResponse.sentences.random().sentence
                         emit(GetSentenceResult.Success(randomSentence))
                     } catch (e: JsonSyntaxException) {
-                        emit(GetSentenceResult.Error("JSON parse error: ${e.message}"))
+                        emit(GetSentenceResult.Error("RandomSentence - JSON parse error: ${e.message}"))
                     }
                 }
-            } else { emit(GetSentenceResult.Error("API error: ${response.code()} ${response.message()}")) }
-        } catch (e: Exception) { Log.e("GetSentence", "Unexpected error", e)
+            } else { emit(GetSentenceResult.Error("RandomSentence error: ${response.code()} ${response.message()}")) }
+        } catch (e: Exception) { Log.e("RandomSentence error", "Unexpected error", e)
             e.printStackTrace()
-            emit(GetSentenceResult.Error("Unexpected error: ${e}")) }
+            emit(GetSentenceResult.Error("RandomSentence error 2: ${e.message}")) }
     }.retryWhen { cause, attempt ->
         if (attempt < 3) {
-            Log.e("API_RETRY", "Retry attempt $attempt: ${cause.message}")
+            Log.e("RandomSentence", "Retry attempt $attempt: ${cause.message}")
             delay(500)
             true
         } else { false }
     }.catch { e ->
-        emit(GetSentenceResult.Error("Flow failed: ${e.message}"))
+        emit(GetSentenceResult.Error("RandomSentence - Flow failed: ${e.message}"))
     }.flowOn(Dispatchers.IO)
 
     fun getWordsInEvaluation(string: String?, targetLanguage: String, targetLanguageCode: String

@@ -229,4 +229,24 @@
     <string name="no_internet">Există o problemă cu conexiunea dvs. la internet.</string>
     <string name="fail_some_features">Unele funcții nu au putut fi încărcate.</string>
     <string name="example_evaluation_sentence">Traducerea dvs. este corectă gramatical, transmite semnificația precis și sună natural în \'%1$s\'. Echivalentul cel mai comun și natural al lui \'%2$s\' în \'%1$s\' este \'%3$s\'. Traducere excelentă.</string>
+
+    <string name="purchase_error">Plata a eșuat.</string>
+    <string name="recommend_login">Vă rugăm să vă conectați mai întâi.</string>
+    <string name="processing">Se procesează…</string>
+    <string name="verification_done">Finalizat.</string>
+    <string name="direct_to_login">Nu puteți continua fără autentificare. Conectați-vă pentru a primi 10 încercări gratuite pe zi.</string>
+    <string name="direct_to_subscription">Ați epuizat încercările gratuite pentru astăzi. Verificați abonamentul lunar pentru acces suplimentar.</string>
+    <string name="force_logout">Ați fost deconectat deoarece s-a detectat o autentificare de pe un alt dispozitiv. Dacă este o greșeală, schimbați parola și reconectați-vă.</string>
+    <string name="activation_explanation">Acest pas este necesar pentru a primi 10 încercări gratuite pe zi.</string>
+    <string name="password_criteria_1">Parola trebuie să aibă cel puțin 8 caractere și să includă:</string>
+    <string name="password_criteria_2">O literă mare</string>
+    <string name="password_criteria_3">O literă mică</string>
+    <string name="password_criteria_4">O cifră</string>
+    <string name="app_introduction">Prezentare aplicație:</string>
+    <string name="show">Afișează</string>
+
+    <string name="animator_disabled_1">Animațiile sunt dezactivate în setările dispozitivului, astfel că unele animații din aplicație nu vor fi vizibile.</string>
+    <string name="animator_disabled_2">Acest lucru nu afectează funcționarea aplicației.</string>
+    <string name="animator_disabled_3">Pentru o experiență mai bună, setați ‘Setări - Opțiuni pentru dezvoltatori - Scală durată animație’ la 1x.</string>
+
 </resources>

@@ -231,4 +231,24 @@
     <string name="fail_some_features">Einige Funktionen konnten nicht geladen werden.</string>
     <string name="example_evaluation_sentence">Ihre Übersetzung ist grammatikalisch korrekt, vermittelt die Bedeutung genau und klingt in \'%1$s\' natürlich. Die gebräuchlichste und natürlichste Entsprechung von \'%2$s\' in \'%1$s\' ist \'%3$s\'. Ausgezeichnete Übersetzung.</string>
 
+    <string name="purchase_error">Die Zahlung ist fehlgeschlagen.</string>
+    <string name="recommend_login">Bitte melden Sie sich zuerst an.</string>
+    <string name="processing">Wird verarbeitet…</string>
+    <string name="verification_done">Vorgang abgeschlossen.</string>
+    <string name="direct_to_login">Ohne Anmeldung können Sie nicht fortfahren. Melden Sie sich an, um täglich 10 kostenlose Versuche zu erhalten.</string>
+    <string name="direct_to_subscription">Ihre täglichen kostenlosen Versuche sind aufgebraucht. Sehen Sie sich das Monatsabonnement für weitere Optionen an.</string>
+    <string name="force_logout">Sie wurden abgemeldet, da eine Anmeldung von einem anderen Gerät erkannt wurde. Wenn Sie einen Fehler vermuten, ändern Sie Ihr Passwort und melden Sie sich erneut an.</string>
+    <string name="activation_explanation">Dieser Schritt ist erforderlich, um täglich 10 kostenlose Versuche zu erhalten.</string>
+    <string name="password_criteria_1">Ihr Passwort muss die folgende Kombination enthalten und mindestens 8 Zeichen lang sein:</string>
+    <string name="password_criteria_2">Ein Großbuchstabe</string>
+    <string name="password_criteria_3">Ein Kleinbuchstabe</string>
+    <string name="password_criteria_4">Eine Zahl</string>
+    <string name="app_introduction">App-Einführung:</string>
+    <string name="show">Anzeigen</string>
+
+    <string name="animator_disabled_1">Da die Animationen in den Geräteeinstellungen deaktiviert sind, werden einige App-Animationen nicht angezeigt.</string>
+    <string name="animator_disabled_2">Dies beeinträchtigt die Funktionsweise der App nicht.</string>
+    <string name="animator_disabled_3">Für ein besseres Erlebnis ändern Sie ‘Einstellungen - Entwickleroptionen - Animationsdauer-Skala’ auf 1x.</string>
+
+
 </resources>

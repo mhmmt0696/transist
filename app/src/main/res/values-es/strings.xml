@@ -230,5 +230,23 @@
     <string name="fail_some_features">Algunas funciones no se pudieron cargar.</string>
     <string name="example_evaluation_sentence">Tu traducción es gramaticalmente correcta, transmite el significado con precisión y suena natural en \'%1$s\'. El equivalente más común y natural de \'%2$s\' en \'%1$s\' es \'%3$s\'. Excelente traducción.</string>
 
+    <string name="purchase_error">El pago ha fallado.</string>
+    <string name="recommend_login">Por favor, inicia sesión primero.</string>
+    <string name="processing">Procesando…</string>
+    <string name="verification_done">Completado.</string>
+    <string name="direct_to_login">No puedes continuar sin iniciar sesión. Inicia sesión para obtener 10 intentos gratuitos diarios.</string>
+    <string name="direct_to_subscription">Has usado todos tus intentos gratuitos de hoy. Consulta la suscripción mensual para obtener más.</string>
+    <string name="force_logout">Tu sesión se cerró porque se detectó un inicio de sesión desde otro dispositivo. Si fue un error, cambia tu contraseña e inicia sesión de nuevo.</string>
+    <string name="activation_explanation">Este paso es necesario para obtener 10 intentos gratuitos al día.</string>
+    <string name="password_criteria_1">Tu contraseña debe tener al menos 8 caracteres e incluir:</string>
+    <string name="password_criteria_2">Una letra mayúscula</string>
+    <string name="password_criteria_3">Una letra minúscula</string>
+    <string name="password_criteria_4">Un número</string>
+    <string name="app_introduction">Introducción a la aplicación:</string>
+    <string name="show">Mostrar</string>
+
+    <string name="animator_disabled_1">Las animaciones están desactivadas en la configuración de tu dispositivo, por lo que no podrás ver algunas animaciones de la aplicación.</string>
+    <string name="animator_disabled_2">Esto no afecta al funcionamiento de la aplicación.</string>
+    <string name="animator_disabled_3">Para una mejor experiencia, cambia ‘Configuración - Opciones de desarrollador - Escala de duración de la animación’ a 1x.</string>
 
 </resources>

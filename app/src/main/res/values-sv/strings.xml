@@ -230,4 +230,23 @@
     <string name="fail_some_features">Vissa funktioner kunde inte laddas.</string>
     <string name="example_evaluation_sentence">Din översättning är grammatiskt korrekt, förmedlar betydelsen korrekt och låter naturlig på \'%1$s\'. Den vanligaste och mest naturliga motsvarigheten till \'%2$s\' på \'%1$s\' är \'%3$s\'. Utmärkt översättning.</string>
 
+    <string name="purchase_error">Betalningen misslyckades.</string>
+    <string name="recommend_login">Logga in först.</string>
+    <string name="processing">Bearbetar…</string>
+    <string name="verification_done">Klart.</string>
+    <string name="direct_to_login">Du kan inte fortsätta testa utan att vara inloggad. Logga in för att få 10 gratis försök per dag.</string>
+    <string name="direct_to_subscription">Du har använt dagens gratis försök. Se månadsabonnemanget för fler möjligheter.</string>
+    <string name="force_logout">Du loggades ut eftersom ett annat inloggat enhet upptäcktes. Om detta är ett misstag, ändra ditt lösenord och logga in igen.</string>
+    <string name="activation_explanation">Detta steg krävs för att få 10 gratis försök per dag.</string>
+    <string name="password_criteria_1">Ditt lösenord måste vara minst 8 tecken långt och innehålla följande kombination:</string>
+    <string name="password_criteria_2">En versal bokstav</string>
+    <string name="password_criteria_3">En gemen bokstav</string>
+    <string name="password_criteria_4">En siffra</string>
+    <string name="app_introduction">Appintroduktion:</string>
+    <string name="show">Visa</string>
+
+    <string name="animator_disabled_1">Animationer är avstängda i enhetens inställningar, så vissa animationer i appen visas inte.</string>
+    <string name="animator_disabled_2">Detta påverkar inte appens funktion.</string>
+    <string name="animator_disabled_3">För en bättre upplevelse, ändra ‘Inställningar - Utvecklaralternativ - Skala för animationslängd’ till 1x.</string>
+
 </resources>

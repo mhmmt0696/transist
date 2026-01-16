@@ -231,4 +231,24 @@
     <string name="no_internet">Internet-yhteydessäsi on ongelma.</string>
     <string name="fail_some_features">Joidenkin ominaisuuksien lataaminen epäonnistui.</string>
     <string name="example_evaluation_sentence">Käännöksesi on kieliopillisesti oikein, välittää merkityksen tarkasti ja kuulostaa luonnolliselta kielellä \'%1$s\'. Yleisimmän ja luonnollisimman vastineen sanalle \'%2$s\' kielellä \'%1$s\' on \'%3$s\'. Erinomainen käännös.</string>
+
+    <string name="purchase_error">Maksu epäonnistui.</string>
+    <string name="recommend_login">Kirjaudu sisään ensin.</string>
+    <string name="processing">Käsitellään…</string>
+    <string name="verification_done">Toiminto on valmis.</string>
+    <string name="direct_to_login">Et voi jatkaa ilman kirjautumista. Kirjaudu sisään saadaksesi 10 ilmaista päivittäistä yritystä.</string>
+    <string name="direct_to_subscription">Olet käyttänyt kaikki päivän ilmaiset yritykset. Katso kuukausitilaus saadaksesi lisää.</string>
+    <string name="force_logout">Sinut kirjattiin ulos, koska tilille kirjauduttiin toisesta laitteesta. Jos tämä vaikuttaa virheeltä, vaihda salasanasi ja kirjaudu uudelleen.</string>
+    <string name="activation_explanation">Tämä vaihe on tarpeen saadaksesi 10 ilmaista päivittäistä yritystä.</string>
+    <string name="password_criteria_1">Salasanasi tulee sisältää seuraava yhdistelmä ja olla vähintään 8 merkkiä pitkä:</string>
+    <string name="password_criteria_2">Yksi iso kirjain</string>
+    <string name="password_criteria_3">Yksi pieni kirjain</string>
+    <string name="password_criteria_4">Yksi numero</string>
+    <string name="app_introduction">Sovelluksen esittely:</string>
+    <string name="show">Näytä</string>
+
+    <string name="animator_disabled_1">Laitteesi asetuksissa animaatiot ovat pois päältä, joten et näe kaikkia sovelluksen animaatioita.</string>
+    <string name="animator_disabled_2">Tämä ei estä sovelluksen toimimista.</string>
+    <string name="animator_disabled_3">Saadaksesi paremman käyttökokemuksen, muuta ’Asetukset - Kehittäjäasetukset - Animaation keston skaala’ arvoon 1x.</string>
+
 </resources>

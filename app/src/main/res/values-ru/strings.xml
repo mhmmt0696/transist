@@ -230,4 +230,23 @@
     <string name="fail_some_features">Некоторые функции не удалось загрузить.</string>
     <string name="example_evaluation_sentence">Ваш перевод грамматически правильный, точно передает значение и звучит естественно на языке \'%1$s\'. Наиболее распространенный и естественный эквивалент слова \'%2$s\' на языке \'%1$s\' — \'%3$s\'. Отличный перевод.</string>
 
+    <string name="purchase_error">Платеж не выполнен.</string>
+    <string name="recommend_login">Пожалуйста, войдите в систему.</string>
+    <string name="processing">Обработка…</string>
+    <string name="verification_done">Готово.</string>
+    <string name="direct_to_login">Вы не можете продолжать без входа. Войдите, чтобы получить 10 бесплатных попыток ежедневно.</string>
+    <string name="direct_to_subscription">Ваши ежедневные бесплатные попытки закончились. Посмотрите месячную подписку для продолжения.</string>
+    <string name="force_logout">Ваша сессия была завершена, так как зафиксирован вход с другого устройства. Если это ошибка, смените пароль и войдите снова.</string>
+    <string name="activation_explanation">Этот шаг необходим для получения 10 бесплатных попыток в день.</string>
+    <string name="password_criteria_1">Пароль должен содержать минимум 8 символов и включать:</string>
+    <string name="password_criteria_2">Одну заглавную букву</string>
+    <string name="password_criteria_3">Одну строчную букву</string>
+    <string name="password_criteria_4">Одну цифру</string>
+    <string name="app_introduction">Введение в приложение:</string>
+    <string name="show">Показать</string>
+
+    <string name="animator_disabled_1">В настройках вашего устройства анимации отключены, поэтому некоторые анимации в приложении не будут отображаться.</string>
+    <string name="animator_disabled_2">Это не влияет на работу приложения.</string>
+    <string name="animator_disabled_3">Для улучшения работы измените ‘Настройки – Параметры разработчика – Масштаб длительности анимации’ на 1x.</string>
+
 </resources>

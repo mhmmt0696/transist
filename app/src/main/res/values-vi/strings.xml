@@ -230,4 +230,23 @@
     <string name="fail_some_features">Một số tính năng không thể tải.</string>
     <string name="example_evaluation_sentence">Bản dịch của bạn đúng ngữ pháp, truyền đạt ý nghĩa chính xác và nghe tự nhiên trong \'%1$s\'. Tương đương phổ biến và tự nhiên nhất của \'%2$s\' trong \'%1$s\' là \'%3$s\'. Bản dịch tuyệt vời.</string>
 
+    <string name="purchase_error">Thanh toán không thành công.</string>
+    <string name="recommend_login">Vui lòng đăng nhập trước.</string>
+    <string name="processing">Đang xử lý…</string>
+    <string name="verification_done">Hoàn tất.</string>
+    <string name="direct_to_login">Bạn không thể tiếp tục thử thêm nếu chưa đăng nhập. Đăng nhập để nhận 10 lượt thử miễn phí mỗi ngày.</string>
+    <string name="direct_to_subscription">Bạn đã sử dụng hết lượt thử miễn phí hôm nay. Xem gói đăng ký hàng tháng để dùng thêm.</string>
+    <string name="force_logout">Phiên đăng nhập đã bị đăng xuất vì có đăng nhập từ thiết bị khác. Nếu đây là nhầm lẫn, hãy đổi mật khẩu và đăng nhập lại.</string>
+    <string name="activation_explanation">Bạn cần hoàn thành bước này để nhận 10 lượt thử miễn phí mỗi ngày.</string>
+    <string name="password_criteria_1">Mật khẩu phải có ít nhất 8 ký tự và bao gồm:</string>
+    <string name="password_criteria_2">Một chữ cái viết hoa</string>
+    <string name="password_criteria_3">Một chữ cái viết thường</string>
+    <string name="password_criteria_4">Một chữ số</string>
+    <string name="app_introduction">Giới thiệu ứng dụng:</string>
+    <string name="show">Hiển thị</string>
+
+    <string name="animator_disabled_1">Hiệu ứng chuyển động đã bị tắt trong cài đặt thiết bị, nên một số hiệu ứng trong ứng dụng sẽ không hiển thị.</string>
+    <string name="animator_disabled_2">Điều này không ảnh hưởng đến hoạt động của ứng dụng.</string>
+    <string name="animator_disabled_3">Để có trải nghiệm tốt hơn, hãy đặt ‘Cài đặt - Tùy chọn nhà phát triển - Tỷ lệ thời lượng hoạt ảnh’ thành 1x.</string>
+
 </resources>

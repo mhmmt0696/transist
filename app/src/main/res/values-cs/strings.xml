@@ -230,4 +230,23 @@
     <string name="fail_some_features">Některé funkce se nepodařilo načíst.</string>
     <string name="example_evaluation_sentence">Váš překlad je gramaticky správný, přesně vystihuje význam a zní přirozeně v jazyce „%1$s“. Nejčastější a nejpřirozenější překlad výrazu „%2$s“ v „%1$s“ je „%3$s“. Výborný překlad.</string>
 
+    <string name="purchase_error">Platba se nezdařila.</string>
+    <string name="recommend_login">Nejprve se prosím přihlaste.</string>
+    <string name="processing">Zpracovává se…</string>
+    <string name="verification_done">Postup byl dokončen.</string>
+    <string name="direct_to_login">Bez přihlášení nemůžete pokračovat. Přihlaste se a získejte 10 bezplatných pokusů denně.</string>
+    <string name="direct_to_subscription">Vyčerpali jste své denní bezplatné pokusy. Pro více možností si prohlédněte měsíční předplatné.</string>
+    <string name="force_logout">Byli jste odhlášeni, protože bylo zaznamenáno přihlášení z jiného zařízení. Pokud si myslíte, že jde o omyl, změňte heslo a přihlaste se znovu.</string>
+    <string name="activation_explanation">Tento krok je nutný pro získání 10 bezplatných pokusů denně.</string>
+    <string name="password_criteria_1">Vaše heslo musí obsahovat následující kombinaci a mít alespoň 8 znaků:</string>
+    <string name="password_criteria_2">Jedno velké písmeno</string>
+    <string name="password_criteria_3">Jedno malé písmeno</string>
+    <string name="password_criteria_4">Jedna číslice</string>
+    <string name="app_introduction">Představení aplikace:</string>
+    <string name="show">Zobrazit</string>
+
+    <string name="animator_disabled_1">V nastavení zařízení máte vypnuté animace, takže některé animace v aplikaci nemusí být viditelné.</string>
+    <string name="animator_disabled_2">To nebrání správné funkci aplikace.</string>
+    <string name="animator_disabled_3">Pro lepší zkušenost nastavte „Nastavení – Možnosti pro vývojáře – Animator duration scale“ na 1x.</string>
+
 </resources>

@@ -22,17 +22,19 @@ import com.transist.R
 import com.transist.data.repository.LanguageRepository
 import com.transist.data.repository.PreferencesRepository
 import com.transist.databinding.WelcomeActivityBinding
+import com.transist.ui.BaseActivity
 import com.transist.util.getLocalizedContext
 import com.transist.util.getLocalizedString
 import com.transist.util.getStringId
 import com.transist.util.initTtsWithTargetLanguageSupport
+import com.transist.util.isAnimatorDisabled
 import com.transist.util.pronunciationClick
 import com.transist.util.showDialogNoVoiceEngine
 import com.transist.util.startToastAnimation
 import com.transist.util.stopToastAnimation
 import java.util.Locale
 
-class WelcomeActivity : AppCompatActivity() {
+class WelcomeActivity : BaseActivity() {
 
     private lateinit var viewModel: WelcomeViewModel
     private var _binding: WelcomeActivityBinding? = null
@@ -44,6 +46,11 @@ class WelcomeActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         _binding = WelcomeActivityBinding.inflate(layoutInflater)
+
+        if (isAnimatorDisabled(this)){
+            com.transist.util.showDialog(R.layout.dialog_animator_disabled, this, false)
+        }
+
         // 1. Adım: Sistem padding’lerini devre dışı bırakıyorum.
         WindowCompat.setDecorFitsSystemWindows(window, false)
         setContentView(binding.root)
@@ -219,13 +226,13 @@ class WelcomeActivity : AppCompatActivity() {
 
     }
 
-    override fun attachBaseContext(newBase: Context) {
+    /*override fun attachBaseContext(newBase: Context) {
         val locale = Locale.getDefault()
         val config = Configuration(newBase.resources.configuration)
         config.setLocale(locale)
         val context = newBase.createConfigurationContext(config)
         super.attachBaseContext(context)
-    }
+    }*/
 
     override fun onDestroy() {
         super.onDestroy()

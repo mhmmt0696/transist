@@ -231,4 +231,25 @@
     <string name="no_internet">Teie internetiühenduses on probleem.</string>
     <string name="fail_some_features">Mõned funktsioonid ei saanud laadida.</string>
     <string name="example_evaluation_sentence">Teie tõlge on grammatiliselt korrektne, edastab tähenduse täpselt ja kõlab loomulikult keeles \'%1$s\'. Kõige tavalisem ja loomulikum vaste sõnale \'%2$s\' keeles \'%1$s\' on \'%3$s\'. Suurepärane tõlge.</string>
+
+    <string name="purchase_error">Makse ebaõnnestus.</string>
+    <string name="recommend_login">Palun logi esmalt sisse.</string>
+    <string name="processing">Töötlemine…</string>
+    <string name="verification_done">Toiming on lõpetatud.</string>
+    <string name="direct_to_login">Ilma sisselogimata ei saa jätkata. Logi sisse, et saada 10 tasuta päevast katset.</string>
+    <string name="direct_to_subscription">Oled kasutanud kõik tänased tasuta katsed. Vaata kuu tellimust, et saada rohkem võimalusi.</string>
+    <string name="force_logout">Sind logiti välja, kuna konto avati teises seadmes. Kui arvad, et see on viga, muuda oma parool ja logi uuesti sisse.</string>
+    <string name="activation_explanation">See samm on vajalik, et saada 10 tasuta päevast katset.</string>
+    <string name="password_criteria_1">Sinu parool peab sisaldama järgmist kombinatsiooni ja olema vähemalt 8 tähemärki pikk:</string>
+    <string name="password_criteria_2">Üks suur täht</string>
+    <string name="password_criteria_3">Üks väike täht</string>
+    <string name="password_criteria_4">Üks number</string>
+    <string name="app_introduction">Rakenduse tutvustus:</string>
+    <string name="show">Kuva</string>
+
+    <string name="animator_disabled_1">Animations are disabled in your device settings, so some animations in the app may not be visible.</string>
+    <string name="animator_disabled_2">This does not affect the functionality of the app.</string>
+    <string name="animator_disabled_3">For a better experience, change the “Settings – Developer options – Animator duration scale” to 1x.</string>
+
+
 </resources>

@@ -231,4 +231,23 @@
     <string name="fail_some_features">Beberapa fitur gagal dimuat.</string>
     <string name="example_evaluation_sentence">Terjemahan Anda secara tata bahasa benar, menyampaikan makna secara akurat, dan terdengar alami dalam \'%1$s\'. Padanan paling umum dan alami dari \'%2$s\' dalam \'%1$s\' adalah \'%3$s\'. Terjemahan yang sangat baik.</string>
 
+    <string name="purchase_error">Pembayaran gagal.</string>
+    <string name="recommend_login">Silakan masuk terlebih dahulu.</string>
+    <string name="processing">Memproses…</string>
+    <string name="verification_done">Proses selesai.</string>
+    <string name="direct_to_login">Anda tidak dapat melanjutkan tanpa masuk. Masuklah untuk mendapatkan 10 percobaan gratis setiap hari.</string>
+    <string name="direct_to_subscription">Percobaan gratis harian Anda telah habis. Lihat paket berlangganan bulanan untuk lebih banyak akses.</string>
+    <string name="force_logout">Anda telah keluar karena ada masuk dari perangkat lain. Jika ini adalah kesalahan, ubahlah kata sandi Anda lalu masuk kembali.</string>
+    <string name="activation_explanation">Langkah ini diperlukan untuk mendapatkan 10 percobaan gratis setiap hari.</string>
+    <string name="password_criteria_1">Kata sandi Anda harus berisi kombinasi berikut dan minimal 8 karakter:</string>
+    <string name="password_criteria_2">Satu huruf besar</string>
+    <string name="password_criteria_3">Satu huruf kecil</string>
+    <string name="password_criteria_4">Satu angka</string>
+    <string name="app_introduction">Pengenalan aplikasi:</string>
+    <string name="show">Tampilkan</string>
+
+    <string name="animator_disabled_1">Animasi dimatikan di pengaturan perangkat Anda, sehingga beberapa animasi aplikasi tidak akan terlihat.</string>
+    <string name="animator_disabled_2">Hal ini tidak mengganggu fungsi aplikasi.</string>
+    <string name="animator_disabled_3">Untuk pengalaman yang lebih baik, ubah ‘Pengaturan - Opsi Pengembang - Skala Durasi Animator’ menjadi 1x.</string>
+
 </resources>

@@ -8,6 +8,7 @@ import com.transist.data.model.EvaluationState
 import com.transist.data.remote.response.MisspelledWord
 import com.transist.data.repository.ApiRepository
 import com.transist.data.repository.StudyRepository
+import com.transist.util.cleanPrefix
 import com.transist.util.hasRealInternetAccess
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.SharingStarted
@@ -168,7 +169,8 @@ class StudyViewModel(
                 when (result) {
                     is ApiRepository.GetTranslationResult.Success -> {
                         _targetTranslation.value = result.translation ?: ""
-                        _explanation.value = result.explanation
+                        val explanation = cleanPrefix(result.explanation)
+                        _explanation.value = explanation
                         _showHint.value = false
                         _showTarget.value = true
                         getWordsInEvaluation(result.explanation, targetLanguage, targetLanguageCode)

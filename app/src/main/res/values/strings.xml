@@ -234,4 +234,27 @@
     <string name="fail_some_features">Some features could not be loaded.</string>
     <string name="example_evaluation_sentence">Your translation is grammatically correct, conveys the meaning accurately, and sounds natural in \'%1$s\'. The most common and natural equivalent of \'%2$s\' in \'%1$s\' is \'%3$s\'. Great translation.</string>
 
+    <string name="purchase_error">The payment failed.</string>
+    <string name="recommend_login">Please sign in first.</string>
+    <string name="processing">Processing…</string>
+    <string name="verification_done">The process is complete.</string>
+    <string name="direct_to_login">You can\'t continue without signing in. Sign in to get 10 free daily attempts.</string>
+    <string name="direct_to_subscription">You’ve used all your free daily attempts. Check out the monthly subscription for more.</string>
+    <string name="force_logout">You’ve been logged out because your account was accessed from another device. If this seems wrong, change your password and sign in again.</string>
+    <string name="activation_explanation">This step is required to receive 10 free daily attempts.</string>
+    <string name="password_criteria_1">Your password must include the following combination and be at least 8 characters long:</string>
+    <string name="password_criteria_2">One uppercase letter</string>
+    <string name="password_criteria_3">One lowercase letter</string>
+    <string name="password_criteria_4">One number</string>
+    <string name="app_introduction">App Introduction:</string>
+    <string name="show">Show</string>
+
+    <string name="animator_disabled_1">Animations are disabled in your device settings, so some animations in the app may not be visible.</string>
+    <string name="animator_disabled_2">This does not affect the functionality of the app.</string>
+    <string name="animator_disabled_3">For a better experience, change the “Settings – Developer options – Animator duration scale” to 1x.</string>
+
+
+
+
+
 </resources>

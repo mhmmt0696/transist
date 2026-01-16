@@ -231,4 +231,23 @@
     <string name="fail_some_features">Ορισμένες λειτουργίες δεν φορτώθηκαν.</string>
     <string name="example_evaluation_sentence">Η μετάφρασή σας είναι γραμματικά σωστή, μεταφέρει με ακρίβεια το νόημα και ακούγεται φυσική στη γλώσσα \'%1$s\'. Η πιο κοινή και φυσική αντιστοιχία του \'%2$s\' στη γλώσσα \'%1$s\' είναι \'%3$s\'. Εξαιρετική μετάφραση.</string>
 
+    <string name="purchase_error">Η πληρωμή απέτυχε.</string>
+    <string name="recommend_login">Παρακαλώ συνδεθείτε πρώτα.</string>
+    <string name="processing">Γίνεται επεξεργασία…</string>
+    <string name="verification_done">Η διαδικασία ολοκληρώθηκε.</string>
+    <string name="direct_to_login">Δεν μπορείτε να συνεχίσετε χωρίς σύνδεση. Συνδεθείτε για να λάβετε 10 δωρεάν ημερήσιες προσπάθειες.</string>
+    <string name="direct_to_subscription">Έχετε εξαντλήσει τις δωρεάν ημερήσιες προσπάθειες. Δείτε τη μηνιαία συνδρομή για περισσότερα.</string>
+    <string name="force_logout">Αποσυνδεθήκατε επειδή εντοπίστηκε σύνδεση από άλλη συσκευή. Αν πιστεύετε ότι πρόκειται για λάθος, αλλάξτε τον κωδικό σας και συνδεθείτε ξανά.</string>
+    <string name="activation_explanation">Αυτό το βήμα είναι απαραίτητο για να λάβετε 10 δωρεάν ημερήσιες προσπάθειες.</string>
+    <string name="password_criteria_1">Ο κωδικός σας πρέπει να περιέχει τον ακόλουθο συνδυασμό και να έχει τουλάχιστον 8 χαρακτήρες:</string>
+    <string name="password_criteria_2">Ένα κεφαλαίο γράμμα</string>
+    <string name="password_criteria_3">Ένα πεζό γράμμα</string>
+    <string name="password_criteria_4">Ένας αριθμός</string>
+    <string name="app_introduction">Εισαγωγή εφαρμογής:</string>
+    <string name="show">Εμφάνιση</string>
+
+    <string name="animator_disabled_1">Οι κινούμενες εικόνες είναι απενεργοποιημένες στις ρυθμίσεις της συσκευής σας, επομένως δεν θα βλέπετε ορισμένες από τις κινήσεις της εφαρμογής.</string>
+    <string name="animator_disabled_2">Αυτό δεν επηρεάζει τη λειτουργία της εφαρμογής.</string>
+    <string name="animator_disabled_3">Για καλύτερη εμπειρία, αλλάξτε το ‘Ρυθμίσεις - Επιλογές προγραμματιστή - Κλίμακα διάρκειας Animator’ σε 1x.</string>
+
 </resources>

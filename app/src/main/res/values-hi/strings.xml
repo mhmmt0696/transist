@@ -230,5 +230,23 @@
     <string name="fail_some_features">कुछ फीचर्स लोड नहीं हो सके।</string>
     <string name="example_evaluation_sentence">आपका अनुवाद व्याकरण के अनुसार सही है, अर्थ सटीक रूप से दर्शाता है, और \'%1$s\' में प्राकृतिक लगता है। \'%1$s\' में \'%2$s\' का सबसे सामान्य और प्राकृतिक समकक्ष है \'%3$s\'. उत्कृष्ट अनुवाद।</string>
 
+    <string name="purchase_error">भुगतान असफल रहा।</string>
+    <string name="recommend_login">कृपया पहले साइन इन करें।</string>
+    <string name="processing">प्रक्रिया जारी है…</string>
+    <string name="verification_done">प्रक्रिया पूरी हो गई।</string>
+    <string name="direct_to_login">आप साइन इन किए बिना आगे नहीं बढ़ सकते। 10 मुफ्त दैनिक प्रयास पाने के लिए साइन इन करें।</string>
+    <string name="direct_to_subscription">आपने आज के सभी मुफ्त प्रयासों का उपयोग कर लिया है। अधिक पाने के लिए मासिक सदस्यता देखें।</string>
+    <string name="force_logout">आपको लॉग आउट किया गया क्योंकि आपके खाते में किसी दूसरे डिवाइस से लॉगिन किया गया था। यदि आपको यह गलती लगती है, तो अपना पासवर्ड बदलकर फिर से लॉगिन करें।</string>
+    <string name="activation_explanation">10 मुफ्त दैनिक प्रयास प्राप्त करने के लिए यह चरण आवश्यक है.</string>
+    <string name="password_criteria_1">आपका पासवर्ड निम्नलिखित संयोजन शामिल करे और कम से कम 8 अक्षरों का हो:</string>
+    <string name="password_criteria_2">एक बड़ा अक्षर</string>
+    <string name="password_criteria_3">एक छोटा अक्षर</string>
+    <string name="password_criteria_4">एक अंक</string>
+    <string name="app_introduction">ऐप परिचय:</string>
+    <string name="show">दिखाएँ</string>
+
+    <string name="animator_disabled_1">डिवाइस सेटिंग्स में एनीमेशन बंद हैं, इसलिए आप ऐप की कुछ एनीमेशन नहीं देख पाएंगे।</string>
+    <string name="animator_disabled_2">इससे ऐप के काम करने पर कोई प्रभाव नहीं पड़ता।</string>
+    <string name="animator_disabled_3">बेहतर अनुभव के लिए ‘सेटिंग्स - डेवलपर विकल्प - एनिमेशन अवधि स्केल’ को 1x पर सेट करें।</string>
 
 </resources>

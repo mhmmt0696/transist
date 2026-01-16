@@ -230,4 +230,24 @@
     <string name="fail_some_features">Kai kurios funkcijos nebuvo įkeltos.</string>
     <string name="example_evaluation_sentence">Jūsų vertimas yra gramatiškai teisingas, tiksliai perteikia prasmę ir skamba natūraliai \'%1$s\' kalboje. Dažniausiai vartojamas ir natūralus atitikmuo žodžiui \'%2$s\' \'%1$s\' kalboje yra \'%3$s\'. Puikus vertimas.</string>
 
+    <string name="purchase_error">Mokėjimas nepavyko.</string>
+    <string name="recommend_login">Prašome pirmiausia prisijungti.</string>
+    <string name="processing">Vykdoma…</string>
+    <string name="verification_done">Baigta.</string>
+    <string name="direct_to_login">Neprisijungę negalite tęsti bandymų. Prisijunkite ir gaukite 10 nemokamų bandymų per dieną.</string>
+    <string name="direct_to_subscription">Jūsų dienos nemokami bandymai baigėsi. Norėdami gauti daugiau, peržiūrėkite mėnesinį planą.</string>
+    <string name="force_logout">Jūsų sesija buvo nutraukta, nes aptiktas prisijungimas iš kito įrenginio. Jei tai klaida, pakeiskite slaptažodį ir prisijunkite iš naujo.</string>
+    <string name="activation_explanation">Šis žingsnis būtinas norint gauti 10 nemokamų bandymų per dieną.</string>
+    <string name="password_criteria_1">Slaptažodis turi būti ne trumpesnis nei 8 simboliai ir turi turėti:</string>
+    <string name="password_criteria_2">Didžiąją raidę</string>
+    <string name="password_criteria_3">Mažąją raidę</string>
+    <string name="password_criteria_4">Skaitmenį</string>
+    <string name="app_introduction">Programėlės pristatymas:</string>
+    <string name="show">Rodyti</string>
+
+    <string name="animator_disabled_1">Įrenginio nustatymuose animacijos yra išjungtos, todėl kai kurios programėlės animacijos nebus rodomos.</string>
+    <string name="animator_disabled_2">Tai netrukdo programėlės veikimui.</string>
+    <string name="animator_disabled_3">Geresnei patirčiai pakeiskite ‘Nustatymai - Kūrėjo parinktys - Animacijos trukmės skalė’ į 1x.</string>
+
+
 </resources>

@@ -230,4 +230,24 @@
     <string name="fail_some_features">Sommige functies konden niet worden geladen.</string>
     <string name="example_evaluation_sentence">Je vertaling is grammaticaal correct, brengt de betekenis goed over en klinkt natuurlijk in \'%1$s\'. De meest gebruikelijke en natuurlijke vertaling van \'%2$s\' in \'%1$s\' is \'%3$s\'. Uitstekend vertaald.</string>
 
+    <string name="purchase_error">De betaling is mislukt.</string>
+    <string name="recommend_login">Log eerst in.</string>
+    <string name="processing">Bezig…</string>
+    <string name="verification_done">De handeling is voltooid.</string>
+    <string name="direct_to_login">Je kunt niet doorgaan zonder in te loggen. Log in om 10 gratis dagelijkse pogingen te ontvangen.</string>
+    <string name="direct_to_subscription">Je hebt al je gratis dagelijkse pogingen gebruikt. Bekijk het maandabonnement voor meer mogelijkheden.</string>
+    <string name="force_logout">Je bent afgemeld omdat er vanaf een ander apparaat is ingelogd. Als je denkt dat dit een fout is, wijzig dan je wachtwoord en log opnieuw in.</string>
+    <string name="activation_explanation">Deze stap is nodig om 10 gratis dagelijkse pogingen te ontvangen.</string>
+    <string name="password_criteria_1">Je wachtwoord moet de volgende combinatie bevatten en minstens 8 tekens lang zijn:</string>
+    <string name="password_criteria_2">Één hoofdletter</string>
+    <string name="password_criteria_3">Één kleine letter</string>
+    <string name="password_criteria_4">Één cijfer</string>
+    <string name="app_introduction">Introductie van de app:</string>
+    <string name="show">Tonen</string>
+
+    <string name="animator_disabled_1">Animationer er slået fra i dine enhedsindstillinger, så nogle animationer i appen vises muligvis ikke.</string>
+    <string name="animator_disabled_2">Dette påvirker ikke appens funktion.</string>
+    <string name="animator_disabled_3">For en bedre oplevelse skal du ændre “Indstillinger – Udviklerindstillinger – Animator duration scale” til 1x.</string>
+
+
 </resources>

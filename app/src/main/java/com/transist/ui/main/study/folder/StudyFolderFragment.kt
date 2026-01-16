@@ -21,6 +21,7 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
 import androidx.lifecycle.lifecycleScope
+import com.google.firebase.auth.FirebaseAuth
 import com.transist.data.local.DatabaseHelper
 import com.transist.data.model.ExpressionData
 import com.transist.R
@@ -102,7 +103,9 @@ class StudyFolderFragment : Fragment() {
     private lateinit var tts: TextToSpeech
     private var isTTsExist = false
     private lateinit var prefsRepository: PreferencesRepository
-    private var translationQuota = 0
+    private var dailyTranslationQuota = 0
+    private var initialTranslationQuota = 0
+    var doDecrease = false
     private val mainViewModel: MainViewModel by activityViewModels()
 
     val retrofit = Retrofit.Builder()
@@ -164,18 +167,31 @@ class StudyFolderFragment : Fragment() {
             Log.d("diller", "targetLanguageInNativeLanguage: $targetLanguageInNativeLanguage, nativeLanguageInNativeLanguage: $nativeLanguageInNativeLanguage")
 
             binding.cvToast.visibility = View.GONE
-            setUIforTranslation()
+            setUiForTranslation(true)
             showSentenceFromList()
             dolulukGoster()
         }
 
 
-        mainViewModel.translation_count.observe(viewLifecycleOwner) { count ->
-            if (count != translationQuota){
-                if (count == 0){
-                    showDialog(R.layout.dialog_no_quota, requireActivity(), false)
+        mainViewModel.daily_translation_quota.observe(viewLifecycleOwner) { count ->
+            mainViewModel.daily_translation_quota.observe(viewLifecycleOwner) { count ->
+                if (count != dailyTranslationQuota) {
+                    if (count == 0) {
+                        showDialog(R.layout.dialog_no_daily_quota, requireActivity(), false)
+                    }
+                    dailyTranslationQuota = count ?: 0
+                } else {
+                    dailyTranslationQuota = 0
                 }
-                translationQuota = count ?: 0
+            }
+        }
+
+        mainViewModel.initial_translation_quota.observe(viewLifecycleOwner) { count ->
+            if (count != initialTranslationQuota){
+                if (count == 0){
+                    showDialog(R.layout.dialog_no_initial_quota, requireActivity(), false)
+                }
+                initialTranslationQuota = count ?: 0
             }
         }
 
@@ -200,7 +216,7 @@ class StudyFolderFragment : Fragment() {
                 expression.nextSentenceIndex = dbHelper.updateSentenceIndex(expression)
             }
             val nextCumleCifti = dbHelper.getSentenceById(expression)
-            setUIforTranslation()
+            setUiForTranslation(true)
             binding.tvOriginalSentence.setText(nextCumleCifti.second)
             targetSentence = nextCumleCifti.first
             binding.tvTarget.setText(targetSentence)
@@ -302,7 +318,7 @@ class StudyFolderFragment : Fragment() {
             } else {
                 expression = item as ExpressionData
                 val nextCumleCifti = dbHelper.getSentenceById(expression)
-                setUIforTranslation()
+                setUiForTranslation(true)
                 binding.tvOriginalSentence.setText(nextCumleCifti.second)
                 targetSentence = nextCumleCifti.first
                 binding.tvTarget.setText(targetSentence)
@@ -437,7 +453,7 @@ class StudyFolderFragment : Fragment() {
         item = dbHelper.getRandomExpressionByFolder()
         expression = item as ExpressionData
         val nextCumleCifti = dbHelper.getSentenceById(expression)
-        setUIforTranslation()
+        setUiForTranslation(true)
         binding.tvOriginalSentence.setText(nextCumleCifti.second)
         targetSentence = nextCumleCifti.first
         binding.tvTarget.setText(targetSentence)
@@ -641,7 +657,8 @@ class StudyFolderFragment : Fragment() {
     }
 
     fun checkTranslationSender(){
-        if (mainViewModel.isSubscribed.value.first || (!mainViewModel.isSubscribed.value.first && translationQuota > 0)){
+        if (getConsentForSendingTranslation()){
+            doDecrease = true
             resendCount=0
             kisaMesaj(binding.cvEvaluation, binding.root) // Kısa mesaj-uzun mesaj mantığının çalışması için ilk önce kısa mesaj ayarlı olması gerekiyor.
             degerlendirmeAsamasi = 0
@@ -665,10 +682,29 @@ class StudyFolderFragment : Fragment() {
                     setViewsHata()
                 }
             }
-        } else {
-            showDialog(R.layout.dialog_no_quota, requireActivity(), false)
-            setUIforTranslation()
         }
+    }
+
+    fun getConsentForSendingTranslation(): Boolean{
+        var consent = false
+        if (FirebaseAuth.getInstance().currentUser == null){
+            if (initialTranslationQuota > 0 ){
+                consent = true
+            } else {
+                showDialog(R.layout.dialog_no_initial_quota, requireActivity(), false)
+                setUiForTranslation(false)
+            }
+        } else {
+            if (mainViewModel.isSubscribed.value.first){
+                consent = true
+            } else if (dailyTranslationQuota > 0) {
+                consent = true
+            } else {
+                showDialog(R.layout.dialog_no_daily_quota, requireActivity(), false)
+                setUiForTranslation(false)
+            }
+        }
+        return consent
     }
 
     fun giveTranslation(originalSentence: String){
@@ -826,11 +862,10 @@ class StudyFolderFragment : Fragment() {
 
     fun showEvaluationByLength (){
         if (!mainViewModel.isSubscribed.value.first) {
-            mainViewModel.decreaseTranslationCount()
-        }
-        translationQuota = prefsRepository.getTranslationQuota()
-        if (translationQuota == 0){
-            showDialog(R.layout.dialog_no_quota, requireActivity(), false)
+            if (doDecrease){
+                mainViewModel.decreaseTranslationQuota()
+                doDecrease = false
+            }
         }
         binding.scrollViewEvaluation.scrollTo(0, 0)
         binding.progressBar.visibility = View.GONE
@@ -863,6 +898,7 @@ class StudyFolderFragment : Fragment() {
                 Log.d ("mesaj:", "kısa mesaj")
             }
         }
+
     }
 
     fun showRightArrow(){
@@ -900,14 +936,16 @@ class StudyFolderFragment : Fragment() {
         hidePronunciation()
     }
 
-    fun setUIforTranslation(){
+    fun setUiForTranslation(clean: Boolean){
+        if (clean){
+            binding.etTranslation.text?.clear()
+        }
         binding.etTranslation.isEnabled = true
         binding.etTranslation.visibility = View.VISIBLE
         binding.tvTranslation.visibility = View.GONE
         binding.cvOriginalSentence.visibility = View.VISIBLE
         binding.ibSubmit.visibility = View.VISIBLE
         binding.cvTranslation.visibility = View.VISIBLE
-        binding.etTranslation.text?.clear()
         binding.ibNext.visibility = View.GONE
         binding.ibEdit.visibility = View.GONE
         binding.ibEditDone.visibility = View.GONE
@@ -974,7 +1012,7 @@ class StudyFolderFragment : Fragment() {
                 // Fragment görünür olduğunda yapılacak işlemler
                 binding.root.viewTreeObserver.addOnGlobalLayoutListener(keyboardListener)
                 mainViewModel.checkSubscription()
-                mainViewModel.checkAndResetDailyQuota()
+                //mainViewModel.checkAndResetDailyQuota()
                 Log.d ("StudyFolder", "onhidden fragment görünür hale geldi")
             }
         }
@@ -989,7 +1027,7 @@ class StudyFolderFragment : Fragment() {
     fun setViewsHata (){
         // Görünümler sıfırlanıyor ve yazılan çeviri korunuyor.
         val ceviri = binding.etTranslation.text.toString()
-        setUIforTranslation()
+        setUiForTranslation(false)
         if (ceviri == "----"){
             binding.etTranslation.text?.clear()
         } else {

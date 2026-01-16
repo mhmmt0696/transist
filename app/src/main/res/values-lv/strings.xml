@@ -230,4 +230,23 @@
     <string name="fail_some_features">Dažas funkcijas neizdevās ielādēt.</string>
     <string name="example_evaluation_sentence">Jūsu tulkojums ir gramatiski pareizs, precīzi nodod nozīmi un skan dabiski valodā \'%1$s\'. Visizplatītākais un dabiskais ekvivalents vārdam \'%2$s\' valodā \'%1$s\' ir \'%3$s\'. Lielisks tulkojums.</string>
 
+    <string name="purchase_error">Maksājums neizdevās.</string>
+    <string name="recommend_login">Lūdzu, vispirms piesakieties.</string>
+    <string name="processing">Apstrāde…</string>
+    <string name="verification_done">Pabeigts.</string>
+    <string name="direct_to_login">Bez pieteikšanās nevarat turpināt izmēģinājumus. Piesakieties, lai saņemtu 10 bezmaksas izmēģinājumus dienā.</string>
+    <string name="direct_to_subscription">Jūsu šodienas bezmaksas izmēģinājumi ir beigušies. Lai turpinātu, apskatiet mēneša abonementu.</string>
+    <string name="force_logout">Jūsu sesija tika izbeigta, jo tika konstatēta pieteikšanās no citas ierīces. Ja tas ir pārpratums, nomainiet paroli un piesakieties vēlreiz.</string>
+    <string name="activation_explanation">Šis solis ir nepieciešams, lai saņemtu 10 bezmaksas izmēģinājumus dienā.</string>
+    <string name="password_criteria_1">Parolei jābūt vismaz 8 rakstzīmes garai un jāietver:</string>
+    <string name="password_criteria_2">Liels burts</string>
+    <string name="password_criteria_3">Mazs burts</string>
+    <string name="password_criteria_4">Cipars</string>
+    <string name="app_introduction">Lietotnes ievads:</string>
+    <string name="show">Rādīt</string>
+
+    <string name="animator_disabled_1">Jūsu ierīces iestatījumos animācijas ir izslēgtas, tāpēc dažas lietotnes animācijas nebūs redzamas.</string>
+    <string name="animator_disabled_2">Tas netraucē lietotnes darbību.</string>
+    <string name="animator_disabled_3">Lai iegūtu labāku pieredzi, iestatiet ‘Iestatījumi - Izstrādātāja opcijas - Animācijas ilguma skala’ uz 1x.</string>
+
 </resources>

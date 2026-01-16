@@ -230,5 +230,23 @@
     <string name="fail_some_features">Niektóre funkcje nie mogły zostać załadowane.</string>
     <string name="example_evaluation_sentence">Twoje tłumaczenie jest poprawne gramatycznie, dokładnie przekazuje znaczenie i brzmi naturalnie w języku \'%1$s\'. Najczęstszy i najbardziej naturalny odpowiednik \'%2$s\' w języku \'%1$s\' to \'%3$s\'. Świetne tłumaczenie.</string>
 
+    <string name="purchase_error">Płatność nie powiodła się.</string>
+    <string name="recommend_login">Najpierw się zaloguj.</string>
+    <string name="processing">Przetwarzanie…</string>
+    <string name="verification_done">Gotowe.</string>
+    <string name="direct_to_login">Nie możesz kontynuować prób bez logowania. Zaloguj się, aby otrzymać 10 darmowych prób dziennie.</string>
+    <string name="direct_to_subscription">Wyczerpałeś dzisiejsze darmowe próby. Sprawdź miesięczną subskrypcję, aby uzyskać więcej możliwości.</string>
+    <string name="force_logout">Wylogowano Cię, ponieważ wykryto logowanie z innego urządzenia. Jeśli to błąd, zmień hasło i zaloguj się ponownie.</string>
+    <string name="activation_explanation">Ten krok jest wymagany, aby otrzymać 10 darmowych prób dziennie.</string>
+    <string name="password_criteria_1">Hasło musi mieć co najmniej 8 znaków i zawierać:</string>
+    <string name="password_criteria_2">Jedną wielką literę</string>
+    <string name="password_criteria_3">Jedną małą literę</string>
+    <string name="password_criteria_4">Jedną cyfrę</string>
+    <string name="app_introduction">Wprowadzenie do aplikacji:</string>
+    <string name="show">Pokaż</string>
+
+    <string name="animator_disabled_1">Animacje są wyłączone w ustawieniach urządzenia, więc niektóre animacje w aplikacji nie będą widoczne.</string>
+    <string name="animator_disabled_2">Nie wpływa to na działanie aplikacji.</string>
+    <string name="animator_disabled_3">Aby uzyskać lepsze wrażenia, ustaw ‘Ustawienia - Opcje programisty - Skala czasu animacji’ na 1x.</string>
 
 </resources>

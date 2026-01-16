@@ -1,5 +1,6 @@
 package com.transist.ui.main.profile
 
+import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
@@ -8,7 +9,9 @@ import com.transist.data.repository.AuthRepository
 import com.transist.data.repository.LanguageRepository
 import com.transist.data.repository.PreferencesRepository
 import com.google.firebase.auth.AuthCredential
+import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
+import com.google.firebase.database.FirebaseDatabase
 
 class ProfileViewModel(
     private val authRepo: AuthRepository,
@@ -18,9 +21,6 @@ class ProfileViewModel(
 
     private val _emailVerificationResult = MutableLiveData<Result<Boolean>>()
     val emailVerificationResult: LiveData<Result<Boolean>> = _emailVerificationResult
-
-    private val _signedOut = MutableLiveData<Boolean>()
-    val signedOut: LiveData<Boolean> = _signedOut
 
     private val _signInResult = MutableLiveData<Result<Boolean>>()
     val signInResult: LiveData<Result<Boolean>> = _signInResult
@@ -49,6 +49,23 @@ class ProfileViewModel(
     private val _isLoading = MutableLiveData<Boolean>(false)
     val isLoading: LiveData<Boolean> = _isLoading
 
+    private val db = FirebaseDatabase.getInstance().reference
+
+    fun saveActiveDeviceId(appSetId: String) {
+        val user = FirebaseAuth.getInstance().currentUser?.uid ?: "unknown"
+
+        db.child("users")
+            .child(user)
+            .child("activeDeviceId")
+            .setValue(appSetId)
+            .addOnSuccessListener {
+                Log.d("RTDB", "activeDeviceId kaydedildi")
+            }
+            .addOnFailureListener {
+                Log.e("RTDB", "HATA: ${it.message}")
+            }
+    }
+
     fun getThemeMode(): Int {
         return prefsRepo.getThemeMode()
     }
@@ -68,10 +85,7 @@ class ProfileViewModel(
         }
     }
 
-    fun signOut() {
-        authRepo.signOut()
-        _signedOut.value = true
-    }
+
 
     fun signUp(email: String, password: String) {
         authRepo.signUp(email, password) { success, errorCode ->
@@ -134,6 +148,9 @@ class ProfileViewModel(
     fun reloadUser() {
         _isLoading.value = true
         authRepo.reloadCurrentUser { user ->
+            /*if (user != _currentUser.value){
+                Log.d("Firebase_firestore", "user: $user value: ${_currentUser.value}")
+            }*/
             _currentUser.postValue(user)
             _isLoading.postValue(false)
         }

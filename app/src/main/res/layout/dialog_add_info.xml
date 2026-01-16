@@ -30,6 +30,7 @@
         android:layout_marginEnd="40dp"
         android:text="@string/search_issue_5"
         android:textColor="@color/textColorPrimary"
+        android:gravity="center"
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

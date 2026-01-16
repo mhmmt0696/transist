@@ -13,7 +13,9 @@ import android.content.Intent
 import android.content.res.Configuration
 import android.content.res.Resources
 import android.graphics.drawable.Drawable
+import android.graphics.drawable.RippleDrawable
 import android.os.Build
+import android.provider.Settings
 import android.speech.tts.TextToSpeech
 import android.text.Spannable
 import android.text.SpannableString
@@ -23,6 +25,7 @@ import android.text.style.ForegroundColorSpan
 import android.text.style.ImageSpan
 import android.util.DisplayMetrics
 import android.util.Log
+import android.view.Gravity
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -31,6 +34,7 @@ import android.view.animation.AccelerateInterpolator
 import android.view.animation.DecelerateInterpolator
 import android.view.inputmethod.InputMethodManager
 import android.widget.EditText
+import android.widget.FrameLayout
 import android.widget.ImageButton
 import android.widget.Spinner
 import android.widget.TextView
@@ -39,6 +43,7 @@ import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.constraintlayout.widget.ConstraintSet
 import androidx.core.content.ContextCompat
 import androidx.fragment.app.FragmentManager
+import com.google.firebase.auth.FirebaseAuth
 import com.transist.data.model.Language
 import com.transist.R
 import com.transist.data.remote.api.StudyFolderApi
@@ -62,6 +67,7 @@ import retrofit2.Callback
 import retrofit2.Response
 import java.net.HttpURLConnection
 import java.net.URL
+import java.security.MessageDigest
 import java.util.Locale
 import kotlin.math.roundToInt
 
@@ -128,7 +134,6 @@ fun Spinner.setSelectionSilently(position: Int) {
     setSelection(position, false)           // seçim yap (tetiklenmez)
     onItemSelectedListener = listener     // geri aç
 }
-
 
 fun getLanguageListInNative(context: Context, languageList: List<Language>): List<String> {
 
@@ -597,6 +602,53 @@ fun startBlinkingAnimation(vararg views: View): List<ObjectAnimator> {
     return animators
 }
 
+fun playSuccessAnimation(cardView: CardView) {
+    // ----------------------------------------------------
+    // Bölüm A: Ripple Animasyonu (CardView'ın içinde yeşil dalga)
+    // ----------------------------------------------------
+
+    // Foreground'u RippleDrawable olarak al
+    val rippleDrawable = cardView.foreground as? RippleDrawable
+
+    if (rippleDrawable != null) {
+        // Ripple'ı tetikle (basma efekti)
+        // CardView'ın merkezinde bir dokunma simüle ediyoruz
+        val centerX = cardView.width / 2f
+        val centerY = cardView.height / 2f
+
+        rippleDrawable.setHotspot(centerX, centerY)
+
+        // Simüle edilmiş bir dokunma olayı dizisi gönderilir
+        // ACTION_DOWN: Ripple başlar
+        rippleDrawable.state = intArrayOf(android.R.attr.state_pressed, android.R.attr.state_enabled)
+
+        // Bir gecikme (örneğin 300ms) sonrası ACTION_UP: Ripple yavaşça söner
+        cardView.postDelayed({
+            // State'i sıfırla
+            rippleDrawable.state = intArrayOf()
+        }, 300)
+    }
+
+    // ----------------------------------------------------
+    // Bölüm B: CardView'ın kendisinin solup parlaması (Daha şık bir etki için)
+    // ----------------------------------------------------
+
+    cardView.animate()
+        .alpha(0.5f) // CardView'ı hafifçe soldur
+        .setDuration(150)
+        .setListener(object : AnimatorListenerAdapter() {
+            override fun onAnimationEnd(animation: Animator) {
+                // Söndükten sonra hızlıca orijinal opaklığına geri dön
+                cardView.animate()
+                    .alpha(1.0f)
+                    .setDuration(150)
+                    .setListener(null) // Listener'ı kaldır
+                    .start()
+            }
+        })
+        .start()
+}
+
 fun stopBlinkingAnimation(textView: TextView?, blinkingAnimator: List<ObjectAnimator>?) {
 
     // Eğer görünüm artık yoksa işlemi iptal et
@@ -780,6 +832,71 @@ fun extractWordsAsJson(input: String): String {
     return result.toString(4) // Güzel biçimde yazdırmak için 4 boşlukla girinti
 }
 
+fun cleanPrefix(text: String?): String {
+    // null gelirse boş string dön
+    if (text.isNullOrBlank()) return ""
+
+    var result = text
+
+    // Sadece metnin en başında geçiyorsa sil
+    when {
+        result.startsWith("Elbette, ") -> result = result.removePrefix("Elbette, ")
+        result.startsWith("Tamam, ") -> result = result.removePrefix("Tamam, ")
+        result.startsWith("Tamam, ") -> result = result.removePrefix("Elbette. ")
+        result.startsWith("Tamam, ") -> result = result.removePrefix("Tamam. ")
+    }
+
+    // İlk harfi büyük yap
+    return result.replaceFirstChar {
+        if (it.isLowerCase()) it.titlecase() else it.toString()
+    }
+}
+
+
+
+fun setDialog(view: Int, activity: Activity, b: Boolean): Pair<View, Dialog>{
+    val dialogView = LayoutInflater.from(activity).inflate(view, null)
+    val dialog = Dialog(activity)
+    dialog.setContentView(dialogView)
+    dialog.window?.setBackgroundDrawableResource(android.R.color.transparent) // Şeffaf arka plan
+
+    // 2. EKRAN BOYUTLARINI AL
+    val displayMetrics = DisplayMetrics()
+    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
+        // Android 11 ve üstü için modern API
+        val windowMetrics = activity.windowManager.currentWindowMetrics
+        val insets = windowMetrics.windowInsets.getInsets(android.view.WindowInsets.Type.systemBars())
+        val screenWidth = windowMetrics.bounds.width() - insets.left - insets.right
+        val screenHeight = windowMetrics.bounds.height() - insets.top - insets.bottom
+        displayMetrics.widthPixels = screenWidth
+        displayMetrics.heightPixels = screenHeight
+    } else {
+        // Eski sürümler için
+        @Suppress("DEPRECATION")
+        activity.windowManager.defaultDisplay.getMetrics(displayMetrics)
+    }
+
+    val screenWidth = displayMetrics.widthPixels
+    val screenHeight = displayMetrics.heightPixels
+
+    // 3. HEDEF BOYUTLARI HESAPLA
+    // Genişlik: Ekran genişliğinin %90'ı (kenarlarda %5'er boşluk)
+    val targetWidth = (screenWidth * 0.75).toInt()
+
+    // Yükseklik: Ekran yüksekliğinin yarısı
+    val targetHeight: Int
+    if (b){
+        targetHeight = (screenHeight * 0.50).toInt()
+    } else {
+        targetHeight = WindowManager.LayoutParams.WRAP_CONTENT
+    }
+    // 4. DIALOG PENCERESİNE BOYUTLARI ATA
+    dialog.window?.setLayout(targetWidth, targetHeight)
+
+    return Pair(dialogView, dialog)
+}
+
+
 fun showDialog(view: Int, activity: Activity, b: Boolean): Pair<View, Dialog>{
     val dialogView = LayoutInflater.from(activity).inflate(view, null)
     val dialog = Dialog(activity)
@@ -821,6 +938,19 @@ fun showDialog(view: Int, activity: Activity, b: Boolean): Pair<View, Dialog>{
     dialog.window?.setLayout(targetWidth, targetHeight)
 
     return Pair(dialogView, dialog)
+}
+
+fun getEmailWithMethod(): String{
+    val email = FirebaseAuth.getInstance().currentUser?.email ?: ""
+    //val hashedEmail = email.lowercase().trim().sha256()
+    val method =  FirebaseAuth.getInstance().currentUser?.providerData?.lastOrNull()?.providerId ?:""
+    val emailWithMethod = email + "_" + method
+    return emailWithMethod
+}
+
+fun String.sha256(): String {
+    val bytes = MessageDigest.getInstance("SHA-256").digest(this.toByteArray())
+    return bytes.joinToString("") { "%02x".format(it) }
 }
 
 fun initTtsWithTargetLanguageSupport(activity: Activity, targetLanguageCode: String, onReady: (TextToSpeech?) -> Unit) {
@@ -934,17 +1064,6 @@ fun animateTextChange(textView: TextView, newText: String) {
         .start()
 }
 
-fun fadeIn(view: View) {
-    view.apply {
-        alpha = 0f
-        visibility = View.VISIBLE
-        animate()
-            .alpha(1f)
-            .setDuration(250)
-            .start()
-    }
-}
-
 fun scaleIn(view: View) {
     view.apply {
         scaleX = 0f
@@ -1020,6 +1139,14 @@ fun flipViews(frontView: View, backView: View) {
     outAnim.start()
 }
 
+fun isAnimatorDisabled(context: Context): Boolean {
+    val scale = Settings.Global.getFloat(
+        context.contentResolver,
+        Settings.Global.ANIMATOR_DURATION_SCALE,
+        1f
+    )
+    return scale == 0f
+}
 
 
 

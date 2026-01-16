@@ -229,5 +229,23 @@
     <string name="fail_some_features">Baadhi ya vipengele haviwezi kupakiwa.</string>
     <string name="example_evaluation_sentence">Tafsiri yako ni sahihi kisarufi, inatoa maana kwa usahihi na inasikika ya asili katika \'%1$s\'. Mlinganyo wa kawaida na wa asili zaidi wa \'%2$s\' katika \'%1$s\' ni \'%3$s\'. Tafsiri nzuri sana.</string>
 
+    <string name="purchase_error">Mchakato wa malipo umeshindikana.</string>
+    <string name="recommend_login">Tafadhali ingia kwanza.</string>
+    <string name="processing">Inachakata…</string>
+    <string name="verification_done">Uthibitisho umekamilika.</string>
+    <string name="direct_to_login">Huwezi kuendelea kujaribu bila kuwa umeingia. Ingia ili kupata majaribio 10 ya bure kila siku.</string>
+    <string name="direct_to_subscription">Umemaliza majaribio yako ya bure ya kila siku. Angalia chaguo la usajili wa kila mwezi kwa zaidi.</string>
+    <string name="force_logout">Umekatishwa muunganisho kwa sababu umeingia kutoka kifaa kingine. Ikiwa hili ni kosa, badilisha nenosiri lako kisha ujaribu tena kuingia.</string>
+    <string name="activation_explanation">Hatua hii inahitajika ili kupata majaribio 10 ya bure kila siku.</string>
+    <string name="password_criteria_1">Nenosiri lako linapaswa kuwa angalau herufi 8 na lijumuishe mchanganyiko ufuatao:</string>
+    <string name="password_criteria_2">Herufi kubwa</string>
+    <string name="password_criteria_3">Herufi ndogo</string>
+    <string name="password_criteria_4">Nambari moja</string>
+    <string name="app_introduction">Utangulizi wa Programu:</string>
+    <string name="show">Onyesha</string>
+
+    <string name="animator_disabled_1">Uhuishaji umezimwa kwenye mipangilio ya kifaa chako, hivyo baadhi ya uhuishaji wa programu hautaonekana.</string>
+    <string name="animator_disabled_2">Hali hii haiathiri utendaji wa programu.</string>
+    <string name="animator_disabled_3">Kwa matumizi bora, badilisha ‘Mipangilio - Chaguo za Msanidi - Kiwango cha Muda wa Uhuishaji’ kuwa 1x.</string>
 
 </resources>

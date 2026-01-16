@@ -169,7 +169,8 @@ class AddFragment: Fragment() {
 
             // UI güncellemeleri
             val result = Bundle().apply {
-                putInt("gonderilenVeri", viewModel.activeFolderId)  // istediğin veri türü olabilir
+                putInt("folderId", viewModel.activeFolderId)  // istediğin veri türü olabilir
+                putString("folderName", viewModel.activeFolderName.value)  // istediğin veri türü olabilir
             }
             parentFragmentManager.setFragmentResult("veri_guncelleme", result)
             parentFragmentManager.popBackStack()

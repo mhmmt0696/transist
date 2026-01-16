@@ -231,4 +231,24 @@
     <string name="fail_some_features">部分功能加载失败。</string>
     <string name="example_evaluation_sentence">您的翻译语法正确，准确传达了意思，并且在“%1$s”中听起来自然。\'%2$s\'在\'%1$s\'中最常见、最自然的表达是\'%3$s\'。翻译很成功。</string>
 
+    <string name="purchase_error">支付失败。</string>
+    <string name="recommend_login">请先登录。</string>
+    <string name="processing">处理中…</string>
+    <string name="verification_done">操作已完成。</string>
+    <string name="direct_to_login">未登录状态下无法继续尝试。登录后可获得每日 10 次免费练习。</string>
+    <string name="direct_to_subscription">您的每日免费练习次数已用完。想要更多，请查看月度订阅选项。</string>
+    <string name="force_logout">由于在其他设备上登录，此处的会话已被注销。如认为存在异常，请更改密码并重新登录。</string>
+    <string name="activation_explanation">此步骤用于激活每日 10 次免费练习。</string>
+    <string name="password_criteria_1">您的密码必须包含以下组合，并且至少为 8 个字符：</string>
+    <string name="password_criteria_2">一个大写字母</string>
+    <string name="password_criteria_3">一个小写字母</string>
+    <string name="password_criteria_4">一个数字</string>
+    <string name="app_introduction">应用简介：</string>
+    <string name="show">显示</string>
+
+    <string name="animator_disabled_1">您的设备已关闭动画，因此应用中的部分动画可能无法显示。</string>
+    <string name="animator_disabled_2">这不会影响应用的正常运行。</string>
+    <string name="animator_disabled_3">为获得更好的体验，请将“设置 - 开发者选项 - 动画程序时长比例”调整为 1x。</string>
+
+
 </resources>

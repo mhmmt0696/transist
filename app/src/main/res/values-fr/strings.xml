@@ -231,4 +231,24 @@
     <string name="no_internet">Il y a un problème avec votre connexion Internet.</string>
     <string name="fail_some_features">Certaines fonctionnalités n\'ont pas pu être chargées.</string>
     <string name="example_evaluation_sentence">Votre traduction est grammaticalement correcte, transmet le sens avec précision et sonne naturelle en \'%1$s\'. L\'équivalent le plus courant et naturel de \'%2$s\' en \'%1$s\' est \'%3$s\'. Excellente traduction.</string>
+
+    <string name="purchase_error">Le paiement a échoué.</string>
+    <string name="recommend_login">Veuillez d\'abord vous connecter.</string>
+    <string name="processing">Traitement…</string>
+    <string name="verification_done">L’opération est terminée.</string>
+    <string name="direct_to_login">Vous ne pouvez pas continuer sans vous connecter. Connectez-vous pour obtenir 10 essais gratuits par jour.</string>
+    <string name="direct_to_subscription">Vous avez utilisé tous vos essais gratuits du jour. Consultez l’abonnement mensuel pour en avoir plus.</string>
+    <string name="force_logout">Vous avez été déconnecté car une connexion a été détectée depuis un autre appareil. Si vous pensez qu’il s’agit d’une erreur, changez votre mot de passe puis reconnectez-vous.</string>
+    <string name="activation_explanation">Cette étape est nécessaire pour obtenir 10 essais gratuits chaque jour.</string>
+    <string name="password_criteria_1">Votre mot de passe doit contenir la combinaison suivante et comporter au moins 8 caractères :</string>
+    <string name="password_criteria_2">Une lettre majuscule</string>
+    <string name="password_criteria_3">Une lettre minuscule</string>
+    <string name="password_criteria_4">Un chiffre</string>
+    <string name="app_introduction">Présentation de l’application :</string>
+    <string name="show">Afficher</string>
+
+    <string name="animator_disabled_1">Les animations sont désactivées dans les paramètres de votre appareil, vous ne verrez donc pas certaines animations de l’application.</string>
+    <string name="animator_disabled_2">Cela n’empêche pas l’application de fonctionner.</string>
+    <string name="animator_disabled_3">Pour une meilleure expérience, réglez ‘Paramètres - Options pour les développeurs - Échelle de durée des animations’ sur 1x.</string>
+
 </resources>

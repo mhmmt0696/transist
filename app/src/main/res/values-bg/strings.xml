@@ -231,4 +231,23 @@
     <string name="fail_some_features">Някои функции не можаха да се заредят.</string>
     <string name="example_evaluation_sentence">Вашият превод е граматически правилен, точно предава смисъла и звучи естествено на \'%1$s\'. Най-честият и естествен превод на \'%2$s\' на \'%1$s\' е \'%3$s\'. Успешен превод.</string>
 
+    <string name="purchase_error">Плащането не бе успешно.</string>
+    <string name="recommend_login">Моля, първо влезте в профила си.</string>
+    <string name="processing">Обработка…</string>
+    <string name="verification_done">Процесът е завършен.</string>
+    <string name="direct_to_login">Не можете да правите повече опити без да влезете. Влезте, за да получите 10 безплатни опита дневно.</string>
+    <string name="direct_to_subscription">Изчерпахте дневните си безплатни опити. Разгледайте месечния абонамент за повече функции.</string>
+    <string name="force_logout">Сесията тук беше прекратена, защото е отчетено влизане от друго устройство. Ако смятате, че има грешка, сменете паролата си и влезте отново.</string>
+    <string name="activation_explanation">Тази стъпка е необходима, за да получавате по 10 безплатни опита дневно.</string>
+    <string name="password_criteria_1">Вашата парола трябва да съдържа следната комбинация и да е поне 8 знака:</string>
+    <string name="password_criteria_2">Една главна буква</string>
+    <string name="password_criteria_3">Една малка буква</string>
+    <string name="password_criteria_4">Една цифра</string>
+    <string name="app_introduction">Представяне на приложението:</string>
+    <string name="show">Показване</string>
+
+    <string name="animator_disabled_1">Анимациите са изключени в настройките на устройството ви, затова някои анимации в приложението може да не се показват.</string>
+    <string name="animator_disabled_2">Това не пречи на работата на приложението.</string>
+    <string name="animator_disabled_3">За по-добро изживяване променете „Настройки – Опции за програмисти – Animator duration scale“ на 1x.</string>
+
 </resources>

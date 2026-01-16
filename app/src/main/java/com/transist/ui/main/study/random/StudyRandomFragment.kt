@@ -21,6 +21,8 @@ import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.lifecycleScope
 import androidx.lifecycle.repeatOnLifecycle
+import com.google.firebase.auth.EmailAuthProvider
+import com.google.firebase.auth.FirebaseAuth
 import com.transist.R
 import com.transist.data.remote.response.MisspelledWord
 import com.transist.data.repository.ApiRepository
@@ -60,7 +62,8 @@ class StudyRandomFragment : Fragment() {
     private var _binding: FragmentStudyRandomBinding? = null
     private val binding get() = _binding!!  // Null güvenliği için
 
-    var translationCount = 0
+    var dailyTranslationQuota = 0
+    var initialTranslationQuota = 0
     var nativeLanguageCode = "--"
     var targetLanguageCode = "--"
     var targetLanguage = "Unknown"
@@ -71,6 +74,7 @@ class StudyRandomFragment : Fragment() {
     var nativeLanguageInNativeLanguage = "Unknown"
     private lateinit var localizedContext: Context
     var orientation = 0
+    var doDecrease = false
 
     var lastProcessedWords: List<MisspelledWord>? = null
     private lateinit var lastSelectedLevel: String
@@ -179,7 +183,7 @@ class StudyRandomFragment : Fragment() {
 
         binding.ibOriginalSentenceRefresh.setOnClickListener {
             viewModel.sentenceGetter()
-            setUiForTranslation()
+            setUiForTranslation(true)
         }
 
         binding.tvHint.setOnClickListener {
@@ -217,16 +221,18 @@ class StudyRandomFragment : Fragment() {
         }
 
         binding.ibShrug.setOnClickListener {
-            shrugClick(requireContext(), binding.etTranslation)
-            binding.etTranslation.isEnabled = false
-            binding.ibShrug.visibility = View.GONE
-            binding.tvHint.visibility = View.GONE
-            binding.ibEdit.visibility = View.VISIBLE
-            checkTranslationSender()
+            if (getConsentForSendingTranslation()){
+                shrugClick(requireContext(), binding.etTranslation)
+                binding.etTranslation.isEnabled = false
+                binding.ibShrug.visibility = View.GONE
+                binding.tvHint.visibility = View.GONE
+                binding.ibEdit.visibility = View.VISIBLE
+                checkTranslationSender()
+            }
         }
 
         binding.ibNext.setOnClickListener {
-            setUiForTranslation()
+            setUiForTranslation(true)
             viewModel.sentenceGetter()
             binding.etTranslation.requestFocus()
             showKeyboard(requireActivity())
@@ -252,7 +258,7 @@ class StudyRandomFragment : Fragment() {
                 binding.tvOriginalSentence.setOnTouchListener(sentenceTouchlistener())
                 binding.tvTranslation.setOnTouchListener(null)
                 viewModel.sentenceGetter()
-                setUiForTranslation()
+                setUiForTranslation(true)
 
             } else {
 
@@ -269,7 +275,7 @@ class StudyRandomFragment : Fragment() {
                 binding.tvOriginalSentence.setOnTouchListener(null)
                 binding.tvTranslation.setOnTouchListener(translationClickListener())
                 viewModel.sentenceGetter()
-                setUiForTranslation()
+                setUiForTranslation(true)
             }
             stopToastAnimation(directionAnimator)
             directionAnimator = startToastAnimation(binding.cvTranslationDirection)
@@ -479,7 +485,6 @@ class StudyRandomFragment : Fragment() {
         lifecycleScope.launch {
             repeatOnLifecycle(Lifecycle.State.STARTED) {
                 viewModel.blinking.collect { blinking ->
-                    Log.d("DEBUGG", "Blinking value: $blinking")
                     if (blinking){
                         viewModel.setBlinkingSentence(getString(R.string.creating_sentence))
                         if (blinkingAnimator == null){
@@ -502,7 +507,10 @@ class StudyRandomFragment : Fragment() {
                     if (state.allDone) {
                         if (state.isValidLanguage == true){
                             if (!mainViewModel.isSubscribed.value.first) {
-                                mainViewModel.decreaseTranslationCount()
+                                if (doDecrease){
+                                    mainViewModel.decreaseTranslationQuota()
+                                    doDecrease = false
+                                }
                             }
                             showEvaluationByLength()
                         } else {
@@ -554,12 +562,12 @@ class StudyRandomFragment : Fragment() {
                             viewModel.setActiveLevelState("A1")
                             lastSelectedLevel = "A1"
                             setLevel("A1")
-                            setUiForTranslation()
+                            setUiForTranslation(true)
                             viewModel.sentenceGetter()
                         } else if (lastSelectedLevel != activeLevel){
                             lastSelectedLevel = activeLevel
                             setLevel(activeLevel)
-                            setUiForTranslation()
+                            setUiForTranslation(true)
                             viewModel.sentenceGetter()
                         }
 
@@ -604,12 +612,28 @@ class StudyRandomFragment : Fragment() {
             }
         }
 
-        mainViewModel.translation_count.observe(viewLifecycleOwner) { count ->
-            if (count != translationCount){
-                if (count == 0){
-                    showDialog(R.layout.dialog_no_quota, requireActivity(), false)
+        mainViewModel.daily_translation_quota.observe(viewLifecycleOwner) { count ->
+            Log.d("carsambapersembe", "daily translation quota: $count")
+            if (FirebaseAuth.getInstance().currentUser != null){
+                Log.d("carsambapersembe", "user var: $dailyTranslationQuota")
+                if (count != dailyTranslationQuota){
+                    if (count == 0){
+                        showDialog(R.layout.dialog_no_daily_quota, requireActivity(), false)
+                    }
+                    dailyTranslationQuota = count ?: 0
                 }
-                translationCount = count ?: 0
+            } else {
+                Log.d("carsambapersembe", "user yok")
+                dailyTranslationQuota = 0
+            }
+        }
+
+        mainViewModel.initial_translation_quota.observe(viewLifecycleOwner) { count ->
+            if (count != initialTranslationQuota){
+                if (count == 0){
+                    showDialog(R.layout.dialog_no_initial_quota, requireActivity(), false)
+                }
+                initialTranslationQuota = count ?: 0
             }
         }
 
@@ -638,7 +662,7 @@ class StudyRandomFragment : Fragment() {
             } else {
                 // Fragment görünür olduğunda yapılacak işlemler
                 mainViewModel.checkSubscription()
-                mainViewModel.checkAndResetDailyQuota()
+                //mainViewModel.checkAndResetDailyQuota()
                 Log.d ("StudyRandom", "random fragment görünür hale geldi")
             }
         }
@@ -734,8 +758,42 @@ class StudyRandomFragment : Fragment() {
         }
     }
 
+    fun getConsentForSendingTranslation(): Boolean{
+        var consent = false
+        Log.d("haklılık", "debug başlar")
+        if (FirebaseAuth.getInstance().currentUser == null){
+            Log.d("haklılık", "current user null")
+            if (initialTranslationQuota > 0 ){
+                Log.d("haklılık", "initialTranslationQuota: $initialTranslationQuota")
+                consent = true
+            } else {
+                showDialog(R.layout.dialog_no_initial_quota, requireActivity(), false)
+                setUiForTranslation(false)
+            }
+        } else {
+            Log.d("haklılık", "current user not null")
+            if (mainViewModel.isSubscribed.value.first){
+                Log.d("haklılık", "aboneee")
+                consent = true
+            } else if (dailyTranslationQuota > 0) {
+                Log.d("haklılık", "dailyTranslationQuota: $dailyTranslationQuota")
+                consent = true
+            } else {
+                val providerId = FirebaseAuth.getInstance().currentUser?.providerData?.lastOrNull()?.providerId
+                if (providerId == EmailAuthProvider.PROVIDER_ID && FirebaseAuth.getInstance().currentUser?.isEmailVerified == false) {
+                    showDialog(R.layout.dialog_aktivasyon_mail, requireActivity(), false)
+                } else {
+                    showDialog(R.layout.dialog_no_daily_quota, requireActivity(), false)
+                }
+                setUiForTranslation(false)
+            }
+        }
+        return consent
+    }
+
     fun checkTranslationSender(){
-        if (mainViewModel.isSubscribed.value.first || (!mainViewModel.isSubscribed.value.first && translationCount > 0)){
+        if (getConsentForSendingTranslation()) {
+            doDecrease = true
             val originalSentence = binding.tvOriginalSentence.text.toString().trim()
             val translationSentence = binding.etTranslation.text.toString().trim()
             if (translationSentence == "----") {
@@ -749,11 +807,6 @@ class StudyRandomFragment : Fragment() {
                 viewModel.checkTranslationSender(3, queryText, translationSentence, targetLanguage, targetLanguageCode)
             }
         }
-        else {
-            showDialog(R.layout.dialog_no_quota, requireActivity(), false)
-            setUiForTranslation()
-        }
-
     }
 
     fun areViewsClickable (boolean: Boolean){
@@ -778,7 +831,7 @@ class StudyRandomFragment : Fragment() {
             boolean = true
         }
         // Cümle mevcut ise çevirisini tekrar gönderebilmesi için butonlar aktif kalıyor.
-        setUiForTranslation()
+        setUiForTranslation(false)
         binding.ibOriginalSentenceRefresh.isEnabled = true
         binding.topBar.a1.isEnabled = true
         binding.topBar.a2.isEnabled = true
@@ -791,8 +844,10 @@ class StudyRandomFragment : Fragment() {
         binding.ibReverseTranslation.isClickable = boolean
     }
 
-    fun setUiForTranslation(){
-        binding.etTranslation.text?.clear()
+    fun setUiForTranslation(clean: Boolean){
+        if (clean){
+            binding.etTranslation.text?.clear()
+        }
         binding.etTranslation.isEnabled = true
         binding.etTranslation.visibility = View.VISIBLE
         binding.tvTranslation.visibility = View.GONE

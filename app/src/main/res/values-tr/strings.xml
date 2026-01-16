@@ -231,4 +231,23 @@
     <string name="fail_some_features">Bazı özellikler yüklenemedi.</string>
     <string name="example_evaluation_sentence">Çeviriniz dilbilgisi açısından doğru, anlamı doğru şekilde aktarıyor ve \'%1$s\' dilinde doğal görünüyor. \'%2$s\' ifadesinin \'%1$s\' dilindeki en yaygın ve doğal karşılığı \'%3$s\'tir. Harika bir çeviri.</string>
 
+    <string name="purchase_error">Ödeme işlemi başarısız oldu.</string>
+    <string name="recommend_login">Lütfen öncelikle oturum açınız.</string>
+    <string name="processing">İşleniyor…</string>
+    <string name="verification_done">İşlem tamamlandı.</string>
+    <string name="direct_to_login">Oturumunuz kapalı iken daha fazla deneme yapamazsınız. Günlük 10 deneme hakkı kazanmak için oturum açın.</string>
+    <string name="direct_to_subscription">Günlük ücretsiz deneme haklarınız bitti. Daha fazlası için aylık abonelik seçeneğine göz atın.</string>
+    <string name="force_logout">Başka bir cihazdan oturum açıldığı için buradaki oturum sonlandırıldı. Bir yanlışlık olduğunu düşünüyorsanız şifrenizi değiştirerek tekrar giriş yapın.</string>
+    <string name="activation_explanation">Günlük 10 ücretsiz deneme hakkı kazanmak bu işlem gereklidir.</string>
+    <string name="password_criteria_1">Şifreniz şu karakter kombinasyonundan oluşmalı ve en az 8 karakter uzunluğunda olmalıdır:</string>
+    <string name="password_criteria_2">Bir büyük harf</string>
+    <string name="password_criteria_3">Bir küçük harf</string>
+    <string name="password_criteria_4">Bir rakam</string>
+    <string name="app_introduction">Uygulama Tanıtımı:</string>
+    <string name="show">Göster</string>
+
+    <string name="animator_disabled_1">Cihaz ayarlarınızda animasyonlar kapalı olduğu uygulamadaki bazı animasyonları göremeyeceksiniz.</string>
+    <string name="animator_disabled_2">Bu durum uygulamanın çalışmasına engel değil.</string>
+    <string name="animator_disabled_3">Daha iyi bir deneyim için, \'Ayarlar - Geliştirici ayarları - Animatör Süre Ölçeği\' ayarını 1x olarak değiştirin.</string>
+
 </resources>

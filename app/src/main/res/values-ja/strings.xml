@@ -230,4 +230,23 @@
     <string name="fail_some_features">一部の機能を読み込めませんでした。</string>
     <string name="example_evaluation_sentence">あなたの翻訳は文法的に正しく、意味を正確に伝え、\'%1$s\' では自然に聞こえます。\'%1$s\' における \'%2$s\' の最も一般的で自然な対応は \'%3$s\' です。素晴らしい翻訳です。</string>
 
+    <string name="purchase_error">支払いに失敗しました。</string>
+    <string name="recommend_login">まずログインしてください。</string>
+    <string name="processing">処理中…</string>
+    <string name="verification_done">操作が完了しました。</string>
+    <string name="direct_to_login">ログインしないと続行できません。ログインして、1日10回の無料トライを受け取りましょう。</string>
+    <string name="direct_to_subscription">本日の無料トライ回数は終了しました。さらに利用するには月額プランをご確認ください。</string>
+    <string name="force_logout">別のデバイスからのログインが検出されたため、ログアウトされました。心当たりがない場合はパスワードを変更して再度ログインしてください。</string>
+    <string name="activation_explanation">1日10回の無料トライを受け取るには、このステップが必要です。</string>
+    <string name="password_criteria_1">パスワードには次の組み合わせが含まれ、8文字以上である必要があります：</string>
+    <string name="password_criteria_2">大文字１つ</string>
+    <string name="password_criteria_3">小文字１つ</string>
+    <string name="password_criteria_4">数字１つ</string>
+    <string name="app_introduction">アプリ紹介：</string>
+    <string name="show">表示</string>
+
+    <string name="animator_disabled_1">端末の設定でアニメーションが無効になっているため、アプリ内の一部アニメーションが表示されません。</string>
+    <string name="animator_disabled_2">これはアプリの動作に影響しません。</string>
+    <string name="animator_disabled_3">より良い体験のために、「設定 - 開発者向けオプション - アニメーション再生時間スケール」を 1x に変更してください。</string>
+
 </resources>

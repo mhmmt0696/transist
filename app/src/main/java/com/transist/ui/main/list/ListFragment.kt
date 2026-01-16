@@ -286,11 +286,14 @@ class ListFragment: Fragment() {
 
             viewModel.getExpressionsByFolder()
 
-            val addEditFolderId = bundle.getInt("gonderilenVeri")
+            val addEditFolderId = bundle.getInt("folderId")
+            val addEditFolderName = bundle.getString("folderName") ?: ""
 
             if (addEditFolderId == viewModel.openFolderId){
                 removeStudyFolderFragment()
             }
+
+            folderItemClicked(addEditFolderId, addEditFolderName)
         }
 
         binding.ibItemView.setOnClickListener {
@@ -626,6 +629,13 @@ class ListFragment: Fragment() {
     private fun folderItemClicked(folder: FolderData){
         animateTextChange(binding.txtListeBaslik, getString(R.string.folder_selected, folder.name.capitalizeFirstLetter()))
         viewModel.lastSelectedFolderId = folder.id
+        viewModel.getExpressionsByFolder()
+        viewModel.setStatus("expressionsInFolder")
+    }
+
+    private fun folderItemClicked(folderId: Int, folderName: String){
+        animateTextChange(binding.txtListeBaslik, getString(R.string.folder_selected, folderName.capitalizeFirstLetter()))
+        viewModel.lastSelectedFolderId = folderId
         viewModel.getExpressionsByFolder()
         viewModel.setStatus("expressionsInFolder")
     }

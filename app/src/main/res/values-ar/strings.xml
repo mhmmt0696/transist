@@ -231,5 +231,25 @@
     <string name="fail_some_features">تعذر تحميل بعض الميزات.</string>
     <string name="example_evaluation_sentence">ترجمتك صحيحة نحويًا، وتنقل المعنى بدقة وتبدو طبيعية في \'%1$s\'. المقابل الأكثر شيوعًا والطبيعي لـ \'%2$s\' في \'%1$s\' هو \'%3$s\'. ترجمة ناجحة.</string>
 
+    <string name="purchase_error">فشلت عملية الدفع.</string>
+    <string name="recommend_login">يرجى تسجيل الدخول أولاً.</string>
+    <string name="processing">جارٍ المعالجة…</string>
+    <string name="verification_done">اكتمل الإجراء.</string>
+    <string name="direct_to_login">لا يمكنك إجراء المزيد من المحاولات بدون تسجيل الدخول. سجّل الدخول للحصول على 10 محاولات يومية مجانية.</string>
+    <string name="direct_to_subscription">لقد استنفدت محاولاتك اليومية المجانية. اطّلع على خيار الاشتراك الشهري للمزيد.</string>
+    <string name="force_logout">تم إنهاء جلسة الدخول هنا بسبب تسجيل الدخول من جهاز آخر. إذا كنت تعتقد أن هناك خطأ، غيّر كلمة المرور وأعد تسجيل الدخول.</string>
+    <string name="activation_explanation">هذا الإجراء ضروري للحصول على 10 محاولات يومية مجانية.</string>
+    <string name="password_criteria_1">يجب أن تتكون كلمة المرور من المزيج التالي وأن تكون بطول 8 أحرف على الأقل:</string>
+    <string name="password_criteria_2">حرف كبير واحد</string>
+    <string name="password_criteria_3">حرف صغير واحد</string>
+    <string name="password_criteria_4">رقم واحد</string>
+    <string name="app_introduction">مقدمة التطبيق:</string>
+    <string name="show">عرض</string>
+
+    <string name="animator_disabled_1">تم إيقاف الرسوم المتحركة في إعدادات جهازك، لذلك قد لا تظهر بعض الرسوم داخل التطبيق.</string>
+    <string name="animator_disabled_2">هذا لا يؤثر على عمل التطبيق.</string>
+    <string name="animator_disabled_3">لتحسين التجربة، قم بتغيير إعداد "الإعدادات - خيارات المطور - مقياس مدة الرسوم" إلى ‎1x‎.</string>
+
+
 
 </resources>

@@ -28,6 +28,7 @@
         android:text="@string/tv_delete"
         android:textColor="@color/textColorPrimary"
         android:textSize="16sp"
+        android:gravity="center"
         android:layout_marginStart="40dp"
         android:layout_marginEnd="40dp"
         android:layout_marginTop="15dp"

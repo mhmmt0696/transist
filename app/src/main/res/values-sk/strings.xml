@@ -230,5 +230,23 @@
     <string name="fail_some_features">Niektoré funkcie sa nepodarilo načítať.</string>
     <string name="example_evaluation_sentence">Váš preklad je gramaticky správny, presne odovzdáva význam a znie prirodzene v jazyku \'%1$s\'. Najbežnejší a najprirodzenejší ekvivalent pre \'%2$s\' v jazyku \'%1$s\' je \'%3$s\'. Skvelý preklad.</string>
 
+    <string name="purchase_error">Platba zlyhala.</string>
+    <string name="recommend_login">Najprv sa prihláste.</string>
+    <string name="processing">Spracováva sa…</string>
+    <string name="verification_done">Hotovo.</string>
+    <string name="direct_to_login">Bez prihlásenia nemôžete pokračovať. Prihláste sa a získajte 10 bezplatných pokusov denne.</string>
+    <string name="direct_to_subscription">Dnešné bezplatné pokusy ste vyčerpali. Pozrite si mesačné predplatné.</string>
+    <string name="force_logout">Boli ste odhlásený, pretože bolo zistené prihlásenie z iného zariadenia. Ak ide o omyl, zmeňte heslo a prihláste sa znova.</string>
+    <string name="activation_explanation">Tento krok je potrebný na získanie 10 bezplatných pokusov denne.</string>
+    <string name="password_criteria_1">Heslo musí mať aspoň 8 znakov a obsahovať:</string>
+    <string name="password_criteria_2">Veľké písmeno</string>
+    <string name="password_criteria_3">Malé písmeno</string>
+    <string name="password_criteria_4">Číslicu</string>
+    <string name="app_introduction">Úvod do aplikácie:</string>
+    <string name="show">Zobraziť</string>
+
+    <string name="animator_disabled_1">V nastaveniach zariadenia sú animácie vypnuté, takže niektoré animácie v aplikácii nebudú viditeľné.</string>
+    <string name="animator_disabled_2">To nebráni fungovaniu aplikácie.</string>
+    <string name="animator_disabled_3">Pre lepší zážitok nastavte ‘Nastavenia - Možnosti vývojára - Mierka trvania animácie’ na 1x.</string>
 
 </resources>

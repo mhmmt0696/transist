@@ -230,4 +230,23 @@
     <string name="fail_some_features">Neke funkcije nisu mogle biti učitane.</string>
     <string name="example_evaluation_sentence">Vaš prevod je gramatički ispravan, precizno prenosi značenje i zvuči prirodno na \'%1$s\'. Najčešći i najprirodniji ekvivalent za \'%2$s\' u \'%1$s\' je \'%3$s\'. Odličan prevod.</string>
 
+    <string name="purchase_error">Plaćanje nije uspelo.</string>
+    <string name="recommend_login">Molimo prvo se prijavite.</string>
+    <string name="processing">Obrada…</string>
+    <string name="verification_done">Završeno.</string>
+    <string name="direct_to_login">Ne možete nastaviti bez prijave. Prijavite se da dobijete 10 besplatnih dnevnih pokušaja.</string>
+    <string name="direct_to_subscription">Iskoristili ste današnje besplatne pokušaje. Pogledajte mesečnu pretplatu za više.</string>
+    <string name="force_logout">Vaša sesija je prekinuta jer je otkrivena prijava sa drugog uređaja. Ako je u pitanju greška, promenite lozinku i prijavite se ponovo.</string>
+    <string name="activation_explanation">Ovaj korak je neophodan da biste dobili 10 besplatnih dnevnih pokušaja.</string>
+    <string name="password_criteria_1">Lozinka mora imati najmanje 8 karaktera i sadržati:</string>
+    <string name="password_criteria_2">Jedno veliko slovo</string>
+    <string name="password_criteria_3">Jedno malo slovo</string>
+    <string name="password_criteria_4">Jednu cifru</string>
+    <string name="app_introduction">Uvod u aplikaciju:</string>
+    <string name="show">Prikaži</string>
+
+    <string name="animator_disabled_1">Animacije su isključene u podešavanjima uređaja, pa neke animacije u aplikaciji neće biti prikazane.</string>
+    <string name="animator_disabled_2">Ovo ne utiče na rad aplikacije.</string>
+    <string name="animator_disabled_3">Za bolje iskustvo, promenite ‘Podešavanja - Opcije za programere - Skala trajanja animacije’ na 1x.</string>
+
 </resources>

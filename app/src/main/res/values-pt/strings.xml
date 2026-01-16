@@ -230,4 +230,23 @@
     <string name="fail_some_features">Alguns recursos não puderam ser carregados.</string>
     <string name="example_evaluation_sentence">Sua tradução está gramaticalmente correta, transmite o significado com precisão e soa natural em \'%1$s\'. O equivalente mais comum e natural de \'%2$s\' em \'%1$s\' é \'%3$s\'. Ótima tradução.</string>
 
+    <string name="purchase_error">O pagamento falhou.</string>
+    <string name="recommend_login">Faça login primeiro.</string>
+    <string name="processing">Processando…</string>
+    <string name="verification_done">Concluído.</string>
+    <string name="direct_to_login">Você não pode continuar sem estar conectado. Faça login para ganhar 10 tentativas gratuitas por dia.</string>
+    <string name="direct_to_subscription">Você usou todas as tentativas gratuitas de hoje. Confira a assinatura mensal para continuar.</string>
+    <string name="force_logout">Sua sessão foi encerrada porque outro dispositivo fez login. Se isso for um engano, altere sua senha e entre novamente.</string>
+    <string name="activation_explanation">Este passo é necessário para receber 10 tentativas gratuitas diárias.</string>
+    <string name="password_criteria_1">Sua senha deve ter pelo menos 8 caracteres e incluir:</string>
+    <string name="password_criteria_2">Uma letra maiúscula</string>
+    <string name="password_criteria_3">Uma letra minúscula</string>
+    <string name="password_criteria_4">Um número</string>
+    <string name="app_introduction">Introdução ao aplicativo:</string>
+    <string name="show">Mostrar</string>
+
+    <string name="animator_disabled_1">As animações estão desativadas nas configurações do dispositivo, portanto algumas animações do aplicativo não serão exibidas.</string>
+    <string name="animator_disabled_2">Isso não impede o funcionamento do aplicativo.</string>
+    <string name="animator_disabled_3">Para uma melhor experiência, altere ‘Configurações - Opções de desenvolvedor - Escala de duração da animação’ para 1x.</string>
+
 </resources>

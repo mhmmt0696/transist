@@ -230,4 +230,23 @@
     <string name="fail_some_features">Alcune funzionalità non sono state caricate.</string>
     <string name="example_evaluation_sentence">La tua traduzione è grammaticalmente corretta, trasmette il significato in modo accurato e suona naturale in \'%1$s\'. L\'equivalente più comune e naturale di \'%2$s\' in \'%1$s\' è \'%3$s\'. Ottima traduzione.</string>
 
+    <string name="purchase_error">Il pagamento non è andato a buon fine.</string>
+    <string name="recommend_login">Effettua prima l\'accesso.</string>
+    <string name="processing">Elaborazione…</string>
+    <string name="verification_done">Operazione completata.</string>
+    <string name="direct_to_login">Non puoi continuare senza effettuare l\'accesso. Accedi per ottenere 10 tentativi gratuiti al giorno.</string>
+    <string name="direct_to_subscription">Hai esaurito i tentativi gratuiti di oggi. Scopri l’abbonamento mensile per avere più accesso.</string>
+    <string name="force_logout">Sei stato disconnesso perché è stato rilevato un accesso da un altro dispositivo. Se pensi che sia un errore, cambia la password e accedi di nuovo.</string>
+    <string name="activation_explanation">Questo passaggio è necessario per ottenere 10 tentativi gratuiti al giorno.</string>
+    <string name="password_criteria_1">La tua password deve contenere la seguente combinazione ed essere lunga almeno 8 caratteri:</string>
+    <string name="password_criteria_2">Una lettera maiuscola</string>
+    <string name="password_criteria_3">Una lettera minuscola</string>
+    <string name="password_criteria_4">Un numero</string>
+    <string name="app_introduction">Introduzione all’app:</string>
+    <string name="show">Mostra</string>
+
+    <string name="animator_disabled_1">Le animazioni sono disattivate nelle impostazioni del dispositivo, quindi alcune animazioni dell’app non saranno visibili.</string>
+    <string name="animator_disabled_2">Questo non compromette il funzionamento dell’app.</string>
+    <string name="animator_disabled_3">Per un’esperienza migliore, imposta ‘Impostazioni - Opzioni sviluppatore - Scala durata animazione’ su 1x.</string>
+
 </resources>
